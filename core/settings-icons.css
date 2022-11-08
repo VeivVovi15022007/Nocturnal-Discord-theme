@@ -1,0 +1,54 @@
+@import url("https://codedotspectra.github.io/themes/core/badges.css");
+@import url("https://codedotspectra.github.io/themes/core/custom-font.css");
+@import url("https://codedotspectra.github.io/themes/core/hljs.css");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans");
+:root {
+  --customFont: "Open Sans";
+}
+.sidebar-nqHbhN .side-2ur1Qk #bd-settings-sidebar .ui-tab-bar-item:not(.role-3pGE29)::before,
+.side-2ur1Qk .item-3XjbnG:not(.role-3pGE29)::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-size: contain!important;
+    background-repeat: no-repeat;
+    background-position: center;  
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: .8;
+}
+.side-2ur1Qk .item-3XjbnG {padding-left: 40px !important;}
+div[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG {padding-left: 10px;}
+
+.side-2ur1Qk .item-3XjbnG[aria-controls="my-account-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/account.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="privacy-&-safety-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/privacy.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="authorized-apps-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/apps.png');} 
+.side-2ur1Qk .item-3XjbnG[aria-controls="connections-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/connections.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="discord-nitro-tab"]::before{background-image: url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/nitro.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="nitro-server-boost-tab"]::before{background-image: url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/boost.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="discord-nitro-tab"] svg {display: none;}
+.side-2ur1Qk .item-3XjbnG[aria-controls="Nitro Server Boost-tab"]::before {background-image: url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/boost.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="billing-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/billing.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="library-inventory-tab"]::before{background-image: url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/gift.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="subscriptions-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/billing.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="appearance-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/eye.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="accessibility-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/bandages.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="voice-&-video-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/voice.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="text-&-images-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/text.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="notifications-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/notifications.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="keybinds-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/keybinds.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="language-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/language.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="windows-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/windows.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="streamer-mode-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/twitch.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="game-activity-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/games.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="overlay-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/overlay.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="advanced-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/core.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="emotes-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/emote.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="customcss-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/css.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="plugins-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/plugins.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="themes-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/theme.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="changelog-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/changelog.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="hypesquad-online-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/hype.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="logout-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/icons/logout.png');}
