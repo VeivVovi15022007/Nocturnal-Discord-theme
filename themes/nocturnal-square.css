@@ -327,6 +327,54 @@
 	cx: 4;
 }
 
+.sidebar-nqHbhN .side-2ur1Qk #bd-settings-sidebar .ui-tab-bar-item:not(.role-3pGE29)::before,
+.side-2ur1Qk .item-3XjbnG:not(.role-3pGE29)::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-size: contain!important;
+    background-repeat: no-repeat;
+    background-position: center;  
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: .8;
+}
+.side-2ur1Qk .item-3XjbnG {padding-left: 40px !important;}
+div[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG {padding-left: 10px;}
+
+.side-2ur1Qk .item-3XjbnG[aria-controls="my-account-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/account.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="privacy-&-safety-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/privacy.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="authorized-apps-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/apps.png');} 
+.side-2ur1Qk .item-3XjbnG[aria-controls="connections-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/connections.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="discord-nitro-tab"]::before{background-image: url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/nitro.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="nitro-server-boost-tab"]::before{background-image: url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/boost.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="discord-nitro-tab"] svg {display: none;}
+.side-2ur1Qk .item-3XjbnG[aria-controls="Nitro Server Boost-tab"]::before {background-image: url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/boost.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="billing-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/billing.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="library-inventory-tab"]::before{background-image: url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/gift.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="subscriptions-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/billing.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="appearance-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/eye.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="accessibility-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/bandages.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="voice-&-video-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/voice.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="text-&-images-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/text.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="notifications-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/notifications.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="keybinds-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/keybinds.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="language-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/language.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="windows-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/windows.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="streamer-mode-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/twitch.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="game-activity-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/games.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="overlay-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/overlay.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="settings-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/core.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="emotes-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/emote.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="customcss-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/css.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="plugins-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/plugins.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="themes-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/theme.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="changelog-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/changelog.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="hypesquad-online-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/hype.png');}
+.side-2ur1Qk .item-3XjbnG[aria-controls="logout-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/icons/logout.png');}
+
 :root {
 	--backgroundDark: rgb(24, 28, 37);
 	--backgroundDarker: rgb(20, 23, 31);
@@ -668,7 +716,7 @@
 }
 
 .akaBadge-3i7V3p {
-	background-color: rgba(0,0,0.35)!important;
+	background-color: rgba(0,0,0,.35)!important;
 }
 
 .previewMessage-2g_aBv {
@@ -1073,6 +1121,23 @@ svg[name=Nova_Discord] * {
 	background-size: 200% 200%
 }
 
+.lookFilled-yCfaCM.colorTransparent-13Bvvi {
+    background-color: rgba(0,0,0,.5)!important;
+    border: 2.5px solid var(--primary)!important;
+    border-radius: 6px!important;
+    color: #fff!important
+}
+
+.lookFilled-yCfaCM.colorTransparent-13Bvvi:hover {
+	color: #fff!important;
+	border: 2.5px solid transparent!important;
+	background-color: var(--primary);
+	background-image: linear-gradient(to right,var(--primaryGradient1),var(--primaryGradient2));
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 200% 200%
+}
+
 .focusLock-2tveLW {
 	background-color: var(--backgroundDarker)!important;
 }
@@ -1118,11 +1183,11 @@ svg[name=Nova_Discord] * {
 }
 
 .authorize-2xTTr- {
-	background-color: rgba(0,0,0.5)!important;
+	background-color: rgba(0,0,0,.5)!important;
 }
 
 .open-1FRZsK {
-	background-color: rgba(0,0,0.5)!important;
+	background-color: rgba(0,0,0,.5)!important;
 }
 
 .selectPositionTop-1Xy1Sp {
@@ -1238,7 +1303,7 @@ svg[name=Nova_Discord] * {
 }
 
 .role-2TIOKu {
-	background-color: var(--backgroundDarker)!important
+	background-color: var(--backgroundDark)!important
 }
 
 .roleCircle-3K9O3d {
@@ -2125,7 +2190,7 @@ svg[name=Nova_Discord] * {
 }
 
 .upload-vLbqu- {
-	background-color: rgba(0,0,0.35)!important;
+	background-color: rgba(0,0,0,.35)!important;
 }
 
 .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r {
@@ -2426,7 +2491,7 @@ svg[name=Nitro] g path {
 }
 
 .reaction-3vwAF2 {
-	background-color: rgba(0,0,0.35)!important
+	background-color: rgba(0,0,0,.35)!important
 }
 
 .reaction-3vwAF2:hover {
@@ -2435,7 +2500,7 @@ svg[name=Nitro] g path {
 
 .reaction-3vwAF2.reactionInner-YJjOtT {
 	padding:0 5px;
-	background-color: rgba(0,0,0.35)!important
+	background-color: rgba(0,0,0,.35)!important
 }
 
 .reaction-3vwAF2:after .reactionCount-26U4As:after{
@@ -2676,7 +2741,7 @@ svg[name=Nitro] g path {
 }
 
 .searchBox-pyIJJj,.search-2Mwzzq,.searchBar-jGtisZ{
-    background-color: rgba(0,0,0.30)!important
+    background-color: rgba(0,0,0,.30)!important
 }
 
 .category-2OvQ93 {
@@ -2688,11 +2753,11 @@ svg[name=Nitro] g path {
 }
 
 .list-1bztb- {
-    background-color: rgba(0,0,0.35)!important
+    background-color: rgba(0,0,0,.35)!important
 }
 
 .commandList-35zQ3p {
-    background-color: rgba(0,0,0.35)!important
+    background-color: rgba(0,0,0,.35)!important
 }
 
 .commandName-SDgdgz {
@@ -3043,7 +3108,7 @@ svg[name=Nitro] g path {
 }
 
 .menu-KSaHL1 {
-	background-color: rgba(0,0,0.25);
+	background-color: rgba(0,0,0,.25);
 }
 
 .navButtonActive-3RPAJy,.navButtonActive-1EqC5l {
@@ -3476,11 +3541,11 @@ svg[name=Nitro] g path {
 }
 
 .input-2yCVqe {
-	background-color: rgba(0,0,0.25);
+	background-color: rgba(0,0,0,.25);
 }
 
 .inputDefault-3FGxgL {
-	background-color: rgba(0,0,0.25);
+	background-color: rgba(0,0,0,.25);
 }
 
 .header-2An-Ws {
@@ -3909,7 +3974,7 @@ svg[name=Nitro] g path {
 }
 
 .enableContainer-H2cRts {
-	background-color: rgba(0,0,0.15)
+	background-color: rgba(0,0,0,.15)
 }
 
 .previewContainer-29oeA6{
@@ -3921,15 +3986,15 @@ svg[name=Nitro] g path {
 }
 
 .welcomeChannel-_Q4qAA {
-	background-color: rgba(0,0,0.15)
+	background-color: rgba(0,0,0,.15)
 }
 
 .divider-_0um2u {
-	background-color: rgba(0,0,0.15)
+	background-color: rgba(0,0,0,.15)
 }
 
 .divider-2Bs-tN {
-	background-color: rgba(0,0,0.15)
+	background-color: rgba(0,0,0,.15)
 }
 
 .ruleNameInput-A5Tx_k {
@@ -3937,7 +4002,7 @@ svg[name=Nitro] g path {
 }
 
 .addFriendInputWrapper-kkoSV9{
-	background-color: rgba(0,0,0.25);
+	background-color: rgba(0,0,0,.25);
 }
 
 .children-1xdcWE .inputDefault-3FGxgL{
@@ -4122,7 +4187,7 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 }
 
 .fieldList-in8WkP {
-	background-color: var(--backgroundDark);
+	background-color: rgb(0,0,0,0.3);
 }
 
 .menu-3A7xxX,.colorHeaderSecondary-g5teka {
@@ -4164,8 +4229,8 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 }
 
 .bd-server-card {
-	box-shadow: inset 0 0 100000px rgba(0,0,0.15);
-	border: 1px solid rgba(0,0,0.25)!important;
+	box-shadow: inset 0 0 100000px rgba(0,0,0,.15);
+	border: 1px solid rgba(0,0,0,.25)!important;
 	border-radius: 5px;
 }
 
@@ -4277,7 +4342,7 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 }
 
 .lookFilled-1GseHa.select-1Ia3hD {
-	background-color: rgba(0,0,0.35);
+	background-color: rgba(0,0,0,.35);
 }
 
 .popout-1KHNAq {
@@ -4534,7 +4599,7 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
     background-color: var(--backgroundDarker);
 }
 .stepContainer-SaPPyG{
-    background-color: rgba(0,0,0.25);
+    background-color: rgba(0,0,0,.25);
 }
 
 .container-2qVG6q:hover {
@@ -4599,7 +4664,7 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 }
 
 .overlayBackground-1KgwVi{
-	background-color: rgba(0,0,0.25);
+	background-color: rgba(0,0,0,.45);
 }
 
 .userProfileInnerThemedPremiumWithoutBanner-1yMS1H{
@@ -4974,7 +5039,7 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 }
 
 .fieldFooterContainer-2QTUnl {
-	background-color: rgba(0,0,0.15);
+	background-color: rgba(0,0,0,.15);
 }
 
 .containerFooter-3BSQ3U {
@@ -5006,7 +5071,7 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 }
 
 .compactButton-3hG-bs{
-	background-color: rgba(0,0,0.35)
+	background-color: rgba(0,0,0,.35)
 }
 
 .compactButton-3hG-bs:hover{
@@ -5022,19 +5087,19 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 }
 
 .categoryList-2qRrlj{
-	background-color: rgba(0,0,0.35)
+	background-color: rgba(0,0,0,.35)
 }
 
 .card-m7VgZ8{
-	background-color: rgba(0,0,0.35)
+	background-color: rgba(0,0,0,.35)
 }
 
 .animatorRight-xAUgTY{
-	background-color: rgba(0,0,0.35)
+	background-color: rgba(0,0,0,.35)
 }
 
 .translate-PeW1wK{
-	background-color: rgba(0,0,0.35)
+	background-color: rgba(0,0,0,.35)
 }
 
 .permissions-modal .header {
@@ -5072,5 +5137,33 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 }
 
 .layout-S0zsk1 {
-	background-color: rgba(0,0,0.35)
+	background-color: rgba(0,0,0,.35)
+}
+
+.noChannel-1GDIAZ {
+	background-color: var(--backgroundDarker)
+}
+
+.card-8UsK4b {
+	background-color: var(--backgroundDarker)
+}
+
+.eventCard-2ZL9GD {
+	background-color: var(--backgroundDarker)
+}
+
+.card-8UsK4b:hover {
+	background-color: rgba(0,0,0,.35)
+}
+
+.eventCard-2ZL9GD:hover {
+	background-color: rgba(0,0,0,.35)
+}
+
+.childButton-3o_dlg {
+	background-color: rgba(0,0,0,.35)
+}
+
+.childButton-3o_dlg:hover {
+	background-color: var(--backgroundDarker)
 }
