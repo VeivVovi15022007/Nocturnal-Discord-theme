@@ -140,10 +140,6 @@
 	background-color: var(--backgroundDark)!important;
 }
 
-.applicationStreamingHoverWrapper-J95QPU {
-	background-color: var(--backgroundDark)!important;
-}
-
 .wrapper-2vIMkT {
   background-color: var(--backgroundDark)!important;
   box-shadow: inset 0 0 100000px 0 rgba(0,0,0,.5)!important;
@@ -3245,11 +3241,11 @@ svg[name=Nitro] g path {
 }
 
 .input-2yCVqe {
-	background-color: rgba(0,0,0,.25);
+	background-color: rgba(0,0,0,.5);
 }
 
 .inputDefault-3FGxgL {
-	background-color: rgba(0,0,0,.25);
+	background-color: rgba(0,0,0,.5);
 }
 
 .header-2An-Ws {
@@ -3678,7 +3674,7 @@ svg[name=Nitro] g path {
 }
 
 .enableContainer-H2cRts {
-	background-color: rgba(0,0,0,.15)
+	background-color: rgba(0,0,0,.5)
 }
 
 .previewContainer-29oeA6{
@@ -3690,7 +3686,7 @@ svg[name=Nitro] g path {
 }
 
 .welcomeChannel-_Q4qAA {
-	background-color: rgba(0,0,0,.15)
+	background-color: rgba(0,0,0,.5)
 }
 
 .divider-_0um2u {
