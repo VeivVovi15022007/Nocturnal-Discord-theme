@@ -1,0 +1,41 @@
+/**
+ * @name Nocturnal Square
+ * @author Spectra#7698 & KawaiiBiscuit#8596 & VeivVovi#2017
+ * @version 3.0 AutoUpdate
+ * @description A simple & clean dark theme for thoses who live at night, made to be easy on the eye. Fixed & reworked by Печенько#3183, also fixed class names by VeivVovi#2017.
+ * @source https://github.com/VeivVovi15022007/Nocturnal-Discord-theme
+ * @authorLink https://discordhub.com/profile/367510031484190730
+ * @donate https://www.donationalerts.com/r/flashal
+ * @authorId 367510031484190730
+ * @invite yfzJuQMWxR
+*/
+@import url("https://veivvovi15022007.github.io/Nocturnal-Discord-theme/themes/nocturnal-square.css");
+@import url("https://veivvovi15022007.github.io/Nocturnal-Discord-theme/core/hljs.css");
+@import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
+@import url("https://discord-custom-covers.github.io/usrbg/dist/usrbg.css");
+@import url("https://codedotspectra.github.io/themes/core/badges.css");
+:root {
+  --backgroundDark: rgb(24, 28, 37);
+  --backgroundDarker: rgb(20, 23, 31);
+  --primary: #008ae6;
+  --primaryGradient1: #008ae6;
+  --primaryGradient2: #00e68a;
+
+  /* Better Hljs */
+  --backgroundCode: #2f3136;
+  --backgroundName: #202225;
+
+  /* Radial Status */
+  --rs-small-spacing: 2px;
+  --rs-large-spacing: 3px;
+  --rs-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #43b581;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-invisible-color: #747f8d;
+  --rs-phone-visible: block;
+  --rs-phone-color: var(--rs-online-color);
+}
