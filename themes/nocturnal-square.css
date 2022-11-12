@@ -14,9 +14,9 @@
 	--backgroundCodeLine: #3b3e45;
 	--backgroundName: #202225;
 	--nameShadow: #268bd2;
-	--rs-small-spacing:2px;
-	--rs-medium-spacing:3px;
-	--rs-large-spacing:4px;
+	--rs-small-spacing:0px;
+	--rs-medium-spacing:0px;
+	--rs-large-spacing:0px;
 	--rs-small-width:2px;
 	--rs-medium-width:3px;
 	--rs-large-width:4px;
@@ -801,7 +801,7 @@ div[data-contents="true"] {
 
 .circleIconButton-jET_ig,.circleIconButton-1VxDrg {
 	background-color: rgba(0,0,0,.25)!important;
-	border-radius: 50px;
+	border-radius: 12px;
 }
 
 .circleIconButton-jET_ig:hover {
@@ -2457,7 +2457,7 @@ svg[name=Nitro] g path {
 
 .expandedFolderBackground-1kSAf6,.expandedFolderBackground-3ZDF05 {
 	background-color: rgba(0,0,0,.35)!important;
-	border-radius: 50px;
+	border-radius: 12px;
 }
 
 .phoneVerificationModal-3OHeBt {
@@ -3123,7 +3123,7 @@ svg[name=Nitro] g path {
 
 .folder-241Joy,.folder-241Joy {
 	background-color: rgb(10,12,16)!important;
-	border-radius: 50px;
+	border-radius: 12px;
 }
 
 .svg-2zuE5p foreignObject {
@@ -3169,7 +3169,7 @@ svg[name=Nitro] g path {
 }
 
 .icon-3AqZ2e,.guildsError-b7zR5H,.wrapperSimple-Js2rIO {
-	border-radius: 50px;
+	border-radius: 12px;
 }
 
 .theme-dark .avatarUploader-2S1mwW .avatarUploaderInner-1Cp1OP {
@@ -4491,7 +4491,11 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 }
 
 .participants-3hk3ND .tileContainer-Os085F .wrapper-3mYmFS .callAvatarMask-fiNMWy .voiceAvatar-lRbblo {
-	border-radius: 50px;
+	border-radius: 12px;
+}
+
+.wrapper-2QE8vf.ringingIncoming-38YcLn:after, .wrapper-2QE8vf.ringingOutgoing-mbXhhQ:after {
+	border-radius: 12px;
 }
 
 .bar-AokMp3 {
