@@ -5076,3 +5076,11 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 .messageRequestItem-1_NNAR:hover {
 	background-color: var(--backgroundDarker)
 }
+
+.imageUploaderInner-IIRaFr {
+    border-radius: 5px;
+}
+
+.avatarUploaderInner-1Cp1oP {
+    border-radius: 5px;
+}
