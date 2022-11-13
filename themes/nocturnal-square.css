@@ -3644,7 +3644,7 @@ svg[name=Nitro] g path {
 	border-radius: 5px;
 }
 
-.row-rrHHJU.selected-1IWCoj .rowInner-3uonq8 {
+.row-1Ib2uD.selected-1IWCoj .rowInner-3uonq8 {
 	background-color: rgba(0,0,0,0);
 }
 
@@ -5113,4 +5113,12 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 
 .childButton-3o_dlg:hover {
 	background-color: var(--backgroundDarker)
+}
+
+.optionBox-1UOevl {
+	background-color: var(--backgroundDarker)
+}
+
+.contentCircle-15IFyT {
+	border-radius: 5px
 }
