@@ -30,6 +30,7 @@
 	--rs-streaming-color:#643da7;
 	--rs-invisible-color:#747f8d;
 	--rs-phone-visible:block;
+        --rs-phone-color:var(--rs-online-color);
 	--customFont:"Whitney"
 }
 .wrapper-1VLyxH[role="img"][aria-label]:before,
