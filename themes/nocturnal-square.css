@@ -15,11 +15,14 @@
 	--backgroundCodeLine: #3b3e45;
 	--backgroundName: #202225;
 	--nameShadow: #268bd2;
+	--rs-small-spacing:-1px;
+	--rs-medium-spacing:-3px;
+	--rs-large-spacing:-1px;
 	--rs-small-width:2px;
 	--rs-medium-width:3px;
 	--rs-large-width:4px;
-	--rs-width:10px;
-	--rs-avatar-shape:4px;
+	--rs-width:2px;
+	--rs-avatar-shape:5px;
 	--rs-online-color:#43b581;
 	--rs-idle-color:#faa61a;
 	--rs-dnd-color:#f04747;
@@ -27,7 +30,6 @@
 	--rs-streaming-color:#643da7;
 	--rs-invisible-color:#747f8d;
 	--rs-phone-visible:block;
-	--rs-phone-color:var(--rs-online-color);
 	--customFont:"Whitney"
 }
 .wrapper-1VLyxH[role="img"][aria-label]:before,
@@ -72,7 +74,10 @@
 }
 
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm {padding-left: 15px;}
-.avatarOffline-3GF27z {filter: grayscale(100%);}
+.offline-22aM7E img {
+	filter: grayscale(100%);
+	box-shadow: 0 0 0 2px #747f8d;
+}
 
 :root {
 	--backgroundDark: rgb(24, 28, 37);
@@ -110,7 +115,7 @@
 .webkit-QgSAqd .buttons-3JBrkn {margin-right: 5px;}
 .scrollableContainer-15eg7h {overflow-y: auto;}
 .attachWrapper-3slhXI {border: none;}
-.divider-IqmEqJ:not(.isUnread-3Lojb-) {border-top-color: var(--backgroundDarker);}
+.divider-IqmEqJ,.isUnread-3Lojb- {border-top-color: var(--backgroundDarker);}
 .actionButton-3-B2x-.highlight-3DSi7b {
   background: linear-gradient(to top left,var(--primaryGradient1),var(--primaryGradient2))!important;
   box-shadow: inset 0 0 100000px 0 rgba(0,0,0,.5)!important;
@@ -1950,7 +1955,7 @@ svg.gameIcon-1siQqm {
 	background-image: none!important
 }
 
-.aka-1mqp34,.friendSelected--wQP3f {
+.aka-1mqp34,.friendSelected-3cwmD7 {
 	background-color: rgba(0,0,0,.35)!important
 }
 
@@ -2432,6 +2437,10 @@ svg[name=Nitro] g path {
     background-color: var(--backgroundDarker)!important
 }
 
+.category-2OvQ93:hover {
+    background-color: rgba(0,0,0,.35)!important
+}
+
 .card-2xymMp {
     background-color: var(--backgroundDarker)!important
 }
@@ -2467,6 +2476,14 @@ svg[name=Nitro] g path {
 
 .container-2NdZr9 {
     background-color: var(--backgroundDarker)!important
+}
+
+.container-2NdZr9:hover {
+    background-color: rgba(0,0,0,.35)!important
+}
+
+.container-2NdZr9:active {
+    background-color: rgba(0,0,0,.35)!important
 }
 
 .clickable-O5xo4T {
@@ -2716,11 +2733,11 @@ svg[name=Nitro] g path {
 	border-bottom-color:var(--primary)!important
 }
 
-.featureIcon-3p1TC_, .icon-2DGsye, .primary-38Hs-h:hover:not(.disabled-184-il), .secondary-2bzKEX {
+.featureIcon-2sTnDK, .icon-2DGsye, .primary-38Hs-h:hover:not(.disabled-184-il), .secondary-2bzKEX {
 	background-color: rgba(0,0,0,0);
 }
 
-.featureIcon-3p1TC_:hover, .icon-2DGsye:hover, .primary-38Hs-h:hover:not(.disabled-184-il):hover,.secondary-2bzKEX:hover {
+.featureIcon-2sTnDK:hover, .icon-2DGsye:hover, .primary-38Hs-h:hover:not(.disabled-184-il):hover,.secondary-2bzKEX:hover {
 	background-color: rgba(0,0,0,.25);
 }
 
@@ -3377,7 +3394,7 @@ svg[name=Nitro] g path {
 	border-radius: 5px;
 }
 
-.textarea-_59yqs:focus,.container-2dXT_2,.emojiContainer-1u-_sQ,.featureCard-1RR4Tl,.guildDetails-2p1NmK,.card-PQEqCK,.theme-dark .iconMask-2fMR98,.tile-2TcwiO,.theme-dark .feature-2IUcBI {
+.textarea-_59yqs:focus,.container-2dXT_2,.emojiContainer-1u-_sQ,.featureCard-1RR4Tl,.guildDetails-1il1dn,.card-PQEqCK,.theme-dark .iconMask-2fMR98,.tile-2TcwiO,.theme-dark .feature-2IUcBI {
 	background-color: var(--backgroundDarker);
 }
 
@@ -3429,7 +3446,7 @@ svg[name=Nitro] g path {
 	background-color: rgba(0,0,0,0);
 }
 
-.featureIcon-3p1TC_,.wrapper-22ayhK,.wrapper-15CKyy,.container-2RRFHK,.container-3JTnYm,.container-8Futzw {
+.featureIcon-2sTnDK,.wrapper-22ayhK,.wrapper-15CKyy,.container-2RRFHK,.container-3JTnYm,.container-8Futzw {
 	background-color: var(--backgroundDark);
 }
 
@@ -3645,10 +3662,6 @@ svg[name=Nitro] g path {
 
 .previewContainer-1xQAsw .theme-dark .messageContainer-3a6gLR{
 	background-color: var(--backgroundDark)
-}
-
-img.avatar-2e8lTP{
-	border-radius: 5px;
 }
 
 .children-1xdcWE {
@@ -4165,7 +4178,7 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 	backdrop-filter: blur(10px);
 }
 
-.search-25t1e9 .searchBox-31Zv9h .searchBoxInput-3h4etz {
+.search-25t1e9 .searchBox-31Zv9h .searchBoxInput-P0mWHW {
 	color: #4f5660;
 }
 
@@ -4982,5 +4995,9 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 }
 
 .iconWrapper-3plkqh {
+	background-color: rgba(0,0,0,.2);
+}
+
+.spamBanner-1auiob {
 	background-color: rgba(0,0,0,.2);
 }
