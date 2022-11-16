@@ -116,7 +116,7 @@
   background-color: var(--backgroundDark)!important;
   box-shadow: inset 0 0 100000px 0 rgba(0,0,0,.5)!important;
 }
-.webkit-QgSAqd .buttons-3JBrkn {margin-right: 5px;}
+.webkit-QgSAqd .buttons-uaqb-5 {margin-right: 5px;}
 .scrollableContainer-15eg7h {overflow-y: auto;}
 .attachWrapper-3slhXI {border: none;}
 .divider-IqmEqJ:not(.isUnread-3Lojb-) {border-top-color: var(--backgroundDarker);}
@@ -682,9 +682,13 @@ svg[name=Nova_Discord] * {
 	background-color: var(--backgroundDark)!important
 }
 
-.footer-5ji8u1,.header-1w9Q93,.messageGroupWrapper-1jf_7C {
+.header-1w9Q93,.messageGroupWrapper-1jf_7C {
 	background-color: rgba(0,0,0,.15)!important;
 	margin: 0 0 16px 0;
+}
+
+.footer-5ji8u1 {
+	background-color: rgba(0,0,0,.15)!important;
 }
 
 .jumpButton-1ZwI_j,.jumpButton-JkYoYK {
@@ -944,6 +948,10 @@ svg[name=Nova_Discord] * {
 }
 
 #friends .tab-bar .tab-bar-item:hover:not(.selected),.topPill-3DJJNV .item-3XjbnG:hover:not(.itemSelected-1qLhcL) {
+	background-color: rgba(0,0,0,.45)!important
+}
+
+#friends .tab-bar .tab-bar-item:hover:not(.selected),.topPill-3DJJNV .item-3XjbnG:active:not(.itemSelected-1qLhcL) {
 	background-color: rgba(0,0,0,.45)!important
 }
 
@@ -1232,6 +1240,10 @@ svg.gameIcon-1siQqm {
 .quickSelectPopout-2F0PXw {
 	background: var(--backgroundDark)!important;
 	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.15)
+}
+
+.quickSelectPopoutOption-2E2UmS:hover {
+	background-color: rgba(0,0,0,.15)!important;
 }
 
 .keybindShortcut-3zF1P9 span {
@@ -2807,7 +2819,7 @@ svg[name=Nitro] g path {
 	background-color: var(--backgroundDarker);
 }
 
-.folderIconWrapper-226oVY,.folderIconWrapper-1_bOZe {
+.folderIconWrapper-1oRIZr,.folderIconWrapper-1oRIZr {
 	background-color: rgba(0,0,0,0)!important;
 }
 
@@ -3022,6 +3034,14 @@ svg[name=Nitro] g path {
 .theme-dark .bd-addon-list .bd-addon-card {
 	background-color: rgba(0,0,0,.3);
 	border-color: rgba(0,0,0,0);
+}
+
+.bd-button.bd-view-button[aria-label="List View"]:hover {
+    background-color: rgba(0,0,0,.35);
+}
+
+.bd-button.bd-view-button[aria-label="Grid View"]:hover {
+    background-color: rgba(0,0,0,.35);
 }
 
 .hasMoreButton-1MELpI {
@@ -4207,7 +4227,7 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 	background-color: rgba(0,0,0,0);
 }
 
-.callContainer-BGIngG .root-22AK9z .scroller-35tvpe,.container-3r7mfc,.participants-3hk3ND,.rowContainer-jDvyA4 {
+.callContainer-HtHELf .root-22AK9z .scroller-35tvpe,.container-3r7mfc,.participants-3hk3ND,.rowContainer-jDvyA4 {
 	background-color: var(--backgroundDarker);
 }
 
