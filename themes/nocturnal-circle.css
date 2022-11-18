@@ -186,7 +186,7 @@
 .card-WWLYDO, .placeholderCard-2jZYky {background-color: var(--backgroundDark)!important;}
 .privateChannelsHeaderContainer-1UWASm {
   display: flex;}
-.headerText-1-AnT0 {
+.headerText-1qIDDT {
   display: block !important;
 }
 .embedFull-1HGV2S {
@@ -1516,7 +1516,7 @@ svg.gameIcon-1siQqm {
 	transform: translateX(0)
 }
 
-.cardPrimary-1OD384,.cardPrimaryEditable-2mz_3i:not([style*=rgb]),.cardPrimaryOutline-1ofwVz,.codeRedemptionRedirect-2hYMSQ,.paymentPane-ut5qKZ,.wrapper-2NJDcI {
+.cardPrimary-3qRT__,.cardPrimaryEditable-2mz_3i:not([style*=rgb]),.cardPrimaryOutline-1ofwVz,.codeRedemptionRedirect-2hYMSQ,.paymentPane-ut5qKZ,.wrapper-2NJDcI {
 	background-color: rgba(0,0,0,.3)!important;
 	border: none;
 }
@@ -1934,7 +1934,7 @@ svg.gameIcon-1siQqm {
 	background-color: rgba(0,0,0,.35)!important
 }
 
-.tiles-2aXG_k {
+.tiles-2upzxs {
 	background-color: var(--backgroundDark)!important;
 	box-shadow: none!important
 }
@@ -2208,23 +2208,6 @@ svg[name=Nitro] g path {
 
 .container-1S70rv .sectionTag-28mLyE,.wrapper-2SplAX {
 	background-color: var(--backgroundDarker)!important
-}
-
-.reaction-3vwAF2 {
-	background-color: rgba(0,0,0,.35)!important
-}
-
-.reaction-3vwAF2:hover {
-	background-color: var(--backgroundDark)!important
-}
-
-.reaction-3vwAF2.reactionInner-YJjOtT {
-	padding:0 5px;
-	background-color: rgba(0,0,0,.35)!important
-}
-
-.reaction-3vwAF2:after .reactionCount-26U4As:after{
-	color:var(--primary)!important
 }
 
 [aria-label="User area"], .privateChannels-oVe7HL {
@@ -2656,8 +2639,20 @@ svg[name=Nitro] g path {
 	border-bottom: none;
 }
 
-.reaction-1hd86g {
+.reaction-3vwAF2 {
 	background-color: rgba(0,0,0,.25);
+}
+
+.reaction-3vwAF2:hover {
+	background-color: transparent
+}
+
+.reaction-3vwAF2.reactionMe-1PwQAc {
+	background-color: rgba(0,0,0,.23)!important;
+}
+
+.reaction-3vwAF2.reactionMe-1PwQAc .reactionCount-26U4As {
+	color: var(--primary)!important
 }
 
 .incomingCallInner-2VmFiR, .noiseCancellationPopout-2-e5Xz, .theme-dark .guildPopout-G6M0fK, .theme-dark .streamPreview-3qoMP4,.card-1yV8cG,.tutorial-Nb3Zz5 {
@@ -2693,7 +2688,11 @@ svg[name=Nitro] g path {
 	margin-right: 12px;
 }
 
-.analyticsCard-2fnrVG,.checklistContainer-12xGp5,.container-2w0lh0,.container-3EtAkD,.container-3ssFyj,.descriptionBox-SKGNgB,.developerPortalCtaWrapper-2PniQs,.editButton-2SLR4j,.featureCard-3XHbjy,.memberRow-1FhJgR:hover,.previewContainer-21fFBz,.roleRow-3LoHQ6:hover:not(.roleRowDisableHover-2TXfy-),.settingCard-xZSDjS,.settingsFormItem-25zW3t,.tierBody-x9kBBp,.tierInProgress-1vFUnw,.upsellContainer-2a5eMP,.upsellFooter-ZYsio_{
+.analyticsCard-2fnrVG,.checklistContainer-12xGp5,.container-2w0lh0,.container-3EtAkD,.container-3ssFyj,.descriptionBox-SKGNgB,.developerPortalCtaWrapper-2PniQs,.editButton-2SLR4j,.featureCard-3XHbjy,.memberRow-1FhJgR:hover,.previewContainer-21fFBz,.settingCard-xZSDjS,.settingsFormItem-25zW3t,.tierBody-x9kBBp,.tierInProgress-1vFUnw,.upsellContainer-2a5eMP,.upsellFooter-ZYsio_{
+	background-color:var(--backgroundDarker)!important
+}
+
+.roleRow-230vCm:hover {
 	background-color:var(--backgroundDarker)!important
 }
 
@@ -4780,7 +4779,7 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 	background-color: var(--backgroundDark);
 }
 
-.accountProfileCard-lbN7n-,.background-3d_SjE,.fieldList-in8WkP {
+.accountProfileCard-lbN7n-,.background-3d_SjE {
 	background-color: rgba(0,0,0,0);
 }
 
