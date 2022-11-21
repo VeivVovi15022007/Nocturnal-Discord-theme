@@ -10,7 +10,7 @@
 	--backgroundName: #202225;
 	--nameShadow: #268bd2;
 	--rs-small-spacing:-1px;
-	--rs-medium-spacing:-3px;
+	--rs-medium-spacing:-1px;
 	--rs-large-spacing:-1px;
 	--rs-small-width:2px;
 	--rs-medium-width:3px;
@@ -25,7 +25,6 @@
 	--rs-invisible-color:#747f8d;
 	--rs-phone-visible:block;
 	--rs-phone-color:var(--rs-online-color);
-	--customFont:"Whitney"
 }
 .wrapper-1VLyxH[role="img"][aria-label]:before,
 .avatar-2Vndt_[role="img"][aria-label]:before
@@ -346,7 +345,7 @@ div[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG {padding-left: 10px;}
 .css-kfxh0s-control {
   background-color: var(--backgroundDarker)!important;
   border-radius: 0px;}
-.card-WWLYDO, .cardPlaceholder-1zrbbe {background-color: var(--backgroundDark)!important;}
+.card-2TuZPZ, .cardPlaceholder-1zrbbe {background-color: var(--backgroundDark)!important;}
 .privateChannelsHeaderContainer-1UWASm {
   display: flex;}
 .headerText-1qIDDT {
@@ -733,7 +732,7 @@ div[data-contents="true"] {
 	mask: linear-gradient(to bottom,#000,transparent)
 }
 
-.wrapper-1ZcZW-:not(.roleMention-11Aaqi) {
+.wrapper-1ZcZW- {
 	background-color: rgba(0,0,0,.23)!important;
 	color: var(--primary)!important;
 	border-radius: 50px;
@@ -1527,14 +1526,6 @@ svg.gameIcon-1siQqm {
 	mask-size: 77%
 }
 
-.activeGame-1OdxzI {
-	background-color: var(--backgroundDarker)!important
-}
-
-.gameNameLastPlayed-2hWoXJ {
-	background-color: var(--backgroundDarker)!important
-}
-
 .contentRegion-3HkfJJ {
 	flex: 1 1 100%
 }
@@ -2239,7 +2230,7 @@ svg[name=Nitro] g path {
 	border-right-color: var(--backgroundDarker)!important
 }
 
-.button-2KyEfG:hover:not(.buttonScreenShareDisabled-1xwK5y),.button-2b6hmh:hover,.container-1SX9VC,.medium-13kyaW,.css-1gnr91b-option:hover,.friendSelected-3J_Uh8,.inset-GQDQYw,.inviteRow-3vmB7i:hover,.listDefault-2F-w65 .clickable-23RaYz.selected-3TGCSZ .content-3xS9Lh,.notDetected-2HEmAp,.reactionSelected-1aMb2K,.section-2VKIPC,.tag-15zcD_,.tileMedia-1q3guD,.tileMedia-1q3guD:hover {
+.button-2KyEfG:hover:not(.buttonScreenShareDisabled-1xwK5y),.button-2b6hmh:hover,.container-1SX9VC,.medium-13kyaW,.css-1gnr91b-option:hover,.friendSelected-3J_Uh8,.inset-GQDQYw,.inviteRow-3vmB7i:hover,.listDefault-2F-w65 .clickable-23RaYz.selected-3TGCSZ .content-3xS9Lh,.notDetected-M3Ghh2,.reactionSelected-1aMb2K,.section-2VKIPC,.tag-15zcD_,.tileMedia-1q3guD,.tileMedia-1q3guD:hover {
 	background-color: rgba(0,0,0,.5)!important
 }
 
@@ -2359,10 +2350,6 @@ svg[name=Nitro] g path {
 
 .reaction-102jx9 {
 	background-color: rgba(0,0,0,.25);
-}
-
-.reactionCount-SWXh9W {
-	color: #fff!important
 }
 
 .reaction-102jx9:hover {
@@ -2828,6 +2815,18 @@ svg[name=Nitro] g path {
 	border-bottom-right-radius: 5px;
 }
 
+.spoilerText-27bIiA.hidden-3B-Rum{
+	background-color: rgba(0,0,0,.35)!important;
+}
+
+.spoilerText-27bIiA.hidden-3B-Rum:hover{
+	background-color: var(--backgroundDarker)!important;
+}
+
+.spoilerText-27bIiA{
+	background-color: rgb(31, 38, 52) !important;
+}
+
 .root-25RxKh {
 	background-color: var(--backgroundDark);
 	border-left: solid 1px rgba(1,1,1,0.25);
@@ -2848,10 +2847,6 @@ svg[name=Nitro] g path {
 
 .reaction-3vwAF2 {
 	background-color: rgba(0,0,0,.25);
-}
-
-.reactionCount-26U4As {
-	color: #fff!important
 }
 
 .reaction-3vwAF2:hover {
@@ -3772,7 +3767,7 @@ svg[name=Nitro] g path {
 	border-radius: 4px;
 }
 
-.colorHeaderPrimary-jN_yGr,.colorStandard-1Xxp1s,.roleOverflow-1ALvWs {
+.colorHeaderPrimary-jN_yGr,.colorStandard-1Xxp1s,.roleOverflow-1ALvWs,.title-3hptVQ {
 	color: #fff;
 }
 
@@ -5170,6 +5165,10 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 
 .list-3YHPPb {
 	background-color: var(--backgroundDark)
+}
+
+.icon-mJhEWn {
+	background-color: var(--backgroundDarker)
 }
 
 .iconWrapper-3plkqh {
