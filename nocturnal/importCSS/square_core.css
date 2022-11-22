@@ -5376,3 +5376,7 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 .cardWrapper-1bSePP:hover {
 	background-color: rgba(0,0,0,.35)
 }
+
+.messagePreviewContainer-1oR1Oc {
+	border-color: rgba(0,0,0,1)
+}
