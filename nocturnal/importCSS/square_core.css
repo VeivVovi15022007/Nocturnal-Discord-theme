@@ -1081,7 +1081,7 @@ svg[name=Nova_Discord] * {
 	color: #fff!important;
 	border: 2.5px solid transparent!important;
 	background-color: var(--DangerColor);
-	background-image: linear-gradient(to right,var(--primaryGradient1),var(--primaryGradient2));
+	background-image: linear-gradient(to right,var(--DangerColor),var(--WarningColor));
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 200% 200%
