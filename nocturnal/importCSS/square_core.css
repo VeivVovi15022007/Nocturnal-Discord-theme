@@ -16,7 +16,6 @@
 .avatar-2tTaT6[role="img"][aria-label]:before,
 .bannedUserAvatar-2xQUYe[role="img"][aria-label]:before,
 .avatar-2MSPKk[role="img"][aria-label]:before,
-.avatar-3mTjvZ[role="img"][aria-label]:before,
 .avatar-3QF_VA[role="img"][aria-label]:before,
 .listAvatar-1NlAhb[role="img"][aria-label]:before,
 .avatar-1EWyVD[role="img"][aria-label]:before,
@@ -29,15 +28,15 @@
 .avatarUploaderInner-yEhTv5[role="img"][aria-label]:before {
 	content: "";
 	position: absolute;
-	top: 2px;
-	left: 2px;
+	top: 2.5px;
+	left: 2.5px;
 	width: calc(100% - 4px);
 	height: calc(100% - 4px);
 	border-radius: 5px;
-	z-index: 20;
+	z-index: 1;
 	border: none !important
 }
-.wrapper-1VLyxH.avatar-3mTjvZ{
+.avatar-3mTjvZ{
 	border-radius: 5px;
 }
 .bannerSVGWrapper-qc0szY mask{
@@ -62,6 +61,7 @@
 [role="img"][aria-label] foreignObject {mask: none;}
 [role="img"][aria-label] foreignObject img {border-radius: 4px;}
 [role="img"][aria-label] svg rect {display: none;}
+[role="img"][aria-label] circle {display: none;}
 
 [role="img"][aria-label*="Online"]:before,
 [role="img"][aria-label*="Conectado"]:before,
@@ -1055,14 +1055,14 @@ svg[name=Nova_Discord] * {
 
 #bd-settingspane-container .bd-pfbtn,.lookFilled-yCfaCM.colorGrey-2iAG-B, .bd-detached-css-editor #bd-customcss-attach-controls button,.bd-modal-wrapper .footer button,.bda-slist .bda-footer button,.headerButtonColor-3NRbCG,.lookFilled-yCfaCM.colorPrimary-2AuQVo:not(.customSwatch-1axV7B),.theme-dark .lookFilled-yCfaCM.colorBrand-I6CyqQ,.lookOutlined-3yKVGo.colorPrimary-2AuQVo,.lookOutlined-3yKVGo.colorBrand-I6CyqQ,.plugin-settings button,.questionMark-CWEQZn,.standardSidebarView-E9Pc3j #bd-customcss-attach-controls button,.tabBar-1qdMr5 .primary-3j8BhM {
 	background-color: rgba(0,0,0,.5)!important;
-	border: 2.5px solid var(--primary)!important;
+	border: 2px solid var(--primary)!important;
 	border-radius: 6px!important;
 	color: #fff!important
 }
 
 #bd-settingspane-container .bd-pfbtn:hover, .lookFilled-yCfaCM.colorGrey-2iAG-B:hover, #friends .tab-bar .tab-bar-item.tab-bar-item-primary,.bd-detached-css-editor #bd-customcss-attach-controls button:hover,.bd-modal-wrapper .footer button:hover,.bda-slist .bda-footer button:hover,.headerButtonColor-3NRbCG:hover,.lookFilled-yCfaCM.colorBrand-I6CyqQ:hover,.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover,.lookOutlined-3yKVGo.colorBrand-I6CyqQ:hover,.lookOutlined-3yKVGo.colorPrimary-2AuQVo:hover,.plugin-settings button:hover,.questionMark-CWEQZn:hover,.standardSidebarView-E9Pc3j #bd-customcss-attach-controls button:hover,.tabBar-1qdMr5 .primary-3j8BhM:hover,.topPill-3DJJNV .itemSelected-1qLhcL {
 	color: #fff!important;
-	border: 2.5px solid transparent!important;
+	border: 2px solid transparent!important;
 	background-color: var(--primary);
 	background-image: linear-gradient(to right,var(--primaryGradient1),var(--primaryGradient2));
 	background-position: center;
@@ -1072,14 +1072,14 @@ svg[name=Nova_Discord] * {
 
 .lookFilled-yCfaCM.colorRed-rQXKgM {
     background-color: rgba(0,0,0,.5)!important;
-    border: 2.5px solid var(--DangerColor)!important;
+    border: 2px solid var(--DangerColor)!important;
     border-radius: 6px!important;
     color: #fff!important
 }
 
 .lookFilled-yCfaCM.colorRed-rQXKgM:hover {
 	color: #fff!important;
-	border: 2.5px solid transparent!important;
+	border: 2px solid transparent!important;
 	background-color: var(--DangerColor);
 	background-image: linear-gradient(to right,var(--DangerColor),var(--WarningColor));
 	background-position: center;
@@ -1089,14 +1089,14 @@ svg[name=Nova_Discord] * {
 
 .lookFilled-yCfaCM.colorBrandNew-2-gGsS {
     background-color: rgba(0,0,0,.5)!important;
-    border: 2.5px solid var(--primary)!important;
+    border: 2px solid var(--primary)!important;
     border-radius: 6px!important;
     color: #fff!important
 }
 
 .lookFilled-yCfaCM.colorBrandNew-2-gGsS:hover {
 	color: #fff!important;
-	border: 2.5px solid transparent!important;
+	border: 2px solid transparent!important;
 	background-color: var(--primary);
 	background-image: linear-gradient(to right,var(--primaryGradient1),var(--primaryGradient2));
 	background-position: center;
@@ -1106,14 +1106,14 @@ svg[name=Nova_Discord] * {
 
 .lookFilled-yCfaCM.buttonColor-XIRMbp {
     background-color: rgba(0,0,0,.5)!important;
-    border: 2.5px solid var(--primary)!important;
+    border: 2px solid var(--primary)!important;
     border-radius: 6px!important;
     color: #fff!important
 }
 
 .lookFilled-yCfaCM.buttonColor-XIRMbp:hover {
 	color: #fff!important;
-	border: 2.5px solid transparent!important;
+	border: 2px solid transparent!important;
 	background-color: var(--primary);
 	background-image: linear-gradient(to right,var(--primaryGradient1),var(--primaryGradient2));
 	background-position: center;
@@ -1123,14 +1123,14 @@ svg[name=Nova_Discord] * {
 
 .lookFilled-yCfaCM.buttonColor-1u-3JF {
     background-color: rgba(0,0,0,.5)!important;
-    border: 2.5px solid var(--primary)!important;
+    border: 2px solid var(--primary)!important;
     border-radius: 6px!important;
     color: #fff!important
 }
 
 .lookFilled-yCfaCM.buttonColor-1u-3JF:hover {
 	color: #fff!important;
-	border: 2.5px solid transparent!important;
+	border: 2px solid transparent!important;
 	background-color: var(--primary);
 	background-image: linear-gradient(to right,var(--primaryGradient1),var(--primaryGradient2));
 	background-position: center;
@@ -1140,14 +1140,14 @@ svg[name=Nova_Discord] * {
 
 .lookFilled-yCfaCM.actionColor-3JIzOn {
     background-color: rgba(0,0,0,.5)!important;
-    border: 2.5px solid var(--primary)!important;
+    border: 2px solid var(--primary)!important;
     border-radius: 6px!important;
     color: #fff!important
 }
 
 .lookFilled-yCfaCM.actionColor-3JIzOn:hover {
 	color: #fff!important;
-	border: 2.5px solid transparent!important;
+	border: 2px solid transparent!important;
 	background-color: var(--primary);
 	background-image: linear-gradient(to right,var(--primaryGradient1),var(--primaryGradient2));
 	background-position: center;
@@ -1157,14 +1157,14 @@ svg[name=Nova_Discord] * {
 
 .lookFilled-yCfaCM.buttonColor-28DXIe {
     background-color: rgba(0,0,0,.5)!important;
-    border: 2.5px solid var(--primary)!important;
+    border: 2px solid var(--primary)!important;
     border-radius: 6px!important;
     color: #fff!important
 }
 
 .lookFilled-yCfaCM.buttonColor-28DXIe:hover {
 	color: #fff!important;
-	border: 2.5px solid transparent!important;
+	border: 2px solid transparent!important;
 	background-color: var(--primary);
 	background-image: linear-gradient(to right,var(--primaryGradient1),var(--primaryGradient2));
 	background-position: center;
@@ -1174,14 +1174,14 @@ svg[name=Nova_Discord] * {
 
 .lookFilled-yCfaCM.colorTransparent-13Bvvi {
     background-color: rgba(0,0,0,.5)!important;
-    border: 2.5px solid var(--primary)!important;
+    border: 2px solid var(--primary)!important;
     border-radius: 6px!important;
     color: #fff!important
 }
 
 .lookFilled-yCfaCM.colorTransparent-13Bvvi:hover {
 	color: #fff!important;
-	border: 2.5px solid transparent!important;
+	border: 2px solid transparent!important;
 	background-color: var(--primary);
 	background-image: linear-gradient(to right,var(--primaryGradient1),var(--primaryGradient2));
 	background-position: center;
@@ -1238,11 +1238,7 @@ svg[name=Nova_Discord] * {
 }
 
 .authorize-2xTTr- {
-	background-color: rgba(0,0,0,.5)!important;
-}
-
-.open-1FRZsK {
-	background-color: rgba(0,0,0,.5)!important;
+	background-color: rgba(0,0,0,.35)!important;
 }
 
 .selectPositionTop-1Xy1Sp {
@@ -1283,14 +1279,14 @@ svg[name=Nova_Discord] * {
 
 .bd-button-title {
 	background-color: rgba(0,0,0,.5)!important;
-	border: 2.5px solid var(--primary)!important;
+	border: 2px solid var(--primary)!important;
 	border-radius: 6px!important;
 	color: #fff!important
 }
 
 .bd-button-title:hover {
     color: #fff!important;
-    border: 2.5px solid transparent!important;
+    border: 2px solid transparent!important;
     background-color: var(--primary);
     background-image: linear-gradient(to right,var(--primaryGradient1),var(--primaryGradient2));
     background-position: center;
@@ -2694,6 +2690,10 @@ svg[name=Nitro] g path {
 	background-color:rgba(0,0,0,.35)!important
 }
 
+.circle-2tR2Qh{
+	background-color: var(--backgroundDarker);
+}
+
 .wrapper-3ByaVZ{
 	background-color:var(--backgroundDark)!important
 }
@@ -2791,8 +2791,12 @@ svg[name=Nitro] g path {
     background-color: var(--backgroundDarker)!important
 }
 
-.activityTag-3C3YK5{
+.activityItem-1Z9CTr:hover{
     background-color: rgba(0,0,0,.35)!important
+}
+
+.activityTag-3C3YK5{
+    background-color: rgba(0,0,0,1)!important
 }
 
 .container-2oiTwm{
@@ -2930,7 +2934,7 @@ svg[name=Nitro] g path {
 	border-radius: 5px;
 	border-color: darkcyan;
 	border-style: solid;
-	border-width: 2px;
+	border-width: 2.5px;
 }
 
 #bd-pub-li {
@@ -3053,10 +3057,6 @@ svg[name=Nitro] g path {
 
 .theme-dark .tierBody-1d3UiS {
 	background-color: rgba(0,0,0,.15)!important;
-}
-
-.tierLock-1oFMOZ{
-	color:var(--primary)!important
 }
 
 .theme-dark .background-3xJH_4,.gemWithoutLabel-1od40y{
@@ -3303,7 +3303,7 @@ svg[name=Nitro] g path {
 	background-color: var(--primary);
 }
 
-.css-1b86x2o-control,.css-1o55ng5-control,.css-9wh895-control,.theme-dark .friendSelected-1sa4bG,.icon-1Itzco,.tutorialIcon-3f1miQ {
+.css-1b86x2o-control,.css-1o55ng5-control,.css-9wh895-control,.theme-dark .friendSelected-1sa4bG,.icon-2yhmi8,.tutorialIcon-25VF3Q {
 	background-color: rgb(0,0,0,.25);
 }
 
@@ -3435,6 +3435,18 @@ svg[name=Nitro] g path {
 
 .theme-dark .previewContainer-21fFBz,.bd-select .bd-select-options,.container-2ebMPP {
 	background-color: var(--backgroundDark);
+}
+
+.bd-number-input {
+	background-color: rgba(0,0,0,.35);
+}
+
+.bd-select {
+	background-color: rgba(0,0,0,.35);
+}
+
+.bd-select:hover {
+	border-color: rgba(0,0,0,.35);
 }
 
 .button-3WOKuZ,.participantsButton-1WBdFP,.pill-qMtBTq {
@@ -3732,20 +3744,28 @@ svg[name=Nitro] g path {
 
 .lookFilled-yCfaCM.colorGreen-3y-Z79,.lookFilled-yCfaCM.colorGreen-3y-Z79:disabled {
 	background-color: rgba(0,0,0,.5)!important;
-	border: 2.5px solid var(--primary);
+	border: 2px solid var(--primary);
 	border-radius: 6px!important;
 	color: #fff!important
 }
 .lookInverted-2mDUMi.colorGreen-3y-Z79 {
 	background-color: rgba(0,0,0,.5);
-	border: 2.5px solid #949494;
+	border: 2px solid #949494;
 	border-radius: 6px!important;
 	backdrop-filter: blur(1px);
 	color: #fff!important
 }
 .lookInverted-2mDUMi.colorBrand-I6CyqQ,.lookInverted-2mDUMi.colorBrand-I6CyqQ:disabled {
 	background-color: rgba(0,0,0,.5);
-	border: 2.5px solid var(--primary);
+	border: 2px solid var(--primary);
+	border-radius: 6px!important;
+	backdrop-filter: blur(1px);
+	color: #fff!important
+}
+
+.buttonInvertedPurple-WtBglX {
+	background-color: rgba(0,0,0,.5);
+	border: 1.5px solid #593695;
 	border-radius: 6px!important;
 	backdrop-filter: blur(1px);
 	color: #fff!important
@@ -3753,7 +3773,7 @@ svg[name=Nitro] g path {
 
 .lookFilled-yCfaCM.colorGreen-3y-Z79:hover {
 	color: #fff!important;
-	border: 2.5px solid transparent!important;
+	border: 2px solid transparent!important;
 	background-color: var(--primary);
 	background-image: linear-gradient(to right,var(--primaryGradient1),var(--primaryGradient2));
 	background-position: center;
@@ -3762,21 +3782,18 @@ svg[name=Nitro] g path {
 }
 .lookInverted-2mDUMi.colorGreen-3y-Z79:hover {
 	color: #fff!important;
-	border: 2.5px solid transparent;
+	border: 2px solid transparent;
 	background-color: #949494;
 }
 .lookInverted-2mDUMi.colorBrand-I6CyqQ:hover {
 	color: #fff!important;
-	border: 2.5px solid transparent;
+	border: 2px solid transparent;
 	background-color: var(--primary);
 }
-
-.buttonInvertedPurple-WtBglX {
-	background-color: rgba(0,0,0,.5);
-	border: 2.5px solid #593695;
-	border-radius: 6px!important;
-	backdrop-filter: blur(1px);
-	color: #fff!important
+.buttonInvertedPurple-WtBglX:hover {
+	color: #fff!important;
+	border: 2px solid transparent;
+	background-color: #593695;
 }
 
 .card-1SdQ2-,.theme-dark .scroller-2GkvCq,.emptyChannelIcon-1YdEz2,.stageIconBackground-2QZZqq,.iconBackground-3qSXiM {
@@ -3843,7 +3860,7 @@ svg[name=Nitro] g path {
 .lookOutlined-3yKVGo.colorGreen-3y-Z79 {
 	color: #303f6b;
 	border-color: #303f6b;
-	border: 2.5px solid;
+	border: 2px solid;
 	border-radius: 5px;
 }
 
@@ -3993,7 +4010,7 @@ svg[name=Nitro] g path {
     background-color: rgba(0,0,0,.25);
 }
 
-.empty-yQo7LQ {
+.empty-2-ONJW {
 	fill: var(--backgroundDarker);
 }
 
@@ -4007,6 +4024,14 @@ svg[name=Nitro] g path {
 
 .customStatusText-2bcbbm,.customStatusText-3ca2B1,.additionalActionsIcon-1IPuHI,.customStatus-3QV7IG {
 	color: #fff;
+}
+
+.badgeList-2pMvZX{
+	background-color: rgba(0,0,0,.35);
+}
+
+.profileBadges-31rDHI.containerWithContent-2_V0PM.container-5SvbtF{
+	background-color: rgba(0,0,0,.35);
 }
 
 .colorable-3rVGna.primaryDark-2UJt1G,.colorable-3rVGna.primaryDark-2UJt1G:hover,.colorable-3rVGna.primaryDark-2UJt1G.active-1QRrIS {
@@ -4415,7 +4440,11 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 	padding: 4px 8px;
 }
 
-.radioBar-3_FqUK {
+.horizontal-30-DXt>:not(:first-child) {
+	margin-left: 0;
+}
+
+.radioBar-3w9XY- {
 	border-radius: 5px;
 }
 
@@ -4477,12 +4506,10 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 	-webkit-box-align: center;
 	align-items: center;
 	background-color: rgba(0, 0, 0, 0.1);
-	display: flex;
 	flex-wrap: wrap;
 	-webkit-box-pack: justify;
 	justify-content: space-between;
 	min-height: 40px;
-	position: relative;
 	box-sizing: border-box;
 	border-color: rgba(32, 34, 37, 0.5);
 	border-radius: 4px;
@@ -4490,6 +4517,10 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 	border-width: 1px;
 	transition: border 0.15s ease 0s;
 	outline: 0px !important;
+}
+
+.selectedIcon-19TbzU {
+	color: var(--primary);
 }
 
 .popout-1KHNAq {
@@ -4670,7 +4701,7 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 	background-color: rgba(0,0,0,0)!important;
 }
 
-.avatarSpeaking-33RRJU {
+.avatarSpeaking-2pCGrZ {
 	box-shadow: inset 0px 0px 5px 1px #43b581;
 	border-radius: 7px;
 }
@@ -4837,14 +4868,14 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 
 .tag-19iIl1 {
 	background-color: rgba(0,0,0,.5);
-	border: 2.5px solid var(--primary);
+	border: 2px solid var(--primary);
 	border-radius: 6px!important;
 	backdrop-filter: blur(1px);
 	color: #fff!important}
 
 .tag-19iIl1:hover {
 	color: #fff!important;
-	border: 2.5px solid transparent!important;
+	border: 2px solid transparent!important;
 	background-color: var(--primary);
 	background-image: linear-gradient(to right,var(--primaryGradient1),var(--primaryGradient2));
 	background-position: center;
@@ -4854,7 +4885,7 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 
 .tag-19iIl1:after {
 	color: #fff!important;
-	border: 2.5px solid transparent!important;
+	border: 2px solid transparent!important;
 	background-color: var(--primary);
 	background-image: linear-gradient(to right,var(--primaryGradient1),var(--primaryGradient2));
 	background-position: center;
@@ -4864,7 +4895,7 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 
 .tag-19iIl1:active {
 	color: #fff!important;
-	border: 2.5px solid transparent!important;
+	border: 2px solid transparent!important;
 	background-color: var(--primary);
 	background-image: linear-gradient(to right,var(--primaryGradient1),var(--primaryGradient2));
 	background-position: center;
@@ -4936,14 +4967,14 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 }
 .buttonInner-3aRbcx {
     background-color: rgba(0,0,0,.5)!important;
-    border: 2.5px solid var(--primary)!important;
+    border: 2px solid var(--primary)!important;
     border-radius: 6px!important;
     color: #fff!important
 }
 
 .buttonInner-3aRbcx:hover {
 	color: #fff!important;
-	border: 2.5px solid transparent!important;
+	border: 2px solid transparent!important;
 	background-color: var(--primary);
 	background-image: linear-gradient(to right,var(--primaryGradient1),var(--primaryGradient2));
 	background-position: center;
@@ -4995,7 +5026,6 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 .userTagUsernameBase-3Nfr5j{
 	color: #fff;
 }
-
 .text-sm-medium-3Pz3rB, .text-sm-normal-3Zj3Iv{
 	color: #fff;
 }
@@ -5095,7 +5125,7 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 	}
 }
 
-#app-mount .bd-switch input:checked+.bd-switch-body,#app-mount .container-2nx-BQ[style*=rgb] {
+#app-mount .bd-switch input:checked+.bd-switch-body {
 	background-color: var(--primary)!important;
 }
 
@@ -5126,6 +5156,11 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 
 .container-3EtAkD:hover {
 	background-color: rgba(0,0,0,.25)!important;
+}
+
+.icon-2DGsye {
+	background-color: rgba(0,0,0,.25)!important;
+	border-radius: 5px;
 }
 
 .container-2rzKKA {
@@ -5304,7 +5339,7 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 }
 
 .messageRequestItem-1_NNAR {
-	background-color: var(--backgroundDarker)
+	background-color: var(--backgroundDark)
 }
 
 .messageRequestItem-1_NNAR:hover {
@@ -5391,8 +5426,24 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 	background-color: rgba(0,0,0,.2);
 }
 
+.container-lJuBHq {
+	background-color: rgba(0,0,0,45);
+}
+
+.iconContainer-2k2ykS {
+	background-color: var(--backgroundDark);
+}
+
 .spamBanner-1auiob {
-	background-color: rgba(0,0,0,.2);
+	background-color: rgba(0,0,0,.5);
+}
+
+.container-2d0jMv {
+	background-color: var(--backgroundDark);
+}
+
+.optionRow-1wYi0s:hover {
+	background-color: rgba(0,0,0,.35);
 }
 
 .chat-3t9F_n {
@@ -5542,4 +5593,30 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 
 .messagePreviewContainer-1oR1Oc {
 	border-color: rgba(0,0,0,1)
+}
+
+.option-1O-Hwt{
+	background-color: var(--backgroundDarker)
+}
+
+.option-1O-Hwt:hover{
+	background-color: rgb(18, 21, 27)
+}
+
+.homeContainer-r4Hvv1 {
+	background-color: var(--backgroundDarker);
+}
+
+.container-2Hi7Km {
+	background-color: var(--backgroundDark);
+}
+
+.container-3HMTms.containerCard-2kwJKN.collapsedLayout-2ZTglJ {
+	background-color: var(--backgroundDark);
+	border-color: rgba(0,0,0,1)
+}
+
+.card-3x20HF.interactiveCard-2iMtdk {
+	background-color: var(--backgroundDark);
+	border-color: var(--backgroundDark);
 }
