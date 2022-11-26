@@ -1,14 +1,3 @@
-:root{
-	--backgroundDark: rgb(24, 28, 37);
-	--backgroundDarker: rgb(20, 23, 31);
-	--primary: #008ae6;
-	--primaryGradient1: #008ae6;
-	--primaryGradient2: #00e68a;
-	--backgroundCode: #2f3136;
-	--backgroundCodeLine: #3b3e45;
-	--backgroundName: #202225;
-	--nameShadow: #268bd2;
-}
 .avatar-2Vndt_[role="img"][aria-label]:before, 
 .avatar-2EJaxz[role="img"][aria-label]:before,
 .avatar-2Hubm8[role="img"][aria-label]:before, 
@@ -425,7 +414,6 @@ div[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG {padding-left: 10px;}
 .side-2ur1Qk .item-3XjbnG[aria-controls="connections-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/connections.png');}
 .side-2ur1Qk .item-3XjbnG[aria-controls="discord-nitro-tab"]::before{background-image: url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/nitro.png');}
 .side-2ur1Qk .item-3XjbnG[aria-controls="nitro-server-boost-tab"]::before{background-image: url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/boost.png');}
-.side-2ur1Qk .item-3XjbnG[aria-controls="discord-nitro-tab"] svg {display: none;}
 .side-2ur1Qk .item-3XjbnG[aria-controls="Nitro Server Boost-tab"]::before {background-image: url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/boost.png');}
 .side-2ur1Qk .item-3XjbnG[aria-controls="billing-tab"]::before{background-image:url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/billing.png');}
 .side-2ur1Qk .item-3XjbnG[aria-controls="library-inventory-tab"]::before{background-image: url('https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/gift.png');}
@@ -1263,6 +1251,10 @@ svg[name=Nova_Discord] * {
 
 .theme-dark .navRow-dG-XX8{
 	background-color: rgba(0,0,0,.35)!important;
+}
+
+.authBoxExpanded-AN2aH1.authBox-1HR6Ha.theme-dark.card-14SgW5{
+	background-color: var(--backgroundDark)!important;
 }
 
 .authorize-2xTTr- {
@@ -5141,10 +5133,6 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 
 .verificationContainer-3qb1n0 {
 	background-color: rgb(16, 15, 15);
-}
-
-.modalContent--XtfCV {
-	background-color: var(--backgroundDarker)
 }
 
 .termsFieldBody-3kS99u.fieldBackground-3nYcw0 {
