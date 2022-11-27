@@ -426,13 +426,31 @@ div[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG {padding-left: 10px;}
 .css-1hwfws3 {background-color: var(--backgroundDark);}
 .css-19vtg9u-control {
   background-color: var(--backgroundDark)!important;
-  border-radius: 0px;}
-.css-6sv4e8-menu {border-top: var(--backgroundDark) !important;}
-.css-19vtg9u-control:hover {background-color: var(--backgroundDark) !important;}
+  border-radius: 0px;
+  border-color: var(--backgroundDarker)
+}
+.css-6sv4e8-menu {border-top: var(--backgroundDark) !important;border-color: rgba(0,0,0,1)}
+.css-19vtg9u-control:hover {background-color: var(--backgroundDark) !important;border-color: rgba(0,0,0,1)}
 .css-1gnr91b-option:hover {background-color: rgba(0,0,0,.25) !important;}
 .css-kfxh0s-control {
   background-color: var(--backgroundDark)!important;
-  border-radius: 0px;}
+  border-radius: 0px;
+  border-color: var(--backgroundDarker)
+}
+.css-kfxh0s-control:hover {
+	background-color: var(--backgroundDarker)!important;
+	border-radius: 0px;
+	border-color: rgba(0,0,0,1)
+}
+.css-o3e8ys {
+	background-color: var(--backgroundDark);
+}
+.css-xszxaa-option {
+	background-color: rgba(0,0,0,.35);
+}
+.css-xszxaa-option:active {
+	background-color: rgba(0,0,0,.35);
+}
 .card-2TuZPZ, .cardPlaceholder-1zrbbe {background-color: var(--backgroundDark)!important;}
 .privateChannelsHeaderContainer-1UWASm {
   display: flex;}
