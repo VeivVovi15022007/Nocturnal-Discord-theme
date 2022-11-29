@@ -83,16 +83,16 @@
 .wrapper-1VLyxH[style*="80px"] rect {
 	width: 80px;
 	height: 80px;
-	x: 0;
-	y: 0;
+	x: 1;
+	y: 1;
 	fill: transparent !important;
 }
 
 .wrapper-1VLyxH[style*="120px"] rect {
 	width: 120px;
 	height: 120px;
-	x: 2;
-	y: 2;
+	x: 1;
+	y: 1;
 	fill: transparent !important;
 }
 .wrapper-1VLyxH .mask-1FEkla > circle {
