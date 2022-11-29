@@ -4967,7 +4967,7 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 }
 
 .role-2TIOKu {
-	background-color: rgba(0,0,0,.55)
+	background-color: var(--backgroundDarker)
 }
 
 .roleName-2ZJJYR {
