@@ -1,14 +1,3 @@
-/**
- * @name Nocturnal Circle
- * @author Spectra#7698 & KawaiiBiscuit#8596 & VeivVovi#2017
- * @version 3.0 AutoUpdate
- * @description A simple & clean dark theme for thoses who live at night, made to be easy on the eye. Fixed & reworked by Печенько#3183, fixed class names by VeivVovi#2017.
- * @source https://github.com/VeivVovi15022007/Nocturnal-Discord-theme
- * @authorLink https://discordhub.com/profile/367510031484190730
- * @donate https://www.donationalerts.com/r/flashal
- * @authorId 367510031484190730
- * @invite yfzJuQMWxR
-*/
 @import url("https://codedotspectra.github.io/themes/core/custom-font.css");
 :root{
 	--customFont: "Whitney";
@@ -1313,7 +1302,7 @@ svg[name=Nova_Discord] * {
 	pointer-events: none;
 }
 
-.mainContent-uDGa6R,.title-3aDrFs,.membersGroup-2eiWxl,.header-2Kx1US,.iconVisibility-3pLDEs,.name-3BUDLf.container-q97qHp,.headerText-1qIDDT,.privateChannelRecipientsInviteButtonIcon-1ObKXK.icon-2xnN2Y {
+.mainContent-uDGa6R,.sectionTitle-1P1u0N,.title-3aDrFs,.membersGroup-2eiWxl,.header-2Kx1US,.iconVisibility-3pLDEs,.name-3BUDLf.container-q97qHp,.headerText-1qIDDT,.privateChannelRecipientsInviteButtonIcon-1ObKXK.icon-2xnN2Y {
 	color: hsla(0,100%,100%,.65)!important
 }
 
