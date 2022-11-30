@@ -1,3 +1,14 @@
+/**
+ * @name Nocturnal Circle
+ * @author Spectra#7698 & KawaiiBiscuit#8596 & VeivVovi#2017
+ * @version 3.0 AutoUpdate
+ * @description A simple & clean dark theme for thoses who live at night, made to be easy on the eye. Fixed & reworked by Печенько#3183, fixed class names by VeivVovi#2017.
+ * @source https://github.com/VeivVovi15022007/Nocturnal-Discord-theme
+ * @authorLink https://discordhub.com/profile/367510031484190730
+ * @donate https://www.donationalerts.com/r/flashal
+ * @authorId 367510031484190730
+ * @invite yfzJuQMWxR
+*/
 @import url("https://codedotspectra.github.io/themes/core/custom-font.css");
 :root{
 	--customFont: "Whitney";
@@ -30,6 +41,10 @@
 }
 
 .listAvatar-2GhWlb rect {
+	display: none;
+}
+
+.avatar-15QyCc rect {
 	display: none;
 }
 
@@ -224,8 +239,8 @@
 [role="img"][aria-label*="Ei paikalla"]:before,
 [role="img"][aria-label*="Frakoblet"]:before,
 [role="img"][aria-label*="Desconectado"]:before,
-.offline-22aM7E img {
-  box-shadow: 0 0 0 2.5px #747f8d!important;
+.offline-22aM7E img{
+	box-shadow: 0 0 0 2.5px #747f8d!important;
 }
 [role="img"][aria-label*="Invisible"]:before,
 [role="img"][aria-label*="Usynlig"]:before,
@@ -387,6 +402,7 @@ div[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG {padding-left: 10px;}
 .form-3gdLxP:before {display: none;}
 .container-YkUktl {border: none!important}
 .content-2eQb8J {background-color: var(--backgroundDark);}
+.divider-2zoaQk {background-color: rgba(0,0,0,.35);}
 .content-3spvdd {
   background-color: var(--backgroundDark)!important;
   border: 0px solid #fff !important;
@@ -1853,13 +1869,9 @@ svg.gameIcon-1siQqm {
 	transform: translateX(0)
 }
 
-.cardPrimary-3qRT__,.cardPrimaryEditable-2mz_3i:not([style*=rgb]),.cardPrimaryOutline-1ofwVz,.codeRedemptionRedirect-2hYMSQ,.blockedPaymentsWarning-T43O2z,.paymentPane-ut5qKZ,.wrapper-2NJDcI {
+.cardPrimary-3qRT__,.cardPrimaryEditable-2mz_3i:not([style*=rgb]),.cardPrimaryOutline-1ofwVz,.container--8P6Tr.existingSubscriberSpacing-3auAAB,.codeRedemptionRedirect-2hYMSQ,.blockedPaymentsWarning-T43O2z,.paymentPane-ut5qKZ,.wrapper-2NJDcI {
 	background-color: rgba(0,0,0,.3)!important;
 	border: none;
-}
-
-.blockedPaymentsWarning-T43O2z{
-	background-color: rgba(0,0,0,.3)!important;
 }
 
 .paginator-1eqD2g,.paymentRow-1HKOLu {
@@ -2249,7 +2261,7 @@ svg.gameIcon-1siQqm {
 	background-color: rgba(0,0,0,.35)!important
 }
 
-.tiles-2upzxs {
+.tiles- {
 	background-color: var(--backgroundDark)!important;
 	box-shadow: none!important
 }
@@ -2571,7 +2583,7 @@ svg[name=Nitro] g path {
 	border-radius: 15px;
 }
 
-.expandedFolderBackground-1kSAf6,.expandedFolderBackground-1kSAf6 {
+.expandedFolderBackground-1kSAf6,.expandedFolderBackground-3RwQpD {
 	background-color: rgba(0,0,0,.35)!important;
 	border-radius: 50px;
 }
@@ -2691,10 +2703,6 @@ svg[name=Nitro] g path {
 
 .modalDivider-MtZbPb {
     background-color: var(--backgroundDark)!important
-}
-
-.modalHeader-3X0A4K{
-    background-color: rgba(0,0,0,.25)!important
 }
 
 .scrollTierBackground-BnWR8k{
@@ -3306,7 +3314,7 @@ svg[name=Nitro] g path {
 }
 
 .mask-1FEkla foreignObject {
-	mask: none;
+	mask: none
 }
 
 .theme-dark .changeDetails-1kMZqI, .spinner-2bMWLW {
@@ -3726,7 +3734,7 @@ svg[name=Nitro] g path {
 	border-radius: 5px;
 }
 
-.textarea-_59yqs:focus,.container-2dXT_2,.emojiContainer-1u-_sQ,.featureCard-3XHbjy,.guildDetails-1il1dn,.card-PQEqCK,.theme-dark .iconMask-2fMR98,.tile-2TcwiO,.theme-dark .feature-LzXyUM {
+.textarea-_59yqs:focus,.container-2dXT_2,.emojiContainer-1u-_sQ,.featureCard-3XHbjy,.guildDetails-1il1dn,.card-PQEqCK,.theme-dark .iconMask-2fMR98,.tile-2TcwiO,.theme-dark .feature-2IUcBI {
 	background-color: var(--backgroundDarker);
 }
 
@@ -3808,7 +3816,7 @@ svg[name=Nitro] g path {
 	margin-right: 10px;
 }
 
-.sizeMedium-1AC_Sl {
+.sizeMedium-2bFIHr {
 	width: auto;
 	height: 32px;
 	min-width: 60px;
@@ -4944,7 +4952,7 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 	background-color: var(--primary)!important;
 }
 
-.background-3d_SjE,.wrapper-3nSjSv {
+.background-3d_SjE,.ctaWrapper-4Js5Q6 {
 	background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
@@ -5003,7 +5011,7 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 	background-color: var(--backgroundDark);
 }
 
-.accountProfileCard-lbN7n-,.background-3d_SjE {
+.accountProfileCard-lbN7n-.background-3d_SjE.fieldList-in8WkP {
 	background-color: rgba(0,0,0,0);
 }
 
