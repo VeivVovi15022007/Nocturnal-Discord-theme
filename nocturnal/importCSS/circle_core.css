@@ -2895,7 +2895,6 @@ svg[name=Nitro] g path {
 .platform-win .sidebar-1tnWFu {
 	border-left: solid;
 	border-left-width: 1.2px;
-	color: rgba(1,1,1,0.25);
 	background-color: rgba(0,0,0,0);
 }
 
@@ -3171,8 +3170,12 @@ svg[name=Nitro] g path {
 	border-radius: 0;
 }
 
-.theme-dark .wrapper-1NNaWG,.styleFixed-2_NfVL,.emojiPickerInExpressionPicker-2nOwH8 .emojiPicker-6YCk8a,.emojiPicker-6YCk8a,.contentWrapper-3vHNP2,.theme-dark .iconWrapper-2_MXbk,.perksList-1vtwXn,.upsellFooter-6EgwMe,.contentWrapper-2txmjs,.categoryWrapper-UZ5YNj,.theme-dark .phoneField-3NAPDv,.theme-dark .phoneField-3NAPDv .inputField-1iYysB,.css-1wqqa50-container, .styleFlexible-x0_sIC, .submenu-1apzyU {
+.theme-dark .wrapper-1NNaWG,.styleFixed-2_NfVL,.emojiPickerInExpressionPicker-2nOwH8 .emojiPicker-6YCk8a,.emojiPicker-6YCk8a,.contentWrapper-3vHNP2,.theme-dark .iconWrapper-2_MXbk,.perksList-1vtwXn,.upsellFooter-3M1V33,.contentWrapper-2txmjs,.categoryWrapper-UZ5YNj,.theme-dark .phoneField-3NAPDv,.theme-dark .phoneField-3NAPDv .inputField-1iYysB,.css-1wqqa50-container, .styleFlexible-x0_sIC, .submenu-1apzyU {
 	background-color: var(--backgroundDark);
+}
+
+.upsellFooter-3M1V33 {
+	background-color: rgb(16, 15, 15);
 }
 
 .menu-KSaHL1 {
@@ -4470,7 +4473,6 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 .progressBarContainer-1efroK.bar-H6j3_Q {
 	background-color: rgba(0,0,0,.25);
 }
-
 
 .content-2a4AW9 .divider-3LgWDL {
 	background-color: rgba(0,0,0,0)!important;
