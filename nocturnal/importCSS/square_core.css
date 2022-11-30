@@ -1314,7 +1314,7 @@ svg[name=Nova_Discord] * {
 }
 
 .mainContent-uDGa6R:hover,.iconVisibility-3pLDEs:hover,.name-3BUDLf.container-q97qHp:hover,.headerText-1qIDDT:hover,.privateChannelRecipientsInviteButtonIcon-1ObKXK.icon-2xnN2Y:hover {
-	color: hsla(0,100%,100%,.95)
+	color: hsla(0,100%,100%,.95)!important
 }
 
 .linkButtonIcon-7rsZcu {
