@@ -5731,3 +5731,7 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 .text-sm-normal-3Zj3Iv {
 	color: #fff
 }
+
+.container-2o3qEW {
+        background-color: var(--backgroundDark);
+}
