@@ -3358,6 +3358,11 @@ svg[name=Nitro] g path {
 	background-color: rgb(15, 15, 15);
 }
 
+.voiceSectionGuildImage-TctMOd {
+	mask: none;
+	-webkit-mask: none;
+}
+
 .theme-dark .voiceSectionIconWrapper-4yoj76 {
 	background-color: #43b581;
 	background: linear-gradient(to top left,var(--primaryGradient1),var(--primaryGradient2))!important;
