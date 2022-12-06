@@ -1187,7 +1187,7 @@ svg[name=Nova_Discord] * {
 }
 
 .item-3mHhwr.addFriend-emTWY1.item-3XjbnG.themed-2-lozF {
-	background-color: var(--primaryGradient2);
+	background-color: #43b581;
 }
 
 .item-3mHhwr.addFriend-emTWY1.item-3XjbnG.selected-g-kMVV.themed-2-lozF {
@@ -1228,25 +1228,6 @@ svg[name=Nova_Discord] * {
 
 .channel-1Shao0 {
 	overflow-y: visible
-}
-
-.content-1gYQeQ {
-	overflow: visible;
-	position: relative;
-}
-
-.content-1gYQeQ::after {
-	content: "";
-	height: 2px;
-	width: 98.5%;
-	border-radius: 50px;
-	bottom: 5px;
-	left: 1px;
-	position: absolute;
-	background-color: transparent;
-	background-image: linear-gradient(to right,var(--primaryGradient1),var(--primaryGradient2));
-	transform: translateX(250px);
-	transition: all .2s ease
 }
 
 .channel-1Shao0 .selected-3veCBZ::after,.channel-1Shao0 .interactive-1vLZ_I.interactive-iyXY_x:hover::after,.contentConnectedVoice-qL-YrL::after,.contentLockedText-1aHuz8:hover::after,.contentSelectedText-3wUhMi::after,.voiceUser-3nRK-K.selected-1oxcpH::after,.containerDefault-YUSmu3:hover,.containerDefault-3TQ5YN:hover,.content-1gYQeQ::after,.member-3W1lQa.popout-open .content-OzHfo4::after,.member-3W1lQa.popout-open:hover .content-OzHfo4::after,.member-3W1lQa:hover .content-OzHfo4::after {
