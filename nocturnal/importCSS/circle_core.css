@@ -843,11 +843,6 @@ svg[name=Nova_Discord] * {
 	background-color: rgba(0,0,0,.15)!important
 }
 
-.uploadModal-2ie9O_ {
-	background-color: var(--backgroundDark)!important;
-    box-shadow: inset 0 0 100000px 0 rgba(0,0,0,.5)!important;
-}
-
 .need-help-modal.form.deprecated .footer {
 	border: none!important
 }
