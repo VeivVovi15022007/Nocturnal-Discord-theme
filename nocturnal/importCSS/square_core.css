@@ -1375,7 +1375,7 @@ svg.gameIcon-1siQqm {
 	transform: translateX(0)
 }
 
-.cardPrimary-3qRT__,.cardPrimaryEditable-2mz_3i:not(.card-2L21B2),.cardPrimaryOutline-1ofwVz,.container--8P6Tr.existingSubscriberSpacing-3auAAB,.codeRedemptionRedirect-2hYMSQ,.blockedPaymentsWarning-T43O2z,.paymentPane-ut5qKZ {
+.cardPrimary-3qRT__,.cardPrimaryEditable-2mz_3i:not(.card-14qfLI),.cardPrimaryOutline-1ofwVz,.container--8P6Tr.existingSubscriberSpacing-3auAAB,.codeRedemptionRedirect-2hYMSQ,.blockedPaymentsWarning-T43O2z,.paymentPane-ut5qKZ {
 	background-color: rgba(0,0,0,.3)!important;
 	border: none;
 }
@@ -2182,10 +2182,6 @@ svg[name=Nitro] g path {
 	background-color:rgba(0,0,0,.35)!important
 }
 
-.header-1sd0RU{
-	background-color:rgba(0,0,0,.35)!important
-}
-
 .wrapper-3ByaVZ{
 	background-color:var(--backgroundDark)!important
 }
@@ -2986,7 +2982,7 @@ svg[name=Nitro] g path {
 	background-color: rgba(0,0,0,.15)!important;
 }
 
-.root-g14mjS>.modalContent-1ndS4R>.scroller-2MALzE{
+.root-g14mjS>.modalContent-E49wiA>.scroller-2MALzE{
     height: calc((100%) - 50px);
 }
 
@@ -4965,12 +4961,12 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 	background-color: var(--backgroundDarker)!important;
 }
 
-.card-2L21B2 {
+.card-14qfLI {
 	background-color: var(--backgroundDarker);
 	border-color: rgba(0,0,0,.45)
 }
 
-.cardHeader-3d6H8N {
+.cardHeader-1gxkI4 {
 	background-color: rgba(0,0,0,.15);
 }
 
@@ -5075,29 +5071,33 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 	background-color: var(--backgroundDark)!important
 }
 
-.modalHeader-1hF3w-,.modalBody-3-seO3,.syncCard-Mu6lpD {
+.modalHeader-IUoaX4,.modalBody-3yDNNE,.syncCard-3xpKOB {
 	background-color: var(--backgroundDark)!important;
 	box-shadow: inset 0 0 100000px 0 rgba(0,0,0,.5)!important;
 }
 
-.item-14XeNr.allow-q9kwjz,.item-14XeNr.deny-2VqAyZ {
+.item-2XHlPv.allow-2JBXjH,.item-2XHlPv.deny-2grNZK {
 	background-color: rgba(0,0,0,.35);
 }
 
-.item-14XeNr:hover {
+.item-2XHlPv:hover {
 	background-color: rgba(0,0,0,.95);
 }
 
-.item-14XeNr.allow-q9kwjz.selected-I4nkOo {
+.item-2XHlPv.allow-2JBXjH.selected-1CBjKz {
 	background: #43b581;
 }
 
-.item-14XeNr.deny-2VqAyZ.selected-I4nkOo {
+.item-2XHlPv.deny-2grNZK.selected-1CBjKz {
 	background: #f04747;
 }
 
-.item-2rTrrd:hover {
+.item-15kgnI:hover {
 	background-color: rgba(0,0,0,.25)
+}
+
+.theme-dark .rolePills-lcM9EX {
+	margin-top: 7px
 }
 
 .iconWrapper-il75HH {
@@ -5980,6 +5980,10 @@ div.icon-hSL42R {
 	background-color: #43b581
 }
 
+.newlyAddedHighlightContainer-dfom4a:hover .newlyAddedHighlight-wgFFAo {
+	border: 1px solid #43b581
+}
+
 .newlyAddedBadge-VdocH4:hover {
 	background-color: #43b581
 }
@@ -6031,4 +6035,20 @@ div.icon-hSL42R {
 
 .header-3cN3a_,.scopes-uCLYQv,.botPermissions-1j4evs {
 	border-bottom: 1px solid rgba(0,0,0,.95)
+}
+
+.header-1sd0RU {
+	background-color: rgba(0,0,0,.15);
+}
+
+.divider-2_8P_2 {
+	color: rgba(0,0,0,.75);
+}
+
+.wrapper-SdcMKg {
+	border: 2px solid var(--primary)
+}
+
+.loading-3ozbwt {
+	background-color: rgba(0,0,0,.25);
 }
