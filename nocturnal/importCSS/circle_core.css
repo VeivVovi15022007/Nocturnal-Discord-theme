@@ -2008,7 +2008,7 @@ svg[name=Nitro] g path {
 	background: var(--backgroundDark)!important;
 	box-shadow: inset 0 0 0 100000px rgba(0,0,0,.15)!important;
 	color: #fff!important;
-	border-radius: 5px;
+	border-radius: 50px;
 }
 
 .tierNoneCard-peD7hV {
@@ -4898,6 +4898,27 @@ div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after 
 	background-color: var(--primary)!important;
 	border-radius: 50px;
 	border: 4px solid var(--backgroundDarker)!important
+}
+
+.editCard-K9Q9mb{
+	background-color: var(--backgroundDark)
+}
+
+.editCard-K9Q9mb.toggled-35JcVc {
+	background-color: var(--backgroundDarker)
+}
+
+.editCard-K9Q9mb.active-Xi2rnV,.editCard-K9Q9mb.active-Xi2rnV.toggled-35JcVc{
+	background-color: var(--backgroundDarker)
+}
+
+.resultsList-2Bp-2_{
+	background-color: var(--backgroundDarker);
+	border-color: rgba(0,0,0,.35)
+}
+
+.rowLabel-rxF2X0.channelLabel-237KIv.channelRowLabel-2yYGtY {
+	background-color: rgba(0,0,0,.35)
 }
 
 .mainContainer-yxgti4 {
