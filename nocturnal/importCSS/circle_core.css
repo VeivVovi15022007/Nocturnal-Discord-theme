@@ -216,7 +216,7 @@
 [role="img"][aria-label*="ऑफ़लाइन"]:before,
 [role="img"][aria-label*="Frakoblet"]:before,
 [role="img"][aria-label*="Desconectado"]:before {
-	box-shadow: 0 0 0 1.5px #747f8d!important;
+	box-shadow: 0 0 0 2.5px #747f8d!important;
 }
 .offline-22aM7E img{
 	box-shadow: 0 0 0 1.5px #747f8d!important;
