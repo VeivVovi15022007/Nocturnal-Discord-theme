@@ -1,4 +1,3 @@
-
 .avatar-2Vndt_[role="img"][aria-label]:before,
 .avatar-2Hubm8[role="img"][aria-label]:before,
 .avatar-2tTaT6[role="img"][aria-label]:before,
@@ -2922,7 +2921,7 @@ svg[name=Nitro] g path {
 .theme-dark .textContentFooter-2JnNv8 {
 	background: linear-gradient(0deg,rgba(var(--to-textcontentfooter)),1),rgba(var(--to-textcontentfooter),.97) 16px,rgba(var(--to-textcontentfooter),.4);
 }
-ы
+
 .collapseButton-39-IRc {
 	left:-1px;
 }
@@ -3822,8 +3821,12 @@ svg[name=Nitro] g path {
 	transition: all .2s ease;
 }
 
-.mention:hover {
+.mention:hover,.mention[aria-expanded=true]:hover {
 	background-color: var(--primary)!important;
+}
+
+.mention[aria-expanded=true] {
+	background-color: #005ae6!important;
 }
 
 .users-2JoyGL {
@@ -4177,6 +4180,10 @@ svg[name=Nitro] g path {
 
 .input-2g-os5:not(.collapsed-23aTv6 .title-1v5ZfI,.title-1v5ZfI) {
     background-color: rgb(0,0,0,.95)!important;
+}
+
+.inputWrapper-1YNMmM {
+	border-color: rgba(0,0,0,.55);
 }
 
 .audienceVoiceUserIconContainer-1aQGLF,.container-cH6QoY,.background-L8lGH6,.selfSpeakerButton-2ZvK-g,.textInput-2xgsSa {
@@ -4733,7 +4740,7 @@ svg[name=Nitro] g path {
 	background-color: var(--primary);
 }
 
-.role-2TIOKu {
+.role-2TIOKu:not(.rolePill-2IJ1vo.rolePillBorder-RiRiuN) {
 	background-color: rgba(0,0,0,.75);
 }
 
@@ -4741,8 +4748,11 @@ svg[name=Nitro] g path {
 	background-color: rgba(0,0,0,1)
 }
 
-.rolePillBorder-RiRiuN {
-	border-color: rgb(55, 59, 64)
+.rolePill-2IJ1vo.rolePillBorder-RiRiuN {
+	background: linear-gradient(var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color));
+	border-color: var(--profile-gradient-secondary-color);
+	border: 2px solid var(--profile-gradient-secondary-color);
+	color: #fff;
 }
 
 .avatar-3TrM7c {
@@ -5570,7 +5580,7 @@ svg[name=Nitro] g path {
 	background-color: rgba(0,0,0,.35)
 }
 
-.px-MnE_OR.botTag-7aX5WZ,.botTag-7aX5WZ {
+.botTag-7aX5WZ {
 	background-color: var(--primary);
 }
 
@@ -6205,4 +6215,22 @@ div.icon-hSL42R {
 
 .iconContainer-GFfNaA circle{
    fill: var(--primary)!important
+}
+
+.textContainer-36wgKK,.modalTextContainer-1FUO2W,.codeView-12LUIl {
+	background-color: var(--backgroundDarker)!important;
+	border: none
+}
+
+.footer-GXWBBp {
+	background-color: var(--backgroundDarker)!important;
+	border: 1px solid rgba(0,0,0,.95)!important
+}
+
+.username-h_Y3Us.desaturateUserColors-1O-G89.clickable-31pE3P[aria-expanded=true] {
+	text-decoration: underline;
+}
+
+.actionButton-3-B2x- {
+	border-radius: 5px;
 }
