@@ -2803,6 +2803,18 @@ svg[name=Nitro] g path {
 	background-color: var(--backgroundDark);
 }
 
+.bd-number-input {
+	background-color: rgba(0,0,0,.35);
+}
+
+.bd-select {
+	background-color: rgba(0,0,0,.35);
+}
+
+.bd-select:hover {
+	border-color: rgba(0,0,0,.35);
+}
+
 .button-3WOKuZ,.participantsButton-1WBdFP,.pill-qMtBTq {
 	border-radius: 8px;
 	background-color: rgba(0,0,0,.45);
