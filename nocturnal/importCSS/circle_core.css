@@ -6299,3 +6299,12 @@ svg[name=Nitro] g path {
 .permissionV3BannerContainer-3_4aSa {
 	background-color: var(--backgroundDarker);
 }
+
+.permissionV3BannerDescription-_RTKq- {
+    position: relative;
+    right: -100px;
+}
+
+.theme-dark .imageUploaderIcon-2OHmFu {
+    left: 210px;
+}
