@@ -6198,7 +6198,6 @@ svg[name=Nitro] g path {
 
 .badge-2WCXoe {
 	background-color: rgba(0,0,0,.25);
-	border-radius: 5px;
 }
 
 .popout-VbwYm1 {
@@ -6207,6 +6206,10 @@ svg[name=Nitro] g path {
 
 .popoutHeaderContainer-jNJXpP {
 	background-color: var(--backgroundDark)
+}
+
+.roleCheckmark-264cml {
+	background-color: var(--primary)
 }
 
 .modalFooter-2XY3GW {
