@@ -40,8 +40,8 @@
 
 .xsmallAvatar-3_wDVZ[role="img"][aria-label]:before,
 .avatar-3POJaA[role="img"][aria-label]:before {
-	width: calc(100% - 0px);
-	height: calc(100% - 0px);
+	width: calc(100%);
+	height: calc(100%);
 }
 
 .avatar-1XUb0A[role="img"][aria-label]:before {
@@ -4478,6 +4478,10 @@ svg[name=Nitro] g path {
 	background-color: rgba(0,0,0,.25)!important;
 }
 
+.container-3EtAkD:active {
+	background-color: rgba(0,0,0,.35)!important;
+}
+
 .roleRow-230vCm:hover {
 	background-color: rgba(0,0,0,.25)!important;
 }
@@ -4488,7 +4492,7 @@ svg[name=Nitro] g path {
 }
 
 .icon-2DGsye {
-	background-color: rgba(0,0,0,.25)!important;
+	background-color: rgba(0,0,0,.55)!important;
 	border-radius: 5px
 }
 
@@ -4974,13 +4978,12 @@ svg[name=Nitro] g path {
 	border: 1px solid rgba(0,0,0,.75)
 }
 
-.permissions-modal .header {
-	box-shadow: inset 0 0 100000px var(--backgroundDark);
-	border: 1px solid var(--backgroundDark)!important;
-	border-radius: 5px;
+#permissions-modal-wrapper #permissions-modal {
+	border: 1px solid rgba(0,0,0,.35)
 }
+
 #permissions-modal-wrapper .header {
-    background: var(--backgroundDark);
+    background-color: #171c24;
 }
 
 #permissions-modal-wrapper .role-side {
@@ -4988,7 +4991,7 @@ svg[name=Nitro] g path {
 }
 
 #permissions-modal-wrapper .perm-side {
-	background: var(--backgroundDark)
+	background-color: #181c25;
 }
 
 .messageRequestItem-1_NNAR {
@@ -6395,4 +6398,8 @@ svg[name=Nitro] g path {
 
 .analyticsCard-2fnrVG {
 	background-color: var(--backgroundDarker);
+}
+
+.member-perms-header {
+	color: #fff
 }
