@@ -6166,14 +6166,19 @@ svg[name=Nitro] g path {
 	background-color: var(--backgroundDarker);
 }
 
-.verifiedRole-2nWDpa {
+.verifiedRole-2nWDpa:not(.verifiedRoleHasRole-2CPTNi) {
+	background-color: var(--backgroundDark);
+	border: none
+}
+
+.verifiedRole-2nWDpa:not(.verifiedRoleHasRole-2CPTNi):hover {
 	background-color: var(--backgroundDarker);
 	box-shadow: inset 0 0 100000px 0 rgba(0,0,0,.5)!important;
 	border: none
 }
 
-.verifiedRole-2nWDpa:hover {
-	background-color: rgba(0,0,0,.45);
+.verifiedRoleHasRole-2CPTNi {
+	background-color: var(--backgroundDarker);
 	box-shadow: inset 0 0 100000px 0 rgba(0,0,0,.5)!important;
 	border: none
 }
