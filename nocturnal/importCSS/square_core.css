@@ -4075,6 +4075,10 @@ svg[name=Nitro] g path {
 	background-color: rgb(0,0,0,.35);
 }
 
+.settingCard-xZSDjS.active-3EK-ed,.scroller-3b1p7z {
+	background-color: rgb(18, 21, 27);
+}
+
 .addMemberRow-KVhQFf:hover {
 	background-color: rgba(0,0,0,.35);
 }
@@ -4101,10 +4105,6 @@ svg[name=Nitro] g path {
 
 .container-2giAcK {
 	background-color: var(--backgroundDark);
-}
-
-.settingCard-xZSDjS.active-3EK-ed,.scroller-3b1p7z {
-	background-color: rgb(18, 21, 27);
 }
 
 .content-2a4AW9 .divider-3LgWDL {
@@ -5286,6 +5286,7 @@ svg[name=Nitro] g path {
 	background-repeat: no-repeat;
 	background-size: 200% 200%
 }
+
 .divider-AZrXIA{
 	background-color: var(--backgroundDarker);
 }
