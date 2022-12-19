@@ -6273,6 +6273,6 @@ svg[name=Nitro] g path {
 	background-color: #f04747;
 }
 
-.automodMessage-265YwJ {
-	background-color: rgb(240, 71, 71 ,0.05)
+.automodMessage-265YwJ,.message-2CShn3.automodMessage-265YwJ.selected-2LX7Jy, .mouse-mode.full-motion .automodMessage-265YwJ:hover {
+	background-color: rgb(240, 71, 71 ,0.1)
 }
