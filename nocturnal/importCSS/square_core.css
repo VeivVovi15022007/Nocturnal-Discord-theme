@@ -3829,6 +3829,7 @@ svg[name=Nitro] g path {
 
 .mention.interactive:hover,.mention.interactive[aria-expanded=true] {
 	background-color: var(--primary);
+	color: #fff;
 }
 
 .users-2JoyGL {
@@ -4922,7 +4923,7 @@ svg[name=Nitro] g path {
 
 .fieldBackground-3nYcw0, .fieldBackground-3nYcw0:hover:not(:focus),.termsFieldBody-3kS99u.fieldBackground-2TpuOY.withFooter-1nlfLM{
 	background-color: var(--backgroundDarker);
-	border: 2px solid rgba(0,0,0,.55)
+	border: 1px solid rgba(0,0,0,.55)
 }
 
 .fieldPadding-1Mte7Y {
@@ -6331,9 +6332,35 @@ svg[name=Nitro] g path {
 	border: none
 }
 
-.connectionsChecksGroupPassed-16h0PT,.connectionsChecksGroupPassed-16h0PT:hover {
+.connectionsChecksGroup-_ALevE,.connectionsChecksGroupPassed-16h0PT,.connectionsChecksGroupPassed-16h0PT:hover {
 	background-color: var(--backgroundDark);
 	border: 2px solid var(--backgroundDark)
+}
+
+.connectionsChecksGroup-_ALevE:not(.connectionsChecksGroupPassed-16h0PT):hover {
+	background-color: rgba(0,0,0,.25);
+	border-color: rgba(0,0,0,.25)!important;
+}
+
+.roleGranted-QK31f8 {
+	background-color: rgba(0,0,0,.25);
+}
+
+.channelsGranted-1nZk5r {
+	background-color: var(--backgroundDark);
+}
+
+.badge-2WCXoe {
+	background-color: rgba(0,0,0,.25);
+	border-radius: 5px;
+}
+
+.popout-VbwYm1 {
+	background-color: var(--backgroundDarker);
+}
+
+.popoutHeaderContainer-jNJXpP {
+	background-color: var(--backgroundDark)
 }
 
 .modalFooter-2XY3GW {
@@ -6402,4 +6429,16 @@ svg[name=Nitro] g path {
 
 .member-perms-header {
 	color: #fff
+}
+
+.notice-1x8lm- {
+	background-color: var(--primary);
+}
+
+.automodMessage-265YwJ:before {
+	background-color: #f04747;
+}
+
+.automodMessage-265YwJ {
+	background-color: rgb(240, 71, 71 ,0.05)
 }
