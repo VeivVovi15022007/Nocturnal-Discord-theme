@@ -6213,7 +6213,6 @@ svg[name=Nitro] g path {
 
 .badge-2WCXoe {
 	background-color: rgba(0,0,0,.25);
-	border-radius: 5px;
 }
 
 .popout-VbwYm1 {
@@ -6222,6 +6221,10 @@ svg[name=Nitro] g path {
 
 .popoutHeaderContainer-jNJXpP {
 	background-color: var(--backgroundDark)
+}
+
+.roleCheckmark-264cml {
+	background-color: var(--primary)
 }
 
 .modalFooter-2XY3GW {
@@ -6285,6 +6288,6 @@ svg[name=Nitro] g path {
 	background-color: #f04747;
 }
 
-.automodMessage-265YwJ {
-	background-color: rgb(240, 71, 71 ,0.05)
+.automodMessage-265YwJ,.message-2CShn3.automodMessage-265YwJ.selected-2LX7Jy, .mouse-mode.full-motion .automodMessage-265YwJ:hover {
+	background-color: rgb(240, 71, 71 ,0.1)
 }
