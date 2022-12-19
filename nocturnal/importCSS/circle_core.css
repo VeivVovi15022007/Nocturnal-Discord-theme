@@ -3675,7 +3675,8 @@ svg[name=Nitro] g path {
 .cooldownWrapper-2k1jHK[style*="color: rgb(185, 187, 190);"],.h2-1EaYVL,.h5-2RwDNl:not(.isEnabled-20V6lG,.error-30KkHs,.error-3EBD81),
 .text-sm-medium-3Pz3rB[style*="color: var(--header-secondary);"],.text-md-medium-2avxhQ[style*="color: var(--header-secondary);"],
 .text-sm-normal-3Zj3Iv[style*="color: var(--header-secondary);"],.text-md-normal-304U3g[style*="color: var(--header-secondary);"],
-.descriptionRow-1UPN0d,.automaticApprovalDescription-3vRmhp,.mutualGuilds-1zEYLd:not(:hover) {
+.descriptionRow-1UPN0d,.automaticApprovalDescription-3vRmhp,.mutualGuilds-1zEYLd:not(:hover),.guildSubscriptionDuration-1JI19A,
+.guildSubscriptionSlotMenuIcon-3UcQXW,.subSectionHeader-1Qv90w {
 	color: #fff!important
 }
 
@@ -6166,6 +6167,10 @@ svg[name=Nitro] g path {
 	background-color: var(--backgroundDarker);
 }
 
+.addVerificationButtonAppend-2dTEM- {
+	border: 2px dashed rgba(0,0,0,.45)!important
+}
+
 .verifiedRole-2nWDpa:not(.verifiedRoleHasRole-2CPTNi) {
 	background-color: var(--backgroundDark);
 	border: none
@@ -6183,12 +6188,17 @@ svg[name=Nitro] g path {
 	border: none
 }
 
-.connectionsChecksGroup-_ALevE,.connectionsChecksGroupPassed-16h0PT,.connectionsChecksGroupPassed-16h0PT:hover {
+.connectionsChecksGroup-_ALevE:not(.connectionsChecksGroupPassed-16h0PT) {
 	background-color: var(--backgroundDark);
 	border: 2px solid var(--backgroundDark)
 }
 
 .connectionsChecksGroup-_ALevE:not(.connectionsChecksGroupPassed-16h0PT):hover {
+	background-color: rgba(0,0,0,.25);
+	border-color: rgba(0,0,0,.25)!important;
+}
+
+.connectionsChecksGroupPassed-16h0PT {
 	background-color: rgba(0,0,0,.25);
 	border-color: rgba(0,0,0,.25)!important;
 }
@@ -6203,6 +6213,7 @@ svg[name=Nitro] g path {
 
 .badge-2WCXoe {
 	background-color: rgba(0,0,0,.25);
+	border-radius: 5px;
 }
 
 .popout-VbwYm1 {
@@ -6211,10 +6222,6 @@ svg[name=Nitro] g path {
 
 .popoutHeaderContainer-jNJXpP {
 	background-color: var(--backgroundDark)
-}
-
-.roleCheckmark-264cml {
-	background-color: var(--primary)
 }
 
 .modalFooter-2XY3GW {
@@ -6278,6 +6285,6 @@ svg[name=Nitro] g path {
 	background-color: #f04747;
 }
 
-.automodMessage-265YwJ,.message-2CShn3.automodMessage-265YwJ.selected-2LX7Jy, .mouse-mode.full-motion .automodMessage-265YwJ:hover {
-	background-color: rgb(240, 71, 71 ,0.1)
+.automodMessage-265YwJ {
+	background-color: rgb(240, 71, 71 ,0.05)
 }
