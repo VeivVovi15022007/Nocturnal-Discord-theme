@@ -2035,10 +2035,6 @@ svg[name=Nitro] g path {
 	border-radius: 50px
 }
 
-.acronym-vuwTO7 {
-	background-color: var(--backgroundDark)!important
-}
-
 .genreTag-3QLRUJ,.iconBadge-1D5-9X:not(.stepStatus-3oAHkt),.topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG,.topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG:hover {
 	background: linear-gradient(to top left,var(--primaryGradient1),var(--primaryGradient2))!important;
 }
@@ -3184,10 +3180,6 @@ svg[name=Nitro] g path {
 	background-color: rgba(0,0,0,.2);
 }
 
-.textButton-14fgNw,.textButton-14fgNw:hover,.textButton-14fgNw:active{
-	background-color: #1a1d25;
-}
-
 .item-4m-12I {
 	background: var(--backgroundDarker);
 }
@@ -3228,7 +3220,7 @@ svg[name=Nitro] g path {
 	border-radius: 5px;
 }
 
-.note-6O4w9y .textarea-_59yqs:focus,.container-2dXT_2,.emojiContainer-1u-_sQ,.featureCard-3XHbjy,.guildDetails-1il1dn,.card-PQEqCK,.theme-dark .iconMask-3ZaTTN,.theme-dark .iconMask-2fMR98,.iconMask-1EYGrv,.tile-2TcwiO,.theme-dark .feature-2IUcBI {
+.container-2dXT_2,.emojiContainer-1u-_sQ,.featureCard-3XHbjy,.guildDetails-1il1dn,.card-PQEqCK,.theme-dark .iconMask-3ZaTTN,.theme-dark .iconMask-2fMR98,.iconMask-1EYGrv,.tile-2TcwiO,.theme-dark .feature-2IUcBI {
 	background-color: var(--backgroundDarker)!important;
 }
 
@@ -4080,7 +4072,7 @@ svg[name=Nitro] g path {
 }
 
 .dragInner-1CUBf_ {
-	background-color: rgba(0,0,0,.25)!important;
+	background-color: rgba(0,0,0,0)!important;
 }
 
 .avatarSpeaking-33RRJU {
@@ -4100,7 +4092,7 @@ svg[name=Nitro] g path {
 	border-bottom: 1px solid rgba(0,0,0,.45)
 }
 
-.callContainer-HtHELf .root-22AK9z,.callContainer-BGIngG .root-22AK9z,.scroller-35tvpe,.container-3r7mfc,.participants-3hk3ND,.participants-3eCqDy,.rowContainer-jDvyA4,.rowContainer-3t7486 {
+.callContainer-BGIngG .root-22AK9z,.scroller-35tvpe,.container-3r7mfc,.participants-3hk3ND,.participants-3eCqDy,.rowContainer-jDvyA4,.rowContainer-3t7486 {
 	background-color: var(--backgroundDarker);
 }
 
