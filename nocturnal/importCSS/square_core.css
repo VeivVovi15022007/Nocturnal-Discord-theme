@@ -3639,6 +3639,7 @@ svg[name=Nitro] g path {
 
 .upsellTooltipWrapper-1wqikQ:after {
 	border-bottom-color: var(--backgroundDarker)!important;
+	border-top-color: var(--backgroundDarker)!important;
 }
 
 .notice-3GY7Hk {
@@ -4871,7 +4872,7 @@ svg[name=Nitro] g path {
 }
 
 .item-14XeNr.allow-q9kwjz,.item-14XeNr.deny-2VqAyZ,.item-2XHlPv.deny-2grNZK,.item-2XHlPv.allow-2JBXjH{
-	background-color: rgba(0,0,0,.35);
+	background-color: rgba(0,0,0,.25);
 }
 
 .group-1-kPpw:not(.disabled-1Z8bJM) .item-14XeNr:not(.selected-I4nkOo):hover,.item-2XHlPv:hover {
