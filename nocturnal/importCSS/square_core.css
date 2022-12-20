@@ -1514,11 +1514,6 @@ svg.gameIcon-1siQqm {
 	border: none
 }
 
-.card-2ART2V:before {
-	background-color: rgba(0,0,0,.35)!important;
-	border: 1px solid transparent!important
-}
-
 .tier1Banner-1B_WXY {
 	background-color: rgba(0,0,0,.15)!important
 }
@@ -2126,13 +2121,9 @@ svg[name=Nitro] g path {
 	background: rgba(0,0,0,.25)!important
 }
 
-.autocompleteHeaderBackground-3u7TwO,.overflowRolesPopoutArrow-2R7g3K {
+.autocompleteHeaderBackground-3u7TwO,.overflowRolesPopout-1Puiuq,.overflowRolesPopoutArrow-2R7g3K {
 	background-color: var(--backgroundDarker)!important;
 	box-shadow: inset 0 0 0 100000px rgba(0,0,0,.55)!important
-}
-
-.overflowRolesPopout-1Puiuq {
-	background-color: var(--backgroundDarker)!important;
 }
 
 .container-1zzFcN {
@@ -3495,23 +3486,31 @@ svg[name=Nitro] g path {
 }
 
 .userProfileInnerThemedNonPremium-1gT-zY {
-	background: var(--backgroundDark)!important
+	background: var(--backgroundDarker)!important
 }
 
-.overlayBackground-1KgwVi{
-	background-color: rgba(0,0,0,.30);
+.userProfileInnerThemedNonPremium-1gT-zY .overlayBackground-1KgwVi{
+	background-color: rgba(0,0,0,.25);
 }
 
 .customStatusText-2bcbbm,.customStatus-3QV7IG,.userProfileInnerThemedNonPremium-1gT-zY .lineClamp2Plus-2SCQmH {
 	color: #fff!important;
 }
 
-.badgeList-2pMvZX{
+.userProfileInnerThemedNonPremium-1gT-zY .badgeList-2pMvZX{
 	background-color: rgba(0,0,0,.35);
 }
 
-.profileBadges-31rDHI.containerWithContent-2_V0PM.container-5SvbtF{
+.userProfileInnerThemedNonPremium-1gT-zY .profileBadges-31rDHI.containerWithContent-2_V0PM.container-5SvbtF{
 	background-color: rgba(0,0,0,.35);
+}
+
+.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .profileBadges-31rDHI,.userProfileInnerThemedWithBanner-2624Yx .profileBadges-31rDHI{
+	background: linear-gradient(var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color));
+}
+
+.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .badgeList-2pMvZX,.userProfileInnerThemedWithBanner-2624Yx .badgeList-2pMvZX{
+	background: linear-gradient(var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color));
 }
 
 .colorable-3rVGna.primaryDark-2UJt1G,.colorable-3rVGna.primaryDark-2UJt1G:hover,.colorable-3rVGna.primaryDark-2UJt1G.active-1QRrIS {
@@ -4179,7 +4178,7 @@ svg[name=Nitro] g path {
 	border-radius: 7px;
 }
 
-.input-2g-os5:not(.note-3TX9O7 .textarea-_59yqs,.collapsed-23aTv6 .title-1v5ZfI,.title-1v5ZfI) {
+.input-2g-os5:not(.messageInput-1KI8l8,.note-3TX9O7 .textarea-_59yqs,.collapsed-23aTv6 .title-1v5ZfI,.title-1v5ZfI) {
     background-color: rgb(0,0,0,.95)!important;
 }
 
@@ -4462,8 +4461,12 @@ svg[name=Nitro] g path {
 	background-color: var(--primary);
 }
 
-.role-2TIOKu:not(.rolePill-2IJ1vo.rolePillBorder-RiRiuN) {
-	background-color: rgba(0,0,0,.75);
+.roleWrapper-2IhvNd .role-2TIOKu {
+	background-color: rgba(0,0,0,.55)!important
+}
+
+.userProfileInnerThemedNonPremium-1gT-zY .role-2TIOKu:not(.rolePill-2IJ1vo.rolePillBorder-RiRiuN) {
+	background-color: var(--backgroundDark)!important
 }
 
 .rolePill-2IJ1vo.rolePillBorder-RiRiuN {
@@ -4471,6 +4474,21 @@ svg[name=Nitro] g path {
 	border-color: var(--profile-gradient-secondary-color);
 	border: 2px solid var(--profile-gradient-secondary-color);
 	color: #fff;
+}
+
+.userProfileInnerThemedWithBanner-2624Yx .member-perms .role-2TIOKu,.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .member-perms .role-2TIOKu{
+	background: linear-gradient(var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color));
+	border: 2px solid;
+	color: #fff;
+}
+
+.userProfileInnerThemedNonPremium-1gT-zY .member-perms .role-2TIOKu {
+	background-color: transparent!important;
+	border: 1px solid
+}
+
+.userProfileInnerThemedNonPremium-1gT-zY .messageInputContainer-2rGDH8 {
+	background-color: rgb(0,0,0,.95);
 }
 
 .avatar-3TrM7c {
@@ -6307,14 +6325,17 @@ svg[name=Nitro] g path {
 }
 
 .userProfileInnerThemedWithBanner-2624Yx .note-6O4w9y .textarea-_59yqs,.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .note-6O4w9y .textarea-_59yqs,.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .note-6O4w9y .textarea-_59yqs:hover,.userProfileInnerThemedWithBanner-2624Yx .note-6O4w9y .textarea-_59yqs:hover{
+	background: linear-gradient(var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color))!important;
 	border: 1px solid var(--profile-message-input-border-color)!important;
 }
 
 .userProfileInnerThemedPremiumWithoutBanner-1yMS1H .note-6O4w9y textarea:focus,.userProfileInnerThemedWithBanner-2624Yx .note-6O4w9y textarea:focus {
+	background: linear-gradient(var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color))!important;
 	border: 1px solid var(--profile-message-input-border-color)!important;
 }
 
 .userProfileInnerThemedWithBanner-2624Yx .messageInputContainer-2rGDH8,.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .messageInputContainer-2rGDH8,.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .messageInputContainer-2rGDH8:hover,.userProfileInnerThemedWithBanner-2624Yx .messageInputContainer-2rGDH8:hover{
+	background: linear-gradient(var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color))!important;
 	border: 1px solid var(--profile-message-input-border-color)!important;
 }
 
@@ -6482,4 +6503,8 @@ svg[name=Nitro] g path {
 
 .theme-dark .imageUploaderIcon-2OHmFu {
     left: 210px;
+}
+
+.roleName-2ZJJYR {
+	color: #fff
 }
