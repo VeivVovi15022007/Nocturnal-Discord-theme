@@ -6560,3 +6560,7 @@ svg[name=Nitro] g path {
 .appAvatar-2htirv {
 	border-radius: 5px
 }
+
+.message-2CShn3.replying-eZ7p5z.selected-2LX7Jy, .mouse-mode.full-motion .replying-eZ7p5z:hover {
+	background-color: rgba(0,176,244,.1);
+}
