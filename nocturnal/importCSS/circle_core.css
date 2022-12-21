@@ -1936,6 +1936,10 @@ svg[name=Nitro] g path {
 	transition: all .2s ease
 }
 
+.wrapper-NhbLHG:active .content-1gYQeQ {
+	background-color: rgba(0,0,0,.15)!important
+}
+
 .listDefault-2F-w65 .clickable-23RaYz:hover .content-3xS9Lh,.side-2ur1Qk .themed-2-lozF.item-3XjbnG:hover,.wrapper-NhbLHG:hover .content-1gYQeQ,.content-1gYQeQ:hover,.listDefault-2F-w65 .clickable-1ctZ-H:hover .content-1Tgc42,.wrapper-NhbLHG:hover .content-1gYQeQ {
 	background-color: rgba(0,0,0,.25)!important
 }
@@ -1948,7 +1952,7 @@ svg[name=Nitro] g path {
 	background-color: rgba(0,0,0,.45)!important
 }
 
-.side-2ur1Qk .themed-2-lozF.item-3XjbnG:active::after,.topPill-3DJJNV .themed-2-lozF.item-3XjbnG:active::after,.side-2ur1Qk .themed-2-lozF.item-3XjbnG:hover::after,.side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG::after,.wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ::after,.wrapper-NhbLHG:hover .content-1gYQeQ::after,.modeSelected-3DmyhH .content-1gYQeQ::after,.wrapper-NhbLHG:hover .content-1gYQeQ::after{
+.wrapper-NhbLHG:active .content-1gYQeQ:active:after,.side-2ur1Qk .themed-2-lozF.item-3XjbnG:active::after,.topPill-3DJJNV .themed-2-lozF.item-3XjbnG:active::after,.side-2ur1Qk .themed-2-lozF.item-3XjbnG:hover::after,.side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG::after,.wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ::after,.wrapper-NhbLHG:hover .content-1gYQeQ::after,.modeSelected-3DmyhH .content-1gYQeQ::after,.wrapper-NhbLHG:hover .content-1gYQeQ::after{
 	transform: translateX(0)
 }
 
@@ -2277,7 +2281,7 @@ svg[name=Nitro] g path {
 	background-color: rgba(0,0,0,.25)!important
 }
 
-.clickable-28SzVr:active .layout-1qmrhw,.layout-1qmrhw:hover:after,.selected-1-Z6gm .layout-1qmrhw:after,.interactive-1vLZ_I:focus-within::after, .interactive-1vLZ_I:hover::after,.interactive-1vLZ_I.interactive-iyXY_x:hover:after,.interactiveSelected-29CP8y.selected-3veCBZ:after {
+.clickable-28SzVr:active .layout-1qmrhw:active:after,.layout-1qmrhw:hover:after,.selected-1-Z6gm .layout-1qmrhw:after,.interactive-1vLZ_I:focus-within::after, .interactive-1vLZ_I:hover::after,.interactive-1vLZ_I.interactive-iyXY_x:hover:after,.interactiveSelected-29CP8y.selected-3veCBZ:after {
 	transform: translateX(0)
 }
 
@@ -2763,8 +2767,8 @@ svg[name=Nitro] g path {
 	background-color: var(--backgroundDarker);
 }
 
-.theme-dark .tooltipGrey-lpLZjh, .tooltipPointer-3L49xb {
-	border-top-color: var(--backgroundDarker);
+.theme-dark .tooltipGrey-lpLZjh .tooltipPointer-3L49xb {
+	border-top-color: var(--backgroundDarker)!important;
 }
 
 .partyMember-YLjOa7 {
@@ -4600,7 +4604,7 @@ svg[name=Nitro] g path {
 	background-color: var(--primary)!important;
 }
 
-.authorize-2xTTr- {
+.oauth2Wrapper-p_8bbd .authorize-2xTTr-{
 	background-color: rgba(0,0,0,.35)!important;
 }
 
@@ -5297,7 +5301,8 @@ svg[name=Nitro] g path {
 }
 
 .role-2mCo-N {
-	background-color: rgba(0,0,0,.75);
+	background-color: transparent;
+	border-radius: 50px;
 }
 
 .usagePill-16kKHu {
@@ -6409,4 +6414,20 @@ svg[name=Nitro] g path {
 
 .userPopoutInner-1hXSeY .noIcon-3gSX9V{
 	background-color: var(--primary);
+}
+
+.theme-dark .tooltipBrand-20XsMA, .theme-light .tooltipBrand-20XsMA {
+	background-color: var(--backgroundDarker);
+}
+
+.theme-dark .tooltipBrand-20XsMA .tooltipPointer-3L49xb,.theme-light .tooltipBrand-20XsMA .tooltipPointer-3L49xb {
+	border-top-color: var(--backgroundDarker)!important;
+}
+
+.clickable-28SzVr:hover .layout-1qmrhw .activityText-1rR-8O {
+	color: #dcddde
+}
+
+.selected-1-Z6gm .layout-1qmrhw .activityText-1rR-8O,.clickable-28SzVr:active .layout-1qmrhw .activityText-1rR-8O {
+	color: #fff
 }
