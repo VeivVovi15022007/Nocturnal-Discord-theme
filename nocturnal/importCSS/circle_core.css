@@ -3501,12 +3501,22 @@ svg[name=Nitro] g path {
 	background-color: #0e1015
 }
 
+.chat-1-OBC7 .jumpToPresentBar-1cEnH0,.chat-1-OBC7 .jumpToPresentBar-1cEnH0:active {
+	margin-bottom: -8px;
+	padding-bottom: 0;
+}
+
 .chat-2ZfjoI .jumpToPresentBar-1cEnH0,.chat-2ZfjoI .jumpToPresentBar-1cEnH0:active {
 	margin-bottom: -8px;
 	padding-bottom: 0;
 }
 
 .chat-25x62K .jumpToPresentBar-1cEnH0,.chat-25x62K .jumpToPresentBar-1cEnH0:active {
+	margin-bottom: -8px;
+	padding-bottom: 0;
+}
+
+.chat-3t9F_n .jumpToPresentBar-1cEnH0,.chat-3t9F_n .jumpToPresentBar-1cEnH0:active {
 	margin-bottom: -8px;
 	padding-bottom: 0;
 }
@@ -6395,4 +6405,8 @@ svg[name=Nitro] g path {
 
 .message-2CShn3.replying-eZ7p5z.selected-2LX7Jy, .mouse-mode.full-motion .replying-eZ7p5z:hover {
 	background-color: rgba(0,176,244,.1);
+}
+
+.userPopoutInner-1hXSeY .noIcon-3gSX9V{
+	background-color: var(--primary);
 }
