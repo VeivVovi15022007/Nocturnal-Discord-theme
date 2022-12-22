@@ -4073,7 +4073,7 @@ svg[name=Nitro] g path {
 	border-radius: 50px;
 }
 
-.input-2g-os5:not(.note-3TX9O7 .textarea-_59yqs,.collapsed-23aTv6 .title-1v5ZfI,.title-1v5ZfI) {
+.input-2g-os5:not(.messageInput-1KI8l8,.note-3TX9O7 .textarea-_59yqs,.collapsed-23aTv6 .title-1v5ZfI,.title-1v5ZfI) {
     background-color: rgb(0,0,0,.95)!important;
 }
 
@@ -6179,14 +6179,17 @@ svg[name=Nitro] g path {
 }
 
 .userProfileInnerThemedWithBanner-2624Yx .note-6O4w9y .textarea-_59yqs,.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .note-6O4w9y .textarea-_59yqs,.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .note-6O4w9y .textarea-_59yqs:hover,.userProfileInnerThemedWithBanner-2624Yx .note-6O4w9y .textarea-_59yqs:hover{
+	background: linear-gradient(var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color))!important;
 	border: 1px solid var(--profile-message-input-border-color)!important;
 }
 
 .userProfileInnerThemedPremiumWithoutBanner-1yMS1H .note-6O4w9y textarea:focus,.userProfileInnerThemedWithBanner-2624Yx .note-6O4w9y textarea:focus {
+	background: linear-gradient(var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color))!important;
 	border: 1px solid var(--profile-message-input-border-color)!important;
 }
 
 .userProfileInnerThemedWithBanner-2624Yx .messageInputContainer-2rGDH8,.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .messageInputContainer-2rGDH8,.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .messageInputContainer-2rGDH8:hover,.userProfileInnerThemedWithBanner-2624Yx .messageInputContainer-2rGDH8:hover{
+	background: linear-gradient(var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color))!important;
 	border: 1px solid var(--profile-message-input-border-color)!important;
 }
 
