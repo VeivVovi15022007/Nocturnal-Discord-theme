@@ -3723,8 +3723,6 @@ svg[name=Nitro] g path {
 
 .mention {
 	background-color: #008ae64d;
-	background-color: rgba(0,0,0,.23);
-	color: var(--primary);
 	border-radius: 50px;
 	padding: .5px 5px;
 	transition: all .2s ease;
