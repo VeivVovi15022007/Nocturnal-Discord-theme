@@ -889,7 +889,7 @@ svg[name=Nova_Discord] * {
 	color: #fff!important
 }
 
-#bd-settingspane-container .bd-pfbtn:hover, .viewServerButton-2-uqle:hover, .lookFilled-yCfaCM.colorTransparent-13Bvvi:hover, .lookFilled-yCfaCM.colorBrandNew-2-gGsS:hover, .lookFilled-yCfaCM.colorGrey-2iAG-B:hover, #friends .tab-bar .tab-bar-item.tab-bar-item-primary,.bd-detached-css-editor #bd-customcss-attach-controls button:hover,.bd-modal-wrapper .footer button:hover,.bda-slist .bda-footer button:hover,.headerButtonColor-3NRbCG:hover,.lookFilled-yCfaCM.colorBrand-I6CyqQ:hover:not(:disabled),.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover,.lookOutlined-3yKVGo.colorBrand-I6CyqQ:hover,.plugin-settings button:hover,.questionMark-CWEQZn:hover,.standardSidebarView-E9Pc3j #bd-customcss-attach-controls button:hover,.tabBar-1qdMr5 .primary-3j8BhM:hover,.topPill-3DJJNV .itemSelected-1qLhcL {
+#bd-settingspane-container .bd-pfbtn:hover, .viewServerButton-2-uqle:hover, .lookFilled-yCfaCM.colorTransparent-13Bvvi:hover, .lookFilled-yCfaCM.colorBrandNew-2-gGsS:hover, .lookFilled-yCfaCM.colorGrey-2iAG-B:hover, #friends .tab-bar .tab-bar-item.tab-bar-item-primary,.bd-detached-css-editor #bd-customcss-attach-controls button:hover,.bd-modal-wrapper .footer button:hover,.bda-slist .bda-footer button:hover,.headerButtonColor-3NRbCG:hover,.lookFilled-yCfaCM.colorBrand-I6CyqQ:hover:not(:disabled),.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover:not(:disabled),.lookOutlined-3yKVGo.colorBrand-I6CyqQ:hover,.plugin-settings button:hover,.questionMark-CWEQZn:hover,.standardSidebarView-E9Pc3j #bd-customcss-attach-controls button:hover,.tabBar-1qdMr5 .primary-3j8BhM:hover,.topPill-3DJJNV .itemSelected-1qLhcL {
 	color: #fff!important;
 	border: 2.3px solid transparent!important;
 	background-color: var(--primary);
@@ -6863,4 +6863,8 @@ svg[name=Nitro] g path {
 
 .roleRowDragging-k2gTPJ {
 	background-color: rgba(0,0,0,0)!important;
+}
+
+.iconBackground-3qSXiM {
+	border-radius: 5px
 }
