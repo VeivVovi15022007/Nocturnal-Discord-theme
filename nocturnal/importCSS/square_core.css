@@ -708,10 +708,6 @@ div[data-contents="true"] {
 	mix-blend-mode: luminosity
 }
 
-.hljs,.markup-eYLPri code,.markup-eYLPri code.inline {
-	background-color: rgba(0,0,0,.25)!important
-}
-
 .hljs {
 	border-radius: 0 6px 6px 6px
 }
@@ -2039,7 +2035,7 @@ svg[name=Nitro] g path {
 	display: none
 }
 
-.content-1gYQeQ::after,.side-2ur1Qk .themed-2-lozF.item-3XjbnG::after,.wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ::after,.modeSelected-3DmyhH .content-1gYQeQ::after,.content-1gYQeQ::after {
+.content-3at_AU::after,.side-2ur1Qk .themed-2-lozF.item-3XjbnG::after,.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU::after,.modeSelected-3DmyhH .content-1gYQeQ::after,.content-1gYQeQ::after {
 	content: "";
 	height: 2px;
 	width: 100%;
@@ -2056,7 +2052,7 @@ svg[name=Nitro] g path {
 	background-color: rgba(0,0,0,.15)!important
 }
 
-.listDefault-2y5Z9D .clickable-23RaYz:hover .content-3xS9Lh,.side-2ur1Qk .themed-2-lozF.item-3XjbnG:hover,.wrapper-NhbLHG:hover .content-1gYQeQ,.content-1gYQeQ:hover,.listDefault-2F-w65 .clickable-1ctZ-H:hover .content-1Tgc42,.wrapper-NhbLHG:hover .content-1gYQeQ {
+.listDefault-2y5Z9D .clickable-23RaYz:hover .content-3xS9Lh,.side-2ur1Qk .themed-2-lozF.item-3XjbnG:hover,.wrapper-1ucjTd:hover .content-3at_AU,.content-1gYQeQ:hover,.listDefault-2F-w65 .clickable-1ctZ-H:hover .content-1Tgc42,.wrapper-NhbLHG:hover .content-1gYQeQ {
 	background-color: rgba(0,0,0,.25)!important
 }
 
@@ -2064,11 +2060,11 @@ svg[name=Nitro] g path {
 	background-color: rgba(0,0,0,.35)!important;
 }
 
-.side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG,.wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ,.modeSelected-3DmyhH .content-1gYQeQ,.content-1gYQeQ::after,.listDefault-2F-w65 .clickable-1ctZ-H.selected-1oxcpH .content-1Tgc42 {
+.side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG,.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU,.modeSelected-3DmyhH .content-1gYQeQ,.content-1gYQeQ::after,.listDefault-2F-w65 .clickable-1ctZ-H.selected-1oxcpH .content-1Tgc42 {
 	background-color: rgba(0,0,0,.45)!important
 }
 
-.wrapper-NhbLHG:active .content-1gYQeQ:active:after,.side-2ur1Qk .themed-2-lozF.item-3XjbnG:active::after,.topPill-3DJJNV .themed-2-lozF.item-3XjbnG:active::after,.side-2ur1Qk .themed-2-lozF.item-3XjbnG:hover::after,.side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG::after,.wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ::after,.wrapper-NhbLHG:hover .content-1gYQeQ::after,.modeSelected-3DmyhH .content-1gYQeQ::after,.wrapper-NhbLHG:hover .content-1gYQeQ::after{
+.wrapper-NhbLHG:active .content-1gYQeQ:active:after,.side-2ur1Qk .themed-2-lozF.item-3XjbnG:active::after,.topPill-3DJJNV .themed-2-lozF.item-3XjbnG:active::after,.side-2ur1Qk .themed-2-lozF.item-3XjbnG:hover::after,.side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG::after,.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU::after,.wrapper-1ucjTd:hover .content-3at_AU::after,.modeSelected-3DmyhH .content-1gYQeQ::after,.wrapper-NhbLHG:hover .content-1gYQeQ::after{
 	transform: translateX(0)
 }
 
@@ -2143,7 +2139,7 @@ svg[name=Nitro] g path {
 }
 
 .markup-eYLPri code,.markup-eYLPri code.inline {
-	background-color: rgba(0,0,0,.65)!important
+	background: rgba(0,0,0,.65)!important
 }
 
 .tierNoneContainer-3hhK3h {
@@ -6867,4 +6863,8 @@ svg[name=Nitro] g path {
 
 .iconBackground-3qSXiM {
 	border-radius: 5px
+}
+
+.after_inlineCode-2_JXPm, .before_inlineCode-1zngJj, .inlineCode-ERyvy_ {
+	background: rgba(0,0,0,.65)!important;
 }
