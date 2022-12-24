@@ -6868,3 +6868,11 @@ svg[name=Nitro] g path {
 .after_inlineCode-2_JXPm, .before_inlineCode-1zngJj, .inlineCode-ERyvy_ {
 	background: rgba(0,0,0,.65)!important;
 }
+
+.calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--keyboard-selected, .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--selected:hover, .calendarPicker-sDhzdi .react-datepicker__day:hover {
+	background-color: var(--primary)!important;
+}
+
+.container-1J51uI {
+	background-color: var(--backgroundDarker)!important;
+}
