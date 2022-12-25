@@ -736,8 +736,16 @@ div[data-contents="true"] {
 	background-color: var(--backgroundDark)!important
 }
 
-.bg-AYqtMd {
-	mask: linear-gradient(to bottom,#000,transparent)
+.wrapper-1ZcZW- {
+	background: #008ae64d;
+	border-radius: 50px;
+	padding: .5px 5px;
+	transition: all .2s ease;
+}
+
+.wrapper-1ZcZW-.interactive:hover,.wrapper-1ZcZW-.interactive[aria-expanded=true] {
+	background-color: var(--primary);
+	color: #fff;
 }
 
 svg[name=Nova_Discord] * {
@@ -1731,21 +1739,6 @@ svg.gameIcon-1siQqm {
 	border-radius: 8px
 }
 
-.reaction-3vwAF2,.reaction-3vwAF2:hover {
-	background-color: rgba(0,0,0,.25);
-	border-radius: 50px
-}
-
-.reaction-3vwAF2.reactionMe-1PwQAc {
-	background-color: #008ae626!important;
-	border-color: var(--primary)!important;
-	border-radius: 50px
-}
-
-.reaction-3vwAF2.reactionMe-1PwQAc .reactionCount-26U4As {
-	color: var(--primary)!important;
-}
-
 .bodySection-3iDdop,.card-NB61oR,.focused-2FU0YH,.popoutList-10IFAa,.root-3mkK8X,.row-2qQ--F {
 	background-color: var(--backgroundDarker)!important
 }
@@ -2204,31 +2197,6 @@ svg[name=Nitro] g path {
 
 .container-1S70rv .sectionTag-28mLyE,.wrapper-2SplAX {
 	background-color: var(--backgroundDarker)!important
-}
-
-.reactionInner-YJjOtT {
-	border-radius: 50px;
-}
-
-.reactionInner-1po5__ {
-	background-color: var(--backgroundDarker)!important;
-	border-radius: 50px;
-}
-
-.reaction-102jx9 {
-	background-color: rgba(0,0,0,.25);
-}
-
-.reaction-102jx9:hover {
-	background-color: transparent
-}
-
-.reaction-102jx9.reactionMe-2zhiyZ {
-	background-color: rgba(0,0,0,.23)!important;
-}
-
-.reaction-102jx9.reactionMe-2zhiyZ .reactionCount-SWXh9W {
-	color: var(--primary)!important
 }
 
 .panels-3wFtMD, .privateChannels-oVe7HL {
@@ -3833,19 +3801,10 @@ svg[name=Nitro] g path {
 }
 
 .mention {
-	background-color: #008ae64d;
+	background: #008ae64d;
 	border-radius: 50px;
 	padding: .5px 5px;
 	transition: all .2s ease;
-}
-
-.roleMention-11Aaqi[style*=color] {
-	background-color: rgba(0,0,0,.23);
-}
-
-.mention.interactive:hover,.mention.interactive[aria-expanded=true] {
-	background-color: var(--primary);
-	color: #fff
 }
 
 .users-2JoyGL {
@@ -4137,7 +4096,7 @@ svg[name=Nitro] g path {
 	box-shadow: none;
 }
 
-.backdrop-2ByYRN.withLayer-2VVmpp {
+.withLayer-2VVmpp,.backdrop-2ByYRN {
 	backdrop-filter: blur(10px);
 }
 
@@ -6751,4 +6710,54 @@ svg[name=Nitro] g path {
 
 .userProfileInnerThemedPremiumWithoutBanner-1yMS1H .top-K_jibn .selected-g-kMVV.themed-2-lozF.item-3XjbnG,.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .top-K_jibn .themed-2-lozF.item-3XjbnG:active,.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .top-K_jibn .themed-2-lozF.item-3XjbnG:hover {
 	border-image: linear-gradient(to right,var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color)) 1;
+}
+
+.reaction-3vwAF2 {
+	background-color: rgba(0,0,0,.25);
+	border-radius: 50px
+}
+
+.reaction-3vwAF2:hover {
+	background-color: rgba(0,0,0,.35);
+	border-radius: 50px
+}
+
+.reaction-3vwAF2:active {
+	background-color: rgba(0,0,0,.45);
+	border-radius: 50px;
+}
+
+.reaction-3vwAF2.reactionMe-1PwQAc {
+	background-color: #008ae626!important;
+	border-color: var(--primary)!important;
+	border-radius: 50px
+}
+
+.reaction-3vwAF2.reactionMe-1PwQAc .reactionCount-26U4As {
+	color: var(--primary)!important;
+}
+
+.reaction-102jx9 {
+	background-color: rgba(0,0,0,.25);
+	border-radius: 50px;
+}
+
+.reaction-102jx9:hover {
+	background-color: rgba(0,0,0,.35);
+	border-radius: 50px
+}
+
+.reaction-102jx9:active {
+	background-color: rgba(0,0,0,.45);
+	border-radius: 50px;
+}
+
+.reaction-102jx9.reactionMe-2zhiyZ {
+	background-color: #008ae626!important;
+	border-color: var(--primary)!important;
+	border-radius: 50px
+}
+
+.reaction-102jx9.reactionMe-2zhiyZ .reactionCount-SWXh9W {
+	color: var(--primary)!important
 }
