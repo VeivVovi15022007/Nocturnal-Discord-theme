@@ -6699,10 +6699,56 @@ svg[name=Nitro] g path {
 	background: rgba(0,0,0,.65)!important;
 }
 
+.calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--keyboard-selected, .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--selected:hover, .calendarPicker-sDhzdi .react-datepicker__day:hover {
+	background-color: var(--primary)!important;
+}
+
 .container-1J51uI,.userPanelOuter-xc-WYi.userProfileOuterUnthemed-2b2rsv.profileColors-3Y0XaR.theme-dark.default-colors .userPanelInnerThemed-2xZFjl {
 	background: var(--backgroundDarker)!important;
 }
 
 .userProfileOuterThemed-3EfHmv .badgeList-1EecKl{
 	background: linear-gradient(var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color));
+}
+
+.userProfileInnerThemedWithBanner-2624Yx .lookFilled-yCfaCM.colorGreen-3y-Z79,.lookFilled-yCfaCM.colorGreen-3y-Z79:disabled {
+	background-color: rgba(0,0,0,.5)!important;
+	border: 2.3px solid var(--profile-gradient-primary-color);
+	border-radius: 6px!important;
+	color: #fff!important
+}
+
+.userProfileInnerThemedWithBanner-2624Yx .lookFilled-yCfaCM.colorGreen-3y-Z79:hover:not(:disabled) {
+	color: #fff!important;
+	border: 2.3px solid transparent!important;
+	background-color: var(--profile-gradient-primary-color);
+	background-image: linear-gradient(to right,var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color));
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 200% 200%;
+}
+
+.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .lookFilled-yCfaCM.colorGreen-3y-Z79,.lookFilled-yCfaCM.colorGreen-3y-Z79:disabled {
+	background-color: rgba(0,0,0,.5)!important;
+	border: 2.3px solid var(--profile-gradient-primary-color);
+	border-radius: 6px!important;
+	color: #fff!important
+}
+
+.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .lookFilled-yCfaCM.colorGreen-3y-Z79:hover:not(:disabled) {
+	color: #fff!important;
+	border: 2.3px solid transparent!important;
+	background-color: var(--profile-gradient-primary-color);
+	background-image: linear-gradient(to right,var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color));
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 200% 200%;
+}
+
+.userProfileInnerThemedWithBanner-2624Yx .top-K_jibn .selected-g-kMVV.themed-2-lozF.item-3XjbnG,.userProfileInnerThemedWithBanner-2624Yx .top-K_jibn .themed-2-lozF.item-3XjbnG:active,.userProfileInnerThemedWithBanner-2624Yx .top-K_jibn .themed-2-lozF.item-3XjbnG:hover {
+	border-image: linear-gradient(to right,var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color)) 1;
+}
+
+.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .top-K_jibn .selected-g-kMVV.themed-2-lozF.item-3XjbnG,.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .top-K_jibn .themed-2-lozF.item-3XjbnG:active,.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .top-K_jibn .themed-2-lozF.item-3XjbnG:hover {
+	border-image: linear-gradient(to right,var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color)) 1;
 }
