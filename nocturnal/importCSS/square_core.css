@@ -368,7 +368,7 @@
 .wrapper-3AZUiP.errorPage-2pZ2Kq {
 	background-color: var(--backgroundDark)!important
 }
-.memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover,.enabled-1t_Gxm:hover,.nowPlayingColumn-1eCBCN,.peopleList-2VBrVI,.container-2cd8Mz,#friends,.appMount-2yBXZl,.applicationStore-2nk7Lo,.article-3kb3qm,.body-3ND3kc,.channels-Ie2l6A,.chat-2ZfjoI,.chat-2ZfjoI form,.container-2Thooq,.container-2McqkF,.container-PNkimc,.content-1jQy2l,.footer-1fjuF6,.gameLibrary-TTDw4Y,.guildsWrapper-5TJh6A,.header-2EadGG,.headerBar-UHpsPw,.members-3WRCEx,.messagesWrapper-RpOMA3,.root-1BQpZw,.root-26DmKJ,.typeWindows-2-g3UY,.video-eAcneW,.scroller-hE2gWq {
+.memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover,.enabled-1t_Gxm:hover,.nowPlayingColumn-1eCBCN,.peopleList-2VBrVI,.container-2cd8Mz,#friends,.applicationStore-2nk7Lo,.article-3kb3qm,.body-3ND3kc,.channels-Ie2l6A,.chat-2ZfjoI,.chat-2ZfjoI form,.container-2Thooq,.container-2McqkF,.container-PNkimc,.content-1jQy2l,.footer-1fjuF6,.gameLibrary-TTDw4Y,.guildsWrapper-5TJh6A,.header-2EadGG,.headerBar-UHpsPw,.members-3WRCEx,.messagesWrapper-RpOMA3,.root-1BQpZw,.root-26DmKJ,.typeWindows-2-g3UY,.video-eAcneW,.scroller-hE2gWq {
 	background-color: var(--backgroundDark)!important
 }
 .peopleListItem-u6dGxF:hover,
@@ -1121,12 +1121,12 @@ svg[name=Nova_Discord] * {
 	background-color: var(--backgroundDark);
 }
 
-.membersGroup-2eiWxl,.title-3aDrFs,.headerText-1qIDDT,.header-2Kx1US,.sectionTitle-1P1u0N.container-q97qHp{
-	color: hsla(0,100%,100%,.65)!important
+.header-2Kx1US,.mainContent-uDGa6R,.sectionTitle-1P1u0N,.title-3aDrFs,.membersGroup-2eiWxl,.header-2Kx1US,.iconVisibility-3pLDEs,.name-3BUDLf.container-q97qHp,.headerText-1qIDDT,.privateChannelRecipientsInviteButtonIcon-1ObKXK.icon-2xnN2Y {
+	color: hsla(0,100%,100%,.65)
 }
 
-.headerText-1qIDDT:hover {
-	color: hsla(0,100%,100%,.95)!important
+.mainContent-uDGa6R:hover,.iconVisibility-3pLDEs:hover,.name-3BUDLf.container-q97qHp:hover,.headerText-1qIDDT:hover,.privateChannelRecipientsInviteButtonIcon-1ObKXK.icon-2xnN2Y:hover {
+	color: hsla(0,100%,100%,.95)
 }
 
 .linkButtonIcon-7rsZcu {
@@ -3096,7 +3096,7 @@ svg[name=Nitro] g path {
 	right: 4px;
 }
 
-.content-1gYQeQ {
+.content-3at_AU {
 	margin-right: 2px;
 }
 
@@ -3786,6 +3786,11 @@ svg[name=Nitro] g path {
 .expanded-3lghlw .searchResultMessage-1fxgXh.hit-1fVM9e {
 	background-color: var(--backgroundDark);
 	border-color: var(--backgroundDarker);
+}
+
+.searchResult-9tQ1uo.expanded-3lghlw {
+	background-color: var(--backgroundDarker);
+	border: 1.2px solid rgba(1,1,1,.25)
 }
 
 .avatarWrapper-1B9FTW:hover {
@@ -5212,12 +5217,16 @@ svg[name=Nitro] g path {
 	background-color: var(--backgroundDark);
 }
 
-.stepContainer-SaPPyG:hover {
+.stepContainer-SaPPyG {
+	background-color: var(--backgroundDark);
+}
+
+.stepContainer-SaPPyG:hover,.stepContainer-SaPPyG.completed-30eMdh {
 	background: rgba(0,0,0,.25);
 }
 
-.stepContainer-SaPPyG[aria-checked=true] {
-	background-color: rgb(15, 18, 24);
+.stepContainer-SaPPyG.completed-30eMdh:hover {
+	background: rgba(0,0,0,.45);
 }
 
 .stepStatus-3oAHkt[style*="background-color: var(--status-positive-background);"] {
@@ -6803,7 +6812,9 @@ svg[name=Nitro] g path {
 .text-xs-bold-1NF1lz[style*="color: var(--interactive-normal);"],.defaultColor-1GKx81[style*="color: var(--interactive-normal);"],
 .defaultColor-HXu-5n[style*="color: var(--interactive-normal);"],.text-xs-normal-3SiVjE[style*="color: var(--interactive-normal);"],
 .text-xs-medium-2LRpEj[style*="color: var(--interactive-normal);"],.text-sm-medium-3Pz3rB[style*="color: var(--interactive-normal);"],
-.text-md-medium-2avxhQ[style*="color: var(--interactive-normal);"],.actionTextHelper-11N8co {
+.text-md-medium-2avxhQ[style*="color: var(--interactive-normal);"],.actionTextHelper-11N8co,.slowModeIcon-2QRVwO,.subText-1gefwV,
+.entryIcon-2bcrKV,.text-sm-normal-3Zj3Iv[style*="color: var(--text-muted)"],.text-xs-medium-2LRpEj[style*="color: var(--text-muted)"],
+.text-xs-normal-3SiVjE[style*="color: var(--text-muted)"] {
 	color: #fff!important
 }
 
@@ -6873,6 +6884,10 @@ svg[name=Nitro] g path {
 	background-color: var(--primary)!important;
 }
 
-.container-1J51uI {
-	background-color: var(--backgroundDarker)!important;
+.container-1J51uI,.userPanelOuter-xc-WYi.userProfileOuterUnthemed-2b2rsv.profileColors-3Y0XaR.theme-dark.default-colors .userPanelInnerThemed-2xZFjl {
+	background: var(--backgroundDarker)!important;
+}
+
+.userProfileOuterThemed-3EfHmv .badgeList-1EecKl{
+	background: linear-gradient(var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color));
 }
