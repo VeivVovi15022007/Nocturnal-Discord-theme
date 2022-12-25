@@ -3362,8 +3362,12 @@ svg[name=Nitro] g path {
 	background-color: var(--backgroundDark);
 }
 
-.featureIcon-2sTnDK path {
-	fill: var(--primary)
+.featureIcon-2sTnDK[viewBox="0 0 18 18"] path {
+	fill: var(--primary)!important
+}
+
+.featureCards-3kbM0o .featureIcon-2sTnDK path{
+	fill: var(--primary)!important
 }
 
 .avatar-3jcVeZ {
