@@ -5,3 +5,7 @@ Installion still the same:
 3. Move the theme here: **%APPDATA%\BetterDiscord\themes** or **open discord >settings >themes >open theme folder and move theme file there**
 4. For support and bug reports go to [my discord server](https://discord.gg/7GTyYnD7Ke).
 5. Have fun with the new theme :3
+# Preview square version
+![alt text](https://i.imgur.com/xy3rfdd.png)
+# Preview circle version
+![alt text](https://i.imgur.com/JgTp5c7.png)
