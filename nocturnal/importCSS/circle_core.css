@@ -2917,10 +2917,6 @@ svg[name=Nitro] g path {
 	border: none;
 }
 
-.container-2o3qEW{
-	background:0 0!important;flex-direction:unset
-}
-
 .members-3WRCEx, .members-3WRCEx>div {
 	background-color: var(--backgroundDark);
 }
@@ -5790,6 +5786,19 @@ svg[name=Nitro] g path {
 	background-color: var(--backgroundDark);
 }
 
+.header-3anOjb {
+	color: #fff
+}
+
+.profileColors-3Y0XaR.theme-dark .title-1r9MQ6,.userProfileInnerThemedNonPremium-1gT-zY .title-1r9MQ6 {
+	color: #fff
+}
+
+.container-2o3qEW {
+	background: var(--backgroundDark);
+	border-left: 1px solid rgba(0,0,0,.45)
+}
+
 .container-13pE3E.loaderContainer-5yVo05.checklist-Asy_56 {
 	background-color: var(--backgroundDarker);
 }
@@ -6792,4 +6801,8 @@ svg[name=Nitro] g path {
 
 .checkIcon-3eAeN_, .memberCount-2G9rxE {
 	background-color: var(--primary);
+}
+
+.chat-2ZfjoI .container-ZMc96U.themed-Hp1KC_ {
+    border-left: 1px solid rgba(1,1,1,0.25)!important
 }
