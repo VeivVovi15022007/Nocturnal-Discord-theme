@@ -53,6 +53,11 @@
 	height: calc(100% - 2px)!important;
 }
 
+.participantAvatar-3U4t_W[role="img"][aria-label]:before {
+	width: calc(100% - 4.5px)!important;
+	height: calc(100% - 4.5px)!important;
+}
+
 .avatar-3mTjvZ {
 	border-radius: 5px;
 	border: 7px solid var(--backgroundDarker);
@@ -638,7 +643,7 @@ div[data-contents="true"] {
 	background-color: var(--backgroundDark)!important
 }
 
-.search-2Mwzzq .searchBar-jGtisZ .DraftEditor-root {
+.search-39IXmY .search-2Mwzzq .searchBar-jGtisZ .DraftEditor-root {
 	line-height: 16px;
 	float: left
 }
@@ -2574,17 +2579,15 @@ svg[name=Nitro] g path {
 .tertiary-1e-lAP {
 	margin-left: 0px;
 	margin-right: 12px;
-	border-radius: 5px;
+	border-radius: 50px;
 	background-color: rgba(0,0,0,.15);
-	border-radius: 5px;
 }
 
 .tertiary-1e-lAP:hover:not(.disabled-184-il) {
 	margin-left: 0px;
 	margin-right: 12px;
-	border-radius: 5px;
+	border-radius: 50px;
 	background-color: rgba(0,0,0,.45);
-	border-radius: 5px;
 }
 
 .closeButton-3CiW2j {
@@ -2593,12 +2596,10 @@ svg[name=Nitro] g path {
 
 .secondary-2bzKEX {
 	background-color: rgba(0,0,0,0);
-	border-radius: 5px;
 }
 
 .secondary-2bzKEX:hover:not(.disabled-184-il) {
 	background-color: rgba(0,0,0,.25);
-	border-radius: 5px;
 }
 
 .theme-dark .footer-2VgWkh {
@@ -2714,11 +2715,11 @@ svg[name=Nitro] g path {
 	background-color: rgb(0,0,0,.25);
 }
 
-.emptyChannelIcon-1YdEz2 {
+.emptyChannelIcon-3IXV5M {
 	background-color: rgba(0,0,0,0);
 }
 
-.folder-241Joy,.folder-241Joy {
+.folder-241Joy {
 	background-color: rgb(10,12,16)!important;
 	border-radius: 12px;
 }
@@ -3223,7 +3224,7 @@ svg[name=Nitro] g path {
 	background-color: #593695;
 }
 
-.card-1SdQ2-,.theme-dark .scroller-2GkvCq,.emptyChannelIcon-1YdEz2,.stageIconBackground-22nTnK,.iconBackground-3qSXiM,.iconBackground-3fyZsZ {
+.card-1SdQ2-,.theme-dark .scroller-2GkvCq,.emptyChannelIcon-1YdEz2,.stageIconBackground-22nTnK,.iconBackground-3qSXiM,.iconBackground-3fyZsZ,.iconBackground-F3MGnK {
 	border: none;
 	background-color: rgba(0,0,0,.2);
 }
@@ -4181,17 +4182,14 @@ svg[name=Nitro] g path {
 
 .icon-3CZSYe[style*="background-color: var(--status-green-600);"] {
 	background-color: #43b581!important;
-	border-radius: 5px
 }
 
 .icon-3CZSYe[style*="background-color: var(--brand-new-500);"] {
 	background-color: var(--primary)!important;
-	border-radius: 5px
 }
 
 .icon-3CZSYe[style*="background-color: var(--primary-dark-700);"] {
 	background-color: rgba(0,0,0,.85)!important;
-	border-radius: 5px
 }
 
 .raisedHandCount-3Pt7xw {
@@ -4200,11 +4198,11 @@ svg[name=Nitro] g path {
 }
 
 .container-1IyjjY {
-	background-color: rgba(0,0,0,.35)
+	background-color: rgba(0,0,0,.45)
 }
 
 .container-1IyjjY:hover {
-	background-color: rgba(0,0,0,.55)
+	background-color: rgba(0,0,0,.25)
 }
 
 .rowContainer-3t7486:hover {
@@ -4234,7 +4232,7 @@ svg[name=Nitro] g path {
 	right: 4.5px;
 }
 
-.container-oZq3fb {
+.container-oZq3fb,.content-3EIQ7b {
 	background-color: var(--backgroundDark)!important;
     box-shadow: inset 0 0 100000px rgba(0,0,0,.5);
     border: none;
@@ -4507,12 +4505,10 @@ svg[name=Nitro] g path {
 
 .roleRow-230vCm:hover:not(.roleRowDisableHover-3En0vy,.roleRowDragging-k2gTPJ) .circleButton-2Yr5A1 {
 	background-color: rgba(0,0,0,.55)!important;
-	border-radius: 5px;
 }
 
 .icon-2DGsye {
 	background-color: rgba(0,0,0,.55)!important;
-	border-radius: 5px
 }
 
 .container-2rzKKA {
@@ -4670,12 +4666,10 @@ svg[name=Nitro] g path {
 
 .listRowCircle-Yp4XyP {
 	background-color: rgba(0,0,0,.35);
-	border-radius: 5px
 }
 
 .circle-2tR2Qh,.circle-1g-jMn{
 	background-color: rgba(0,0,0,.35)!important;
-	border-radius: 5px
 }
 
 .guildContainer-1O-rjS {
@@ -4800,7 +4794,6 @@ svg[name=Nitro] g path {
 
 .stepCountIcon-1A2Rxd {
     background-color: rgba(0,0,0,.35)!important;
-	border-radius: 5px;
 }
 
 .mentionLimitContainer-zBzr5i {
@@ -4858,7 +4851,6 @@ svg[name=Nitro] g path {
 
 .actionContainer-EzNGrb {
 	background-color: rgba(0,0,0,.35)!important;
-	border-radius: 5px;
 }
 
 .keywordsTextArea-3QkFoG{
@@ -4920,10 +4912,6 @@ svg[name=Nitro] g path {
 	background-color: rgba(0,0,0,.25);
 }
 
-.iconWrapper-il75HH {
-	border-radius: 5px;
-}
-
 .premiumFeatureBorder-3vL7bn {
 	background-color: var(--backgroundDark);
 }
@@ -4960,7 +4948,6 @@ svg[name=Nitro] g path {
 
 .ruleIconContainer-dXW56- {
 	background-color: rgba(0,0,0,.35);
-	border-radius: 5px;
 }
 
 .match-3CIWFq {
@@ -4973,17 +4960,14 @@ svg[name=Nitro] g path {
 
 .compactButton-3hG-bs{
 	background-color: rgba(0,0,0,.35);
-	border-radius: 5px;
 }
 
 .compactButton-3hG-bs:hover{
 	background-color: var(--backgroundDarker);
-	border-radius: 5px;
 }
 
 .compactButton-3hG-bs:active{
 	background-color: var(--backgroundDarker);
-	border-radius: 5px;
 }
 
 .header-11eigE{
@@ -5039,11 +5023,9 @@ svg[name=Nitro] g path {
 	background-color: var(--backgroundDarker);
 }
 .countContainer-3uQ087{
-	border-radius: 5px;
 	background-color: var(--primary);
 }
 .countContainer-3DOo5v{
-	border-radius: 5px;
 	background-color: var(--primary);
 }
 .pill-3pRQlO.clickable-3YTfAq.tag-3T_qsl{
@@ -5063,15 +5045,12 @@ svg[name=Nitro] g path {
 }
 .pill-3pRQlO.clickable-3YTfAq.small-1j51ag{
 	background-color: rgba(0,0,0,.95);
-	border-radius: 5px;
 }
 .pill-3pRQlO.clickable-3YTfAq.small-1j51ag:hover{
 	background-color: var(--backgroundDark);
-	border-radius: 5px;
 }
 .pill-3pRQlO.small-1j51ag{
 	background-color: rgba(0,0,0,.55);
-	border-radius: 5px;
 }
 .sortButton-n-cIAH{
 	background-color: rgba(0,0,0,.35);
@@ -5081,11 +5060,9 @@ svg[name=Nitro] g path {
 }
 .tagsButton-4pwOKH{
 	background-color: rgba(0,0,0,.35);
-	border-radius: 5px;
 }
 .tagsButton-4pwOKH:hover,.tagsButton-4pwOKH[aria-expanded=true] {
 	background-color: var(--backgroundDarker);
-	border-radius: 5px;
 }
 .discordIcon-2-SnKe {
 	border-radius: 5px;
@@ -5287,7 +5264,6 @@ svg[name=Nitro] g path {
 
 .iconWrapper-3FqQ75{
 	background-color: rgba(0,0,0,.2);
-	border-radius: 5px;
 }
 
 .container-3YcgdM{
@@ -5349,12 +5325,10 @@ svg[name=Nitro] g path {
 
 .contentCircle-15IFyT {
 	background-color: var(--primary);
-	border-radius: 5px
 }
 
 .iconWrapper-1sOtkE {
 	background-color: rgba(0,0,0,.55);
-	border-radius: 5px
 }
 
 .list-3YHPPb {
@@ -5527,10 +5501,6 @@ svg[name=Nitro] g path {
 	border-radius: 18px!important;
 }
 
-.icon-iw1n8C {
-	border-radius: 5px;
-}
-
 .list-1bztb- {
     background-color: var(--backgroundDarker)!important
 }
@@ -5648,7 +5618,6 @@ svg[name=Nitro] g path {
 
 .icon-2ujrkG {
 	background-color: rgba(0,0,0,.35);
-	border-radius: 5px
 }
 
 .upsellContainer-TwfTaF {
@@ -5702,7 +5671,6 @@ svg[name=Nitro] g path {
 
 .iconContainer-2R-3M1 {
 	background-color: rgba(0,0,0,.2);
-	border-radius: 5px;
 }
 
 .container-3HMTms.containerCard-2kwJKN.collapsedLayout-2ZTglJ {
@@ -5898,7 +5866,6 @@ svg[name=Nitro] g path {
 
 .container-2o3qEW {
 	background: var(--backgroundDark);
-	border-left: 1px solid rgba(0,0,0,.45)
 }
 
 .container-13pE3E.loaderContainer-5yVo05.checklist-Asy_56 {
@@ -6221,7 +6188,6 @@ svg[name=Nitro] g path {
 }
 
 .icon-3uOoI3 {
-	border-radius: 5px;
 	background-color: rgba(0,0,0,.25);
 	border: 7px solid rgba(0,0,0,.25);
 }
@@ -6244,10 +6210,6 @@ svg[name=Nitro] g path {
 	text-decoration: underline;
 }
 
-.actionButton-3-B2x- {
-	border-radius: 5px;
-}
-
 .wrapper-1VLyxH[style="width: 20px; height: 20px;"] foreignObject {
     mask: none
 }
@@ -6258,10 +6220,6 @@ svg[name=Nitro] g path {
 
 .jump-1vIlrw {
 	background-color: rgba(0,0,0,.35)!important;
-}
-
-.emptyChannelIcon-1YdEz2,.iconWrapper-3plkqh {
-	border-radius: 5px
 }
 
 .selected-3B2w1z, .selected-3B2w1z:hover,.selectable-fgiA2c:hover {
@@ -6405,10 +6363,6 @@ svg[name=Nitro] g path {
 	text-decoration: underline;
 }
 
-.imageUploaderIcon-2OHmFu {
-	border-radius: 5px;
-}
-
 .uploadDropModal-13Kd20 .bgScale-1iWuPF,.listRow-Y5zoF8 .noIcon-3gSX9V.container-3-AQTb {
 	background: var(--primary)!important;
 }
@@ -6431,21 +6385,14 @@ svg[name=Nitro] g path {
 
 .iconContainer-36kI2p {
 	background-color: rgba(0,0,0,.2)!important;
-	border-radius: 5px
-}
-
-.stageIconBackground-22nTnK,.iconBackground-3fyZsZ {
-	border-radius: 5px
 }
 
 .primaryButtonColor-3yAd8m,.textButton-14fgNw {
 	background-color: #11141a;
-	border-radius: 5px
 }
 
 .primaryButtonColor-3yAd8m:hover {
 	background-color: #1e232e;
-	border-radius: 5px
 }
 
 .textButton-14fgNw:hover{
@@ -6649,7 +6596,6 @@ svg[name=Nitro] g path {
 
 .emptyStateIcon-2xfcFG {
 	background-color: rgba(0,0,0,.2)!important;
-	border-radius: 5px
 }
 
 .avatar-2LpRdK {
@@ -6746,10 +6692,6 @@ svg[name=Nitro] g path {
 	background-color: rgba(0,0,0,0)!important;
 }
 
-.iconBackground-3qSXiM {
-	border-radius: 5px
-}
-
 .after_inlineCode-2_JXPm, .before_inlineCode-1zngJj, .inlineCode-ERyvy_ {
 	background: rgba(0,0,0,.65)!important;
 }
@@ -6810,23 +6752,19 @@ svg[name=Nitro] g path {
 
 .reaction-3vwAF2 {
 	background-color: rgba(0,0,0,.25);
-	border-radius: 5px
 }
 
 .reaction-3vwAF2:hover {
 	background-color: rgba(0,0,0,.35);
-	border-radius: 5px
 }
 
 .reaction-3vwAF2:active {
 	background-color: rgba(0,0,0,.45);
-	border-radius: 5px;
 }
 
 .reaction-3vwAF2.reactionMe-1PwQAc {
 	background-color: #008ae626!important;
 	border-color: var(--primary)!important;
-	border-radius: 5px
 }
 
 .reaction-3vwAF2.reactionMe-1PwQAc .reactionCount-26U4As {
@@ -6835,23 +6773,19 @@ svg[name=Nitro] g path {
 
 .reaction-102jx9 {
 	background-color: rgba(0,0,0,.25);
-	border-radius: 5px;
 }
 
 .reaction-102jx9:hover {
 	background-color: rgba(0,0,0,.35);
-	border-radius: 5px
 }
 
 .reaction-102jx9:active {
 	background-color: rgba(0,0,0,.45);
-	border-radius: 5px;
 }
 
 .reaction-102jx9.reactionMe-2zhiyZ {
 	background-color: #008ae626!important;
 	border-color: var(--primary)!important;
-	border-radius: 5px
 }
 
 .reaction-102jx9.reactionMe-2zhiyZ .reactionCount-SWXh9W {
@@ -6900,7 +6834,7 @@ svg[name=Nitro] g path {
 	background: var(--backgroundDarker);
 }
 
-.badge-370Op6,.icon-S3vUHH,.sessionIcon-2fwSzb,.icon-2yhmi8 {
+.badge-370Op6 {
 	border-radius: 5px;
 }
 
@@ -6989,10 +6923,17 @@ svg[name=Nitro] g path {
 	background-color: var(--primary);
 }
 
-.chat-2ZfjoI .container-ZMc96U.themed-Hp1KC_ {
+.container-ZMc96U.themed-Hp1KC_,.membersWrap-3NUR2t,.container-2o3qEW {
     border-left: 1px solid rgba(1,1,1,0.25)!important
 }
 
 .block-3Xiiq7[style*="padding-top: 10px"] {
 	padding-top: 2px!important
+}
+
+.theme-dark .voiceSectionNoGuildImageWrapper-17kLyh {
+	mask: none;
+	-webkit-mask: none;
+	border-radius: 12px;
+	background: #1e232e!important
 }
