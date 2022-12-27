@@ -1500,7 +1500,7 @@ svg.gameIcon-1siQqm {
 }
 
 .contentRegion-3HkfJJ,.layer-86YKbF,.layers-OrUESM.layers-1YQhyW,.sidebarRegion-1VBisG,.sidebarRegionScroller-FXiQOh,.standardSidebarView-E9Pc3j {
-	background-color: var(--backgroundDark)!important
+	background: var(--backgroundDark)!important
 }
 
 .input-2g-os5.focused-1AtTHC,.input-2g-os5:focus {
@@ -2076,17 +2076,12 @@ svg[name=Nitro] g path {
 	border-right-color: var(--backgroundDarker)!important
 }
 
-.acronym-2zrAHN,.button-2KyEfG:hover:not(.buttonScreenShareDisabled-1xwK5y),.button-2b6hmh:hover,.container-1SX9VC,.css-1gnr91b-option:hover,.friendSelected-3J_Uh8,.inset-GQDQYw,.inviteRow-3vmB7i:hover,.listDefault-2y5Z9D .clickable-23RaYz.selected-3TGCSZ .content-3xS9Lh,.notDetected-M3Ghh2,.reactionSelected-1aMb2K,.section-2VKIPC,.tileMedia-1q3guD,.tileMedia-1q3guD:hover {
+.childWrapper-1j_1ub,.button-2KyEfG:hover:not(.buttonScreenShareDisabled-1xwK5y),.button-2b6hmh:hover,.container-1SX9VC,.css-1gnr91b-option:hover,.friendSelected-3J_Uh8,.inset-GQDQYw,.inviteRow-3vmB7i:hover,.listDefault-2y5Z9D .clickable-23RaYz.selected-3TGCSZ .content-3xS9Lh,.notDetected-M3Ghh2,.reactionSelected-1aMb2K,.section-2VKIPC,.tileMedia-1q3guD,.tileMedia-1q3guD:hover {
 	background-color: rgba(0,0,0,.5)!important
 }
 
-.childWrapper-1j_1ub.acronym-2zrAHN {
-	border-radius: 12px
-}
-
-.selected-1Drb7Z .acronym-2zrAHN{
-    background-color: var(--primary)!important;
-	border-radius: 12px
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub {
+	background-color: var(--primary)!important;
 }
 
 .guildAvatarWithoutIcon-1EVd9c {
@@ -2344,8 +2339,8 @@ svg[name=Nitro] g path {
 	color: #fff
 }
 
-.wrapper-1gVUIN.minimum-fXpVNc,.scroller-1TOeMq,.theme-dark .notice-12Koq-,.attachPopout-1EnBVV,.container-ZMc96U.themed-Hp1KC_:not(.background-fkKrXt,.header-3xB4vB),.contentRegionScroller-2_GT_N,.scroller-3_YDR2,.theme-dark .perksModal-CLcR1c,.container-1zzFcN,.container-YkUktl,.privateChannels-oVe7HL,.scroller-WSmht3,.scroller-3X7KbA,.theme-dark .bodyInner-245q0L,.theme-dark .footer-1fjuF6,.activityPanel-9icbyU,.friendsTable-133bsv .friendsTableBody-1ZhKif,.scroller-2XLwLg,.scroller-29cQFV,.wrapper-2vIMkT,.scroller-3_YDR2 {
-	background-color: var(--backgroundDark)!important
+.wrapper-1gVUIN.minimum-fXpVNc,.scroller-1TOeMq,.theme-dark .notice-12Koq-,.attachPopout-1EnBVV,.container-ZMc96U.themed-Hp1KC_,.contentRegionScroller-2_GT_N,.scroller-3_YDR2,.theme-dark .perksModal-CLcR1c,.container-1zzFcN,.container-YkUktl,.privateChannels-oVe7HL,.scroller-WSmht3,.scroller-3X7KbA,.theme-dark .bodyInner-245q0L,.theme-dark .footer-1fjuF6,.activityPanel-9icbyU,.friendsTable-133bsv .friendsTableBody-1ZhKif,.scroller-2XLwLg,.scroller-29cQFV,.wrapper-2vIMkT,.scroller-3_YDR2 {
+	background: var(--backgroundDark)!important
 } 
 
 .channelTextArea-1FufC0 {
@@ -5686,7 +5681,7 @@ svg[name=Nitro] g path {
 }
 
 .background-fkKrXt.container-ZMc96U.themed-Hp1KC_ {
-	background-color: var(--backgroundDarker)
+	background-color: var(--backgroundDarker)!important
 }
 
 .container-xwOzwi {
@@ -5803,12 +5798,8 @@ svg[name=Nitro] g path {
 	border-color: rgba(0,0,0,.95)!important;
 }
 
-.pageBody-23bo4p {
-	background-color: var(--backgroundDarker)
-}
-
-.header-3xB4vB.container-ZMc96U.themed-Hp1KC_ {
-	background-color: var(--backgroundDarker)
+.theme-dark .container-1um7CU,.theme-dark .container-2IKOsH,.theme-dark .emptyPage-2TGR7j, .theme-dark .scrollerContainer-y16Rs9,.theme-dark .header-3xB4vB.container-ZMc96U.themed-Hp1KC_{
+	background-color: var(--backgroundDarker)!important;
 }
 
 .container-27tlK1 {
@@ -6095,7 +6086,7 @@ svg[name=Nitro] g path {
 }
 
 .container-AxP_J8,.subsectionContainer-2_JzL_ {
-	background: rgba(0,0,0,.25)
+	background: rgba(0,0,0,.35)
 }
 
 .badgeLabel-2Eo2Mq.newlyAddedBadge-3DJ7mi {
@@ -6951,4 +6942,48 @@ svg[name=Nitro] g path {
 
 .parentContainer-1BJf98 {
 	background-color: rgba(0,0,0,.35)!important;
+}
+
+.sidebarRegion-1VBisG {
+	border-right: 1px solid rgba(0,0,0,.45)!important
+}
+
+.prompt-R8SyL4 {
+	background-color: var(--backgroundDark)!important;
+	box-shadow: inset 0 0 100000px 0 rgba(0,0,0,.5)!important;
+}
+
+.navButtons-R_NSvX {
+	background-color: rgba(0,0,0,.35)!important;
+}
+
+.optionButton-1W9f7G {
+	background-color: rgba(0,0,0,.25)!important;
+	border: none
+}
+
+.optionButton-1W9f7G:hover {
+	background-color: rgba(0,0,0,.45)!important;
+}
+
+.voiceChannelsButton-SRmgo8 {
+	background-color: rgba(0,0,0,.25)!important;
+	border-color: var(--backgroundDarker)!important;
+}
+
+.voiceChannelsButton-SRmgo8:hover {
+	background-color: rgba(0,0,0,.45)!important;
+}
+
+.prompt-1sE27N,.profileCard-2gVmvm {
+	background-color: var(--backgroundDark)!important;
+}
+
+.role-3uAPnQ {
+	background-color: rgba(0,0,0,.35);
+	border-radius: 5px;
+}
+
+.checkIcon-3eAeN_, .memberCount-2G9rxE {
+	background-color: var(--primary);
 }
