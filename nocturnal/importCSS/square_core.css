@@ -5897,7 +5897,7 @@ svg[name=Nitro] g path {
 }
 
 .container-2o3qEW {
-	background-color: var(--backgroundDark);
+	background: var(--backgroundDark);
 	border-left: 1px solid rgba(0,0,0,.45)
 }
 
@@ -6976,7 +6976,7 @@ svg[name=Nitro] g path {
 	background-color: rgba(0,0,0,.45)!important;
 }
 
-.prompt-1sE27N,.profileCard-2gVmvm {
+.prompt-1sE27N,.profileCard-2gVmvm,.wrapper-1_HaEi {
 	background-color: var(--backgroundDark)!important;
 }
 
@@ -6987,4 +6987,8 @@ svg[name=Nitro] g path {
 
 .checkIcon-3eAeN_, .memberCount-2G9rxE {
 	background-color: var(--primary);
+}
+
+.chat-2ZfjoI .container-ZMc96U.themed-Hp1KC_ {
+    border-left: 1px solid rgba(1,1,1,0.25)!important
 }
