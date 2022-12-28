@@ -81,7 +81,7 @@
 [role="img"][aria-label] foreignObject {mask: none;}
 [role="img"][aria-label] foreignObject img {border-radius: 4px;}
 [role="img"][aria-label] svg rect {display: none;}
-.wrapper-1VLyxH[role="img"][aria-label] circle {display: none;}
+.avatar-1YsFQ1 circle {display: none;}
 
 [role="img"][aria-label*="Online"]:before,
 [role="img"][aria-label*="Conectado"]:before,
@@ -2518,16 +2518,12 @@ svg[name=Nitro] g path {
 	border-bottom-right-radius: 5px;
 }
 
-.spoilerText-27bIiA.hidden-3B-Rum{
-	background-color: rgba(0,0,0,.35)!important;
+.theme-dark .spoilerText-27bIiA.hidden-3B-Rum{
+	background-color: #0e1015!important;
 }
 
-.spoilerText-27bIiA.hidden-3B-Rum:hover{
-	background-color: var(--backgroundDarker)!important;
-}
-
-.spoilerText-27bIiA{
-	background-color: rgb(31, 38, 52) !important;
+.theme-dark .spoilerText-27bIiA.hidden-3B-Rum:hover{
+	background-color: #0e1015cc!important;
 }
 
 .root-25RxKh {
