@@ -2167,12 +2167,6 @@ svg[name=Nitro] g path {
 	background: rgba(0,0,0,.55);
 }
 
-
-.app-2CXKsg .bannerImage-ubW8K- {
-	-webkit-mask-image: linear-gradient(#000 0,transparent 100%);
-	mask-image: linear-gradient(#000 0,transparent 100%)
-}
-
 .row-1Ib2uD.selected-1IWCoj {
 	background: rgba(0,0,0,.25)!important
 }
@@ -5674,12 +5668,20 @@ svg[name=Nitro] g path {
 	border-color: transparent
 }
 
+:root {
+	--background-accent: #747f8d;
+}
+
 .backgroundModifierContainer-WjXgb2:hover:not(.selected-2f8_FP):not(.disabled-3Q7kTN):not(.noAction-3PygTY) {
 	background-color: rgba(0,0,0,.25)!important
 }
 
 .backgroundModifierContainer-WjXgb2:active:not(.selected-2f8_FP):not(.disabled-3Q7kTN):not(.noAction-3PygTY) {
 	background-color: rgba(0,0,0,.35)!important
+}
+
+.backgroundModifierContainer-WjXgb2.selected-2f8_FP {
+	background-color: rgba(0,0,0,.55)!important;
 }
 
 .backgroundModifierContainer-WjXgb2.statusGreen-Iw_dcs.selected-2f8_FP {
@@ -5696,6 +5698,10 @@ svg[name=Nitro] g path {
 
 .backgroundModifierContainer-WjXgb2.statusRed-1dK5Ao.selected-2f8_FP {
 	background-color: #f04747!important
+}
+
+.backgroundModifierContainer-WjXgb2.accent-2FWtD1.selected-2f8_FP {
+	background-color: #747f8d!important
 }
 
 .enableAlertsContainer-21XbL7 {
@@ -6006,12 +6012,12 @@ svg[name=Nitro] g path {
 	background: rgba(0,0,0,.35)
 }
 
-.badgeLabel-2Eo2Mq.newlyAddedBadge-3DJ7mi {
-	background: linear-gradient(268.26deg,var(--primaryGradient1),var(--primaryGradient2) 102.45%)
+.newlyAddedBadge-3DJ7mi {
+	background: linear-gradient(to top right,var(--primaryGradient1),var(--primaryGradient2))
 }
 
 .topGuildEmojiBadge-3DiG2v {
-    background: linear-gradient(268.26deg,#f04747,#faa61a 102.45%)
+    background: linear-gradient(to top right,#f04747,#faa61a)
 }
 
 .text-xs-medium-2LRpEj[style="color: var(--text-brand);"]{
@@ -6657,14 +6663,14 @@ svg[name=Nitro] g path {
 	background: linear-gradient(var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color));
 }
 
-.userProfileInnerThemedWithBanner-2624Yx .lookFilled-yCfaCM.colorGreen-3y-Z79,.userProfileInnerThemedWithBanner-2624Yx .lookFilled-yCfaCM.colorGreen-3y-Z79:disabled {
+.profileColors-3Y0XaR.theme-dark .userProfileInnerThemedWithBanner-2624Yx .lookFilled-yCfaCM.colorGreen-3y-Z79,.userProfileInnerThemedWithBanner-2624Yx .lookFilled-yCfaCM.colorGreen-3y-Z79:disabled {
 	background-color: rgba(0,0,0,.5)!important;
 	border: 2.3px solid var(--profile-gradient-primary-color);
 	border-radius: 6px!important;
 	color: #fff!important
 }
 
-.userProfileInnerThemedWithBanner-2624Yx .lookFilled-yCfaCM.colorGreen-3y-Z79:hover:not(:disabled) {
+.profileColors-3Y0XaR.theme-dark .userProfileInnerThemedWithBanner-2624Yx .lookFilled-yCfaCM.colorGreen-3y-Z79:hover:not(:disabled) {
 	color: #fff!important;
 	border: 2.3px solid transparent!important;
 	background-color: var(--profile-gradient-primary-color);
@@ -6674,15 +6680,49 @@ svg[name=Nitro] g path {
 	background-size: 200% 200%;
 }
 
-.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .lookFilled-yCfaCM.colorGreen-3y-Z79,.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .lookFilled-yCfaCM.colorGreen-3y-Z79:disabled {
+.profileColors-3Y0XaR.theme-dark .userProfileInnerThemedPremiumWithoutBanner-1yMS1H .lookFilled-yCfaCM.colorGreen-3y-Z79,.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .lookFilled-yCfaCM.colorGreen-3y-Z79:disabled {
 	background-color: rgba(0,0,0,.5)!important;
 	border: 2.3px solid var(--profile-gradient-primary-color)!important;
 	border-radius: 6px!important;
 	color: #fff!important
 }
 
-.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .lookFilled-yCfaCM.colorGreen-3y-Z79:hover:not(:disabled) {
+.profileColors-3Y0XaR.theme-dark .userProfileInnerThemedPremiumWithoutBanner-1yMS1H .lookFilled-yCfaCM.colorGreen-3y-Z79:hover:not(:disabled) {
 	color: #fff!important;
+	border: 2.3px solid transparent!important;
+	background-color: var(--profile-gradient-primary-color);
+	background-image: linear-gradient(to right,var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color));
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 200% 200%;
+}
+
+.profileColors-3Y0XaR.theme-light .userProfileInnerThemedWithBanner-2624Yx .lookFilled-yCfaCM.colorGreen-3y-Z79,.userProfileInnerThemedWithBanner-2624Yx .lookFilled-yCfaCM.colorGreen-3y-Z79:disabled {
+	background-color: rgba(0,0,0,.5)!important;
+	border: 2.3px solid var(--profile-gradient-primary-color);
+	border-radius: 6px!important;
+	color: #060607!important
+}
+
+.profileColors-3Y0XaR.theme-light .userProfileInnerThemedWithBanner-2624Yx .lookFilled-yCfaCM.colorGreen-3y-Z79:hover:not(:disabled) {
+	color: #060607!important;
+	border: 2.3px solid transparent!important;
+	background-color: var(--profile-gradient-primary-color);
+	background-image: linear-gradient(to right,var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color));
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 200% 200%;
+}
+
+.profileColors-3Y0XaR.theme-light .userProfileInnerThemedPremiumWithoutBanner-1yMS1H .lookFilled-yCfaCM.colorGreen-3y-Z79,.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .lookFilled-yCfaCM.colorGreen-3y-Z79:disabled {
+	background-color: rgba(0,0,0,.5)!important;
+	border: 2.3px solid var(--profile-gradient-primary-color)!important;
+	border-radius: 6px!important;
+	color: #060607!important
+}
+
+.profileColors-3Y0XaR.theme-light .userProfileInnerThemedPremiumWithoutBanner-1yMS1H .lookFilled-yCfaCM.colorGreen-3y-Z79:hover:not(:disabled) {
+	color: #060607!important;
 	border: 2.3px solid transparent!important;
 	background-color: var(--profile-gradient-primary-color);
 	background-image: linear-gradient(to right,var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color));
@@ -6934,4 +6974,8 @@ svg[name=Nitro] g path {
 .container-24rGVp.bottom-29W7pW .bar-wDIGjg {
 	background-color: var(--backgroundDark)!important;
 	box-shadow: inset 0 0 100000px 0 rgba(0,0,0,.5)!important;
+}
+
+.mutualGuilds-s7F2aa .noIcon-3gSX9V {
+	background-color: rgba(0,0,0,.5)!important;
 }
