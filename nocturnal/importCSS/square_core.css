@@ -2776,11 +2776,6 @@ svg[name=Nitro] g path {
 	border-radius: 30%;
 }
 
-.theme-dark .avatarUploader-CHGwK7 .avatarUploaderInner-1dBiHs{
-	box-shadow: 0 0 0 2px #666;
-	border-radius: 5px;
-}
-
 .mask-1FEkla foreignObject {
 	mask: none
 }
@@ -3011,7 +3006,7 @@ svg[name=Nitro] g path {
 }
 
 .content-1gYQeQ {
-	margin-right: 3px;
+	margin-right: 2px;
 }
 
 .icon-WnO6o2 {
@@ -3639,7 +3634,7 @@ svg[name=Nitro] g path {
 	border-radius: 0;
 }
 
-.container-1ERits,.container-1NXEtd,.exampleContainer-hz7EUM {
+.container-3LUQwT,.container-1NXEtd,.exampleContainer-hz7EUM {
 	background-color: var(--backgroundDark);
 }
 
@@ -4586,12 +4581,6 @@ svg[name=Nitro] g path {
 	background-color: #fff
 }
 
-.container-3EBHNg {
-	background-color: rgba(0,0,0,.20);
-	-webkit-box-shadow: inset 0 1px 0 rgba(47,49,54,.6);
-	box-shadow: inset 0 1px 0 rgba(47,49,54,.6);
-}
-
 .header-1sd0RU {
 	background-color: rgba(0,0,0,.15);
 }
@@ -4913,12 +4902,8 @@ svg[name=Nitro] g path {
 	background-color: rgba(0,0,0,.25);
 }
 
-.premiumFeatureBorder-3vL7bn {
-	background-color: var(--backgroundDark);
-}
-
 .premiumFeatureBorder-1i95si {
-	background: var(--backgroundDark)
+	background: linear-gradient(var(--backgroundDark),var(--backgroundDark)) padding-box,linear-gradient(45deg,hsl(269,calc(var(--saturation-factor, 1)*52.7%),52.7%),hsl(325,calc(var(--saturation-factor, 1)*31.7%),51.8%)) border-box
 }
 
 .background-3N0xBT {
@@ -5965,7 +5950,8 @@ svg[name=Nitro] g path {
 }
 
 .applicationStreamingHoverWrapper-J95QPU {
-	background-color: rgba(0,0,0,.45);
+	opacity: .1;
+	background-color: rgba(var(--black-500-rgb),.6)
 }
 
 .addFriendInputWrapper-kkoSV9 {
@@ -6917,8 +6903,8 @@ svg[name=Nitro] g path {
 	background: #1e232e!important
 }
 
-.channelTextArea-1VQBuV.highlighted-1sGU_w {
-	box-shadow: 0 0 0 4px purple;
+.channelTextArea-1VQBuV.highlighted-1sGU_w,.focusRing-2_fyOA[style*="var(--focus-primary)"] {
+	box-shadow: 0 0 0 4px purple!important;
 }
 
 .header-30YxSJ {
@@ -6947,4 +6933,8 @@ svg[name=Nitro] g path {
 
 .sidebar-1tnWFu {
     border-right: 1px solid rgba(1,1,1,0.25)!important
+}
+
+.container-1ERits {
+	background-color: var(--backgroundDark)!important;
 }
