@@ -1058,18 +1058,13 @@ svg[name=Nova_Discord] * {
 	color: #fff!important
 }
 
-#friends .tab-bar .tab-bar-item:hover:not(.selected),.topPill-3DJJNV .item-3XjbnG:hover:not(.itemSelected-1qLhcL) {
+#friends .tab-bar .tab-bar-item:hover:not(.selected),.topPill-3DJJNV .item-3XjbnG:hover:not(.selected-g-kMVV) {
 	background-color: rgba(0,0,0,.45)!important;
 	border-radius: 5px;
 }
 
-.topPill-3DJJNV .themed-2-lozF.item-3XjbnG:active:not(.disabled-1nofHP):not(.itemSelected-1qLhcL) {
+.topPill-3DJJNV .themed-2-lozF.item-3XjbnG:active:not(.disabled-1nofHP):not(.selected-g-kMVV) {
 	background-color: rgba(0,0,0,.75)!important;
-	border-radius: 5px;
-}
-
-#friends .tab-bar .tab-bar-item:hover:not(.selected) {
-	background-color: rgba(0,0,0,.45)!important;
 	border-radius: 5px;
 }
 
