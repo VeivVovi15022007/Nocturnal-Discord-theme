@@ -3896,6 +3896,14 @@ svg[name=Nitro] g path {
 	background-color: var(--backgroundDarker);
 }
 
+.navButton-1XuvI- {
+	background-color: var(--backgroundDarker);
+}
+
+.navButton-1XuvI-:hover {
+	background-color: rgba(0,0,0,.5);
+}
+
 .upsell-3B1lnN {
 	background-color: var(--backgroundDarker);
 }
