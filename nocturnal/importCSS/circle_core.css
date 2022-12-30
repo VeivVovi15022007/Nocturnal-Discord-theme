@@ -7046,3 +7046,7 @@ svg[name=Nitro] g path {
 .theme-dark .tagPill-1kSbgP {
 	background-color: var(--backgroundDarker)!important;
 }
+
+.avatar-2LpRdK {
+	border-radius: 50px;
+}
