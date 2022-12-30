@@ -5781,8 +5781,12 @@ svg[name=Nitro] g path {
 	background-color: var(--backgroundDarker)!important;
 }
 
-.container-2nx-BQ.checked-25WXMf path{
-	fill: #43b581
+.container-2nx-BQ.checked-25WXMf {
+	background-color: #43b581!important;
+}
+
+.container-2nx-BQ.checked-25WXMf path {
+	fill: #43b581!important;
 }
 
 .partnered-23cXFN{
