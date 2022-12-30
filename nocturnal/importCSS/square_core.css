@@ -78,7 +78,6 @@
 
 .offline-22aM7E img {filter: grayscale(100%);}
 
-foreignObject {mask: none;}
 [role="img"][aria-label] foreignObject {mask: none;}
 [role="img"][aria-label] foreignObject img {border-radius: 4px;}
 [role="img"][aria-label] svg rect {display: none;}
@@ -2400,7 +2399,7 @@ svg[name=Nitro] g path {
 	display: none;
 }
 
-.platform-win .sidebar-1tnWFu{
+.platform-win .sidebar-1tnWFu {
 	border-left: solid;
 	border-left-width: 1.2px;
 	background-color: rgba(0,0,0,0);
@@ -3908,6 +3907,14 @@ svg[name=Nitro] g path {
 
 .popoutContainer-2wbmiM {
 	background-color: var(--backgroundDarker);
+}
+
+.navButton-1XuvI- {
+	background-color: var(--backgroundDarker);
+}
+
+.navButton-1XuvI-:hover {
+	background-color: rgba(0,0,0,.5);
 }
 
 .upsell-3B1lnN {
