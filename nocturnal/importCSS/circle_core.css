@@ -2360,9 +2360,7 @@ svg[name=Nitro] g path {
 	margin-top: auto;
 	top: auto;
 	left: 18px;
-	border-color: darkcyan;
-	border-style: solid;
-	border-width: 2.5px;
+	border: 2.5px solid darkcyan
 }
 
 #bd-pub-li {
@@ -3794,12 +3792,16 @@ svg[name=Nitro] g path {
 	padding-right: 0;
 }
 
-.avatar-3FKimL, .embedAuthorIcon-3pnkS4 {
-	border-radius: 50px;
+.clickable-vvKY2q .header-3OsQeK:hover,.selected-1GtAC5 .header-3OsQeK {
+	background-color: var(--backgroundDarker)
 }
 
-.clickable-vvKY2q .header-3OsQeK:hover,.selected-1GtAC5 .header-3OsQeK,.iconWrapper-2JyIpA {
-	background-color: rgba(0,0,0,0)!important;
+.iconWrapper-2JyIpA {
+	background-color: rgba(0,0,0,0);
+}
+
+.communityInfoVisible-3zc5_s .header-3OsQeK, .communityInfoVisible-3zc5_s .header-3OsQeK:hover, .hasBanner-2IrYih .header-3OsQeK, .hasBanner-2IrYih .header-3OsQeK:hover {
+	background-color: transparent!important
 }
 
 .communityInfoPill-2Mll66 {
@@ -4167,22 +4169,18 @@ svg[name=Nitro] g path {
 
 .icon-3CZSYe[style*="background-color: var(--status-green-600);"] {
 	background-color: #43b581!important;
-	border-radius: 5px
 }
 
 .icon-3CZSYe[style*="background-color: var(--brand-new-500);"] {
 	background-color: var(--primary)!important;
-	border-radius: 5px
 }
 
 .icon-3CZSYe[style*="background-color: var(--primary-dark-700);"] {
 	background-color: rgba(0,0,0,.85)!important;
-	border-radius: 5px
 }
 
 .raisedHandCount-3Pt7xw {
 	background: var(--primary);
-	border-radius: 5px
 }
 
 .container-1IyjjY {
@@ -7027,4 +7025,24 @@ svg[name=Nitro] g path {
 
 .badgeUpgrade-36x1Io {
 	color: var(--primary)
+}
+
+.avatar-3TrM7c:active {
+	transform: translateY(1px)
+}
+
+:root {
+	--to-text-content-footer-on-forums: 1,1,1
+}
+
+.theme-dark .textContentFooter-2JnNv8 {
+    background: linear-gradient(0deg,rgba(var(--to-text-content-footer-on-forums),1),rgba(var(--to-text-content-footer-on-forums),.97) 36px,rgba(var(--to-text-content-footer-on-forums),.4))
+}
+
+.timestamp-6-ptG3 {
+	background-color: rgba(0,0,0,.45);
+}
+
+.theme-dark .tagPill-1kSbgP {
+	background-color: var(--backgroundDarker)!important;
 }
