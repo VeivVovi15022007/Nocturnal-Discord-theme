@@ -2728,6 +2728,10 @@ svg[name=Nitro] g path {
 	mask: none;
 }
 
+.size24-9rrwDS .avatarContainerMasked-13fYnN {
+	margin-right: 7.5px;
+}
+
 .moreUsers-_v6T-L {
 	background-color: rgba(0,0,0,0);
 }
@@ -3456,7 +3460,7 @@ svg[name=Nitro] g path {
 */
 
 .userProfileInnerThemedNonPremium-1gT-zY {
-	background: var(--backgroundDark)!important
+	background: var(--backgroundDarker)!important
 }
 
 .profileColors-3Y0XaR.theme-dark .overlayBackground-1KgwVi{
@@ -6634,7 +6638,7 @@ svg[name=Nitro] g path {
 
 .profileColors-3Y0XaR.theme-dark .userProfileInnerThemedWithBanner-2624Yx .lookFilled-yCfaCM.colorGreen-3y-Z79,.userProfileInnerThemedWithBanner-2624Yx .lookFilled-yCfaCM.colorGreen-3y-Z79:disabled {
 	background-color: rgba(0,0,0,.5)!important;
-	border: 2.3px solid var(--profile-gradient-primary-color);
+	border: 2.3px solid var(--profile-gradient-secondary-color);
 	border-radius: 6px!important;
 	color: #fff!important
 }
@@ -6642,8 +6646,8 @@ svg[name=Nitro] g path {
 .profileColors-3Y0XaR.theme-dark .userProfileInnerThemedWithBanner-2624Yx .lookFilled-yCfaCM.colorGreen-3y-Z79:hover:not(:disabled) {
 	color: #fff!important;
 	border: 2.3px solid transparent!important;
-	background-color: var(--profile-gradient-primary-color);
-	background-image: linear-gradient(to right,var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color));
+	background-color: var(--profile-gradient-secondary-color);
+	background-image: linear-gradient(to right,var(--profile-gradient-secondary-color),var(--profile-gradient-primary-color));
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 200% 200%;
@@ -6651,7 +6655,7 @@ svg[name=Nitro] g path {
 
 .profileColors-3Y0XaR.theme-dark .userProfileInnerThemedPremiumWithoutBanner-1yMS1H .lookFilled-yCfaCM.colorGreen-3y-Z79,.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .lookFilled-yCfaCM.colorGreen-3y-Z79:disabled {
 	background-color: rgba(0,0,0,.5)!important;
-	border: 2.3px solid var(--profile-gradient-primary-color);
+	border: 2.3px solid var(--profile-gradient-secondary-color);
 	border-radius: 6px!important;
 	color: #fff!important
 }
@@ -6659,8 +6663,8 @@ svg[name=Nitro] g path {
 .profileColors-3Y0XaR.theme-dark .userProfileInnerThemedPremiumWithoutBanner-1yMS1H .lookFilled-yCfaCM.colorGreen-3y-Z79:hover:not(:disabled) {
 	color: #fff!important;
 	border: 2.3px solid transparent!important;
-	background-color: var(--profile-gradient-primary-color);
-	background-image: linear-gradient(to right,var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color));
+	background-color: var(--profile-gradient-secondary-color);
+	background-image: linear-gradient(to right,var(--profile-gradient-secondary-color),var(--profile-gradient-primary-color));
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 200% 200%;
@@ -6668,7 +6672,7 @@ svg[name=Nitro] g path {
 
 .profileColors-3Y0XaR.theme-light .userProfileInnerThemedWithBanner-2624Yx .lookFilled-yCfaCM.colorGreen-3y-Z79,.userProfileInnerThemedWithBanner-2624Yx .lookFilled-yCfaCM.colorGreen-3y-Z79:disabled {
 	background-color: rgba(0,0,0,.5)!important;
-	border: 2.3px solid var(--profile-gradient-primary-color);
+	border: 2.3px solid var(--profile-gradient-secondary-color);
 	border-radius: 6px!important;
 	color: #060607!important
 }
@@ -6676,8 +6680,8 @@ svg[name=Nitro] g path {
 .profileColors-3Y0XaR.theme-light .userProfileInnerThemedWithBanner-2624Yx .lookFilled-yCfaCM.colorGreen-3y-Z79:hover:not(:disabled) {
 	color: #060607!important;
 	border: 2.3px solid transparent!important;
-	background-color: var(--profile-gradient-primary-color);
-	background-image: linear-gradient(to right,var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color));
+	background-color: var(--profile-gradient-secondary-color);
+	background-image: linear-gradient(to right,var(--profile-gradient-secondary-color),var(--profile-gradient-primary-color));
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 200% 200%;
@@ -6685,7 +6689,7 @@ svg[name=Nitro] g path {
 
 .profileColors-3Y0XaR.theme-light .userProfileInnerThemedPremiumWithoutBanner-1yMS1H .lookFilled-yCfaCM.colorGreen-3y-Z79,.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .lookFilled-yCfaCM.colorGreen-3y-Z79:disabled {
 	background-color: rgba(0,0,0,.5)!important;
-	border: 2.3px solid var(--profile-gradient-primary-color)!important;
+	border: 2.3px solid var(--profile-gradient-secondary-color)!important;
 	border-radius: 6px!important;
 	color: #060607!important
 }
@@ -6693,19 +6697,19 @@ svg[name=Nitro] g path {
 .profileColors-3Y0XaR.theme-light .userProfileInnerThemedPremiumWithoutBanner-1yMS1H .lookFilled-yCfaCM.colorGreen-3y-Z79:hover:not(:disabled) {
 	color: #060607!important;
 	border: 2.3px solid transparent!important;
-	background-color: var(--profile-gradient-primary-color);
-	background-image: linear-gradient(to right,var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color));
+	background-color: var(--profile-gradient-secondary-color);
+	background-image: linear-gradient(to right,var(--profile-gradient-secondary-color),var(--profile-gradient-primary-color));
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 200% 200%;
 }
 
 .userProfileInnerThemedWithBanner-2624Yx .top-K_jibn .selected-g-kMVV.themed-2-lozF.item-3XjbnG,.userProfileInnerThemedWithBanner-2624Yx .top-K_jibn .themed-2-lozF.item-3XjbnG:active,.userProfileInnerThemedWithBanner-2624Yx .top-K_jibn .themed-2-lozF.item-3XjbnG:hover {
-	border-image: linear-gradient(to right,var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color)) 1;
+	border-image: linear-gradient(to right,var(--profile-gradient-secondary-color),var(--profile-gradient-primary-color)) 1;
 }
 
 .userProfileInnerThemedPremiumWithoutBanner-1yMS1H .top-K_jibn .selected-g-kMVV.themed-2-lozF.item-3XjbnG,.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .top-K_jibn .themed-2-lozF.item-3XjbnG:active,.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .top-K_jibn .themed-2-lozF.item-3XjbnG:hover {
-	border-image: linear-gradient(to right,var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color)) 1;
+	border-image: linear-gradient(to right,var(--profile-gradient-secondary-color),var(--profile-gradient-primary-color)) 1;
 }
 
 .reaction-3vwAF2 {
@@ -6925,16 +6929,16 @@ svg[name=Nitro] g path {
 }
 
 .overlap-1yhayD .avatar-3FKimL {
-	border: 4px solid rgba(0,0,0,.25)
+	border: none!important;
 }
 
-.mentionsBar-DpLHCy {
+.positionedContainer-W9XtGp .container-24rGVp.top-2wJPMI .mentionsBar-DpLHCy {
 	background-color: var(--primary)!important;
 }
 
-.container-24rGVp.bottom-29W7pW .bar-wDIGjg {
-	background-color: var(--backgroundDark)!important;
-	box-shadow: inset 0 0 100000px 0 rgba(0,0,0,.5)!important;
+.positionedContainer-W9XtGp .container-24rGVp.bottom-29W7pW .bar-wDIGjg {
+	background-color: var(--backgroundDark);
+	box-shadow: inset 0 0 100000px 0 rgba(0,0,0,.5);
 }
 
 .mutualGuilds-s7F2aa .noIcon-3gSX9V {
@@ -6973,9 +6977,9 @@ svg[name=Nitro] g path {
 	background-color: var(--backgroundDarker)!important;
 }
 
-.container-24rGVp.top-2wJPMI .bar-wDIGjg {
+.container-2Y4CWj .positionedContainer-W9XtGp .container-24rGVp.top-2wJPMI .bar-wDIGjg {
 	background-color: var(--backgroundDark);
-	box-shadow: inset 0 0 100000px 0 rgba(0,0,0,.5)!important;
+	box-shadow: inset 0 0 100000px 0 rgba(0,0,0,.5);
 }
 
 :root{
@@ -7027,8 +7031,16 @@ svg[name=Nitro] g path {
 	color: var(--primary)
 }
 
-.avatar-3TrM7c:active {
+.avatar-3TrM7c:active,.voiceUser-3nRK-K:active,.avatar-3FKimL:active {
 	transform: translateY(1px)
+}
+
+.listCollapse-2kZTz1 .userAvatar-3Hwf1F {
+	margin-right: 16px!important;
+}
+
+.listCollapse-2kZTz1 .voiceUser-3nRK-K .ownerIcon-255uKo.icon-1dGlZy:last-child {
+	right: 14px!important
 }
 
 :root {
