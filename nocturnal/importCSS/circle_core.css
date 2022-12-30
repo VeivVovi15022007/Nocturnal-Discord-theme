@@ -77,7 +77,6 @@
 
 .offline-22aM7E img {filter: grayscale(100%);}
 
-foreignObject {mask: none;}
 [role="img"][aria-label] foreignObject {mask: none;}
 [role="img"][aria-label] foreignObject img {border-radius: 100%;}
 [role="img"][aria-label] svg rect {display: none;}
@@ -6052,10 +6051,6 @@ svg[name=Nitro] g path {
 
 .header-3cSJjT {
 	background-color: var(--backgroundDarker)!important;
-}
-
-.mask-1hlQQ6 foreignObject {
-	mask: none;
 }
 
 .guildIconWithoutImage-3bOll3:hover {
