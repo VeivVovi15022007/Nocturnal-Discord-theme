@@ -78,6 +78,7 @@
 
 .offline-22aM7E img {filter: grayscale(100%);}
 
+foreignObject {mask: none;}
 [role="img"][aria-label] foreignObject {mask: none;}
 [role="img"][aria-label] foreignObject img {border-radius: 4px;}
 [role="img"][aria-label] svg rect {display: none;}
@@ -996,7 +997,7 @@ svg[name=Nova_Discord] * {
 	color: #fff!important
 }
 
-.userProfileInnerThemedNonPremium-1gT-zY .lookFilled-yCfaCM.buttonColor-XIRMbp:hover{
+.userProfileInnerThemedNonPremium-1gT-zY .lookFilled-yCfaCM.buttonColor-XIRMbp:hover:not(:disabled) {
 	color: #fff!important;
 	border: 2.3px solid transparent!important;
 	background-color: var(--primary);
@@ -1013,7 +1014,7 @@ svg[name=Nova_Discord] * {
 	color: #fff!important
 }
 
-.userProfileInnerThemedWithBanner-2624Yx .lookFilled-yCfaCM.buttonColor-XIRMbp:hover,.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .lookFilled-yCfaCM.buttonColor-XIRMbp:hover {
+.userProfileInnerThemedWithBanner-2624Yx .lookFilled-yCfaCM.buttonColor-XIRMbp:hover:not(:disabled),.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .lookFilled-yCfaCM.buttonColor-XIRMbp:hover:not(:disabled) {
 	color: #fff!important;
 	border: 2.3px solid transparent!important;
 	background-color: var(--profile-gradient-button-color);
@@ -1321,14 +1322,19 @@ svg.gameIcon-1siQqm {
 	background-color: rgba(0,0,0,.35)!important;
 }
 
-.keybindShortcut-3zF1P9 span {
+.theme-dark .keybindShortcut-3zF1P9 .key-N5VmHN {
 	background: linear-gradient(to right,var(--primaryGradient1),var(--primaryGradient2));
 	color: var(--backgroundDark)!important;
-	border-radius: 5px
+	border-radius: 5px;
+	box-shadow: inset 0 -4px 0 rgba(0,0,0,.5)
 }
 
 .keyboardShortcutsModal-2CRmCm {
 	background: var(--backgroundDark)!important
+}
+
+.key-N5VmHN {
+	border: 1px solid #0c0e12
 }
 
 .ragingDemon-10qP1U img[src="/assets/bb7f752540c7f4c7039c6dd6b5dd052e.svg"] {
@@ -2148,6 +2154,14 @@ svg[name=Nitro] g path {
 	background: linear-gradient(90deg,var(--primaryGradient1),var(--primaryGradient2))!important
 }
 
+/* DON'T WORKING YET /*
+.container-2giAcK:hover .progressBar-2yl2pi {
+    background: linear-gradient(90deg,var(--primaryGradient1),var(--primaryGradient2) 34%,var(--primaryGradient1) 67%,var(--primaryGradient2))!important;
+	background-size: 300% 100%;
+	animation: progressPulse-2EeieX 2s linear infinite
+}
+*/
+
 .tierHeaderUnlocked-1IvR2R,.tierHeaderUnlocked-1OpOLf {
 	background: linear-gradient(to top right,var(--primaryGradient1),var(--primaryGradient2))!important
 }
@@ -2185,7 +2199,7 @@ svg[name=Nitro] g path {
 }
 
 .container-1zzFcN {
-	border: none!important
+	border-bottom: 1px solid rgba(0,0,0,.45)!important
 }
 
 .container-1S70rv .sectionTag-28mLyE,.wrapper-2SplAX {
@@ -2196,8 +2210,12 @@ svg[name=Nitro] g path {
 	background: 0 0!important;
 }
 
-.panel-2ZFCRb.activityPanel-9icbyU {
-	border: none
+.panels-3wFtMD {
+    border-top: 1px solid rgba(0,0,0,.45)
+}
+
+.activityPanel-9icbyU {
+	border-color: rgba(0,0,0,.45)
 }
 
 .theme-dark .placeholderWrapper-3FaLtZ,.theme-dark .wrapper-3UweLa {
@@ -2234,9 +2252,9 @@ svg[name=Nitro] g path {
 .wrapper-3kah-n[aria-label="Директни съобщения"],
 .wrapper-3kah-n[aria-label="डायरेक्ट मैसेज"],
 .wrapper-3kah-n[aria-label="ข้อความส่วนตัว"],
-.wrapper-3kah-n[aria-label="私信"],
-.wrapper-3kah-n[aria-label="ダイレクトメッセージ"],
-.wrapper-3kah-n[aria-label="私人訊息"],
+.wrapper-3kah-n[aria-label=私信],
+.wrapper-3kah-n[aria-label=ダイレクトメッセージ],
+.wrapper-3kah-n[aria-label=私人訊息],
 .wrapper-3kah-n[aria-label="다이렉트 메시지"],
 .wrapper-3kah-n[aria-label="Приватні повідомлення"] {
     transition: all .3s ease;
@@ -2270,10 +2288,10 @@ svg[name=Nitro] g path {
 .wrapper-3kah-n[aria-label="Άμεσα μηνύματα"] .childWrapper-1j_1ub,
 .wrapper-3kah-n[aria-label="Директни съобщения"] .childWrapper-1j_1ub,
 .wrapper-3kah-n[aria-label="डायरेक्ट मैसेज"] .childWrapper-1j_1ub,
-.wrapper-3kah-n[aria-label="ข้อความส่วนตัว"] .childWrapper-1j_1ub,
+.wrapper-3kah-n[aria-label=ข้อความส่วนตัว] .childWrapper-1j_1ub,
 .wrapper-3kah-n[aria-label="私信"] .childWrapper-1j_1ub,
-.wrapper-3kah-n[aria-label="ダイレクトメッセージ"] .childWrapper-1j_1ub,
-.wrapper-3kah-n[aria-label="私人訊息"] .childWrapper-1j_1ub,
+.wrapper-3kah-n[aria-label=ダイレクトメッセージ] .childWrapper-1j_1ub,
+.wrapper-3kah-n[aria-label=私人訊息] .childWrapper-1j_1ub,
 .wrapper-3kah-n[aria-label="다이렉트 메시지"] .childWrapper-1j_1ub,
 .wrapper-3kah-n[aria-label="Приватні повідомлення"] .childWrapper-1j_1ub {
 	display: none;
@@ -2448,7 +2466,7 @@ svg[name=Nitro] g path {
 	background-color: #12151c;
 }
 
-.imageWrapper-oMkQl4, .role-2TIOKu, .embedFull-1HGV2S, .listDefault-2y5Z9D .avatarContainer-2inGBK, .avatarSmall-3qwAkA,.scrollableContainer-15eg7h.userSettingsAccount-2eMFVR .avatarUploaderInner-3Mrx2N,.avatar-1XO-mJ {
+.imageWrapper-oMkQl4, .embedFull-1HGV2S, .listDefault-2y5Z9D .avatarContainer-2inGBK, .avatarSmall-3qwAkA,.scrollableContainer-15eg7h.userSettingsAccount-2eMFVR .avatarUploaderInner-3Mrx2N,.avatar-1XO-mJ {
 	border-radius: 5px;
 }
 
@@ -2736,10 +2754,6 @@ svg[name=Nitro] g path {
 
 .avatarContainerMasked-13fYnN foreignObject {
 	mask: none;
-}
-
-.size24-9rrwDS .avatarContainerMasked-13fYnN {
-	margin-right: 7.5px;
 }
 
 .moreUsers-_v6T-L {
@@ -3336,7 +3350,7 @@ svg[name=Nitro] g path {
 	border: none;
 }
 
-.container-3JTnYm {
+.container-8Futzw {
 	padding-right: 10px!important;
 	margin-left: 8px;
 }
@@ -3432,7 +3446,7 @@ svg[name=Nitro] g path {
 	fill: #43b581!important;
 }
 
-.avatar-3EQepX,.avatarWrapper-3H_478 {
+.avatar-1YsFQ1,.avatarWrapper-3y0KZ1 {
 	border-radius: 5px;
 	backdrop-filter: blur(2px);
 }
@@ -3530,7 +3544,7 @@ svg[name=Nitro] g path {
 	background-color: rgba(0,0,0,.35)
 }
 
-.container-3JTnYm {
+.container-8Futzw {
 	-webkit-box-shadow: 0 8px 16px rgba(0,0,0,.24);
 	box-shadow: 0 8px 16px rgba(0,0,0,.24);
 }
@@ -3894,14 +3908,6 @@ svg[name=Nitro] g path {
 
 .popoutContainer-2wbmiM {
 	background-color: var(--backgroundDarker);
-}
-
-.navButton-1XuvI- {
-	background-color: var(--backgroundDarker);
-}
-
-.navButton-1XuvI-:hover {
-	background-color: rgba(0,0,0,.5);
 }
 
 .upsell-3B1lnN {
@@ -6020,7 +6026,7 @@ svg[name=Nitro] g path {
 }
 
 .qualitySettingsContainer-2LjkfM {
-	border: 2px solid rgba(0,0,0,.55)
+	border: 1px solid rgba(0,0,0,.55)
 }
 
 .statusGreen-Iw_dcs {
@@ -6178,7 +6184,7 @@ svg[name=Nitro] g path {
 }
 
 .ephemeral-2nDdnn,.message-2CShn3.ephemeral-2nDdnn.selected-2LX7Jy,.mouse-mode.full-motion .ephemeral-2nDdnn:hover {
-	background-color: #00b0f426;
+	background-color: rgba(0,176,244,.1);
 }
 
 .ephemeral-2nDdnn::before,.defaultIcon-1fIkoh {
@@ -6194,7 +6200,7 @@ svg[name=Nitro] g path {
 }
 
 #bd-editor-controls {
-	background: var(--backgroundDarker)
+	background: rgba(0,0,0,.25)
 }
 
 .theme-dark .noItemsIcon-2OeOld,.theme-dark .noItemsIcon-1rZlXZ{
@@ -6363,7 +6369,7 @@ svg[name=Nitro] g path {
 }
 
 .automodMessage-265YwJ,.message-2CShn3.automodMessage-265YwJ.selected-2LX7Jy, .mouse-mode.full-motion .automodMessage-265YwJ:hover {
-	background-color: rgb(240, 71, 71, 0.2)
+	background-color: rgb(240, 71, 71, 0.15)
 }
 
 .wrapper-1VLyxH[style="width: 16px; height: 16px;"] foreignObject {
@@ -6581,7 +6587,7 @@ svg[name=Nitro] g path {
 	color: #fff!important
 }
 
-.card-2ART2V:hover {
+.card-2ART2V:before {
 	background-color: var(--backgroundDarker)
 }
 
@@ -6648,12 +6654,12 @@ svg[name=Nitro] g path {
 }
 
 .userProfileOuterThemed-3EfHmv .badgeList-1EecKl{
-	background: linear-gradient(var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color));
+	background: linear-gradient(var(--profile-gradient-secondary-color),var(--profile-gradient-primary-color));
 }
 
 .profileColors-3Y0XaR.theme-dark .userProfileInnerThemedWithBanner-2624Yx .lookFilled-yCfaCM.colorGreen-3y-Z79,.userProfileInnerThemedWithBanner-2624Yx .lookFilled-yCfaCM.colorGreen-3y-Z79:disabled {
 	background-color: rgba(0,0,0,.5)!important;
-	border: 2.3px solid var(--profile-gradient-primary-color);
+	border: 2.3px solid var(--profile-gradient-secondary-color);
 	border-radius: 6px!important;
 	color: #fff!important
 }
@@ -6661,8 +6667,8 @@ svg[name=Nitro] g path {
 .profileColors-3Y0XaR.theme-dark .userProfileInnerThemedWithBanner-2624Yx .lookFilled-yCfaCM.colorGreen-3y-Z79:hover:not(:disabled) {
 	color: #fff!important;
 	border: 2.3px solid transparent!important;
-	background-color: var(--profile-gradient-primary-color);
-	background-image: linear-gradient(to right,var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color));
+	background-color: var(--profile-gradient-secondary-color);
+	background-image: linear-gradient(to right,var(--profile-gradient-secondary-color),var(--profile-gradient-primary-color));
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 200% 200%;
@@ -6670,7 +6676,7 @@ svg[name=Nitro] g path {
 
 .profileColors-3Y0XaR.theme-dark .userProfileInnerThemedPremiumWithoutBanner-1yMS1H .lookFilled-yCfaCM.colorGreen-3y-Z79,.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .lookFilled-yCfaCM.colorGreen-3y-Z79:disabled {
 	background-color: rgba(0,0,0,.5)!important;
-	border: 2.3px solid var(--profile-gradient-primary-color)!important;
+	border: 2.3px solid var(--profile-gradient-secondary-color)!important;
 	border-radius: 6px!important;
 	color: #fff!important
 }
@@ -6678,8 +6684,8 @@ svg[name=Nitro] g path {
 .profileColors-3Y0XaR.theme-dark .userProfileInnerThemedPremiumWithoutBanner-1yMS1H .lookFilled-yCfaCM.colorGreen-3y-Z79:hover:not(:disabled) {
 	color: #fff!important;
 	border: 2.3px solid transparent!important;
-	background-color: var(--profile-gradient-primary-color);
-	background-image: linear-gradient(to right,var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color));
+	background-color: var(--profile-gradient-secondary-color);
+	background-image: linear-gradient(to right,var(--profile-gradient-secondary-color),var(--profile-gradient-primary-color));
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 200% 200%;
@@ -6687,7 +6693,7 @@ svg[name=Nitro] g path {
 
 .profileColors-3Y0XaR.theme-light .userProfileInnerThemedWithBanner-2624Yx .lookFilled-yCfaCM.colorGreen-3y-Z79,.userProfileInnerThemedWithBanner-2624Yx .lookFilled-yCfaCM.colorGreen-3y-Z79:disabled {
 	background-color: rgba(0,0,0,.5)!important;
-	border: 2.3px solid var(--profile-gradient-primary-color);
+	border: 2.3px solid var(--profile-gradient-secondary-color);
 	border-radius: 6px!important;
 	color: #060607!important
 }
@@ -6695,8 +6701,8 @@ svg[name=Nitro] g path {
 .profileColors-3Y0XaR.theme-light .userProfileInnerThemedWithBanner-2624Yx .lookFilled-yCfaCM.colorGreen-3y-Z79:hover:not(:disabled) {
 	color: #060607!important;
 	border: 2.3px solid transparent!important;
-	background-color: var(--profile-gradient-primary-color);
-	background-image: linear-gradient(to right,var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color));
+	background-color: var(--profile-gradient-secondary-color);
+	background-image: linear-gradient(to right,var(--profile-gradient-secondary-color),var(--profile-gradient-primary-color));
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 200% 200%;
@@ -6704,7 +6710,7 @@ svg[name=Nitro] g path {
 
 .profileColors-3Y0XaR.theme-light .userProfileInnerThemedPremiumWithoutBanner-1yMS1H .lookFilled-yCfaCM.colorGreen-3y-Z79,.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .lookFilled-yCfaCM.colorGreen-3y-Z79:disabled {
 	background-color: rgba(0,0,0,.5)!important;
-	border: 2.3px solid var(--profile-gradient-primary-color)!important;
+	border: 2.3px solid var(--profile-gradient-secondary-color)!important;
 	border-radius: 6px!important;
 	color: #060607!important
 }
@@ -6712,19 +6718,19 @@ svg[name=Nitro] g path {
 .profileColors-3Y0XaR.theme-light .userProfileInnerThemedPremiumWithoutBanner-1yMS1H .lookFilled-yCfaCM.colorGreen-3y-Z79:hover:not(:disabled) {
 	color: #060607!important;
 	border: 2.3px solid transparent!important;
-	background-color: var(--profile-gradient-primary-color);
-	background-image: linear-gradient(to right,var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color));
+	background-color: var(--profile-gradient-secondary-color);
+	background-image: linear-gradient(to right,var(--profile-gradient-secondary-color),var(--profile-gradient-primary-color));
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 200% 200%;
 }
 
 .userProfileInnerThemedWithBanner-2624Yx .top-K_jibn .selected-g-kMVV.themed-2-lozF.item-3XjbnG,.userProfileInnerThemedWithBanner-2624Yx .top-K_jibn .themed-2-lozF.item-3XjbnG:active,.userProfileInnerThemedWithBanner-2624Yx .top-K_jibn .themed-2-lozF.item-3XjbnG:hover {
-	border-image: linear-gradient(to right,var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color)) 1;
+	border-image: linear-gradient(to right,var(--profile-gradient-secondary-color),var(--profile-gradient-primary-color)) 1;
 }
 
 .userProfileInnerThemedPremiumWithoutBanner-1yMS1H .top-K_jibn .selected-g-kMVV.themed-2-lozF.item-3XjbnG,.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .top-K_jibn .themed-2-lozF.item-3XjbnG:active,.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .top-K_jibn .themed-2-lozF.item-3XjbnG:hover {
-	border-image: linear-gradient(to right,var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color)) 1;
+	border-image: linear-gradient(to right,var(--profile-gradient-secondary-color),var(--profile-gradient-primary-color)) 1;
 }
 
 .reaction-3vwAF2 {
@@ -6944,6 +6950,7 @@ svg[name=Nitro] g path {
 }
 
 .sidebar-1tnWFu {
+	background: var(--backgroundDark);
     border-right: 1px solid rgba(1,1,1,0.25)!important
 }
 
@@ -6982,4 +6989,63 @@ svg[name=Nitro] g path {
 
 .channelName-3w2Y3c {
 	background-color: transparent;
+}
+
+.monaco-editor, .monaco-editor-background, .monaco-editor .inputarea.ime-input,.margin-view-overlays,.minimap-decorations-layer,.monaco-scrollable-element>.invisible,.decorationsOverviewRuler {
+	background-color: var(--backgroundDarker)!important;
+}
+
+.monaco-editor .minimap-slider, .monaco-editor .minimap-slider .minimap-slider-horizontal {
+	background-color: rgba(0,0,0,.15)!important;
+}
+
+.monaco-editor .minimap-slider:hover, .monaco-editor .minimap-slider:hover .minimap-slider-horizontal {
+	background-color: rgba(0,0,0,.35)!important;
+}
+
+.theme-dark .applicationStreamingPreviewWrapper-7j27t8 {
+	background-color: var(--backgroundDarker)!important;
+}
+
+.container-24rGVp.top-2wJPMI .bar-wDIGjg {
+	background-color: var(--backgroundDark);
+	box-shadow: inset 0 0 100000px 0 rgba(0,0,0,.5)!important;
+}
+
+:root{
+	--input-background: rgba(0,0,0,.95)!important;
+	--for-empty-preview: #12151c!important
+}
+
+.colorable-3rVGna.white-11auuQ {
+	transition: all .3s ease;
+}
+
+.emptyPreview-1SMLD4 {
+    background: linear-gradient(120deg,var(--for-empty-preview),var(--backgroundDarker))
+}
+
+.videoWrapper-3rtb_V {
+	background-color: var(--backgroundDarker);
+}
+
+.tileChild-2k7Wqh .overlayTitle-2efoIF,.tileChild-2k7Wqh .status-15kcmy {
+	background: var(--backgroundDark)!important;
+}
+
+.tileChild-2k7Wqh .status-15kcmy:hover {
+	background: #12151c!important;
+}
+
+.status-b9jLr4 {
+	background: none;
+}
+
+.wrapper-3t15Cn foreignObject,
+.image-1a_IXB foreignObject {
+    mask: none;
+}
+
+.icon-28xrhD {
+    border-radius: 5px;
 }
