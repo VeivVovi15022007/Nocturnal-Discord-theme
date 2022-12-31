@@ -1,14 +1,3 @@
-/**
- * @name Nocturnal Circle
- * @author Spectra#7698 & Печенько#8596 & VeivVovi#2017
- * @version 2.9 AutoUpdate
- * @description A simple & clean dark theme for thoses who live at night, made to be easy on the eye. Fixed & reworked by Печенько#3183, fixed class names by VeivVovi#2017.
- * @source https://github.com/VeivVovi15022007/Nocturnal-Discord-theme
- * @authorLink https://discordhub.com/profile/367510031484190730
- * @donate https://www.donationalerts.com/r/flashal
- * @authorId 725229477713674290, 367510031484190730
- * @invite 7GTyYnD7Ke
-*/
 .wrapper-1VLyxH[role="img"][aria-label]:before,
 .avatar-1EWyVD[role="img"][aria-label]:before,
 .avatar-2Vndt_[role="img"][aria-label]:before,
@@ -1751,7 +1740,7 @@ svg.gameIcon-1siQqm {
 	background: 0 0!important
 }
 
-.auditLog-1NVAY0,.headerExpanded-1-zwDr {
+.auditLog-1NVAY0,.theme-dark .headerExpanded-1-zwDr {
 	border-color: rgba(0,0,0,.35)!important;
 	background-color: rgba(0,0,0,.15)!important
 }
@@ -3035,10 +3024,6 @@ svg[name=Nitro] g path {
 	margin-top: 2px;
 }
 
-.container-iA3Qrz {
-	padding-right: 16px;
-}
-
 .messagesPopout-eVzQcI {
 	padding-right: 2px!important;
 	padding-left: 8px;
@@ -3079,18 +3064,6 @@ svg[name=Nitro] g path {
 
 .friendWrapper-2x5j0A {
 	margin-right: 12px;
-}
-
-.footer-C9oLp9 {
-	background-color: var(--backgroundDarker);
-}
-
-.list-3-WAYB {
-	background-color: var(--backgroundDark);
-}
-
-.accountCard-2lki2x {
-	background-color: var(--backgroundDark);
 }
 
 .helpIcon-24pk1Z {
@@ -3390,7 +3363,11 @@ svg[name=Nitro] g path {
 	fill: var(--backgroundDarker);
 }
 
-/* Memory to the old profiles designs :(
+/* Memory to the old designs of profiles :(
+.body-3iLsc4 {
+	background-color: var(--backgroundDark)!important
+}
+
 .userPopout-3XzG_A {
 	box-shadow: 0 0 5px 1.53px rgba(0,0,0,.75);
 	background-color: var(--backgroundDark)!important
@@ -4117,7 +4094,7 @@ svg[name=Nitro] g path {
 	box-shadow: none;
 }
 
-.withLayer-2VVmpp,.backdrop-2ByYRN {
+.backdrop-2ByYRN.withLayer-2VVmpp {
 	backdrop-filter: blur(10px);
 }
 
@@ -4636,12 +4613,8 @@ svg[name=Nitro] g path {
 	color: #fff
 }
 
-.selected-2aBVty{
-	background-color: rgba(0,0,0,.35)
-}
-
-.selected-2aBVty:hover[aria-expanded=true] {
-	background-color: rgba(0,0,0,.20);
+.selected-2aBVty,.selected-2aBVty[aria-expanded=true]{
+	background-color: rgba(0,0,0,.35)!important
 }
 
 .listAvatar-2MyNH5 rect {
@@ -4726,6 +4699,14 @@ svg[name=Nitro] g path {
 	background-color: var(--backgroundDark)!important;
 }
 
+.list-3-WAYB {
+	background-color: var(--backgroundDark);
+}
+
+.accountCard-2lki2x {
+	background-color: var(--backgroundDark);
+}
+
 .theme-dark.authBox-1HR6Ha,.container-1SWVIG{
 	background-color: var(--backgroundDark)!important;
 	box-shadow: inset 0 0 100000px 0 rgba(0,0,0,.5)!important;
@@ -4750,14 +4731,6 @@ svg[name=Nitro] g path {
 
 .cardHeader-3d6H8N,.cardHeader-1gxkI4 {
 	background-color: rgba(0,0,0,.15);
-}
-
-.banReasonOtherClickable-8EKPlQ{
-	background-color: var(--backgroundDarker)
-}
-
-.banReasonOtherClickable-8EKPlQ:hover{
-	background-color: rgba(0,0,0,.25);
 }
 
 .textBadge-1fdDPJ:not(.akaBadge-3i7V3p) {
@@ -4900,6 +4873,14 @@ svg[name=Nitro] g path {
 
 .item-15kgnI:hover,.item-2rTrrd:hover {
 	background-color: rgba(0,0,0,.25)
+}
+
+.banReasonOtherClickable-8EKPlQ{
+	background-color: var(--backgroundDarker)
+}
+
+.banReasonOtherClickable-8EKPlQ:hover{
+	background-color: rgba(0,0,0,.25);
 }
 
 .theme-dark .rolePills-lcM9EX {
@@ -5556,8 +5537,8 @@ svg[name=Nitro] g path {
 	background-color: var(--backgroundDarker)
 }
 
-.listRow-3v94Wr:hover{
-	background-color: rgba(0,0,0,.35)
+.interactiveRow-ALfmDn:hover{
+	background-color: rgba(0,0,0,.20);
 }
 
 .cardInput-33x7OF {
@@ -7047,11 +7028,11 @@ svg[name=Nitro] g path {
 }
 
 .listCollapse-2kZTz1 .userAvatar-3Hwf1F {
-	margin-right: 16px!important;
+	margin-right: 20px!important;
 }
 
 .listCollapse-2kZTz1 .voiceUser-3nRK-K .ownerIcon-255uKo.icon-1dGlZy:last-child {
-	right: 14px!important
+	right: 18px!important
 }
 
 :root {
@@ -7072,4 +7053,12 @@ svg[name=Nitro] g path {
 
 .avatar-2LpRdK {
 	border-radius: 50px;
+}
+
+.messages-23can0 .divider-2rZFJK {
+	border-top-color: rgba(0,0,0,.45)!important
+}
+
+.messages-23can0 .content-3spvdd {
+	background-color: rgba(0,0,0,0)!important
 }
