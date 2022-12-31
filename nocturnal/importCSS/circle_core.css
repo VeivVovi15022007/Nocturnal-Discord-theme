@@ -21,7 +21,7 @@
 	width: calc(100% - 4px);
 	height: calc(100% - 4px);
 	box-shadow: 0 0 0 2.5px #666;
-	border-radius: 100%;
+	border-radius: 5px;
 	z-index: 1;
 	border: none !important;
 }
@@ -59,13 +59,14 @@
 }
 
 .avatar-3mTjvZ {
+	border-radius: 5px;
 	border: 7px solid var(--backgroundDarker);
 	background-color: var(--backgroundDarker);
-	border-radius: 100%;
 }
 
 .listAvatar-2GhWlb rect,
-.avatar-15QyCc rect {
+.avatar-15QyCc rect,
+.bannerSVGWrapper-qc0szY circle {
 	display: none;
 }
 
@@ -78,7 +79,7 @@
 .offline-22aM7E img {filter: grayscale(100%);}
 
 [role="img"][aria-label] foreignObject {mask: none;}
-[role="img"][aria-label] foreignObject img {border-radius: 100%;}
+[role="img"][aria-label] foreignObject img {border-radius: 4px;}
 [role="img"][aria-label] svg rect {display: none;}
 .avatar-1YsFQ1 circle,.wrapper-1VLyxH[style*="80px"] circle {display: none;}
 
@@ -278,26 +279,22 @@
 	--backgroundCodeLine: #3b3e45;
 	--backgroundName: #202225;
 	--nameShadow: #268bd2;
-  }
-  .markup-eYLPri pre {
-	position: relative;
-	border: 1px solid var(--backgroundName);
-	border-radius: 6px;
-  }
+}
 
 .sidebar-nqHbhN .side-2ur1Qk #bd-settings-sidebar .ui-tab-bar-item:not(.role-3pGE29)::before,
 .side-2ur1Qk .item-3XjbnG:not(.role-3pGE29)::before {
-	  content: "";
-	  width: 20px;
-	  height: 20px;
-	  background-size: cover!important;
-	  position: absolute;
-	  left: 10px;
-	  top: 50%;
-	  transform: translateY(-50%);
+	content: "";
+	width: 20px;
+	height: 20px;
+	background-size: cover!important;
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	transform: translateY(-50%);
 }
-  
+
 .side-2ur1Qk #bd-settings-sidebar .ui-tab-bar-item, .side-2ur1Qk .item-3XjbnG:not(.role-3pGE29) {padding-left: 40px;}
+
 [aria-label="사용자 설정"] .item-3XjbnG:nth-child(2)::before,[aria-label="使用者設定"] .item-3XjbnG:nth-child(2)::before, [aria-label="ユーザー設定"] .item-3XjbnG:nth-child(2)::before, [aria-label="用户设置"] .item-3XjbnG:nth-child(2)::before, [aria-label="ตั้งค่าผู้ใช้"] .item-3XjbnG:nth-child(2)::before,[aria-label="यूज़र सेटिंग"] .item-3XjbnG:nth-child(2)::before,[aria-label="Користувацькі налаштування"] .item-3XjbnG:nth-child(2)::before,[aria-label="Потребителски настройки"] .item-3XjbnG:nth-child(2)::before,[aria-label="Ρυθμίσεις χρήστη"] .item-3XjbnG:nth-child(2)::before,[aria-label="Uživatelská nastavení"] .item-3XjbnG:nth-child(2)::before,[aria-label="Kullanıcı Ayarları"] .item-3XjbnG:nth-child(2)::before,[aria-label="Cài đặt người dùng"] .item-3XjbnG:nth-child(2)::before,[aria-label="Användarinställningar"] .item-3XjbnG:nth-child(2)::before,[aria-label="Käyttäjäasetukset"] .item-3XjbnG:nth-child(2)::before,[aria-label="Setări utilizator"] .item-3XjbnG:nth-child(2)::before,[aria-label="Configurações de Usuário"] .item-3XjbnG:nth-child(2)::before,[aria-label="Ustawienia użytkownika"] .item-3XjbnG:nth-child(2)::before,[aria-label="Brukerinnstillinger"] .item-3XjbnG:nth-child(2)::before,[aria-label="Gebruikersinstellingen"] .item-3XjbnG:nth-child(2)::before,[aria-label="Felhasználói beállítások"] .item-3XjbnG:nth-child(2)::before,[aria-label="Naudotojo Nustatymai"] .item-3XjbnG:nth-child(2)::before,[aria-label="Impostazioni utente"] .item-3XjbnG:nth-child(2)::before,[aria-label="Korisničke postavke"] .item-3XjbnG:nth-child(2)::before,[aria-label="Paramètres utilisateur"] .item-3XjbnG:nth-child(2)::before,[aria-label="Ajustes de usuario"] .item-3XjbnG:nth-child(2)::before,[aria-label="Benutzereinstellungen"] .item-3XjbnG:nth-child(2)::before,[aria-label="Brugerindstillinger"] .item-3XjbnG:nth-child(2)::before,[aria-label="Настройки пользователя"] .item-3XjbnG:nth-child(2)::before,[aria-label="User Settings"] .item-3XjbnG:nth-child(2)::before {background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/account.png) center}
 [aria-label="사용자 설정"] .item-3XjbnG:nth-child(4)::before,[aria-label="使用者設定"] .item-3XjbnG:nth-child(4)::before, [aria-label="ユーザー設定"] .item-3XjbnG:nth-child(4)::before, [aria-label="用户设置"] .item-3XjbnG:nth-child(4)::before, [aria-label="ตั้งค่าผู้ใช้"] .item-3XjbnG:nth-child(4)::before,[aria-label="यूज़र सेटिंग"] .item-3XjbnG:nth-child(4)::before,[aria-label="Користувацькі налаштування"] .item-3XjbnG:nth-child(4)::before,[aria-label="Потребителски настройки"] .item-3XjbnG:nth-child(4)::before,[aria-label="Ρυθμίσεις χρήστη"] .item-3XjbnG:nth-child(4)::before,[aria-label="Uživatelská nastavení"] .item-3XjbnG:nth-child(4)::before,[aria-label="Kullanıcı Ayarları"] .item-3XjbnG:nth-child(4)::before,[aria-label="Cài đặt người dùng"] .item-3XjbnG:nth-child(4)::before,[aria-label="Användarinställningar"] .item-3XjbnG:nth-child(4)::before,[aria-label="Käyttäjäasetukset"] .item-3XjbnG:nth-child(4)::before,[aria-label="Setări utilizator"] .item-3XjbnG:nth-child(4)::before,[aria-label="Configurações de Usuário"] .item-3XjbnG:nth-child(4)::before,[aria-label="Ustawienia użytkownika"] .item-3XjbnG:nth-child(4)::before,[aria-label="Brukerinnstillinger"] .item-3XjbnG:nth-child(4)::before,[aria-label="Gebruikersinstellingen"] .item-3XjbnG:nth-child(4)::before,[aria-label="Felhasználói beállítások"] .item-3XjbnG:nth-child(4)::before,[aria-label="Naudotojo Nustatymai"] .item-3XjbnG:nth-child(4)::before,[aria-label="Impostazioni utente"] .item-3XjbnG:nth-child(4)::before,[aria-label="Korisničke postavke"] .item-3XjbnG:nth-child(4)::before,[aria-label="Paramètres utilisateur"] .item-3XjbnG:nth-child(4)::before,[aria-label="Ajustes de usuario"] .item-3XjbnG:nth-child(4)::before,[aria-label="Benutzereinstellungen"] .item-3XjbnG:nth-child(4)::before,[aria-label="Brugerindstillinger"] .item-3XjbnG:nth-child(4)::before,[aria-label="Настройки пользователя"] .item-3XjbnG:nth-child(4)::before,[aria-label="User Settings"] .item-3XjbnG:nth-child(4)::before {background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/privacy.png) center}
 [aria-label="사용자 설정"] .item-3XjbnG:nth-child(5)::before,[aria-label="使用者設定"] .item-3XjbnG:nth-child(5)::before, [aria-label="ユーザー設定"] .item-3XjbnG:nth-child(5)::before, [aria-label="用户设置"] .item-3XjbnG:nth-child(5)::before, [aria-label="ตั้งค่าผู้ใช้"] .item-3XjbnG:nth-child(5)::before,[aria-label="यूज़र सेटिंग"] .item-3XjbnG:nth-child(5)::before,[aria-label="Користувацькі налаштування"] .item-3XjbnG:nth-child(5)::before,[aria-label="Потребителски настройки"] .item-3XjbnG:nth-child(5)::before,[aria-label="Ρυθμίσεις χρήστη"] .item-3XjbnG:nth-child(5)::before,[aria-label="Uživatelská nastavení"] .item-3XjbnG:nth-child(5)::before,[aria-label="Kullanıcı Ayarları"] .item-3XjbnG:nth-child(5)::before,[aria-label="Cài đặt người dùng"] .item-3XjbnG:nth-child(5)::before,[aria-label="Användarinställningar"] .item-3XjbnG:nth-child(5)::before,[aria-label="Käyttäjäasetukset"] .item-3XjbnG:nth-child(5)::before,[aria-label="Setări utilizator"] .item-3XjbnG:nth-child(5)::before,[aria-label="Configurações de Usuário"] .item-3XjbnG:nth-child(5)::before,[aria-label="Ustawienia użytkownika"] .item-3XjbnG:nth-child(5)::before,[aria-label="Brukerinnstillinger"] .item-3XjbnG:nth-child(5)::before,[aria-label="Gebruikersinstellingen"] .item-3XjbnG:nth-child(5)::before,[aria-label="Felhasználói beállítások"] .item-3XjbnG:nth-child(5)::before,[aria-label="Naudotojo Nustatymai"] .item-3XjbnG:nth-child(5)::before,[aria-label="Impostazioni utente"] .item-3XjbnG:nth-child(5)::before,[aria-label="Korisničke postavke"] .item-3XjbnG:nth-child(5)::before,[aria-label="Paramètres utilisateur"] .item-3XjbnG:nth-child(5)::before,[aria-label="Ajustes de usuario"] .item-3XjbnG:nth-child(5)::before,[aria-label="Benutzereinstellungen"] .item-3XjbnG:nth-child(5)::before,[aria-label="Brugerindstillinger"] .item-3XjbnG:nth-child(5)::before,[aria-label="Настройки пользователя"] .item-3XjbnG:nth-child(5)::before,[aria-label="User Settings"] .item-3XjbnG:nth-child(5)::before {background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/apps.png) center}
@@ -323,7 +320,7 @@
 [aria-label="사용자 설정"] .item-3XjbnG:nth-child(39)::before,[aria-label="使用者設定"] .item-3XjbnG:nth-child(39)::before, [aria-label="ユーザー設定"] .item-3XjbnG:nth-child(39)::before, [aria-label="用户设置"] .item-3XjbnG:nth-child(39)::before, [aria-label="ตั้งค่าผู้ใช้"] .item-3XjbnG:nth-child(39)::before,[aria-label="यूज़र सेटिंग"] .item-3XjbnG:nth-child(39)::before,[aria-label="Користувацькі налаштування"] .item-3XjbnG:nth-child(39)::before,[aria-label="Потребителски настройки"] .item-3XjbnG:nth-child(39)::before,[aria-label="Ρυθμίσεις χρήστη"] .item-3XjbnG:nth-child(39)::before,[aria-label="Uživatelská nastavení"] .item-3XjbnG:nth-child(39)::before,[aria-label="Kullanıcı Ayarları"] .item-3XjbnG:nth-child(39)::before,[aria-label="Cài đặt người dùng"] .item-3XjbnG:nth-child(39)::before,[aria-label="Användarinställningar"] .item-3XjbnG:nth-child(39)::before,[aria-label="Käyttäjäasetukset"] .item-3XjbnG:nth-child(39)::before,[aria-label="Setări utilizator"] .item-3XjbnG:nth-child(39)::before,[aria-label="Configurações de Usuário"] .item-3XjbnG:nth-child(39)::before,[aria-label="Ustawienia użytkownika"] .item-3XjbnG:nth-child(39)::before,[aria-label="Brukerinnstillinger"] .item-3XjbnG:nth-child(39)::before,[aria-label="Gebruikersinstellingen"] .item-3XjbnG:nth-child(39)::before,[aria-label="Felhasználói beállítások"] .item-3XjbnG:nth-child(39)::before,[aria-label="Naudotojo Nustatymai"] .item-3XjbnG:nth-child(39)::before,[aria-label="Impostazioni utente"] .item-3XjbnG:nth-child(39)::before,[aria-label="Korisničke postavke"] .item-3XjbnG:nth-child(39)::before,[aria-label="Paramètres utilisateur"] .item-3XjbnG:nth-child(39)::before,[aria-label="Ajustes de usuario"] .item-3XjbnG:nth-child(39)::before,[aria-label="Benutzereinstellungen"] .item-3XjbnG:nth-child(39)::before,[aria-label="Brugerindstillinger"] .item-3XjbnG:nth-child(39)::before,[aria-label="Настройки пользователя"] .item-3XjbnG:nth-child(39)::before,[aria-label="User Settings"] .item-3XjbnG:nth-child(39)::before {background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/theme.png) center}
 [aria-label="사용자 설정"] .item-3XjbnG:nth-child(41)::before,[aria-label="使用者設定"] .item-3XjbnG:nth-child(41)::before, [aria-label="ユーザー設定"] .item-3XjbnG:nth-child(41)::before, [aria-label="用户设置"] .item-3XjbnG:nth-child(41)::before, [aria-label="ตั้งค่าผู้ใช้"] .item-3XjbnG:nth-child(41)::before,[aria-label="यूज़र सेटिंग"] .item-3XjbnG:nth-child(41)::before,[aria-label="Користувацькі налаштування"] .item-3XjbnG:nth-child(41)::before,[aria-label="Потребителски настройки"] .item-3XjbnG:nth-child(41)::before,[aria-label="Ρυθμίσεις χρήστη"] .item-3XjbnG:nth-child(41)::before,[aria-label="Uživatelská nastavení"] .item-3XjbnG:nth-child(41)::before,[aria-label="Kullanıcı Ayarları"] .item-3XjbnG:nth-child(41)::before,[aria-label="Cài đặt người dùng"] .item-3XjbnG:nth-child(41)::before,[aria-label="Användarinställningar"] .item-3XjbnG:nth-child(41)::before,[aria-label="Käyttäjäasetukset"] .item-3XjbnG:nth-child(41)::before,[aria-label="Setări utilizator"] .item-3XjbnG:nth-child(41)::before,[aria-label="Configurações de Usuário"] .item-3XjbnG:nth-child(41)::before,[aria-label="Ustawienia użytkownika"] .item-3XjbnG:nth-child(41)::before,[aria-label="Brukerinnstillinger"] .item-3XjbnG:nth-child(41)::before,[aria-label="Gebruikersinstellingen"] .item-3XjbnG:nth-child(41)::before,[aria-label="Felhasználói beállítások"] .item-3XjbnG:nth-child(41)::before,[aria-label="Naudotojo Nustatymai"] .item-3XjbnG:nth-child(41)::before,[aria-label="Impostazioni utente"] .item-3XjbnG:nth-child(41)::before,[aria-label="Korisničke postavke"] .item-3XjbnG:nth-child(41)::before,[aria-label="Paramètres utilisateur"] .item-3XjbnG:nth-child(41)::before,[aria-label="Ajustes de usuario"] .item-3XjbnG:nth-child(41)::before,[aria-label="Benutzereinstellungen"] .item-3XjbnG:nth-child(41)::before,[aria-label="Brugerindstillinger"] .item-3XjbnG:nth-child(41)::before,[aria-label="Настройки пользователя"] .item-3XjbnG:nth-child(41)::before,[aria-label="User Settings"] .item-3XjbnG:nth-child(41)::before {background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/changelog.png) center}
 [aria-label="사용자 설정"] .item-3XjbnG:nth-child(42)::before,[aria-label="使用者設定"] .item-3XjbnG:nth-child(42)::before, [aria-label="ユーザー設定"] .item-3XjbnG:nth-child(42)::before, [aria-label="用户设置"] .item-3XjbnG:nth-child(42)::before, [aria-label="ตั้งค่าผู้ใช้"] .item-3XjbnG:nth-child(42)::before,[aria-label="यूज़र सेटिंग"] .item-3XjbnG:nth-child(42)::before,[aria-label="Користувацькі налаштування"] .item-3XjbnG:nth-child(42)::before,[aria-label="Потребителски настройки"] .item-3XjbnG:nth-child(42)::before,[aria-label="Ρυθμίσεις χρήστη"] .item-3XjbnG:nth-child(42)::before,[aria-label="Uživatelská nastavení"] .item-3XjbnG:nth-child(42)::before,[aria-label="Kullanıcı Ayarları"] .item-3XjbnG:nth-child(42)::before,[aria-label="Cài đặt người dùng"] .item-3XjbnG:nth-child(42)::before,[aria-label="Användarinställningar"] .item-3XjbnG:nth-child(42)::before,[aria-label="Käyttäjäasetukset"] .item-3XjbnG:nth-child(42)::before,[aria-label="Setări utilizator"] .item-3XjbnG:nth-child(42)::before,[aria-label="Configurações de Usuário"] .item-3XjbnG:nth-child(42)::before,[aria-label="Ustawienia użytkownika"] .item-3XjbnG:nth-child(42)::before,[aria-label="Brukerinnstillinger"] .item-3XjbnG:nth-child(42)::before,[aria-label="Gebruikersinstellingen"] .item-3XjbnG:nth-child(42)::before,[aria-label="Felhasználói beállítások"] .item-3XjbnG:nth-child(42)::before,[aria-label="Naudotojo Nustatymai"] .item-3XjbnG:nth-child(42)::before,[aria-label="Impostazioni utente"] .item-3XjbnG:nth-child(42)::before,[aria-label="Korisničke postavke"] .item-3XjbnG:nth-child(42)::before,[aria-label="Paramètres utilisateur"] .item-3XjbnG:nth-child(42)::before,[aria-label="Ajustes de usuario"] .item-3XjbnG:nth-child(42)::before,[aria-label="Benutzereinstellungen"] .item-3XjbnG:nth-child(42)::before,[aria-label="Brugerindstillinger"] .item-3XjbnG:nth-child(42)::before,[aria-label="Настройки пользователя"] .item-3XjbnG:nth-child(42)::before,[aria-label="User Settings"] .item-3XjbnG:nth-child(42)::before {background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/hype.png) center}
-[aria-label="사용자 설정"] .item-3XjbnG:nth-child(44)::before,[aria-label="使用者設定"] .item-3XjbnG:nth-child(44)::before, [aria-label="ユーザー設定"] .item-3XjbnG:nth-child(44)::before, [aria-label="用户设置"] .item-3XjbnG:nth-child(44)::before, [aria-label="ตั้งค่าผู้ใช้"] .item-3XjbnG:nth-child(44)::before,[aria-label="यूज़र सेटिंग"] .item-3XjbnG:nth-child(44)::before,[aria-label="Користувацькі налаштування"] .item-3XjbnG:nth-child(44)::before,[aria-label="Потребителски настройки"] .item-3XjbnG:nth-child(44)::before,[aria-label="Ρυθμίσεις χρήστη"] .item-3XjbnG:nth-child(44)::before,[aria-label="Uživatelská nastavení"] .item-3XjbnG:nth-child(44)::before,[aria-label="Kullanıcı Ayarları"] .item-3XjbnG:nth-child(44)::before,[aria-label="Cài đặt người dùng"] .item-3XjbnG:nth-child(44)::before,[aria-label="Användarinställningar"] .item-3XjbnG:nth-child(44)::before,[aria-label="Käyttäjäasetukset"] .item-3XjbnG:nth-child(44)::before,[aria-label="Setări utilizator"] .item-3XjbnG:nth-child(44)::before,[aria-label="Configurações de Usuário"] .item-3XjbnG:nth-child(44)::before,[aria-label="Ustawienia użytkownika"] .item-3XjbnG:nth-child(44)::before,[aria-label="Brukerinnstillinger"] .item-3XjbnG:nth-child(44)::before,[aria-label="Gebruikersinstellingen"] .item-3XjbnG:nth-child(44)::before,[aria-label="Felhasználói beállítások"] .item-3XjbnG:nth-child(44)::before,[aria-label="Naudotojo Nustatymai"] .item-3XjbnG:nth-child(44)::before,[aria-label="Impostazioni utente"] .item-3XjbnG:nth-child(44)::before,[aria-label="Korisničke postavke"] .item-3XjbnG:nth-child(44)::before,[aria-label="Paramètres utilisateur"] .item-3XjbnG:nth-child(44)::before,[aria-label="Ajustes de usuario"] .item-3XjbnG:nth-child(44)::before,[aria-label="Benutzereinstellungen"] .item-3XjbnG:nth-child(44)::before,[aria-label="Brugerindstillinger"] .item-3XjbnG:nth-child(44)::before,[aria-label="Настройки пользователя"] .item-3XjbnG:nth-child(44)::before,[aria-label="User Settings"] .item-3XjbnG:nth-child(44)::before {background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/logout.png) center}  
+[aria-label="사용자 설정"] .item-3XjbnG:nth-child(44)::before,[aria-label="使用者設定"] .item-3XjbnG:nth-child(44)::before, [aria-label="ユーザー設定"] .item-3XjbnG:nth-child(44)::before, [aria-label="用户设置"] .item-3XjbnG:nth-child(44)::before, [aria-label="ตั้งค่าผู้ใช้"] .item-3XjbnG:nth-child(44)::before,[aria-label="यूज़र सेटिंग"] .item-3XjbnG:nth-child(44)::before,[aria-label="Користувацькі налаштування"] .item-3XjbnG:nth-child(44)::before,[aria-label="Потребителски настройки"] .item-3XjbnG:nth-child(44)::before,[aria-label="Ρυθμίσεις χρήστη"] .item-3XjbnG:nth-child(44)::before,[aria-label="Uživatelská nastavení"] .item-3XjbnG:nth-child(44)::before,[aria-label="Kullanıcı Ayarları"] .item-3XjbnG:nth-child(44)::before,[aria-label="Cài đặt người dùng"] .item-3XjbnG:nth-child(44)::before,[aria-label="Användarinställningar"] .item-3XjbnG:nth-child(44)::before,[aria-label="Käyttäjäasetukset"] .item-3XjbnG:nth-child(44)::before,[aria-label="Setări utilizator"] .item-3XjbnG:nth-child(44)::before,[aria-label="Configurações de Usuário"] .item-3XjbnG:nth-child(44)::before,[aria-label="Ustawienia użytkownika"] .item-3XjbnG:nth-child(44)::before,[aria-label="Brukerinnstillinger"] .item-3XjbnG:nth-child(44)::before,[aria-label="Gebruikersinstellingen"] .item-3XjbnG:nth-child(44)::before,[aria-label="Felhasználói beállítások"] .item-3XjbnG:nth-child(44)::before,[aria-label="Naudotojo Nustatymai"] .item-3XjbnG:nth-child(44)::before,[aria-label="Impostazioni utente"] .item-3XjbnG:nth-child(44)::before,[aria-label="Korisničke postavke"] .item-3XjbnG:nth-child(44)::before,[aria-label="Paramètres utilisateur"] .item-3XjbnG:nth-child(44)::before,[aria-label="Ajustes de usuario"] .item-3XjbnG:nth-child(44)::before,[aria-label="Benutzereinstellungen"] .item-3XjbnG:nth-child(44)::before,[aria-label="Brugerindstillinger"] .item-3XjbnG:nth-child(44)::before,[aria-label="Настройки пользователя"] .item-3XjbnG:nth-child(44)::before,[aria-label="User Settings"] .item-3XjbnG:nth-child(44)::before {background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/logout.png) center}
 
 #user-context-transfer-ownership{
 	display:none
@@ -337,7 +334,7 @@
 	--primaryGradient2: #00e68a;
 	--DangerColor: #dc3545;
 	--WarningColor: #ffc107;
-	--SuccesColor: #28a745
+	--SuccesColor: #28a745;
 }
 
 #app-mount {animation: themeStart .5s linear 0s 1 normal}
@@ -345,10 +342,10 @@
 	from {filter: blur(100px)}
 	to {filter: blur(0)}
 }
-.memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover,.enabled-1t_Gxm:hover,.nowPlayingColumn-1eCBCN,.peopleList-2VBrVI,.container-2cd8Mz,#friends,.applicationStore-2nk7Lo,.article-3kb3qm,.body-3ND3kc,.channels-Ie2l6A,.chat-2ZfjoI,.chat-2ZfjoI form,.container-2Thooq,.container-2McqkF,.container-PNkimc,.content-1jQy2l,.footer-1fjuF6,.gameLibrary-TTDw4Y,.guildsWrapper-5TJh6A,.header-2EadGG,.headerBar-UHpsPw,.members-3WRCEx,.messagesWrapper-RpOMA3,.root-1BQpZw,.root-26DmKJ,.typeWindows-2-g3UY,.video-eAcneW, .da-peopleList, .da-nowPlayingScroller, .da-itemCard {
+.wrapper-3AZUiP.errorPage-2pZ2Kq {
 	background-color: var(--backgroundDark)!important
 }
-.wrapper-3AZUiP.errorPage-2pZ2Kq {
+.memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover,.enabled-1t_Gxm:hover,.nowPlayingColumn-1eCBCN,.peopleList-2VBrVI,.container-2cd8Mz,#friends,.applicationStore-2nk7Lo,.article-3kb3qm,.body-3ND3kc,.channels-Ie2l6A,.chat-2ZfjoI,.chat-2ZfjoI form,.container-2Thooq,.container-2McqkF,.container-PNkimc,.content-1jQy2l,.footer-1fjuF6,.gameLibrary-TTDw4Y,.guildsWrapper-5TJh6A,.header-2EadGG,.headerBar-UHpsPw,.members-3WRCEx,.messagesWrapper-RpOMA3,.root-1BQpZw,.root-26DmKJ,.typeWindows-2-g3UY,.video-eAcneW {
 	background-color: var(--backgroundDark)!important
 }
 .peopleListItem-u6dGxF:hover,
@@ -361,14 +358,14 @@
 .content-3spvdd,
 .scrollableContainer-15eg7h,
 .popout-AVsFMl,
-.exampleModal-2fUA5X {
+.exampleModal-2fUA5X {  
   background-color: var(--backgroundDark)!important;
   box-shadow: inset 0 0 100000px 0 rgba(0,0,0,.5)!important;
 }
 .webkit-QgSAqd .buttons-uaqb-5 {margin-right: 5px;}
 .scrollableContainer-15eg7h {overflow-y: auto;}
 .attachWrapper-3slhXI {border: none;}
-.divider-2rZFJK:not(.isUnread-3Lojb-)  {border-top-color: var(--backgroundDarker);}
+.divider-2rZFJK:not(.isUnread-3Lojb-) {border-top-color: var(--backgroundDarker);}
 .actionButton-3-B2x-.highlight-3DSi7b {
   background: linear-gradient(to top left,var(--primaryGradient1),var(--primaryGradient2))!important;
   box-shadow: inset 0 0 100000px 0 rgba(0,0,0,.5)!important;
@@ -388,8 +385,8 @@
 }
 .modal-2RrUKJ {background-color: var(--backgroundDark)!important;}
 .scrollerWrap-2lJEkd ::-webkit-scrollbar {width: 5px !important;}
-.folder-, .theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6 {background-color: var(--medium) !important;}
-.searchBar-3TnChZ .searchBarComponent-3N7dCG {background-color: var(--backgroundDark);border-radius: 50px}
+.folder-21wGz3, .theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6 {background-color: var(--medium) !important;}
+.searchBar-3TnChZ .searchBarComponent-3N7dCG {background-color: var(--backgroundDark);border-radius: 5px}
 .platform-win .sidebar-1tnWFu {border-radius: 0;}
 .infoBar-U6oBFk, .emojiPicker-3m1S-j .categories-1feg4n {
   background-color: var(--backgroundDark);
@@ -405,7 +402,7 @@
   border-top: 8px solid var(--backgroundDark);
 }
 .latin12CompactTimeStamp-2G5XJd.timestamp-p1Df1m.timestampVisibleOnHover-9PEuZS.alt-1dvXnH {
-  width: 3rem;
+	width: 3rem;
 }
 .scroller-3sQKXg:after {
   height: 18px;
@@ -449,7 +446,7 @@
 .privateChannelsHeaderContainer-1UWASm {
   display: flex;}
 .headerText-1qIDDT {
-  display: block !important;
+  display: block!important;
 }
 .embedFull-1HGV2S {
   border-left: 2.5px solid;
@@ -611,7 +608,7 @@
 	background-color: var(--backgroundDark)!important;
 	box-shadow: inset 0 0 100000px rgba(0,0,0,.5);
 	border: 1px solid rgba(0,0,0,.25)!important;
-	border-radius: 50px!important;
+	border-radius: 5px!important;
 	padding: 1px 4px;
 }
 
@@ -646,7 +643,7 @@ div[data-contents="true"] {
 	background-color: var(--backgroundDark)!important
 }
 
-.search-2Mwzzq .searchBar-jGtisZ .DraftEditor-root {
+.search-39IXmY .search-2Mwzzq .searchBar-jGtisZ .DraftEditor-root {
 	line-height: 16px;
 	float: left
 }
@@ -659,7 +656,7 @@ div[data-contents="true"] {
 	background-color: var(--backgroundDark)!important
 }
 
-.searchResultsWrap-2DKFzt .jumpButton-Ia2hRJ,.searchResultsWrap-2DKFzt .searchHeader-1l-wpR,.searchResultsWrap-2DKFzt .searchResultMessage-2VxO12.hit-NLlWXA {
+.searchResultsWrap-2DKFzt .jumpButton-Ia2hRJ,.searchResultsWrap-2DKFzt .searchHeader-1l-wpR,.searchResultsWrap-2DKFzt .searchResultMessage-1fxgXh.hit-NLlWXA {
 	background-color: rgba(0,0,0,.15)!important
 }
 
@@ -667,7 +664,7 @@ div[data-contents="true"] {
 	box-shadow: none!important
 }
 
-.searchResult-3pzFAB .searchResultMessage-2VxO12.hit-NLlWXA {
+.searchResult-3pzFAB .searchResultMessage-2VxO12 .hit-NLlWXA {
 	border: none!important
 }
 
@@ -683,7 +680,7 @@ div[data-contents="true"] {
 	border-color: transparent!important
 }
 
-.friendsEmpty-gs15T1 .image-20MDYu,.image-cLINxN,.animation-3GofIz,.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq,.emptyPlaceholder-1-a1LK .image-t6rLT3,.emptyState-30PyIN,.emptyStateContainer-1NHrfT,.icon-1kp3fr,.wrapper-r-6rrt, .image-20MDYu {
+.friendsEmpty-gs15T1 .image-20MDYu,.image-cLINxN,.animation-3GofIz,.emojiPicker-6YCk8a .categories-1feg4n .item-16cXuq,.emptyPlaceholder-1-a1LK .image-t6rLT3,.emptyState-30PyIN,.emptyStateContainer-1NHrfT,.icon-1kp3fr,.wrapper-r-6rrt,.image-20MDYu {
 	mix-blend-mode: luminosity
 }
 
@@ -705,7 +702,7 @@ div[data-contents="true"] {
 
 .circleIconButton-jET_ig,.circleIconButton-1VxDrg {
 	background-color: rgba(0,0,0,.25)!important;
-	border-radius: 50px
+	border-radius: 12px;
 }
 
 .circleIconButton-jET_ig:hover {
@@ -718,7 +715,7 @@ div[data-contents="true"] {
 
 .wrapper-1ZcZW- {
 	background: #008ae64d;
-	border-radius: 50px;
+	border-radius: 5px;
 	padding: .5px 5px;
 	transition: all .2s ease;
 }
@@ -818,7 +815,7 @@ svg[name=Nova_Discord] * {
 	background-color: transparent!important
 }
 
-#bda-qem,#bda-qem button,#bda-qem-favourite-container,#bda-qem-twitch-container,.emoji-picker,.emoji-picker .category,.emojiPicker-3m1S-j ,.emojiPicker-3m1S-j .category-2U57w6 {
+#bda-qem,#bda-qem button,#bda-qem-favourite-container,#bda-qem-twitch-container,.emoji-picker,.emoji-picker .category,.emojiPicker-6YCk8a,.emojiPicker-6YCk8a .category-2U57w6 {
 	background-color: var(--backgroundDark)!important
 }
 
@@ -830,12 +827,12 @@ svg[name=Nova_Discord] * {
 	background-color: rgba(0,0,0,.35)!important
 }
 
-#bda-qem,#bda-qem-favourite-container,#bda-qem-twitch-container,.emoji-picker,.emojiPicker-3m1S-j {
+#bda-qem,#bda-qem-favourite-container,#bda-qem-twitch-container,.emoji-picker,.emojiPicker-6YCk8a {
 	border: 1px solid rgba(0,0,0,.5)!important
 }
 
-.emojiPicker-3m1S-j .header-11eigE .searchBar-2M9mRP {
-	border-radius: 50px!important
+.emojiPicker-6YCk8a .header-11eigE .searchBar-2M9mRP {
+	border-radius: 5px!important
 }
 
 .ace-monokai {
@@ -866,7 +863,7 @@ svg[name=Nova_Discord] * {
 }
 
 #friends .friends-table .friends-row .friends-column-actions .friends-action,#friends .tab-bar.tab-bar-desktop .tab-bar-item,.app button,.bd-modal-wrapper .footer button,.button-2b4VEQ,.connectionDelete-XXTMqE,.lookInverted-2mDUMi.colorBrand-I6CyqQ,.questionMark-CWEQZn {
-	border-radius: 50px!important
+	border-radius: 5px!important
 }
 
 #bd-settingspane-container .bd-pfbtn, .viewServerButton-2-uqle, .lookFilled-yCfaCM.colorTransparent-13Bvvi, .lookFilled-yCfaCM.colorBrandNew-2-gGsS, .lookFilled-yCfaCM.colorGrey-2iAG-B, .bd-detached-css-editor #bd-customcss-attach-controls button,.bd-modal-wrapper .footer button,.bda-slist .bda-footer button,.headerButtonColor-3NRbCG,.lookFilled-yCfaCM.colorBrand-I6CyqQ,.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo,.lookOutlined-3yKVGo.colorBrand-I6CyqQ,.plugin-settings button,.questionMark-CWEQZn,.standardSidebarView-E9Pc3j #bd-customcss-attach-controls button,.tabBar-1qdMr5 .primary-3j8BhM {
@@ -995,7 +992,7 @@ svg[name=Nova_Discord] * {
 	color: #fff!important
 }
 
-.userProfileInnerThemedNonPremium-1gT-zY .lookFilled-yCfaCM.buttonColor-XIRMbp:hover:not(:disabled){
+.userProfileInnerThemedNonPremium-1gT-zY .lookFilled-yCfaCM.buttonColor-XIRMbp:hover:not(:disabled) {
 	color: #fff!important;
 	border: 2.3px solid transparent!important;
 	background-color: var(--primary);
@@ -1029,7 +1026,7 @@ svg[name=Nova_Discord] * {
 	color: #fff!important
 }
 
-.lookFilled-yCfaCM.colorRed-rQXKgM:hover {
+.lookFilled-yCfaCM.colorRed-rQXKgM:hover:not(:disabled) {
     color: #fff!important;
 	border: 2.3px solid transparent!important;
 	background-color: #f04747!important;
@@ -1062,19 +1059,27 @@ svg[name=Nova_Discord] * {
 }
 
 #friends .tab-bar .tab-bar-item:hover:not(.selected),.topPill-3DJJNV .item-3XjbnG:hover:not(.selected-g-kMVV) {
-	background-color: rgba(0,0,0,.45)!important
+	background-color: rgba(0,0,0,.45)!important;
+	border-radius: 5px;
 }
 
 .topPill-3DJJNV .themed-2-lozF.item-3XjbnG:active:not(.disabled-1nofHP):not(.selected-g-kMVV) {
 	background-color: rgba(0,0,0,.75)!important;
+	border-radius: 5px;
 }
 
 #friends .friends-table .friends-row .friends-column-actions .friends-action {
-	background-color: rgba(0,0,0,.45)!important
+	background-color: rgba(0,0,0,.45)!important;
+	border-radius: 5px;
+}
+
+.item-3mHhwr.item-3XjbnG.selected-g-kMVV.themed-2-lozF,.tab-TRrPC8.active-1grPyy.item-3XjbnG.selected-g-kMVV.themed-2-lozF {
+	border-radius: 5px;
 }
 
 .item-3mHhwr.addFriend-emTWY1.item-3XjbnG.themed-2-lozF {
 	background-color: #43b581;
+	border-radius: 5px;
 }
 
 .item-3mHhwr.addFriend-emTWY1.item-3XjbnG.selected-g-kMVV.themed-2-lozF {
@@ -1130,19 +1135,19 @@ svg[name=Nova_Discord] * {
 
 .activity-E0U09Y>*{
 	position: relative;
-	z-index: 1
+	z-index:1
 }
 
 .activity-E0U09Y:before{
 	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkNhbHF1ZV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDIwMDAgMjAwMCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMjAwMCAyMDAwIiB4bWw6c3BhY2U9InByZXNlcnZlIj48ZyBvcGFjaXR5PSIwLjM1Ij48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNNjM4LjMsNTgwYy01LjktNS45LTE1LjQtNS45LTIxLjIsMHYwbC0yNiwyNmwtMjYtMjZjLTUuOS01LjktMTUuNC01LjktMjEuMiwwcy01LjksMTUuNCwwLDIxLjJsMjYsMjYgICBsLTI2LDI2Yy01LjksNS45LTUuOSwxNS40LDAsMjEuMnMxNS40LDUuOSwyMS4yLDBsMjYtMjZsMjYsMjZjNS45LDUuOSwxNS40LDUuOSwyMS4yLDBzNS45LTE1LjQsMC0yMS4ybC0yNi0yNmwyNi0yNiAgIEM2NDQuMiw1OTUuMyw2NDQuMiw1ODUuOCw2MzguMyw1ODB6Ii8+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTE0NzkuNiwxNDM3LjJjLTUuOS01LjktMTUuNC01LjktMjEuMiwwbDAsMGwtMjYsMjZsLTI2LTI2Yy01LjktNS45LTE1LjQtNS45LTIxLjIsMCAgIGMtNS45LDUuOS01LjksMTUuNCwwLDIxLjJoMGwyNiwyNmwtMjYsMjZjLTUuOSw1LjktNS45LDE1LjQsMCwyMS4yYzUuOSw1LjksMTUuNCw1LjksMjEuMiwwbDI2LTI2bDI2LDI2YzUuOSw1LjksMTUuNCw1LjksMjEuMiwwICAgYzUuOS01LjksNS45LTE1LjQsMC0yMS4ybC0yNi0yNmwyNi0yNkMxNDg1LjUsMTQ1Mi41LDE0ODUuNSwxNDQzLDE0NzkuNiwxNDM3LjJ6Ii8+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTYwMS43LDE3MzguN2MtNS45LTUuOS0xNS40LTUuOS0yMS4yLDB2MGwtMjYsMjZsLTI2LTI2Yy01LjktNS45LTE1LjQtNS45LTIxLjIsMCAgIGMtNS45LDUuOS01LjksMTUuNCwwLDIxLjJoMGwyNiwyNmwtMjYsMjZjLTUuOSw1LjktNS45LDE1LjQsMCwyMS4yYzUuOSw1LjksMTUuNCw1LjksMjEuMiwwbDI2LTI2bDI2LDI2YzUuOSw1LjksMTUuNCw1LjksMjEuMiwwICAgYzUuOS01LjksNS45LTE1LjQsMC0yMS4ybC0yNi0yNmwyNi0yNkM2MDcuNiwxNzU0LjEsNjA3LjYsMTc0NC42LDYwMS43LDE3MzguN3oiLz48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMTczNi4yLDMwNS44YzUuOSw1LjksMTUuNCw1LjksMjEuMiwwYzUuOS01LjksNS45LTE1LjQsMC0yMS4ybC0yNi0yNmwyNi0yNmM1LjktNS45LDUuOS0xNS40LDAtMjEuMiAgIGMtNS45LTUuOS0xNS40LTUuOS0yMS4yLDBoMGwtMjYsMjZsLTI2LTI2Yy01LjktNS45LTE1LjQtNS45LTIxLjIsMGMtNS45LDUuOS01LjksMTUuNCwwLDIxLjJoMGwyNiwyNmwtMjYsMjYgICBjLTUuOSw1LjktNS45LDE1LjQsMCwyMS4yYzUuOSw1LjksMTUuNCw1LjksMjEuMiwwbDI2LTI2TDE3MzYuMiwzMDUuOHoiLz48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMTE3NC45LDUzOWMtNS0zLjQtMTAuNS02LTE2LjMtNy44Yy01LjktMS44LTEyLjEtMi44LTE4LjUtMi44Yy04LjYsMC0xNi44LDEuNy0yNC4yLDQuOSAgIGMtMTEuMiw0LjctMjAuNywxMi42LTI3LjQsMjIuNWMtMy40LDUtNiwxMC41LTcuOCwxNi4zYy0xLjgsNS45LTIuOCwxMi4xLTIuOCwxOC41YzAsOC42LDEuNywxNi44LDQuOSwyNC4yICAgYzQuNywxMS4yLDEyLjYsMjAuNywyMi41LDI3LjRjNSwzLjQsMTAuNSw2LDE2LjMsNy44YzUuOSwxLjgsMTIuMSwyLjgsMTguNSwyLjhjOC42LDAsMTYuOC0xLjcsMjQuMi00LjkgICBjMTEuMi00LjcsMjAuNy0xMi42LDI3LjQtMjIuNWMzLjQtNSw2LTEwLjUsNy44LTE2LjNjMS44LTUuOSwyLjgtMTIuMSwyLjgtMTguNWMwLTguNi0xLjctMTYuOC00LjktMjQuMiAgIEMxMTkyLjcsNTU1LjIsMTE4NC44LDU0NS43LDExNzQuOSw1Mzl6IE0xMTY5LjgsNjAzLjFjLTIuNCw1LjgtNi41LDEwLjctMTEuNywxNC4yYy0yLjYsMS43LTUuNCwzLjEtOC40LDQuMSAgIGMtMywwLjktNi4yLDEuNC05LjYsMS40Yy00LjUsMC04LjctMC45LTEyLjYtMi41Yy01LjgtMi40LTEwLjctNi41LTE0LjItMTEuN2MtMS43LTIuNi0zLjEtNS40LTQuMS04LjRjLTAuOS0zLTEuNC02LjItMS40LTkuNiAgIGMwLTQuNSwwLjktOC43LDIuNS0xMi42YzIuNC01LjgsNi41LTEwLjcsMTEuNy0xNC4yYzIuNi0xLjcsNS40LTMuMSw4LjQtNC4xYzMtMC45LDYuMi0xLjQsOS42LTEuNGM0LjUsMCw4LjcsMC45LDEyLjYsMi41ICAgYzUuOCwyLjQsMTAuNyw2LjUsMTQuMiwxMS43YzEuNywyLjYsMy4xLDUuNCw0LjEsOC40YzAuOSwzLDEuNCw2LjIsMS40LDkuNkMxMTcyLjMsNTk1LjEsMTE3MS40LDU5OS4zLDExNjkuOCw2MDMuMXoiLz48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMTgwNC45LDE4MDIuNWMtNS0zLjQtMTAuNS02LTE2LjMtNy44Yy01LjktMS44LTEyLjEtMi44LTE4LjUtMi44Yy04LjYsMC0xNi44LDEuNy0yNC4yLDQuOSAgIGMtMTEuMiw0LjctMjAuNywxMi42LTI3LjQsMjIuNWMtMy40LDUtNiwxMC41LTcuOCwxNi4zYy0xLjgsNS45LTIuOCwxMi4xLTIuOCwxOC41YzAsOC42LDEuNywxNi44LDQuOSwyNC4yICAgYzQuNywxMS4yLDEyLjYsMjAuNywyMi41LDI3LjRjNSwzLjQsMTAuNSw2LDE2LjMsNy44YzUuOSwxLjgsMTIuMSwyLjgsMTguNSwyLjhjOC42LDAsMTYuOC0xLjcsMjQuMi00LjkgICBjMTEuMi00LjcsMjAuNy0xMi42LDI3LjQtMjIuNWMzLjQtNSw2LTEwLjUsNy44LTE2LjNjMS44LTUuOSwyLjgtMTIuMSwyLjgtMTguNWMwLTguNi0xLjctMTYuOC00LjktMjQuMiAgIEMxODIyLjcsMTgxOC43LDE4MTQuOCwxODA5LjMsMTgwNC45LDE4MDIuNXogTTE3OTkuOCwxODY2LjdjLTIuNCw1LjgtNi41LDEwLjctMTEuNywxNC4yYy0yLjYsMS43LTUuNCwzLjEtOC40LDQuMSAgIGMtMywwLjktNi4yLDEuNC05LjYsMS40Yy00LjUsMC04LjctMC45LTEyLjYtMi41Yy01LjgtMi40LTEwLjctNi41LTE0LjItMTEuN2MtMS43LTIuNi0zLjEtNS40LTQuMS04LjRjLTAuOS0zLTEuNC02LjItMS40LTkuNiAgIGMwLTQuNSwwLjktOC43LDIuNS0xMi42YzIuNC01LjgsNi41LTEwLjcsMTEuNy0xNC4yYzIuNi0xLjcsNS40LTMuMSw4LjQtNC4xYzMtMC45LDYuMi0xLjQsOS42LTEuNGM0LjUsMCw4LjcsMC45LDEyLjYsMi41ICAgYzUuOCwyLjQsMTAuNyw2LjUsMTQuMiwxMS43YzEuNywyLjYsMy4xLDUuNCw0LjEsOC40YzAuOSwzLDEuNCw2LjIsMS40LDkuNkMxODAyLjMsMTg1OC43LDE4MDEuNCwxODYyLjksMTc5OS44LDE4NjYuN3oiLz48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNOTE0LjcsMTQxMS40Yy01LTMuNC0xMC41LTYtMTYuMy03LjhjLTUuOS0xLjgtMTIuMS0yLjgtMTguNS0yLjhjLTguNiwwLTE2LjgsMS43LTI0LjIsNC45ICAgYy0xMS4yLDQuNy0yMC43LDEyLjYtMjcuNCwyMi41Yy0zLjQsNS02LDEwLjUtNy44LDE2LjNjLTEuOCw1LjktMi44LDEyLjEtMi44LDE4LjVjMCw4LjYsMS43LDE2LjgsNC45LDI0LjIgICBjNC43LDExLjIsMTIuNiwyMC43LDIyLjUsMjcuNGM1LDMuNCwxMC41LDYsMTYuMyw3LjhjNS45LDEuOCwxMi4xLDIuOCwxOC41LDIuOGM4LjYsMCwxNi44LTEuNywyNC4yLTQuOSAgIGMxMS4yLTQuNywyMC43LTEyLjYsMjcuNC0yMi41YzMuNC01LDYtMTAuNSw3LjgtMTYuM2MxLjgtNS45LDIuOC0xMi4xLDIuOC0xOC41YzAtOC42LTEuNy0xNi44LTQuOS0yNC4yICAgQzkzMi41LDE0MjcuNiw5MjQuNiwxNDE4LjEsOTE0LjcsMTQxMS40eiBNOTA5LjYsMTQ3NS42Yy0yLjQsNS44LTYuNSwxMC43LTExLjcsMTQuMmMtMi42LDEuNy01LjQsMy4xLTguNCw0LjEgICBjLTMsMC45LTYuMiwxLjQtOS42LDEuNGMtNC41LDAtOC43LTAuOS0xMi42LTIuNWMtNS44LTIuNC0xMC43LTYuNS0xNC4yLTExLjdjLTEuNy0yLjYtMy4xLTUuNC00LjEtOC40Yy0wLjktMy0xLjQtNi4yLTEuNC05LjYgICBjMC00LjUsMC45LTguNywyLjUtMTIuNmMyLjQtNS44LDYuNS0xMC43LDExLjctMTQuMmMyLjYtMS43LDUuNC0zLjEsOC40LTQuMWMzLTAuOSw2LjItMS40LDkuNi0xLjRjNC41LDAsOC43LDAuOSwxMi42LDIuNSAgIGM1LjgsMi40LDEwLjcsNi41LDE0LjIsMTEuN2MxLjcsMi42LDMuMSw1LjQsNC4xLDguNGMwLjksMywxLjQsNi4yLDEuNCw5LjZDOTEyLjEsMTQ2Ny42LDkxMS4yLDE0NzEuOCw5MDkuNiwxNDc1LjZ6Ii8+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTE5NDYuOSw1NjYuM2MtNC43LTExLjItMTIuNi0yMC43LTIyLjUtMjcuNGMtNS0zLjQtMTAuNS02LTE2LjMtNy44Yy01LjktMS44LTEyLjEtMi44LTE4LjUtMi44ICAgYy04LjYsMC0xNi44LDEuNy0yNC4yLDQuOWMtMTEuMiw0LjctMjAuNywxMi42LTI3LjQsMjIuNWMtMy40LDUtNiwxMC41LTcuOCwxNi4zYy0xLjgsNS45LTIuOCwxMi4xLTIuOCwxOC41ICAgYzAsOC42LDEuNywxNi44LDQuOSwyNC4yYzQuNywxMS4yLDEyLjYsMjAuNywyMi41LDI3LjRjNSwzLjQsMTAuNSw2LDE2LjMsNy44YzUuOSwxLjgsMTIuMSwyLjgsMTguNSwyLjhjOC42LDAsMTYuOC0xLjcsMjQuMi00LjkgICBjMTEuMi00LjcsMjAuNy0xMi42LDI3LjQtMjIuNWMzLjQtNSw2LTEwLjUsNy44LTE2LjNjMS44LTUuOSwyLjgtMTIuMSwyLjgtMTguNUMxOTUxLjgsNTgyLDE5NTAsNTczLjgsMTk0Ni45LDU2Ni4zeiAgICBNMTkxOS4zLDYwMy4xYy0yLjQsNS44LTYuNSwxMC43LTExLjcsMTQuMmMtMi42LDEuNy01LjQsMy4xLTguNCw0LjFjLTMsMC45LTYuMiwxLjQtOS42LDEuNGMtNC41LDAtOC43LTAuOS0xMi42LTIuNSAgIGMtNS44LTIuNC0xMC43LTYuNS0xNC4yLTExLjdjLTEuNy0yLjYtMy4xLTUuNC00LjEtOC40Yy0wLjktMy0xLjQtNi4yLTEuNC05LjZjMC00LjUsMC45LTguNywyLjUtMTIuNmMyLjQtNS44LDYuNS0xMC43LDExLjctMTQuMiAgIGMyLjYtMS43LDUuNC0zLjEsOC40LTQuMWMzLTAuOSw2LjItMS40LDkuNi0xLjRjNC41LDAsOC43LDAuOSwxMi42LDIuNWM1LjgsMi40LDEwLjcsNi41LDE0LjIsMTEuN2MxLjcsMi42LDMuMSw1LjQsNC4xLDguNCAgIGMwLjksMywxLjQsNi4yLDEuNCw5LjZDMTkyMS44LDU5NS4xLDE5MjAuOSw1OTkuMywxOTE5LjMsNjAzLjF6Ii8+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTI5Mi44LDIwNi45Yy01LTMuNC0xMC41LTYtMTYuMy03LjhjLTUuOS0xLjgtMTIuMS0yLjgtMTguNS0yLjhjLTguNiwwLTE2LjgsMS43LTI0LjIsNC45ICAgYy0xMS4yLDQuNy0yMC43LDEyLjYtMjcuNCwyMi41Yy0zLjQsNS02LDEwLjUtNy44LDE2LjNjLTEuOCw1LjktMi44LDEyLjEtMi44LDE4LjVjMCw4LjYsMS43LDE2LjgsNC45LDI0LjIgICBjNC43LDExLjIsMTIuNiwyMC43LDIyLjUsMjcuNGM1LDMuNCwxMC41LDYsMTYuMyw3LjhjNS45LDEuOCwxMi4xLDIuOCwxOC41LDIuOGM4LjYsMCwxNi44LTEuNywyNC4yLTQuOSAgIGMxMS4yLTQuNywyMC43LTEyLjYsMjcuNC0yMi41YzMuNC01LDYtMTAuNSw3LjgtMTYuM2MxLjgtNS45LDIuOC0xMi4xLDIuOC0xOC41YzAtOC42LTEuNy0xNi44LTQuOS0yNC4yICAgQzMxMC42LDIyMy4xLDMwMi43LDIxMy42LDI5Mi44LDIwNi45eiBNMjg3LjcsMjcxLjFjLTIuNCw1LjgtNi41LDEwLjctMTEuNywxNC4yYy0yLjYsMS43LTUuNCwzLjEtOC40LDQuMWMtMywwLjktNi4yLDEuNC05LjYsMS40ICAgYy00LjUsMC04LjctMC45LTEyLjYtMi41Yy01LjgtMi40LTEwLjctNi41LTE0LjItMTEuN2MtMS43LTIuNi0zLjEtNS40LTQuMS04LjRjLTAuOS0zLTEuNC02LjItMS40LTkuNmMwLTQuNSwwLjktOC43LDIuNS0xMi42ICAgYzIuNC01LjgsNi41LTEwLjcsMTEuNy0xNC4yYzIuNi0xLjcsNS40LTMuMSw4LjQtNC4xYzMtMC45LDYuMi0xLjQsOS42LTEuNGM0LjUsMCw4LjcsMC45LDEyLjYsMi41YzUuOCwyLjQsMTAuNyw2LjUsMTQuMiwxMS43ICAgYzEuNywyLjYsMy4xLDUuNCw0LjEsOC40YzAuOSwzLDEuNCw2LjIsMS40LDkuNkMyOTAuMiwyNjMuMSwyODkuMywyNjcuMywyODcuNywyNzEuMXoiLz48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNNDY0LjgsMTA5MS45Yy0yLTEuNC00LjMtMi41LTYuNy0zLjJjLTIuNC0wLjctNS0xLjEtNy42LTEuMWMtMy41LDAtNi45LDAuNy05LjksMiAgIGMtNC42LDEuOS04LjUsNS4yLTExLjIsOS4yYy0xLjQsMi0yLjUsNC4zLTMuMiw2LjdjLTAuNywyLjQtMS4xLDUtMS4xLDcuNmMwLDMuNSwwLjcsNi45LDIsOS45YzEuOSw0LjYsNS4yLDguNSw5LjIsMTEuMiAgIGMyLDEuNCw0LjMsMi41LDYuNywzLjJjMi40LDAuNyw1LDEuMSw3LjYsMS4xYzMuNSwwLDYuOS0wLjcsOS45LTJjNC42LTEuOSw4LjUtNS4yLDExLjItOS4yYzEuNC0yLDIuNS00LjMsMy4yLTYuNyAgIGMwLjctMi40LDEuMS01LDEuMS03LjZjMC0zLjUtMC43LTYuOS0yLTkuOUM0NzIsMTA5OC41LDQ2OC44LDEwOTQuNiw0NjQuOCwxMDkxLjl6IE00NTAuNSwxMTEzTDQ1MC41LDExMTNsNC4zLTEuM0w0NTAuNSwxMTEzeiAgICBNNDUwLjUsMTExM0w0NTAuNSwxMTEzbC0xLjMtNC4zTDQ1MC41LDExMTN6IE00NTAuNSwxMTEzTDQ1MC41LDExMTNsLTMuNywyLjVMNDUwLjUsMTExM3ogTTQ1MC41LDExMTNsMi41LDMuN0w0NTAuNSwxMTEzICAgbDQuMSwxLjhMNDUwLjUsMTExM3oiLz48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMTE5MS4xLDE3NzUuM2MtMi0xLjQtNC4zLTIuNS02LjctMy4yYy0yLjQtMC43LTUtMS4xLTcuNi0xLjFjLTMuNSwwLTYuOSwwLjctOS45LDIgICBjLTQuNiwxLjktOC41LDUuMi0xMS4yLDkuMmMtMS40LDItMi41LDQuMy0zLjIsNi43Yy0wLjcsMi40LTEuMSw1LTEuMSw3LjZjMCwzLjUsMC43LDYuOSwyLDkuOWMxLjksNC42LDUuMiw4LjUsOS4yLDExLjIgICBjMiwxLjQsNC4zLDIuNSw2LjcsMy4yYzIuNCwwLjcsNSwxLjEsNy42LDEuMWMzLjUsMCw2LjktMC43LDkuOS0yYzQuNi0xLjksOC41LTUuMiwxMS4yLTkuMmMxLjQtMiwyLjUtNC4zLDMuMi02LjcgICBjMC43LTIuNCwxLjEtNSwxLjEtNy42YzAtMy41LTAuNy02LjktMi05LjlDMTE5OC40LDE3ODEuOSwxMTk1LjIsMTc3OC4xLDExOTEuMSwxNzc1LjN6IE0xMTc2LjksMTc5Ni40TDExNzYuOSwxNzk2LjRsMS44LTQuMSAgIEwxMTc2LjksMTc5Ni40eiBNMTE3Ni45LDE3OTYuNEwxMTc2LjksMTc5Ni40bC0yLjUtMy43TDExNzYuOSwxNzk2LjR6IE0xMTc2LjksMTc5Ni40TDExNzYuOSwxNzk2LjRsMS4zLDQuM0wxMTc2LjksMTc5Ni40eiIvPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0xMjg3LjMsMjAwLjhjLTItMS40LTQuMy0yLjUtNi43LTMuMmMtMi40LTAuNy01LTEuMS03LjYtMS4xYy0zLjUsMC02LjksMC43LTkuOSwyICAgYy00LjYsMS45LTguNSw1LjItMTEuMiw5LjJjLTEuNCwyLTIuNSw0LjMtMy4yLDYuN2MtMC43LDIuNC0xLjEsNS0xLjEsNy42YzAsMy41LDAuNyw2LjksMiw5LjljMS45LDQuNiw1LjIsOC41LDkuMiwxMS4yICAgYzIsMS40LDQuMywyLjUsNi43LDMuMmMyLjQsMC43LDUsMS4xLDcuNiwxLjFjMy41LDAsNi45LTAuNyw5LjktMmM0LjYtMS45LDguNS01LjIsMTEuMi05LjJjMS40LTIsMi41LTQuMywzLjItNi43ICAgYzAuNy0yLjQsMS4xLTUsMS4xLTcuNmMwLTMuNS0wLjctNi45LTItOS45QzEyOTQuNSwyMDcuNCwxMjkxLjMsMjAzLjYsMTI4Ny4zLDIwMC44eiBNMTI3MywyMjEuOUwxMjczLDIyMS45bDEuOC00LjFMMTI3MywyMjEuOXogICAgTTEyNzMsMjIyTDEyNzMsMjIybC00LjMsMS4zTDEyNzMsMjIyeiBNMTI3MywyMjJMMTI3MywyMjJsLTEuOCw0LjFMMTI3MywyMjJ6IE0xMjczLDIyMkwxMjczLDIyMmwxLjMsNC4zTDEyNzMsMjIyeiBNMTI3MywyMjIgICBMMTI3MywyMjJsNC4xLDEuOEwxMjczLDIyMnoiLz48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMTU5MC4xLDc3MC4yYy0yLTEuNC00LjMtMi41LTYuNy0zLjJjLTIuNC0wLjctNS0xLjEtNy42LTEuMWMtMy41LDAtNi45LDAuNy05LjksMiAgIGMtNC42LDEuOS04LjUsNS4yLTExLjIsOS4yYy0xLjQsMi0yLjUsNC4zLTMuMiw2LjdjLTAuNywyLjQtMS4xLDUtMS4xLDcuNmMwLDMuNSwwLjcsNi45LDIsOS45YzEuOSw0LjYsNS4yLDguNSw5LjIsMTEuMiAgIGMyLDEuNCw0LjMsMi41LDYuNywzLjJjMi40LDAuNyw1LDEuMSw3LjYsMS4xYzMuNSwwLDYuOS0wLjcsOS45LTJjNC42LTEuOSw4LjUtNS4yLDExLjItOS4yYzEuNC0yLDIuNS00LjMsMy4yLTYuNyAgIGMwLjctMi40LDEuMS01LDEuMS03LjZjMC0zLjUtMC43LTYuOS0yLTkuOUMxNTk3LjQsNzc2LjgsMTU5NC4yLDc3Mi45LDE1OTAuMSw3NzAuMnogTTE1NzUuOSw3OTEuM0wxNTc1LjksNzkxLjNsNC4zLTEuMyAgIEwxNTc1LjksNzkxLjN6IE0xNTc1LjksNzkxLjNMMTU3NS45LDc5MS4zbC0yLjUtMy43TDE1NzUuOSw3OTEuM3ogTTE1NzUuOSw3OTEuM0wxNTc1LjksNzkxLjNsLTEuOCw0LjFMMTU3NS45LDc5MS4zeiAgICBNMTU3NS45LDc5MS4zbDIuNSwzLjdMMTU3NS45LDc5MS4zbDQuMSwxLjhMMTU3NS45LDc5MS4zeiIvPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0xMTExLjIsOTk0LjVsLTg2LjQtNS45Yy01LjMtMC40LTEwLjUsMi4yLTEzLjUsNi42Yy0zLDQuNC0zLjQsMTAuMi0xLDE1bDM4LjEsNzcuOCAgIGMyLjQsNC44LDcuMSw4LDEyLjQsOC40czEwLjUtMi4yLDEzLjUtNi42bDQ4LjMtNzEuOWMzLTQuNCwzLjQtMTAuMiwxLTE1UzExMTYuNiw5OTQuOSwxMTExLjIsOTk0LjV6IE0xMDY0LDEwNTEuNGwtMTUuMi0zMS4xICAgbDM0LjYsMi40TDEwNjQsMTA1MS40eiIvPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0yNDQuNSw4MjcuOWM1LjEsMS43LDEwLjcsMC42LDE0LjctM2M0LTMuNSw1LjgtOSw0LjgtMTQuMmwtMTcuMS04NC45Yy0xLjEtNS4zLTQuOC05LjUtOS45LTExLjMgICBzLTEwLjctMC42LTE0LjcsM2wtNjUsNTcuMmMtNCwzLjUtNS44LDktNC44LDE0LjJzNC44LDkuNSw5LjksMTEuM0wyNDQuNSw4MjcuOXogTTIyMi42LDc1Ny4ybDYuOCwzNGwtMzIuOC0xMS4xTDIyMi42LDc1Ny4yeiIvPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0yNTYuMiwxNDkxLjhsLTc3LjgtMzguMWMtNC44LTIuNC0xMC41LTItMTUsMXMtNyw4LjEtNi42LDEzLjVsNS45LDg2LjRjMC40LDUuMywzLjUsMTAuMSw4LjQsMTIuNSAgIGM0LjgsMi40LDEwLjUsMiwxNS0xbDcxLjktNDguM2M0LjQtMyw3LTguMSw2LjYtMTMuNUMyNjQuMiwxNDk4LjksMjYxLDE0OTQuMSwyNTYuMiwxNDkxLjh6IE0xOTAuOSwxNTI2LjZsLTIuMy0zNC42bDMxLjEsMTUuMyAgIEwxOTAuOSwxNTI2LjZ6Ii8+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTkzOS44LDE4OS44bC02Ni40LTU1LjZjLTQuMS0zLjQtOS43LTQuNC0xNC44LTIuNmMtNSwxLjgtOC43LDYuMi05LjYsMTEuNWwtMTUsODUuMyAgIGMtMC45LDUuMywxLDEwLjYsNS4xLDE0LjFjNC4xLDMuNCw5LjcsNC40LDE0LjgsMi42bDgxLjMtMjkuN2M1LTEuOCw4LjctNi4yLDkuNi0xMS41Uzk0My45LDE5My4yLDkzOS44LDE4OS44eiBNODY4LjEsMjA4bDYtMzQuMSAgIGwyNi42LDIyLjJMODY4LjEsMjA4eiIvPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0xNzUyLDExNjMuNGwtMzguNSw3Ny42Yy0yLjQsNC44LTIsMTAuNSwwLjksMTVjMyw0LjUsOC4xLDcsMTMuNCw2LjdsODYuNC01LjRjNS4zLTAuMywxMC4xLTMuNSwxMi41LTguMyAgIGMyLjQtNC44LDItMTAuNS0wLjktMTVsLTQ3LjktNzIuMmMtMy00LjUtOC4xLTctMTMuNC02LjdDMTc1OS4xLDExNTUuNSwxNzU0LjMsMTE1OC42LDE3NTIsMTE2My40eiBNMTc1MS44LDEyMzEuMWwxNS40LTMxICAgbDE5LjIsMjguOUwxNzUxLjgsMTIzMS4xeiIvPjwvZz48L3N2Zz4=),linear-gradient(to top right,var(--primaryGradient1),var(--primaryGradient2));
-	opacity: .75;
 	content: "";
 	height: 100%;
 	width: 100%;
 	position: absolute;
 	left: 0;
 	top: 0;
-	z-index: 1
+	opacity: .75;
+	z-index: 1;
 }
 
 .activityProfileV2-1N7pee>*{
@@ -1152,14 +1157,14 @@ svg[name=Nova_Discord] * {
 
 .activityProfileV2-1N7pee:before{
 	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkNhbHF1ZV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDIwMDAgMjAwMCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMjAwMCAyMDAwIiB4bWw6c3BhY2U9InByZXNlcnZlIj48ZyBvcGFjaXR5PSIwLjM1Ij48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNNjM4LjMsNTgwYy01LjktNS45LTE1LjQtNS45LTIxLjIsMHYwbC0yNiwyNmwtMjYtMjZjLTUuOS01LjktMTUuNC01LjktMjEuMiwwcy01LjksMTUuNCwwLDIxLjJsMjYsMjYgICBsLTI2LDI2Yy01LjksNS45LTUuOSwxNS40LDAsMjEuMnMxNS40LDUuOSwyMS4yLDBsMjYtMjZsMjYsMjZjNS45LDUuOSwxNS40LDUuOSwyMS4yLDBzNS45LTE1LjQsMC0yMS4ybC0yNi0yNmwyNi0yNiAgIEM2NDQuMiw1OTUuMyw2NDQuMiw1ODUuOCw2MzguMyw1ODB6Ii8+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTE0NzkuNiwxNDM3LjJjLTUuOS01LjktMTUuNC01LjktMjEuMiwwbDAsMGwtMjYsMjZsLTI2LTI2Yy01LjktNS45LTE1LjQtNS45LTIxLjIsMCAgIGMtNS45LDUuOS01LjksMTUuNCwwLDIxLjJoMGwyNiwyNmwtMjYsMjZjLTUuOSw1LjktNS45LDE1LjQsMCwyMS4yYzUuOSw1LjksMTUuNCw1LjksMjEuMiwwbDI2LTI2bDI2LDI2YzUuOSw1LjksMTUuNCw1LjksMjEuMiwwICAgYzUuOS01LjksNS45LTE1LjQsMC0yMS4ybC0yNi0yNmwyNi0yNkMxNDg1LjUsMTQ1Mi41LDE0ODUuNSwxNDQzLDE0NzkuNiwxNDM3LjJ6Ii8+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTYwMS43LDE3MzguN2MtNS45LTUuOS0xNS40LTUuOS0yMS4yLDB2MGwtMjYsMjZsLTI2LTI2Yy01LjktNS45LTE1LjQtNS45LTIxLjIsMCAgIGMtNS45LDUuOS01LjksMTUuNCwwLDIxLjJoMGwyNiwyNmwtMjYsMjZjLTUuOSw1LjktNS45LDE1LjQsMCwyMS4yYzUuOSw1LjksMTUuNCw1LjksMjEuMiwwbDI2LTI2bDI2LDI2YzUuOSw1LjksMTUuNCw1LjksMjEuMiwwICAgYzUuOS01LjksNS45LTE1LjQsMC0yMS4ybC0yNi0yNmwyNi0yNkM2MDcuNiwxNzU0LjEsNjA3LjYsMTc0NC42LDYwMS43LDE3MzguN3oiLz48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMTczNi4yLDMwNS44YzUuOSw1LjksMTUuNCw1LjksMjEuMiwwYzUuOS01LjksNS45LTE1LjQsMC0yMS4ybC0yNi0yNmwyNi0yNmM1LjktNS45LDUuOS0xNS40LDAtMjEuMiAgIGMtNS45LTUuOS0xNS40LTUuOS0yMS4yLDBoMGwtMjYsMjZsLTI2LTI2Yy01LjktNS45LTE1LjQtNS45LTIxLjIsMGMtNS45LDUuOS01LjksMTUuNCwwLDIxLjJoMGwyNiwyNmwtMjYsMjYgICBjLTUuOSw1LjktNS45LDE1LjQsMCwyMS4yYzUuOSw1LjksMTUuNCw1LjksMjEuMiwwbDI2LTI2TDE3MzYuMiwzMDUuOHoiLz48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMTE3NC45LDUzOWMtNS0zLjQtMTAuNS02LTE2LjMtNy44Yy01LjktMS44LTEyLjEtMi44LTE4LjUtMi44Yy04LjYsMC0xNi44LDEuNy0yNC4yLDQuOSAgIGMtMTEuMiw0LjctMjAuNywxMi42LTI3LjQsMjIuNWMtMy40LDUtNiwxMC41LTcuOCwxNi4zYy0xLjgsNS45LTIuOCwxMi4xLTIuOCwxOC41YzAsOC42LDEuNywxNi44LDQuOSwyNC4yICAgYzQuNywxMS4yLDEyLjYsMjAuNywyMi41LDI3LjRjNSwzLjQsMTAuNSw2LDE2LjMsNy44YzUuOSwxLjgsMTIuMSwyLjgsMTguNSwyLjhjOC42LDAsMTYuOC0xLjcsMjQuMi00LjkgICBjMTEuMi00LjcsMjAuNy0xMi42LDI3LjQtMjIuNWMzLjQtNSw2LTEwLjUsNy44LTE2LjNjMS44LTUuOSwyLjgtMTIuMSwyLjgtMTguNWMwLTguNi0xLjctMTYuOC00LjktMjQuMiAgIEMxMTkyLjcsNTU1LjIsMTE4NC44LDU0NS43LDExNzQuOSw1Mzl6IE0xMTY5LjgsNjAzLjFjLTIuNCw1LjgtNi41LDEwLjctMTEuNywxNC4yYy0yLjYsMS43LTUuNCwzLjEtOC40LDQuMSAgIGMtMywwLjktNi4yLDEuNC05LjYsMS40Yy00LjUsMC04LjctMC45LTEyLjYtMi41Yy01LjgtMi40LTEwLjctNi41LTE0LjItMTEuN2MtMS43LTIuNi0zLjEtNS40LTQuMS04LjRjLTAuOS0zLTEuNC02LjItMS40LTkuNiAgIGMwLTQuNSwwLjktOC43LDIuNS0xMi42YzIuNC01LjgsNi41LTEwLjcsMTEuNy0xNC4yYzIuNi0xLjcsNS40LTMuMSw4LjQtNC4xYzMtMC45LDYuMi0xLjQsOS42LTEuNGM0LjUsMCw4LjcsMC45LDEyLjYsMi41ICAgYzUuOCwyLjQsMTAuNyw2LjUsMTQuMiwxMS43YzEuNywyLjYsMy4xLDUuNCw0LjEsOC40YzAuOSwzLDEuNCw2LjIsMS40LDkuNkMxMTcyLjMsNTk1LjEsMTE3MS40LDU5OS4zLDExNjkuOCw2MDMuMXoiLz48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMTgwNC45LDE4MDIuNWMtNS0zLjQtMTAuNS02LTE2LjMtNy44Yy01LjktMS44LTEyLjEtMi44LTE4LjUtMi44Yy04LjYsMC0xNi44LDEuNy0yNC4yLDQuOSAgIGMtMTEuMiw0LjctMjAuNywxMi42LTI3LjQsMjIuNWMtMy40LDUtNiwxMC41LTcuOCwxNi4zYy0xLjgsNS45LTIuOCwxMi4xLTIuOCwxOC41YzAsOC42LDEuNywxNi44LDQuOSwyNC4yICAgYzQuNywxMS4yLDEyLjYsMjAuNywyMi41LDI3LjRjNSwzLjQsMTAuNSw2LDE2LjMsNy44YzUuOSwxLjgsMTIuMSwyLjgsMTguNSwyLjhjOC42LDAsMTYuOC0xLjcsMjQuMi00LjkgICBjMTEuMi00LjcsMjAuNy0xMi42LDI3LjQtMjIuNWMzLjQtNSw2LTEwLjUsNy44LTE2LjNjMS44LTUuOSwyLjgtMTIuMSwyLjgtMTguNWMwLTguNi0xLjctMTYuOC00LjktMjQuMiAgIEMxODIyLjcsMTgxOC43LDE4MTQuOCwxODA5LjMsMTgwNC45LDE4MDIuNXogTTE3OTkuOCwxODY2LjdjLTIuNCw1LjgtNi41LDEwLjctMTEuNywxNC4yYy0yLjYsMS43LTUuNCwzLjEtOC40LDQuMSAgIGMtMywwLjktNi4yLDEuNC05LjYsMS40Yy00LjUsMC04LjctMC45LTEyLjYtMi41Yy01LjgtMi40LTEwLjctNi41LTE0LjItMTEuN2MtMS43LTIuNi0zLjEtNS40LTQuMS04LjRjLTAuOS0zLTEuNC02LjItMS40LTkuNiAgIGMwLTQuNSwwLjktOC43LDIuNS0xMi42YzIuNC01LjgsNi41LTEwLjcsMTEuNy0xNC4yYzIuNi0xLjcsNS40LTMuMSw4LjQtNC4xYzMtMC45LDYuMi0xLjQsOS42LTEuNGM0LjUsMCw4LjcsMC45LDEyLjYsMi41ICAgYzUuOCwyLjQsMTAuNyw2LjUsMTQuMiwxMS43YzEuNywyLjYsMy4xLDUuNCw0LjEsOC40YzAuOSwzLDEuNCw2LjIsMS40LDkuNkMxODAyLjMsMTg1OC43LDE4MDEuNCwxODYyLjksMTc5OS44LDE4NjYuN3oiLz48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNOTE0LjcsMTQxMS40Yy01LTMuNC0xMC41LTYtMTYuMy03LjhjLTUuOS0xLjgtMTIuMS0yLjgtMTguNS0yLjhjLTguNiwwLTE2LjgsMS43LTI0LjIsNC45ICAgYy0xMS4yLDQuNy0yMC43LDEyLjYtMjcuNCwyMi41Yy0zLjQsNS02LDEwLjUtNy44LDE2LjNjLTEuOCw1LjktMi44LDEyLjEtMi44LDE4LjVjMCw4LjYsMS43LDE2LjgsNC45LDI0LjIgICBjNC43LDExLjIsMTIuNiwyMC43LDIyLjUsMjcuNGM1LDMuNCwxMC41LDYsMTYuMyw3LjhjNS45LDEuOCwxMi4xLDIuOCwxOC41LDIuOGM4LjYsMCwxNi44LTEuNywyNC4yLTQuOSAgIGMxMS4yLTQuNywyMC43LTEyLjYsMjcuNC0yMi41YzMuNC01LDYtMTAuNSw3LjgtMTYuM2MxLjgtNS45LDIuOC0xMi4xLDIuOC0xOC41YzAtOC42LTEuNy0xNi44LTQuOS0yNC4yICAgQzkzMi41LDE0MjcuNiw5MjQuNiwxNDE4LjEsOTE0LjcsMTQxMS40eiBNOTA5LjYsMTQ3NS42Yy0yLjQsNS44LTYuNSwxMC43LTExLjcsMTQuMmMtMi42LDEuNy01LjQsMy4xLTguNCw0LjEgICBjLTMsMC45LTYuMiwxLjQtOS42LDEuNGMtNC41LDAtOC43LTAuOS0xMi42LTIuNWMtNS44LTIuNC0xMC43LTYuNS0xNC4yLTExLjdjLTEuNy0yLjYtMy4xLTUuNC00LjEtOC40Yy0wLjktMy0xLjQtNi4yLTEuNC05LjYgICBjMC00LjUsMC45LTguNywyLjUtMTIuNmMyLjQtNS44LDYuNS0xMC43LDExLjctMTQuMmMyLjYtMS43LDUuNC0zLjEsOC40LTQuMWMzLTAuOSw2LjItMS40LDkuNi0xLjRjNC41LDAsOC43LDAuOSwxMi42LDIuNSAgIGM1LjgsMi40LDEwLjcsNi41LDE0LjIsMTEuN2MxLjcsMi42LDMuMSw1LjQsNC4xLDguNGMwLjksMywxLjQsNi4yLDEuNCw5LjZDOTEyLjEsMTQ2Ny42LDkxMS4yLDE0NzEuOCw5MDkuNiwxNDc1LjZ6Ii8+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTE5NDYuOSw1NjYuM2MtNC43LTExLjItMTIuNi0yMC43LTIyLjUtMjcuNGMtNS0zLjQtMTAuNS02LTE2LjMtNy44Yy01LjktMS44LTEyLjEtMi44LTE4LjUtMi44ICAgYy04LjYsMC0xNi44LDEuNy0yNC4yLDQuOWMtMTEuMiw0LjctMjAuNywxMi42LTI3LjQsMjIuNWMtMy40LDUtNiwxMC41LTcuOCwxNi4zYy0xLjgsNS45LTIuOCwxMi4xLTIuOCwxOC41ICAgYzAsOC42LDEuNywxNi44LDQuOSwyNC4yYzQuNywxMS4yLDEyLjYsMjAuNywyMi41LDI3LjRjNSwzLjQsMTAuNSw2LDE2LjMsNy44YzUuOSwxLjgsMTIuMSwyLjgsMTguNSwyLjhjOC42LDAsMTYuOC0xLjcsMjQuMi00LjkgICBjMTEuMi00LjcsMjAuNy0xMi42LDI3LjQtMjIuNWMzLjQtNSw2LTEwLjUsNy44LTE2LjNjMS44LTUuOSwyLjgtMTIuMSwyLjgtMTguNUMxOTUxLjgsNTgyLDE5NTAsNTczLjgsMTk0Ni45LDU2Ni4zeiAgICBNMTkxOS4zLDYwMy4xYy0yLjQsNS44LTYuNSwxMC43LTExLjcsMTQuMmMtMi42LDEuNy01LjQsMy4xLTguNCw0LjFjLTMsMC45LTYuMiwxLjQtOS42LDEuNGMtNC41LDAtOC43LTAuOS0xMi42LTIuNSAgIGMtNS44LTIuNC0xMC43LTYuNS0xNC4yLTExLjdjLTEuNy0yLjYtMy4xLTUuNC00LjEtOC40Yy0wLjktMy0xLjQtNi4yLTEuNC05LjZjMC00LjUsMC45LTguNywyLjUtMTIuNmMyLjQtNS44LDYuNS0xMC43LDExLjctMTQuMiAgIGMyLjYtMS43LDUuNC0zLjEsOC40LTQuMWMzLTAuOSw2LjItMS40LDkuNi0xLjRjNC41LDAsOC43LDAuOSwxMi42LDIuNWM1LjgsMi40LDEwLjcsNi41LDE0LjIsMTEuN2MxLjcsMi42LDMuMSw1LjQsNC4xLDguNCAgIGMwLjksMywxLjQsNi4yLDEuNCw5LjZDMTkyMS44LDU5NS4xLDE5MjAuOSw1OTkuMywxOTE5LjMsNjAzLjF6Ii8+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTI5Mi44LDIwNi45Yy01LTMuNC0xMC41LTYtMTYuMy03LjhjLTUuOS0xLjgtMTIuMS0yLjgtMTguNS0yLjhjLTguNiwwLTE2LjgsMS43LTI0LjIsNC45ICAgYy0xMS4yLDQuNy0yMC43LDEyLjYtMjcuNCwyMi41Yy0zLjQsNS02LDEwLjUtNy44LDE2LjNjLTEuOCw1LjktMi44LDEyLjEtMi44LDE4LjVjMCw4LjYsMS43LDE2LjgsNC45LDI0LjIgICBjNC43LDExLjIsMTIuNiwyMC43LDIyLjUsMjcuNGM1LDMuNCwxMC41LDYsMTYuMyw3LjhjNS45LDEuOCwxMi4xLDIuOCwxOC41LDIuOGM4LjYsMCwxNi44LTEuNywyNC4yLTQuOSAgIGMxMS4yLTQuNywyMC43LTEyLjYsMjcuNC0yMi41YzMuNC01LDYtMTAuNSw3LjgtMTYuM2MxLjgtNS45LDIuOC0xMi4xLDIuOC0xOC41YzAtOC42LTEuNy0xNi44LTQuOS0yNC4yICAgQzMxMC42LDIyMy4xLDMwMi43LDIxMy42LDI5Mi44LDIwNi45eiBNMjg3LjcsMjcxLjFjLTIuNCw1LjgtNi41LDEwLjctMTEuNywxNC4yYy0yLjYsMS43LTUuNCwzLjEtOC40LDQuMWMtMywwLjktNi4yLDEuNC05LjYsMS40ICAgYy00LjUsMC04LjctMC45LTEyLjYtMi41Yy01LjgtMi40LTEwLjctNi41LTE0LjItMTEuN2MtMS43LTIuNi0zLjEtNS40LTQuMS04LjRjLTAuOS0zLTEuNC02LjItMS40LTkuNmMwLTQuNSwwLjktOC43LDIuNS0xMi42ICAgYzIuNC01LjgsNi41LTEwLjcsMTEuNy0xNC4yYzIuNi0xLjcsNS40LTMuMSw4LjQtNC4xYzMtMC45LDYuMi0xLjQsOS42LTEuNGM0LjUsMCw4LjcsMC45LDEyLjYsMi41YzUuOCwyLjQsMTAuNyw2LjUsMTQuMiwxMS43ICAgYzEuNywyLjYsMy4xLDUuNCw0LjEsOC40YzAuOSwzLDEuNCw2LjIsMS40LDkuNkMyOTAuMiwyNjMuMSwyODkuMywyNjcuMywyODcuNywyNzEuMXoiLz48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNNDY0LjgsMTA5MS45Yy0yLTEuNC00LjMtMi41LTYuNy0zLjJjLTIuNC0wLjctNS0xLjEtNy42LTEuMWMtMy41LDAtNi45LDAuNy05LjksMiAgIGMtNC42LDEuOS04LjUsNS4yLTExLjIsOS4yYy0xLjQsMi0yLjUsNC4zLTMuMiw2LjdjLTAuNywyLjQtMS4xLDUtMS4xLDcuNmMwLDMuNSwwLjcsNi45LDIsOS45YzEuOSw0LjYsNS4yLDguNSw5LjIsMTEuMiAgIGMyLDEuNCw0LjMsMi41LDYuNywzLjJjMi40LDAuNyw1LDEuMSw3LjYsMS4xYzMuNSwwLDYuOS0wLjcsOS45LTJjNC42LTEuOSw4LjUtNS4yLDExLjItOS4yYzEuNC0yLDIuNS00LjMsMy4yLTYuNyAgIGMwLjctMi40LDEuMS01LDEuMS03LjZjMC0zLjUtMC43LTYuOS0yLTkuOUM0NzIsMTA5OC41LDQ2OC44LDEwOTQuNiw0NjQuOCwxMDkxLjl6IE00NTAuNSwxMTEzTDQ1MC41LDExMTNsNC4zLTEuM0w0NTAuNSwxMTEzeiAgICBNNDUwLjUsMTExM0w0NTAuNSwxMTEzbC0xLjMtNC4zTDQ1MC41LDExMTN6IE00NTAuNSwxMTEzTDQ1MC41LDExMTNsLTMuNywyLjVMNDUwLjUsMTExM3ogTTQ1MC41LDExMTNsMi41LDMuN0w0NTAuNSwxMTEzICAgbDQuMSwxLjhMNDUwLjUsMTExM3oiLz48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMTE5MS4xLDE3NzUuM2MtMi0xLjQtNC4zLTIuNS02LjctMy4yYy0yLjQtMC43LTUtMS4xLTcuNi0xLjFjLTMuNSwwLTYuOSwwLjctOS45LDIgICBjLTQuNiwxLjktOC41LDUuMi0xMS4yLDkuMmMtMS40LDItMi41LDQuMy0zLjIsNi43Yy0wLjcsMi40LTEuMSw1LTEuMSw3LjZjMCwzLjUsMC43LDYuOSwyLDkuOWMxLjksNC42LDUuMiw4LjUsOS4yLDExLjIgICBjMiwxLjQsNC4zLDIuNSw2LjcsMy4yYzIuNCwwLjcsNSwxLjEsNy42LDEuMWMzLjUsMCw2LjktMC43LDkuOS0yYzQuNi0xLjksOC41LTUuMiwxMS4yLTkuMmMxLjQtMiwyLjUtNC4zLDMuMi02LjcgICBjMC43LTIuNCwxLjEtNSwxLjEtNy42YzAtMy41LTAuNy02LjktMi05LjlDMTE5OC40LDE3ODEuOSwxMTk1LjIsMTc3OC4xLDExOTEuMSwxNzc1LjN6IE0xMTc2LjksMTc5Ni40TDExNzYuOSwxNzk2LjRsMS44LTQuMSAgIEwxMTc2LjksMTc5Ni40eiBNMTE3Ni45LDE3OTYuNEwxMTc2LjksMTc5Ni40bC0yLjUtMy43TDExNzYuOSwxNzk2LjR6IE0xMTc2LjksMTc5Ni40TDExNzYuOSwxNzk2LjRsMS4zLDQuM0wxMTc2LjksMTc5Ni40eiIvPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0xMjg3LjMsMjAwLjhjLTItMS40LTQuMy0yLjUtNi43LTMuMmMtMi40LTAuNy01LTEuMS03LjYtMS4xYy0zLjUsMC02LjksMC43LTkuOSwyICAgYy00LjYsMS45LTguNSw1LjItMTEuMiw5LjJjLTEuNCwyLTIuNSw0LjMtMy4yLDYuN2MtMC43LDIuNC0xLjEsNS0xLjEsNy42YzAsMy41LDAuNyw2LjksMiw5LjljMS45LDQuNiw1LjIsOC41LDkuMiwxMS4yICAgYzIsMS40LDQuMywyLjUsNi43LDMuMmMyLjQsMC43LDUsMS4xLDcuNiwxLjFjMy41LDAsNi45LTAuNyw5LjktMmM0LjYtMS45LDguNS01LjIsMTEuMi05LjJjMS40LTIsMi41LTQuMywzLjItNi43ICAgYzAuNy0yLjQsMS4xLTUsMS4xLTcuNmMwLTMuNS0wLjctNi45LTItOS45QzEyOTQuNSwyMDcuNCwxMjkxLjMsMjAzLjYsMTI4Ny4zLDIwMC44eiBNMTI3MywyMjEuOUwxMjczLDIyMS45bDEuOC00LjFMMTI3MywyMjEuOXogICAgTTEyNzMsMjIyTDEyNzMsMjIybC00LjMsMS4zTDEyNzMsMjIyeiBNMTI3MywyMjJMMTI3MywyMjJsLTEuOCw0LjFMMTI3MywyMjJ6IE0xMjczLDIyMkwxMjczLDIyMmwxLjMsNC4zTDEyNzMsMjIyeiBNMTI3MywyMjIgICBMMTI3MywyMjJsNC4xLDEuOEwxMjczLDIyMnoiLz48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMTU5MC4xLDc3MC4yYy0yLTEuNC00LjMtMi41LTYuNy0zLjJjLTIuNC0wLjctNS0xLjEtNy42LTEuMWMtMy41LDAtNi45LDAuNy05LjksMiAgIGMtNC42LDEuOS04LjUsNS4yLTExLjIsOS4yYy0xLjQsMi0yLjUsNC4zLTMuMiw2LjdjLTAuNywyLjQtMS4xLDUtMS4xLDcuNmMwLDMuNSwwLjcsNi45LDIsOS45YzEuOSw0LjYsNS4yLDguNSw5LjIsMTEuMiAgIGMyLDEuNCw0LjMsMi41LDYuNywzLjJjMi40LDAuNyw1LDEuMSw3LjYsMS4xYzMuNSwwLDYuOS0wLjcsOS45LTJjNC42LTEuOSw4LjUtNS4yLDExLjItOS4yYzEuNC0yLDIuNS00LjMsMy4yLTYuNyAgIGMwLjctMi40LDEuMS01LDEuMS03LjZjMC0zLjUtMC43LTYuOS0yLTkuOUMxNTk3LjQsNzc2LjgsMTU5NC4yLDc3Mi45LDE1OTAuMSw3NzAuMnogTTE1NzUuOSw3OTEuM0wxNTc1LjksNzkxLjNsNC4zLTEuMyAgIEwxNTc1LjksNzkxLjN6IE0xNTc1LjksNzkxLjNMMTU3NS45LDc5MS4zbC0yLjUtMy43TDE1NzUuOSw3OTEuM3ogTTE1NzUuOSw3OTEuM0wxNTc1LjksNzkxLjNsLTEuOCw0LjFMMTU3NS45LDc5MS4zeiAgICBNMTU3NS45LDc5MS4zbDIuNSwzLjdMMTU3NS45LDc5MS4zbDQuMSwxLjhMMTU3NS45LDc5MS4zeiIvPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0xMTExLjIsOTk0LjVsLTg2LjQtNS45Yy01LjMtMC40LTEwLjUsMi4yLTEzLjUsNi42Yy0zLDQuNC0zLjQsMTAuMi0xLDE1bDM4LjEsNzcuOCAgIGMyLjQsNC44LDcuMSw4LDEyLjQsOC40czEwLjUtMi4yLDEzLjUtNi42bDQ4LjMtNzEuOWMzLTQuNCwzLjQtMTAuMiwxLTE1UzExMTYuNiw5OTQuOSwxMTExLjIsOTk0LjV6IE0xMDY0LDEwNTEuNGwtMTUuMi0zMS4xICAgbDM0LjYsMi40TDEwNjQsMTA1MS40eiIvPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0yNDQuNSw4MjcuOWM1LjEsMS43LDEwLjcsMC42LDE0LjctM2M0LTMuNSw1LjgtOSw0LjgtMTQuMmwtMTcuMS04NC45Yy0xLjEtNS4zLTQuOC05LjUtOS45LTExLjMgICBzLTEwLjctMC42LTE0LjcsM2wtNjUsNTcuMmMtNCwzLjUtNS44LDktNC44LDE0LjJzNC44LDkuNSw5LjksMTEuM0wyNDQuNSw4MjcuOXogTTIyMi42LDc1Ny4ybDYuOCwzNGwtMzIuOC0xMS4xTDIyMi42LDc1Ny4yeiIvPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0yNTYuMiwxNDkxLjhsLTc3LjgtMzguMWMtNC44LTIuNC0xMC41LTItMTUsMXMtNyw4LjEtNi42LDEzLjVsNS45LDg2LjRjMC40LDUuMywzLjUsMTAuMSw4LjQsMTIuNSAgIGM0LjgsMi40LDEwLjUsMiwxNS0xbDcxLjktNDguM2M0LjQtMyw3LTguMSw2LjYtMTMuNUMyNjQuMiwxNDk4LjksMjYxLDE0OTQuMSwyNTYuMiwxNDkxLjh6IE0xOTAuOSwxNTI2LjZsLTIuMy0zNC42bDMxLjEsMTUuMyAgIEwxOTAuOSwxNTI2LjZ6Ii8+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTkzOS44LDE4OS44bC02Ni40LTU1LjZjLTQuMS0zLjQtOS43LTQuNC0xNC44LTIuNmMtNSwxLjgtOC43LDYuMi05LjYsMTEuNWwtMTUsODUuMyAgIGMtMC45LDUuMywxLDEwLjYsNS4xLDE0LjFjNC4xLDMuNCw5LjcsNC40LDE0LjgsMi42bDgxLjMtMjkuN2M1LTEuOCw4LjctNi4yLDkuNi0xMS41Uzk0My45LDE5My4yLDkzOS44LDE4OS44eiBNODY4LjEsMjA4bDYtMzQuMSAgIGwyNi42LDIyLjJMODY4LjEsMjA4eiIvPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0xNzUyLDExNjMuNGwtMzguNSw3Ny42Yy0yLjQsNC44LTIsMTAuNSwwLjksMTVjMyw0LjUsOC4xLDcsMTMuNCw2LjdsODYuNC01LjRjNS4zLTAuMywxMC4xLTMuNSwxMi41LTguMyAgIGMyLjQtNC44LDItMTAuNS0wLjktMTVsLTQ3LjktNzIuMmMtMy00LjUtOC4xLTctMTMuNC02LjdDMTc1OS4xLDExNTUuNSwxNzU0LjMsMTE1OC42LDE3NTIsMTE2My40eiBNMTc1MS44LDEyMzEuMWwxNS40LTMxICAgbDE5LjIsMjguOUwxNzUxLjgsMTIzMS4xeiIvPjwvZz48L3N2Zz4=),linear-gradient(to top right,var(--primaryGradient1),var(--primaryGradient2));
-	opacity: .75;
 	content: "";
 	height: 100%;
 	width: 100%;
 	position: absolute;
 	left: 0;
 	top: 0;
-	z-index:1
+	opacity: .75;
+	z-index: 1;
 }
 
 .activity-E0U09Y{
@@ -1431,8 +1436,8 @@ svg.gameIcon-1siQqm {
 	stroke: var(--primary)!important
 }
 
-.connectedAccountVerifiedIcon-2IthzC g path:nth-child(2),.verified-2-ja4L g path:nth-child(2),.verified-3uJH7V g path:nth-child(2),.verifiedIcon-2TCIsJ g path:nth-child(2) {
-	fill: var(--primary)!important
+.connectedAccountVerifiedIcon-2IthzC g path:nth-child(2),.verified-2-ja4L g path:nth-child(2),.verified-3uJH7V g path:nth-child(2),.verifiedIcon-2TCIsJ g path:nth-child(2){
+	fill: var(--primary)!important;
 }
 
 .installSize-3az1nt {
@@ -1448,7 +1453,7 @@ svg.gameIcon-1siQqm {
 	border-radius: 5px
 }
 
-.progress-24WBU3,.small-Q4fy6o {
+.progress-24WBU3,.small-1bZsRQ {
 	background: rgba(255,255,255,.05)!important
 }
 
@@ -1495,7 +1500,7 @@ svg.gameIcon-1siQqm {
 }
 
 .backgroundContainer-gUNEZU {
-	background-color: var(--backgroundDarker);
+	background-color: var(--backgroundDark);
 }
 
 .containerPadding-3Ok3MG {
@@ -1535,7 +1540,7 @@ svg.gameIcon-1siQqm {
 }
 
 #bd-settings-sidebar .ui-tab-bar-item.selected,#bd-settings-sidebar .ui-tab-bar-item:hover,#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch {
-	background-color: rgba(0,0,0,.35)!important
+	background-color: rgba(0,0,0,.35)!important;
 }
 
 #bd-settings-sidebar .ui-tab-bar-item::after,.side-2ur1Qk .item-3XjbnG::after,.modeSelected-3DmyhH .content-1gYQeQ::after,.content-1gYQeQ::after {
@@ -1552,7 +1557,7 @@ svg.gameIcon-1siQqm {
 	transition: all .2s ease
 }
 
-#bd-settings-sidebar .ui-tab-bar-item.selected::after,#bd-settings-sidebar .ui-tab-bar-item:hover::after,.side-2ur1Qk .itemDefault-3Jdr52:hover::after {
+#bd-settings-sidebar .ui-tab-bar-item.selected::after,#bd-settings-sidebar .ui-tab-bar-item:hover::after {
 	transform: translateX(0)
 }
 
@@ -1588,7 +1593,6 @@ svg.gameIcon-1siQqm {
 .tier1Banner-1B_WXY {
 	max-width: 100%
 }
-
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked,.barFill-2Bh7CX,.option-1QI4c9:hover,.selected-18Wszc.option-1QI4c9 {
 	background-color: var(--primary)!important
 }
@@ -1611,7 +1615,7 @@ svg.gameIcon-1siQqm {
 }
 
 .select-1YfRS9 .Select-menu-outer {
-	background-color: var(--backgroundDark)!important
+	background-color: var(--backgroundDarker)!important
 }
 
 .elevationHigh-28Pty4[style*="24, 25, 28"] {
@@ -1715,6 +1719,11 @@ svg.gameIcon-1siQqm {
 	background: 0 0
 }
 
+.defaultIndicator-2ndWks,.select-1YfRS9 .Select-menu-outer,.userSettingsVoice-1_dzjw .previewOverlay-2reuWf {
+	background-color: rgba(0,0,0,.35)!important;
+	border-color: rgba(0,0,0,.35)!important
+}
+
 .cardWrapper-CyvwQv{
 	background-color:var(--backgroundDarker)!important
 }
@@ -1740,7 +1749,7 @@ svg.gameIcon-1siQqm {
 	background: 0 0!important
 }
 
-.auditLog-1NVAY0,.headerExpanded-1-zwDr {
+.auditLog-1NVAY0,.theme-dark .headerExpanded-1-zwDr {
 	border-color: rgba(0,0,0,.35)!important;
 	background-color: rgba(0,0,0,.15)!important
 }
@@ -1812,7 +1821,7 @@ svg.gameIcon-1siQqm {
 }
 
 .searchAnswer-23w-CH,.searchFilter-2UfsDk {
-	border-radius: 50px;
+	border-radius: 5px;
 	background-color: #1e232e!important;
 	margin-top: -5px
 }
@@ -1901,7 +1910,7 @@ svg.gameIcon-1siQqm {
 }
 
 .akaBadge-3i7V3p,.friendSelected--wQP3f {
-	background-color: rgba(0,0,0,.35)!important
+	background-color: rgba(0,0,0,.35)!important;
 }
 
 .tiles- {
@@ -1909,7 +1918,7 @@ svg.gameIcon-1siQqm {
 	box-shadow: none!important
 }
 
-.callAvatarBorder-1D_KaE.video-3GgX2M.selected-2esnyn:not(.speaking-3RWJBr):not(.soundsharing-102bS9) {
+.callAvatarBorder-1D_KaE.video-3GgX2M.selected-2esnyn:not(.speaking-7QZEkv):not(.soundsharing-102bS9) {
 	box-shadow: inset 0 0 0 2px var(--primary)
 }
 
@@ -2003,7 +2012,7 @@ svg[name=Nitro] g path {
 	box-shadow: inset 0 0 0 2px var(--primary),inset 0 0 0 3px var(--backgroundDarker)!important
 }
 
-.checkbox-1ycfTw .checkboxInner-1aRh1d .checkboxElement-1qV33p:checked+span {
+.checkbox-3MLwFr .checkboxInner-1aRh1d .checkboxElement-1qV33p:checked+span {
 	background-color: var(--primary)!important;
 	border-color: var(--primary)!important
 }
@@ -2073,7 +2082,7 @@ svg[name=Nitro] g path {
 	background: radial-gradient(ellipse at top,rgba(54,57,63,0),var(--backgroundDark)),linear-gradient(90deg,var(--backgroundDark) 0,rgba(54,57,63,0) 40%,rgba(54,57,63,0) 60%,var(--backgroundDark)),linear-gradient(0deg,var(--backgroundDark) 0,rgba(54,57,63,0) 25%)!important
 }
 
-.modal-3HD5ck,.reactors-1VXca7,.scrollerButton-1Vm5_P {
+.modal-3HD5ck,.theme-dark .container-KM8BU6, .theme-dark .reactors-1VXca7,.scrollerButton-1Vm5_P {
 	background-color: var(--backgroundDark)!important
 }
 
@@ -2093,12 +2102,18 @@ svg[name=Nitro] g path {
 	background-color: var(--primary)!important;
 }
 
+.guildAvatarWithoutIcon-1EVd9c {
+	background-color: var(--primary)
+}
+
 .genreTag-3QLRUJ,.iconBadge-1D5-9X:not(.stepStatus-3oAHkt),.topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG,.topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG:hover {
 	background: linear-gradient(to top left,var(--primaryGradient1),var(--primaryGradient2))!important;
+	border-radius: 5px;
 }
 
 .unread-2wipsx {
-	background-color: var(--primaryGradient1)
+	background-color: var(--primaryGradient1);
+	border-radius: 5px;
 }
 
 .markup-eYLPri pre {
@@ -2162,7 +2177,7 @@ svg[name=Nitro] g path {
 	background: var(--backgroundDark)!important;
 	box-shadow: inset 0 0 0 100000px rgba(0,0,0,.15)!important;
 	color: #fff!important;
-	border-radius: 50px;
+	border-radius: 5px;
 }
 
 .tierNoneCard-peD7hV {
@@ -2213,7 +2228,7 @@ svg[name=Nitro] g path {
 
 .expandedFolderBackground-1kSAf6 {
 	background-color: rgba(0,0,0,.35)!important;
-	border-radius: 50px;
+	border-radius: 12px;
 }
 
 .wrapper-3kah-n[aria-label="Direct Messages"],
@@ -2239,7 +2254,7 @@ svg[name=Nitro] g path {
 .wrapper-3kah-n[aria-label="Άμεσα μηνύματα"],
 .wrapper-3kah-n[aria-label="Директни съобщения"],
 .wrapper-3kah-n[aria-label="डायरेक्ट मैसेज"],
-.wrapper-3kah-n[aria-label=ข้อความส่วนตัว],
+.wrapper-3kah-n[aria-label="ข้อความส่วนตัว"],
 .wrapper-3kah-n[aria-label=私信],
 .wrapper-3kah-n[aria-label=ダイレクトメッセージ],
 .wrapper-3kah-n[aria-label=私人訊息],
@@ -2276,8 +2291,8 @@ svg[name=Nitro] g path {
 .wrapper-3kah-n[aria-label="Άμεσα μηνύματα"] .childWrapper-1j_1ub,
 .wrapper-3kah-n[aria-label="Директни съобщения"] .childWrapper-1j_1ub,
 .wrapper-3kah-n[aria-label="डायरेक्ट मैसेज"] .childWrapper-1j_1ub,
-.wrapper-3kah-n[aria-label="ข้อความส่วนตัว"] .childWrapper-1j_1ub,
-.wrapper-3kah-n[aria-label=私信] .childWrapper-1j_1ub,
+.wrapper-3kah-n[aria-label=ข้อความส่วนตัว] .childWrapper-1j_1ub,
+.wrapper-3kah-n[aria-label="私信"] .childWrapper-1j_1ub,
 .wrapper-3kah-n[aria-label=ダイレクトメッセージ] .childWrapper-1j_1ub,
 .wrapper-3kah-n[aria-label=私人訊息] .childWrapper-1j_1ub,
 .wrapper-3kah-n[aria-label="다이렉트 메시지"] .childWrapper-1j_1ub,
@@ -2298,11 +2313,16 @@ svg[name=Nitro] g path {
 }
 
 .mention-3XBnnZ{
+	border-radius: 5px;
 	background-color: var(--primaryGradient1)!important;
 }
 
 .container-3i3IzO{
 	background-color: rgba(0,0,0,.26)!important
+}
+
+.threadMessageAccessoryAvatar-17qE_g{
+	border-radius: 5px;
 }
 
 .menu-1QACrS:not(.menu-KSaHL1) {
@@ -2349,7 +2369,7 @@ svg[name=Nitro] g path {
 
 .wrapper-1gVUIN.minimum-fXpVNc,.scroller-1TOeMq,.theme-dark .notice-12Koq-,.attachPopout-1EnBVV,.container-ZMc96U.themed-Hp1KC_,.contentRegionScroller-2_GT_N,.scroller-3_YDR2,.theme-dark .perksModal-CLcR1c,.container-1zzFcN,.container-YkUktl,.privateChannels-oVe7HL,.root-SR8cQa,.scroller-WSmht3,.scroller-3X7KbA,.theme-dark .bodyInner-245q0L,.theme-dark .footer-1fjuF6,.activityPanel-9icbyU,.friendsTable-133bsv .friendsTableBody-1ZhKif,.scroller-2XLwLg,.scroller-29cQFV,.wrapper-2vIMkT,.scroller-3_YDR2 {
 	background-color: var(--backgroundDark)!important
-}
+} 
 
 .channelTextArea-1FufC0 {
 	margin: 0;
@@ -2360,6 +2380,7 @@ svg[name=Nitro] g path {
 	margin-top: auto;
 	top: auto;
 	left: 18px;
+	border-radius: 5px;
 	border: 2.5px solid darkcyan
 }
 
@@ -2393,7 +2414,7 @@ svg[name=Nitro] g path {
 }
 
 .avatarHintInner-3gk_Yx {
-	border-radius: 50px;
+	border-radius: 10px;
 	text-shadow: 0px 0px 5px #000;
 }
 
@@ -2446,12 +2467,25 @@ svg[name=Nitro] g path {
 	background-color: #12151c;
 }
 
-.imageWrapper-oMkQl4, .embedFull-1HGV2S, .listDefault-2y5Z9D .avatarContainer-2inGBK,.scrollableContainer-15eg7h.userSettingsAccount-2eMFVR .avatarUploaderInner-3Mrx2N,.avatar-1XO-mJ {
+.imageWrapper-oMkQl4, .embedFull-1HGV2S, .listDefault-2y5Z9D .avatarContainer-2inGBK, .avatarSmall-3qwAkA,.scrollableContainer-15eg7h.userSettingsAccount-2eMFVR .avatarUploaderInner-3Mrx2N,.avatar-1XO-mJ {
 	border-radius: 5px;
+}
+
+.roleCircle-3K9O3d {
+    border-radius: 2.5px;
+}
+
+.roleCircle-27FLFx {
+    border-radius: 2.5px;
 }
 
 .member-perms .member-perm .perm-circle {
 	margin-left: 0;
+	border-radius: 2.5px;
+}
+
+.avatar-1-pIh6 {
+	border-radius: 5px;
 }
 
 .content-3spvdd {
@@ -2471,7 +2505,7 @@ svg[name=Nitro] g path {
 	text-shadow: 0px 0px 5px #000;
 }
 
-.image-z8whH4.noUserDrag-2HbVzE {
+.image-z8whH4,.noUserDrag-2HbVzE {
 	box-shadow: 0px 0px 5px 0px #000;
 }
 
@@ -2486,10 +2520,6 @@ svg[name=Nitro] g path {
 
 .theme-dark .tierBody-1d3UiS {
 	background-color: rgba(0,0,0,.15)!important;
-}
-
-.tierLock-1oFMOZ{
-	color:var(--primary)!important
 }
 
 .theme-dark .background-3xJH_4{
@@ -2524,7 +2554,7 @@ svg[name=Nitro] g path {
 
 .centerButton-1IShs7 {
 	padding: 10px;
-	border-radius: 50px;
+	border-radius: 5px;
 }
 
 .friendsTable-133bsv .friendsTableBody-1ZhKif, .scroller-2XLwLg, .scroller-29cQFV {
@@ -2535,7 +2565,7 @@ svg[name=Nitro] g path {
 	border-bottom: none;
 }
 
-.incomingCallInner-2VmFiR, .noiseCancellationPopout-2-e5Xz, .theme-dark .guildPopout-G6M0fK,.guildPopout-1PxOP0,.theme-dark .streamPreview-I7itZ6,.card-1yV8cG,.tutorial-Nb3Zz5 {
+.incomingCallInner-2VmFiR, .noiseCancellationPopout-2-e5Xz, .theme-dark .guildPopout-1PxOP0, .theme-dark .streamPreview-I7itZ6,.card-1yV8cG,.tutorial-Nb3Zz5 {
 	background: var(--backgroundDarker);
 }
 
@@ -2549,7 +2579,7 @@ svg[name=Nitro] g path {
 
 .messageContainer-3VTXBC,.messages-23can0 {
 	background-color: var(--backgroundDarker);
-	border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px; 
 }
 
 .messages-23can0,.messageContainer-3VTXBC {
@@ -2662,7 +2692,6 @@ svg[name=Nitro] g path {
 
 .folderIconWrapper-1oRIZr {
 	background-color: rgba(0,0,0,0)!important;
-	border-radius: 50px;
 }
 
 .customScroller-m1-jZn>div,.sidebarScrollable-2mW9Ls+.content-2ssVKB {
@@ -2707,7 +2736,7 @@ svg[name=Nitro] g path {
 
 .folder-241Joy {
 	background-color: rgb(10,12,16)!important;
-	border-radius: 50px;
+	border-radius: 12px;
 }
 
 .svg-2zuE5p foreignObject {
@@ -2741,15 +2770,27 @@ svg[name=Nitro] g path {
 }
 
 .border-2BJQjd, .voiceAvatar-lRbblo, .avatar-b5OQ1N {
-	border-radius: 50px;
+	border-radius: 8px;
 }
 
 .voiceAvatar-lRbblo .border-2BJQjd {
 	border-radius: 50%;
 }
 
+.border-2Vy6FN {
+	mask: none
+}
+
+.listItem-3SmSlK foreignObject {
+	mask: none;
+}
+
 .icon-3AqZ2e,.guildsError-b7zR5H,.wrapperSimple-Js2rIO {
-	border-radius: 50px;
+	border-radius: 12px;
+}
+
+.iconInactive-26M06U {
+	border-radius: 30%;
 }
 
 .mask-1FEkla foreignObject {
@@ -2765,6 +2806,7 @@ svg[name=Nitro] g path {
 }
 
 .numberBadge-37OJ3S,.live-1V2D-f {
+	border-radius: 5px;
 	background-color: var(--primary)!important;
 }
 
@@ -2784,12 +2826,14 @@ svg[name=Nitro] g path {
 .voiceSectionGuildImage-TctMOd {
 	mask: none;
 	-webkit-mask: none;
+	border-radius: 5px;
 }
 
 .theme-dark .voiceSectionIconWrapper-4yoj76 {
 	background-color: #43b581;
 	background: linear-gradient(to top left,var(--primaryGradient1),var(--primaryGradient2))!important;
-}
+	border-radius: 5px;
+} 
 
 .theme-dark .voiceSectionIcon-1_4-an {
 	color: #fff;
@@ -2800,7 +2844,7 @@ svg[name=Nitro] g path {
 }
 
 .status-1ZXjSF {
-	border-radius: 50px;
+	border-radius: 6px 0px;
 }
 
 .scroller-2TWLdF,.root-3bVOP7,.theme-dark .emptyHintCard-2A7Tng,.theme-dark .tooltipGrey-lpLZjh,.theme-dark .popout-1k352f,.theme-dark .popout-3Zw0qN,.bd-select .bd-select-option:hover, .bd-select .bd-select-option.selected,.theme-dark .contentWrapper-3oy4Xo {
@@ -2817,12 +2861,12 @@ svg[name=Nitro] g path {
 	margin-left: 3px;
 }
 
-.theme-dark .previewContainer-35LFgt,.bd-select .bd-select-options,.container-2ebMPP {
+.theme-dark .previewContainer-35LFgt,.bd-select .bd-select-options {
 	background-color: var(--backgroundDark);
 }
 
 .button-3WOKuZ {
-	border-radius: 50px;
+	border-radius: 8px;
 	background-color: rgba(0,0,0,.45);
 }
 
@@ -2836,7 +2880,7 @@ svg[name=Nitro] g path {
 
 .participantsButton-1WBdFP {
 	background-color: var(--backgroundDarker)!important;
-	border-radius: 50px;
+	border-radius: 8px;
 }
 
 .participantsButton-1WBdFP:hover {
@@ -2845,10 +2889,12 @@ svg[name=Nitro] g path {
 
 .cta-3-AFNF,.button-3Vyz67 {
 	background-color: #0b0d11;
+	border-radius: 5px;
 }
 
 .content-3u3YYB:hover .cta-3-AFNF,.button-3Vyz67:hover {
 	background-color: #11141a;
+	border-radius: 5px;
 }
 
 .container-2qVG6q.forumPost-3i1mpe {
@@ -2868,7 +2914,7 @@ svg[name=Nitro] g path {
 }
 
 .tagsDivider-3LhkLA {
-	background-color: rgba(0,0,0,.55)
+	background-color: rgba(0,0,0,.55);
 }
 
 .container-1PloNW.card-2JNtco.mainCard-3KBsBI {
@@ -2884,7 +2930,7 @@ svg[name=Nitro] g path {
 }
 
 .contentPreview-3fWiuC {
-	border-color: rgba(0,0,0,.35)
+	border-color: rgba(0,0,0,.95)
 }
 
 .collapseButton-39-IRc {
@@ -2938,10 +2984,9 @@ svg[name=Nitro] g path {
 	background-image: none;
 }
 
-.search-2Mwzzq .searchBar-jGtisZ, .container-2oNtJn {
+.search-2Mwzzq .searchBar-jGtisZ, .container-2oNtJn{
 	background-color: var(--backgroundDark)!important;
 	box-shadow: inset 0 0 100000px rgba(0,0,0,.5);
-	border-radius: 50px;
 }
 
 .bd-search-wrapper {
@@ -3007,6 +3052,10 @@ svg[name=Nitro] g path {
 	background-color: rgb(0, 109, 182);
 }
 
+.avatar-3Q7DWY {
+	border-radius: 5px;
+}
+
 .item-2OyinQ, .group-LWHoGI {
 	border: none;
 }
@@ -3022,10 +3071,6 @@ svg[name=Nitro] g path {
 .avatar-2MSPKk {
 	margin-left: 2px;
 	margin-top: 2px;
-}
-
-.container-iA3Qrz {
-	padding-right: 16px;
 }
 
 .messagesPopout-eVzQcI {
@@ -3068,18 +3113,6 @@ svg[name=Nitro] g path {
 
 .friendWrapper-2x5j0A {
 	margin-right: 12px;
-}
-
-.footer-C9oLp9 {
-	background-color: var(--backgroundDarker);
-}
-
-.list-3-WAYB {
-	background-color: var(--backgroundDark);
-}
-
-.accountCard-2lki2x {
-	background-color: var(--backgroundDark);
 }
 
 .helpIcon-24pk1Z {
@@ -3198,7 +3231,7 @@ svg[name=Nitro] g path {
 }
 
 .modal-3Crloo,.avatar-22wuY8, .userListOverflow-2GkVmP {
-	border-radius: 50px;
+	border-radius: 5px;
 }
 
 .userProfileInnerThemedNonPremium-1gT-zY .textarea-_59yqs:focus,.container-2dXT_2,.emojiContainer-1u-_sQ,.featureCard-3XHbjy,.guildDetails-1il1dn,.card-PQEqCK.completed-_QmSvM,.theme-dark .iconMask-3ZaTTN,.theme-dark .iconMask-2fMR98,.iconMask-1EYGrv,.tile-2TcwiO,.theme-dark .feature-2IUcBI {
@@ -3274,6 +3307,10 @@ svg[name=Nitro] g path {
 	fill: var(--primary)!important
 }
 
+.avatar-3jcVeZ {
+	border-radius: 5px;
+}
+
 .container-3MQTjc {
 	background-color: var(--backgroundDarker);
 }
@@ -3291,7 +3328,7 @@ svg[name=Nitro] g path {
 	margin-left: 8px;
 }
 
-.buttonSize-2Pmk-w:not(:first-child) {
+.listeningActionsVoiceChannel-1edvLq .buttonSize-2Pmk-w:not(:first-child) {
 	margin-left: 0;
 }
 
@@ -3310,6 +3347,10 @@ svg[name=Nitro] g path {
 
 .messagesErrorBar-1IQ1rH:active {
 	margin-bottom: 0;
+}
+
+.memberGroupsPlaceholder-9tqX9V, .placeholderAvatar-1qAcRZ, .placeholderUsername-3iQi_D, .avatar-l9Txm5, .blob-1uHjdp, .attachment-16cAbS {
+	border-radius: 5px;
 }
 
 .animatedContainer-2laTjx {
@@ -3370,8 +3411,16 @@ svg[name=Nitro] g path {
 	left: 0px;
 }
 
-.avatar-1EWyVD,.avatarWrapper-1B9FTW {
-	border-radius: 50px;
+.container-2nx-BQ.checked-25WXMf {
+	background-color: #43b581!important;
+}
+
+.container-2nx-BQ.checked-25WXMf path {
+	fill: #43b581!important;
+}
+
+.avatar-1YsFQ1,.avatarWrapper-3y0KZ1 {
+	border-radius: 5px;
 	backdrop-filter: blur(2px);
 }
 
@@ -3379,38 +3428,51 @@ svg[name=Nitro] g path {
 	fill: var(--backgroundDarker);
 }
 
-/* Memory to the old profiles designs :(
+/* Memory to the old designs of profiles :(
+
+.body-3iLsc4 {
+	background-color: var(--backgroundDark)!important
+}
+
 .userPopout-3XzG_A {
 	box-shadow: 0 0 5px 1.53px rgba(0,0,0,.75);
 	background-color: var(--backgroundDark)!important
 }
+
 .headerNormal-T_seeN {
 	background-color: rgba(0,0,0,.25)!important
 }
+
 .activity-11LB_k,.headerFill-adLl4x {
 	background-color: rgba(0,0,0,.15)
 }
+
 .headerPlaying-j0WQBV,.topSectionPlaying-1J5E4n {
 	z-index: 1;
 	box-shadow: 0 2px 10px 0 rgba(0,0,0,.2), 0 0 0 1px rgba(32,34,37,.6);
 	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkNhbHF1ZV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDIwMDAgMjAwMCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMjAwMCAyMDAwIiB4bWw6c3BhY2U9InByZXNlcnZlIj48ZyBvcGFjaXR5PSIwLjM1Ij48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNNjM4LjMsNTgwYy01LjktNS45LTE1LjQtNS45LTIxLjIsMHYwbC0yNiwyNmwtMjYtMjZjLTUuOS01LjktMTUuNC01LjktMjEuMiwwcy01LjksMTUuNCwwLDIxLjJsMjYsMjYgICBsLTI2LDI2Yy01LjksNS45LTUuOSwxNS40LDAsMjEuMnMxNS40LDUuOSwyMS4yLDBsMjYtMjZsMjYsMjZjNS45LDUuOSwxNS40LDUuOSwyMS4yLDBzNS45LTE1LjQsMC0yMS4ybC0yNi0yNmwyNi0yNiAgIEM2NDQuMiw1OTUuMyw2NDQuMiw1ODUuOCw2MzguMyw1ODB6Ii8+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTE0NzkuNiwxNDM3LjJjLTUuOS01LjktMTUuNC01LjktMjEuMiwwbDAsMGwtMjYsMjZsLTI2LTI2Yy01LjktNS45LTE1LjQtNS45LTIxLjIsMCAgIGMtNS45LDUuOS01LjksMTUuNCwwLDIxLjJoMGwyNiwyNmwtMjYsMjZjLTUuOSw1LjktNS45LDE1LjQsMCwyMS4yYzUuOSw1LjksMTUuNCw1LjksMjEuMiwwbDI2LTI2bDI2LDI2YzUuOSw1LjksMTUuNCw1LjksMjEuMiwwICAgYzUuOS01LjksNS45LTE1LjQsMC0yMS4ybC0yNi0yNmwyNi0yNkMxNDg1LjUsMTQ1Mi41LDE0ODUuNSwxNDQzLDE0NzkuNiwxNDM3LjJ6Ii8+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTYwMS43LDE3MzguN2MtNS45LTUuOS0xNS40LTUuOS0yMS4yLDB2MGwtMjYsMjZsLTI2LTI2Yy01LjktNS45LTE1LjQtNS45LTIxLjIsMCAgIGMtNS45LDUuOS01LjksMTUuNCwwLDIxLjJoMGwyNiwyNmwtMjYsMjZjLTUuOSw1LjktNS45LDE1LjQsMCwyMS4yYzUuOSw1LjksMTUuNCw1LjksMjEuMiwwbDI2LTI2bDI2LDI2YzUuOSw1LjksMTUuNCw1LjksMjEuMiwwICAgYzUuOS01LjksNS45LTE1LjQsMC0yMS4ybC0yNi0yNmwyNi0yNkM2MDcuNiwxNzU0LjEsNjA3LjYsMTc0NC42LDYwMS43LDE3MzguN3oiLz48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMTczNi4yLDMwNS44YzUuOSw1LjksMTUuNCw1LjksMjEuMiwwYzUuOS01LjksNS45LTE1LjQsMC0yMS4ybC0yNi0yNmwyNi0yNmM1LjktNS45LDUuOS0xNS40LDAtMjEuMiAgIGMtNS45LTUuOS0xNS40LTUuOS0yMS4yLDBoMGwtMjYsMjZsLTI2LTI2Yy01LjktNS45LTE1LjQtNS45LTIxLjIsMGMtNS45LDUuOS01LjksMTUuNCwwLDIxLjJoMGwyNiwyNmwtMjYsMjYgICBjLTUuOSw1LjktNS45LDE1LjQsMCwyMS4yYzUuOSw1LjksMTUuNCw1LjksMjEuMiwwbDI2LTI2TDE3MzYuMiwzMDUuOHoiLz48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMTE3NC45LDUzOWMtNS0zLjQtMTAuNS02LTE2LjMtNy44Yy01LjktMS44LTEyLjEtMi44LTE4LjUtMi44Yy04LjYsMC0xNi44LDEuNy0yNC4yLDQuOSAgIGMtMTEuMiw0LjctMjAuNywxMi42LTI3LjQsMjIuNWMtMy40LDUtNiwxMC41LTcuOCwxNi4zYy0xLjgsNS45LTIuOCwxMi4xLTIuOCwxOC41YzAsOC42LDEuNywxNi44LDQuOSwyNC4yICAgYzQuNywxMS4yLDEyLjYsMjAuNywyMi41LDI3LjRjNSwzLjQsMTAuNSw2LDE2LjMsNy44YzUuOSwxLjgsMTIuMSwyLjgsMTguNSwyLjhjOC42LDAsMTYuOC0xLjcsMjQuMi00LjkgICBjMTEuMi00LjcsMjAuNy0xMi42LDI3LjQtMjIuNWMzLjQtNSw2LTEwLjUsNy44LTE2LjNjMS44LTUuOSwyLjgtMTIuMSwyLjgtMTguNWMwLTguNi0xLjctMTYuOC00LjktMjQuMiAgIEMxMTkyLjcsNTU1LjIsMTE4NC44LDU0NS43LDExNzQuOSw1Mzl6IE0xMTY5LjgsNjAzLjFjLTIuNCw1LjgtNi41LDEwLjctMTEuNywxNC4yYy0yLjYsMS43LTUuNCwzLjEtOC40LDQuMSAgIGMtMywwLjktNi4yLDEuNC05LjYsMS40Yy00LjUsMC04LjctMC45LTEyLjYtMi41Yy01LjgtMi40LTEwLjctNi41LTE0LjItMTEuN2MtMS43LTIuNi0zLjEtNS40LTQuMS04LjRjLTAuOS0zLTEuNC02LjItMS40LTkuNiAgIGMwLTQuNSwwLjktOC43LDIuNS0xMi42YzIuNC01LjgsNi41LTEwLjcsMTEuNy0xNC4yYzIuNi0xLjcsNS40LTMuMSw4LjQtNC4xYzMtMC45LDYuMi0xLjQsOS42LTEuNGM0LjUsMCw4LjcsMC45LDEyLjYsMi41ICAgYzUuOCwyLjQsMTAuNyw2LjUsMTQuMiwxMS43YzEuNywyLjYsMy4xLDUuNCw0LjEsOC40YzAuOSwzLDEuNCw2LjIsMS40LDkuNkMxMTcyLjMsNTk1LjEsMTE3MS40LDU5OS4zLDExNjkuOCw2MDMuMXoiLz48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMTgwNC45LDE4MDIuNWMtNS0zLjQtMTAuNS02LTE2LjMtNy44Yy01LjktMS44LTEyLjEtMi44LTE4LjUtMi44Yy04LjYsMC0xNi44LDEuNy0yNC4yLDQuOSAgIGMtMTEuMiw0LjctMjAuNywxMi42LTI3LjQsMjIuNWMtMy40LDUtNiwxMC41LTcuOCwxNi4zYy0xLjgsNS45LTIuOCwxMi4xLTIuOCwxOC41YzAsOC42LDEuNywxNi44LDQuOSwyNC4yICAgYzQuNywxMS4yLDEyLjYsMjAuNywyMi41LDI3LjRjNSwzLjQsMTAuNSw2LDE2LjMsNy44YzUuOSwxLjgsMTIuMSwyLjgsMTguNSwyLjhjOC42LDAsMTYuOC0xLjcsMjQuMi00LjkgICBjMTEuMi00LjcsMjAuNy0xMi42LDI3LjQtMjIuNWMzLjQtNSw2LTEwLjUsNy44LTE2LjNjMS44LTUuOSwyLjgtMTIuMSwyLjgtMTguNWMwLTguNi0xLjctMTYuOC00LjktMjQuMiAgIEMxODIyLjcsMTgxOC43LDE4MTQuOCwxODA5LjMsMTgwNC45LDE4MDIuNXogTTE3OTkuOCwxODY2LjdjLTIuNCw1LjgtNi41LDEwLjctMTEuNywxNC4yYy0yLjYsMS43LTUuNCwzLjEtOC40LDQuMSAgIGMtMywwLjktNi4yLDEuNC05LjYsMS40Yy00LjUsMC04LjctMC45LTEyLjYtMi41Yy01LjgtMi40LTEwLjctNi41LTE0LjItMTEuN2MtMS43LTIuNi0zLjEtNS40LTQuMS04LjRjLTAuOS0zLTEuNC02LjItMS40LTkuNiAgIGMwLTQuNSwwLjktOC43LDIuNS0xMi42YzIuNC01LjgsNi41LTEwLjcsMTEuNy0xNC4yYzIuNi0xLjcsNS40LTMuMSw4LjQtNC4xYzMtMC45LDYuMi0xLjQsOS42LTEuNGM0LjUsMCw4LjcsMC45LDEyLjYsMi41ICAgYzUuOCwyLjQsMTAuNyw2LjUsMTQuMiwxMS43YzEuNywyLjYsMy4xLDUuNCw0LjEsOC40YzAuOSwzLDEuNCw2LjIsMS40LDkuNkMxODAyLjMsMTg1OC43LDE4MDEuNCwxODYyLjksMTc5OS44LDE4NjYuN3oiLz48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNOTE0LjcsMTQxMS40Yy01LTMuNC0xMC41LTYtMTYuMy03LjhjLTUuOS0xLjgtMTIuMS0yLjgtMTguNS0yLjhjLTguNiwwLTE2LjgsMS43LTI0LjIsNC45ICAgYy0xMS4yLDQuNy0yMC43LDEyLjYtMjcuNCwyMi41Yy0zLjQsNS02LDEwLjUtNy44LDE2LjNjLTEuOCw1LjktMi44LDEyLjEtMi44LDE4LjVjMCw4LjYsMS43LDE2LjgsNC45LDI0LjIgICBjNC43LDExLjIsMTIuNiwyMC43LDIyLjUsMjcuNGM1LDMuNCwxMC41LDYsMTYuMyw3LjhjNS45LDEuOCwxMi4xLDIuOCwxOC41LDIuOGM4LjYsMCwxNi44LTEuNywyNC4yLTQuOSAgIGMxMS4yLTQuNywyMC43LTEyLjYsMjcuNC0yMi41YzMuNC01LDYtMTAuNSw3LjgtMTYuM2MxLjgtNS45LDIuOC0xMi4xLDIuOC0xOC41YzAtOC42LTEuNy0xNi44LTQuOS0yNC4yICAgQzkzMi41LDE0MjcuNiw5MjQuNiwxNDE4LjEsOTE0LjcsMTQxMS40eiBNOTA5LjYsMTQ3NS42Yy0yLjQsNS44LTYuNSwxMC43LTExLjcsMTQuMmMtMi42LDEuNy01LjQsMy4xLTguNCw0LjEgICBjLTMsMC45LTYuMiwxLjQtOS42LDEuNGMtNC41LDAtOC43LTAuOS0xMi42LTIuNWMtNS44LTIuNC0xMC43LTYuNS0xNC4yLTExLjdjLTEuNy0yLjYtMy4xLTUuNC00LjEtOC40Yy0wLjktMy0xLjQtNi4yLTEuNC05LjYgICBjMC00LjUsMC45LTguNywyLjUtMTIuNmMyLjQtNS44LDYuNS0xMC43LDExLjctMTQuMmMyLjYtMS43LDUuNC0zLjEsOC40LTQuMWMzLTAuOSw2LjItMS40LDkuNi0xLjRjNC41LDAsOC43LDAuOSwxMi42LDIuNSAgIGM1LjgsMi40LDEwLjcsNi41LDE0LjIsMTEuN2MxLjcsMi42LDMuMSw1LjQsNC4xLDguNGMwLjksMywxLjQsNi4yLDEuNCw5LjZDOTEyLjEsMTQ2Ny42LDkxMS4yLDE0NzEuOCw5MDkuNiwxNDc1LjZ6Ii8+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTE5NDYuOSw1NjYuM2MtNC43LTExLjItMTIuNi0yMC43LTIyLjUtMjcuNGMtNS0zLjQtMTAuNS02LTE2LjMtNy44Yy01LjktMS44LTEyLjEtMi44LTE4LjUtMi44ICAgYy04LjYsMC0xNi44LDEuNy0yNC4yLDQuOWMtMTEuMiw0LjctMjAuNywxMi42LTI3LjQsMjIuNWMtMy40LDUtNiwxMC41LTcuOCwxNi4zYy0xLjgsNS45LTIuOCwxMi4xLTIuOCwxOC41ICAgYzAsOC42LDEuNywxNi44LDQuOSwyNC4yYzQuNywxMS4yLDEyLjYsMjAuNywyMi41LDI3LjRjNSwzLjQsMTAuNSw2LDE2LjMsNy44YzUuOSwxLjgsMTIuMSwyLjgsMTguNSwyLjhjOC42LDAsMTYuOC0xLjcsMjQuMi00LjkgICBjMTEuMi00LjcsMjAuNy0xMi42LDI3LjQtMjIuNWMzLjQtNSw2LTEwLjUsNy44LTE2LjNjMS44LTUuOSwyLjgtMTIuMSwyLjgtMTguNUMxOTUxLjgsNTgyLDE5NTAsNTczLjgsMTk0Ni45LDU2Ni4zeiAgICBNMTkxOS4zLDYwMy4xYy0yLjQsNS44LTYuNSwxMC43LTExLjcsMTQuMmMtMi42LDEuNy01LjQsMy4xLTguNCw0LjFjLTMsMC45LTYuMiwxLjQtOS42LDEuNGMtNC41LDAtOC43LTAuOS0xMi42LTIuNSAgIGMtNS44LTIuNC0xMC43LTYuNS0xNC4yLTExLjdjLTEuNy0yLjYtMy4xLTUuNC00LjEtOC40Yy0wLjktMy0xLjQtNi4yLTEuNC05LjZjMC00LjUsMC45LTguNywyLjUtMTIuNmMyLjQtNS44LDYuNS0xMC43LDExLjctMTQuMiAgIGMyLjYtMS43LDUuNC0zLjEsOC40LTQuMWMzLTAuOSw2LjItMS40LDkuNi0xLjRjNC41LDAsOC43LDAuOSwxMi42LDIuNWM1LjgsMi40LDEwLjcsNi41LDE0LjIsMTEuN2MxLjcsMi42LDMuMSw1LjQsNC4xLDguNCAgIGMwLjksMywxLjQsNi4yLDEuNCw5LjZDMTkyMS44LDU5NS4xLDE5MjAuOSw1OTkuMywxOTE5LjMsNjAzLjF6Ii8+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTI5Mi44LDIwNi45Yy01LTMuNC0xMC41LTYtMTYuMy03LjhjLTUuOS0xLjgtMTIuMS0yLjgtMTguNS0yLjhjLTguNiwwLTE2LjgsMS43LTI0LjIsNC45ICAgYy0xMS4yLDQuNy0yMC43LDEyLjYtMjcuNCwyMi41Yy0zLjQsNS02LDEwLjUtNy44LDE2LjNjLTEuOCw1LjktMi44LDEyLjEtMi44LDE4LjVjMCw4LjYsMS43LDE2LjgsNC45LDI0LjIgICBjNC43LDExLjIsMTIuNiwyMC43LDIyLjUsMjcuNGM1LDMuNCwxMC41LDYsMTYuMyw3LjhjNS45LDEuOCwxMi4xLDIuOCwxOC41LDIuOGM4LjYsMCwxNi44LTEuNywyNC4yLTQuOSAgIGMxMS4yLTQuNywyMC43LTEyLjYsMjcuNC0yMi41YzMuNC01LDYtMTAuNSw3LjgtMTYuM2MxLjgtNS45LDIuOC0xMi4xLDIuOC0xOC41YzAtOC42LTEuNy0xNi44LTQuOS0yNC4yICAgQzMxMC42LDIyMy4xLDMwMi43LDIxMy42LDI5Mi44LDIwNi45eiBNMjg3LjcsMjcxLjFjLTIuNCw1LjgtNi41LDEwLjctMTEuNywxNC4yYy0yLjYsMS43LTUuNCwzLjEtOC40LDQuMWMtMywwLjktNi4yLDEuNC05LjYsMS40ICAgYy00LjUsMC04LjctMC45LTEyLjYtMi41Yy01LjgtMi40LTEwLjctNi41LTE0LjItMTEuN2MtMS43LTIuNi0zLjEtNS40LTQuMS04LjRjLTAuOS0zLTEuNC02LjItMS40LTkuNmMwLTQuNSwwLjktOC43LDIuNS0xMi42ICAgYzIuNC01LjgsNi41LTEwLjcsMTEuNy0xNC4yYzIuNi0xLjcsNS40LTMuMSw4LjQtNC4xYzMtMC45LDYuMi0xLjQsOS42LTEuNGM0LjUsMCw4LjcsMC45LDEyLjYsMi41YzUuOCwyLjQsMTAuNyw2LjUsMTQuMiwxMS43ICAgYzEuNywyLjYsMy4xLDUuNCw0LjEsOC40YzAuOSwzLDEuNCw2LjIsMS40LDkuNkMyOTAuMiwyNjMuMSwyODkuMywyNjcuMywyODcuNywyNzEuMXoiLz48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNNDY0LjgsMTA5MS45Yy0yLTEuNC00LjMtMi41LTYuNy0zLjJjLTIuNC0wLjctNS0xLjEtNy42LTEuMWMtMy41LDAtNi45LDAuNy05LjksMiAgIGMtNC42LDEuOS04LjUsNS4yLTExLjIsOS4yYy0xLjQsMi0yLjUsNC4zLTMuMiw2LjdjLTAuNywyLjQtMS4xLDUtMS4xLDcuNmMwLDMuNSwwLjcsNi45LDIsOS45YzEuOSw0LjYsNS4yLDguNSw5LjIsMTEuMiAgIGMyLDEuNCw0LjMsMi41LDYuNywzLjJjMi40LDAuNyw1LDEuMSw3LjYsMS4xYzMuNSwwLDYuOS0wLjcsOS45LTJjNC42LTEuOSw4LjUtNS4yLDExLjItOS4yYzEuNC0yLDIuNS00LjMsMy4yLTYuNyAgIGMwLjctMi40LDEuMS01LDEuMS03LjZjMC0zLjUtMC43LTYuOS0yLTkuOUM0NzIsMTA5OC41LDQ2OC44LDEwOTQuNiw0NjQuOCwxMDkxLjl6IE00NTAuNSwxMTEzTDQ1MC41LDExMTNsNC4zLTEuM0w0NTAuNSwxMTEzeiAgICBNNDUwLjUsMTExM0w0NTAuNSwxMTEzbC0xLjMtNC4zTDQ1MC41LDExMTN6IE00NTAuNSwxMTEzTDQ1MC41LDExMTNsLTMuNywyLjVMNDUwLjUsMTExM3ogTTQ1MC41LDExMTNsMi41LDMuN0w0NTAuNSwxMTEzICAgbDQuMSwxLjhMNDUwLjUsMTExM3oiLz48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMTE5MS4xLDE3NzUuM2MtMi0xLjQtNC4zLTIuNS02LjctMy4yYy0yLjQtMC43LTUtMS4xLTcuNi0xLjFjLTMuNSwwLTYuOSwwLjctOS45LDIgICBjLTQuNiwxLjktOC41LDUuMi0xMS4yLDkuMmMtMS40LDItMi41LDQuMy0zLjIsNi43Yy0wLjcsMi40LTEuMSw1LTEuMSw3LjZjMCwzLjUsMC43LDYuOSwyLDkuOWMxLjksNC42LDUuMiw4LjUsOS4yLDExLjIgICBjMiwxLjQsNC4zLDIuNSw2LjcsMy4yYzIuNCwwLjcsNSwxLjEsNy42LDEuMWMzLjUsMCw2LjktMC43LDkuOS0yYzQuNi0xLjksOC41LTUuMiwxMS4yLTkuMmMxLjQtMiwyLjUtNC4zLDMuMi02LjcgICBjMC43LTIuNCwxLjEtNSwxLjEtNy42YzAtMy41LTAuNy02LjktMi05LjlDMTE5OC40LDE3ODEuOSwxMTk1LjIsMTc3OC4xLDExOTEuMSwxNzc1LjN6IE0xMTc2LjksMTc5Ni40TDExNzYuOSwxNzk2LjRsMS44LTQuMSAgIEwxMTc2LjksMTc5Ni40eiBNMTE3Ni45LDE3OTYuNEwxMTc2LjksMTc5Ni40bC0yLjUtMy43TDExNzYuOSwxNzk2LjR6IE0xMTc2LjksMTc5Ni40TDExNzYuOSwxNzk2LjRsMS4zLDQuM0wxMTc2LjksMTc5Ni40eiIvPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0xMjg3LjMsMjAwLjhjLTItMS40LTQuMy0yLjUtNi43LTMuMmMtMi40LTAuNy01LTEuMS03LjYtMS4xYy0zLjUsMC02LjksMC43LTkuOSwyICAgYy00LjYsMS45LTguNSw1LjItMTEuMiw5LjJjLTEuNCwyLTIuNSw0LjMtMy4yLDYuN2MtMC43LDIuNC0xLjEsNS0xLjEsNy42YzAsMy41LDAuNyw2LjksMiw5LjljMS45LDQuNiw1LjIsOC41LDkuMiwxMS4yICAgYzIsMS40LDQuMywyLjUsNi43LDMuMmMyLjQsMC43LDUsMS4xLDcuNiwxLjFjMy41LDAsNi45LTAuNyw5LjktMmM0LjYtMS45LDguNS01LjIsMTEuMi05LjJjMS40LTIsMi41LTQuMywzLjItNi43ICAgYzAuNy0yLjQsMS4xLTUsMS4xLTcuNmMwLTMuNS0wLjctNi45LTItOS45QzEyOTQuNSwyMDcuNCwxMjkxLjMsMjAzLjYsMTI4Ny4zLDIwMC44eiBNMTI3MywyMjEuOUwxMjczLDIyMS45bDEuOC00LjFMMTI3MywyMjEuOXogICAgTTEyNzMsMjIyTDEyNzMsMjIybC00LjMsMS4zTDEyNzMsMjIyeiBNMTI3MywyMjJMMTI3MywyMjJsLTEuOCw0LjFMMTI3MywyMjJ6IE0xMjczLDIyMkwxMjczLDIyMmwxLjMsNC4zTDEyNzMsMjIyeiBNMTI3MywyMjIgICBMMTI3MywyMjJsNC4xLDEuOEwxMjczLDIyMnoiLz48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMTU5MC4xLDc3MC4yYy0yLTEuNC00LjMtMi41LTYuNy0zLjJjLTIuNC0wLjctNS0xLjEtNy42LTEuMWMtMy41LDAtNi45LDAuNy05LjksMiAgIGMtNC42LDEuOS04LjUsNS4yLTExLjIsOS4yYy0xLjQsMi0yLjUsNC4zLTMuMiw2LjdjLTAuNywyLjQtMS4xLDUtMS4xLDcuNmMwLDMuNSwwLjcsNi45LDIsOS45YzEuOSw0LjYsNS4yLDguNSw5LjIsMTEuMiAgIGMyLDEuNCw0LjMsMi41LDYuNywzLjJjMi40LDAuNyw1LDEuMSw3LjYsMS4xYzMuNSwwLDYuOS0wLjcsOS45LTJjNC42LTEuOSw4LjUtNS4yLDExLjItOS4yYzEuNC0yLDIuNS00LjMsMy4yLTYuNyAgIGMwLjctMi40LDEuMS01LDEuMS03LjZjMC0zLjUtMC43LTYuOS0yLTkuOUMxNTk3LjQsNzc2LjgsMTU5NC4yLDc3Mi45LDE1OTAuMSw3NzAuMnogTTE1NzUuOSw3OTEuM0wxNTc1LjksNzkxLjNsNC4zLTEuMyAgIEwxNTc1LjksNzkxLjN6IE0xNTc1LjksNzkxLjNMMTU3NS45LDc5MS4zbC0yLjUtMy43TDE1NzUuOSw3OTEuM3ogTTE1NzUuOSw3OTEuM0wxNTc1LjksNzkxLjNsLTEuOCw0LjFMMTU3NS45LDc5MS4zeiAgICBNMTU3NS45LDc5MS4zbDIuNSwzLjdMMTU3NS45LDc5MS4zbDQuMSwxLjhMMTU3NS45LDc5MS4zeiIvPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0xMTExLjIsOTk0LjVsLTg2LjQtNS45Yy01LjMtMC40LTEwLjUsMi4yLTEzLjUsNi42Yy0zLDQuNC0zLjQsMTAuMi0xLDE1bDM4LjEsNzcuOCAgIGMyLjQsNC44LDcuMSw4LDEyLjQsOC40czEwLjUtMi4yLDEzLjUtNi42bDQ4LjMtNzEuOWMzLTQuNCwzLjQtMTAuMiwxLTE1UzExMTYuNiw5OTQuOSwxMTExLjIsOTk0LjV6IE0xMDY0LDEwNTEuNGwtMTUuMi0zMS4xICAgbDM0LjYsMi40TDEwNjQsMTA1MS40eiIvPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0yNDQuNSw4MjcuOWM1LjEsMS43LDEwLjcsMC42LDE0LjctM2M0LTMuNSw1LjgtOSw0LjgtMTQuMmwtMTcuMS04NC45Yy0xLjEtNS4zLTQuOC05LjUtOS45LTExLjMgICBzLTEwLjctMC42LTE0LjcsM2wtNjUsNTcuMmMtNCwzLjUtNS44LDktNC44LDE0LjJzNC44LDkuNSw5LjksMTEuM0wyNDQuNSw4MjcuOXogTTIyMi42LDc1Ny4ybDYuOCwzNGwtMzIuOC0xMS4xTDIyMi42LDc1Ny4yeiIvPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0yNTYuMiwxNDkxLjhsLTc3LjgtMzguMWMtNC44LTIuNC0xMC41LTItMTUsMXMtNyw4LjEtNi42LDEzLjVsNS45LDg2LjRjMC40LDUuMywzLjUsMTAuMSw4LjQsMTIuNSAgIGM0LjgsMi40LDEwLjUsMiwxNS0xbDcxLjktNDguM2M0LjQtMyw3LTguMSw2LjYtMTMuNUMyNjQuMiwxNDk4LjksMjYxLDE0OTQuMSwyNTYuMiwxNDkxLjh6IE0xOTAuOSwxNTI2LjZsLTIuMy0zNC42bDMxLjEsMTUuMyAgIEwxOTAuOSwxNTI2LjZ6Ii8+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTkzOS44LDE4OS44bC02Ni40LTU1LjZjLTQuMS0zLjQtOS43LTQuNC0xNC44LTIuNmMtNSwxLjgtOC43LDYuMi05LjYsMTEuNWwtMTUsODUuMyAgIGMtMC45LDUuMywxLDEwLjYsNS4xLDE0LjFjNC4xLDMuNCw5LjcsNC40LDE0LjgsMi42bDgxLjMtMjkuN2M1LTEuOCw4LjctNi4yLDkuNi0xMS41Uzk0My45LDE5My4yLDkzOS44LDE4OS44eiBNODY4LjEsMjA4bDYtMzQuMSAgIGwyNi42LDIyLjJMODY4LjEsMjA4eiIvPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0xNzUyLDExNjMuNGwtMzguNSw3Ny42Yy0yLjQsNC44LTIsMTAuNSwwLjksMTVjMyw0LjUsOC4xLDcsMTMuNCw2LjdsODYuNC01LjRjNS4zLTAuMywxMC4xLTMuNSwxMi41LTguMyAgIGMyLjQtNC44LDItMTAuNS0wLjktMTVsLTQ3LjktNzIuMmMtMy00LjUtOC4xLTctMTMuNC02LjdDMTc1OS4xLDExNTUuNSwxNzU0LjMsMTE1OC42LDE3NTIsMTE2My40eiBNMTc1MS44LDEyMzEuMWwxNS40LTMxICAgbDE5LjIsMjguOUwxNzUxLjgsMTIzMS4xeiIvPjwvZz48L3N2Zz4=),linear-gradient(to top right,var(--primaryGradient1),var(--primaryGradient2))
 }
+
 .headerPlaying-j0WQBV .activity-11LB_k,.topSectionPlaying-1J5E4n .headerFill-adLl4x {
 	box-shadow: 0 4px 2px -2px rgba(0,0,0,.5)
 }
+
 .headerSpotify-zpWxgT,.topSectionSpotify-1lI0-P {
 	z-index: 1;
 	box-shadow: 0 2px 10px 0 rgba(0,0,0,.2), 0 0 0 1px rgba(32,34,37,.6);
 	background: url(https://i.imgur.com/WfA9QCW.png),linear-gradient(to top right,#181818,#414141);
 }
+
 .headerSpotify-zpWxgT .activity-11LB_k,.topSectionSpotify-1lI0-P .headerFill-adLl4x {
 	box-shadow: 0 4px 2px -2px rgba(0,0,0,.5);
 }
+
 .topSectionStreaming-1Tpf5X,.headerStreaming-2FjmGz {
 	z-index: 1;
 	box-shadow: 0 2px 10px 0 rgba(0,0,0,.2), 0 0 0 1px rgba(32,34,37,.6);
 	background: url(https://i.imgur.com/g0ZYTxZ.png),linear-gradient(to top right,#7255e7,#1c134c)
 }
+
 .buttonInvertedPurple-WtBglX {
 	background-color: rgba(0,0,0,.5);
 	border: 1.5px solid #593695;
@@ -3418,26 +3480,32 @@ svg[name=Nitro] g path {
 	backdrop-filter: blur(1px);
 	color: #fff!important
 }
+
 .buttonInvertedPurple-WtBglX:hover {
 	color: #fff!important;
 	border: 1.5px solid transparent;
 	background-color: #593695;
 }
+
 .avatar-3EQepX,.avatarWrapper-3H_478 {
 	border-radius: 5px;
 	backdrop-filter: blur(2px);
 }
+
 .tabBarContainer-1s1u-z {
 	background-color: rgba(0,0,0,0);
 	transition: 250ms background-color ease-in-out;
 }
+
 .tabBarContainer-1s1u-z:hover {
 	background-color: rgba(0,0,0,.5);
 	transition: 250ms background-color ease-in-out;
 }
+
 .topSectionNormal-2-vo2m .tabBarContainer-1s1u-z {
 	border-top: 1px solid hsla(0,0%,100%,.1);
 }
+
 .headerNormal-T_seeN, .topSectionNormal-2-vo2m {
 	background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
@@ -3454,6 +3522,7 @@ svg[name=Nitro] g path {
 		background-position: 0% 50%;
 	}
 }
+
 .topSectionNormal-2-vo2m .activityHeader-1PExlk, .topSectionNormal-2-vo2m .customStatusText-39gdCI,.topSectionNormal-2-vo2m .additionalActionsIcon-1FoUlE,.headerNormal-T_seeN .customStatus-1bh2V9 {
 	color: #fff;
 }
@@ -3497,7 +3566,7 @@ svg[name=Nitro] g path {
 }
 
 .container-2oNtJn {
-	border-radius: 50px;
+	border-radius: 4px;
 }
 
 .colorHeaderPrimary-3kwW7L,.colorStandard-1Xxp1s:not(.success-1YJZW-,.error-30DGjS),.roleOverflow-1ALvWs {
@@ -3744,7 +3813,7 @@ svg[name=Nitro] g path {
 }
 
 .childWrapper-1j_1ub {
-	border-radius: 50px;
+	border-radius: 12px;
 }
 
 .questionMark-3V9mGJ {
@@ -3761,7 +3830,7 @@ svg[name=Nitro] g path {
 .cooldownWrapper-2k1jHK[style*="color: rgb(185, 187, 190);"],.h2-1EaYVL,.h5-2RwDNl:not(.isEnabled-20V6lG,.error-30KkHs,.error-3EBD81),
 .text-sm-medium-3Pz3rB[style*="color: var(--header-secondary);"],.text-md-medium-2avxhQ[style*="color: var(--header-secondary);"],
 .text-sm-normal-3Zj3Iv[style*="color: var(--header-secondary);"]:not(.profileColors-3Y0XaR.theme-light .customStatusText-3ca2B1),.text-md-normal-304U3g[style*="color: var(--header-secondary);"],
-.descriptionRow-1UPN0d,.automaticApprovalDescription-3vRmhp,.mutualGuilds-1zEYLd:not(:hover),.guildSubscriptionDuration-1JI19A,
+.descriptionRow-1UPN0d,.automaticApprovalDescription-3vRmhp,.guildSubscriptionDuration-1JI19A,
 .guildSubscriptionSlotMenuIcon-3UcQXW,.subSectionHeader-1Qv90w,.breadcrumbInactive-1gWeSM {
 	color: #fff!important
 }
@@ -3796,6 +3865,10 @@ svg[name=Nitro] g path {
 	padding-right: 0;
 }
 
+.avatar-3FKimL, .embedAuthorIcon-3pnkS4 {
+	border-radius: 5px;
+}
+
 .clickable-vvKY2q .header-3OsQeK:hover,.selected-1GtAC5 .header-3OsQeK {
 	background-color: var(--backgroundDarker)
 }
@@ -3822,7 +3895,7 @@ svg[name=Nitro] g path {
 
 .mention {
 	background: #008ae64d;
-	border-radius: 50px;
+	border-radius: 5px;
 	padding: .5px 5px;
 	transition: all .2s ease;
 }
@@ -3845,7 +3918,7 @@ svg[name=Nitro] g path {
 	margin-right: 0px;
 }
 
-.replyBadge-LMm_Ic {
+.replyAvatar-sHd2sU, .replyBadge-LMm_Ic {
 	border-radius: 5px;
 }
 
@@ -3882,6 +3955,10 @@ svg[name=Nitro] g path {
 
 .mentionButton-3C5YMI,.closeButton-3IEry2 {
 	padding: 4px 8px;
+}
+
+.horizontal-30-DXt >:not(:first-child) {
+	margin-left: 0;
 }
 
 .radioBar-3w9XY- {
@@ -4003,11 +4080,7 @@ svg[name=Nitro] g path {
 
 .theme-dark .activeButton-LRWFC_, .theme-dark .activeButton-LRWFC_:hover, .theme-light .activeButton-LRWFC_, .theme-light .activeButton-LRWFC_:hover {
 	background-color: var(--primary)!important;
-	border-radius: 50px;
-}
-
-.listItem-3SmSlK foreignObject {
-	mask: none;
+	border-radius: 5px;
 }
 
 .guildSidebar-UHnQqs,.footer-3YL3ds {
@@ -4036,7 +4109,11 @@ svg[name=Nitro] g path {
 	border: 1px solid var(--deprecated-text-input-border);
 }
 
-.base-21yXnu.muted-eZM05q {
+.subscribers-1E4Ttt .subscriberMask-pExfOt {
+	margin-right: 2px;
+}
+
+.base-21yXnu.muted-14PyqW {
 	color: #fff;
 }
 
@@ -4046,7 +4123,7 @@ svg[name=Nitro] g path {
 
 .emojiCounter-B8EJjb {
 	background-color: rgba(0,0,0,.35);
-	border-radius: 50px;
+	border-radius: 5px;
 }
 
 .role-23oyrw,.cardFolder-3H4uH4 {
@@ -4071,6 +4148,10 @@ svg[name=Nitro] g path {
 
 .addMemberRow-KVhQFf.selectedRow-1SAgVL:hover {
 	background-color: rgba(0,0,0,.20);
+}
+
+.tagRoleColor-1rZDyG {
+	border-radius: 2.5px;
 }
 
 .button-1kija8:hover {
@@ -4100,13 +4181,13 @@ svg[name=Nitro] g path {
 }
 
 .overflow-W0reYu {
-	border-radius: 50px;
+	border-radius: 5px;
 	margin-left: 2px;
 	background-color: rgba(0,0,0,.3);
 	box-shadow: none;
 }
 
-.withLayer-2VVmpp,.backdrop-2ByYRN {
+.backdrop-2ByYRN.withLayer-2VVmpp {
 	backdrop-filter: blur(10px);
 }
 
@@ -4143,11 +4224,13 @@ svg[name=Nitro] g path {
 
 .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx, .button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx {
 	background-color: var(--primary)!important;
+	border: 2.3px solid transparent!important
 }
 
 .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx:hover, .button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx:hover,.buttonColor-3bP3fX.buttonActive-Uc1jHx[aria-expanded=true]{
 	background-color: #01bbff!important;
 	background-image: linear-gradient(to right,#01bbff,#01bbff)!important;
+	border: 2.3px solid transparent!important
 }
 
 .dragInner-1CUBf_ {
@@ -4156,7 +4239,7 @@ svg[name=Nitro] g path {
 
 .avatarSpeaking-33RRJU {
 	box-shadow: inset 0px 0px 5px 6px #43b581;
-	border-radius: 50px;
+	border-radius: 7px;
 }
 
 .stageIconBackground-2QZZqq,.audienceVoiceUserIconContainer-1aQGLF,.container-cH6QoY,.background-29WdEM,.selfSpeakerButton-2ZvK-g,.textInput-2xgsSa {
@@ -4185,6 +4268,7 @@ svg[name=Nitro] g path {
 
 .raisedHandCount-3Pt7xw {
 	background: var(--primary);
+	border-radius: 5px
 }
 
 .container-1IyjjY {
@@ -4201,6 +4285,10 @@ svg[name=Nitro] g path {
 
 .tileContainer-Os085F:hover,.container-lqPArA {
 	background-color: rgb(0,0,0,.35);
+}
+
+.avatar-rC0Atp {
+	border-radius: 5px;
 }
 
 .contextMenuContainer-1RO4DQ foreignObject,.speakerRaiseHandButtonContainer-vFHQuX foreignObject {
@@ -4241,8 +4329,8 @@ svg[name=Nitro] g path {
 	padding: 4px 8px;
 }
 
-.participants-3eCqDy .tileContainer-Os085F, .wrapper-3mYmFS .callAvatarMask-fiNMWy .voiceAvatar-lRbblo {
-	border-radius: 50px;
+.wrapper-3mYmFS.ringingIncoming-fibTw-:after, .wrapper-3mYmFS.ringingOutgoing-1NjfRn:after {
+	border-radius: 12px;
 }
 
 .bar-AokMp3 {
@@ -4257,22 +4345,6 @@ svg[name=Nitro] g path {
 .root-1e2tfc {
 	background-color: var(--backgroundDark);
 	border-left: solid 1px rgba(1,1,1,0.25);
-}
-
-.theme-dark .perksModal-CLcR1c{
-	background-color: var(--backgroundDarker);
-}
-
-.theme-dark .perk-19D_HN{
-	background-color: var(--backgroundDark);
-}
-
-.profileBadges-31rDHI{
-	background-color: rgba(0,0,0,.25)
-}
-
-.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .profileBadges-31rDHI{
-	background: linear-gradient(var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color));
 }
 
 .select-1YfRS9 .css-1kj8ui-container .css-3vaxre-menu {
@@ -4340,7 +4412,7 @@ svg[name=Nitro] g path {
 	width: 100%;
 	height: 100%;
 	background-color: var(--primary);
-	border-radius: 100%;
+	border-radius: 2px;
 	z-index: -2;
 	animation: pulse 2s infinite;
 	will-change: transform;
@@ -4369,7 +4441,7 @@ svg[name=Nitro] g path {
 	--switch-color: var(--primary)!important;
 }
 
-.background-3d_SjE,.wrapper-3Zq_cJ,.ctaWrapper-4Js5Q6,.content-1rmYE-,.upsellBanner-1tVKtW,.backgroundCustomInlineUpsellBackground-3cC-UQ {
+.background-3d_SjE,.wrapper-3Zq_cJ,.ctaWrapper-4Js5Q6,.content-1rmYE-,.upsellBanner-1tVKtW,.backgroundCustomInlineUpsellBackground-3cC-UQ{
 	background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
@@ -4443,10 +4515,6 @@ svg[name=Nitro] g path {
 	background-color: var(--primary);
 }
 
-.role-2TIOKu {
-	border-radius: 50px
-}
-
 .roleWrapper-2IhvNd .role-2TIOKu {
 	background-color: rgba(0,0,0,.55)!important
 }
@@ -4479,6 +4547,10 @@ svg[name=Nitro] g path {
 	background-color: rgb(0,0,0,.95);
 }
 
+.avatar-3TrM7c {
+	border-radius: 5px;
+}
+
 .container-3EtAkD:hover {
 	background-color: rgba(0,0,0,.25)!important;
 }
@@ -4501,10 +4573,6 @@ svg[name=Nitro] g path {
 
 .icon-2DGsye {
 	background-color: rgba(0,0,0,.55)!important;
-}
-
-.searchContainer-u-1vUp {
-	border-radius: 50px;
 }
 
 .container-2rzKKA {
@@ -4615,22 +4683,27 @@ svg[name=Nitro] g path {
 
 .rsvpCount-iCkObl {
 	background-color: rgba(0,0,0,.55);
+	border-radius: 5px;
 }
 
 .divider-2zyEHJ {
 	background-color: rgba(0,0,0,.55);
 }
 
+.creator-3Ep8le foreignObject {
+    mask: none;
+}
+
+.creator-3Ep8le .avatar-b5OQ1N {
+    border-radius: 5px;
+}
+
 .newBadgeText-2Yqi08,.newBadge-1LcB6t {
 	color: #fff
 }
 
-.selected-2aBVty{
-	background-color: rgba(0,0,0,.35)
-}
-
-.selected-2aBVty:hover[aria-expanded=true] {
-	background-color: rgba(0,0,0,.20);
+.selected-2aBVty,.selected-2aBVty[aria-expanded=true]{
+	background-color: rgba(0,0,0,.35)!important
 }
 
 .listAvatar-2MyNH5 rect {
@@ -4667,7 +4740,7 @@ svg[name=Nitro] g path {
 }
 
 .oauth2Wrapper-p_8bbd .authorize-2xTTr-{
-	background-color: rgba(0,0,0,.35)!important;
+	background-color: rgba(0,0,0,.25);
 }
 
 .selectorButton-1EQtQx:hover {
@@ -4715,6 +4788,14 @@ svg[name=Nitro] g path {
 	background-color: var(--backgroundDark)!important;
 }
 
+.list-3-WAYB {
+	background-color: var(--backgroundDark);
+}
+
+.accountCard-2lki2x {
+	background-color: var(--backgroundDark);
+}
+
 .theme-dark.authBox-1HR6Ha,.container-1SWVIG{
 	background-color: var(--backgroundDark)!important;
 	box-shadow: inset 0 0 100000px 0 rgba(0,0,0,.5)!important;
@@ -4725,7 +4806,7 @@ svg[name=Nitro] g path {
 }
 
 .toast-q3Y4wI {
-	background-color: rgba(0,0,0,.95)!important;
+	background-color: var(--backgroundDarker)!important;
 }
 
 .footer-3Gu_Tl {
@@ -4741,28 +4822,20 @@ svg[name=Nitro] g path {
 	background-color: rgba(0,0,0,.15);
 }
 
-.banReasonOtherClickable-8EKPlQ{
-	background-color: var(--backgroundDarker)
-}
-
-.banReasonOtherClickable-8EKPlQ:hover{
-	background-color: rgba(0,0,0,.25);
-}
-
 .textBadge-1fdDPJ:not(.akaBadge-3i7V3p) {
 	background-color: var(--primary)!important;
-	border-radius: 50px;
+	border-radius: 5px;
 	color: #fff;
 }
 
 .textBadge-v9EW9y {
 	background-color: var(--primary)!important;
-	border-radius: 50px;
+	border-radius: 5px;
 	border: 4px solid var(--backgroundDarker)!important
 }
 
 .editCard-K9Q9mb{
-	background-color: var(--backgroundDarker)
+	background-color: var(--backgroundDarker)!important
 }
 
 .editCard-K9Q9mb.active-Xi2rnV,.editCard-K9Q9mb.active-Xi2rnV.toggled-35JcVc{
@@ -4783,7 +4856,7 @@ svg[name=Nitro] g path {
 }
 
 .stepCountIcon-1A2Rxd {
-    background-color: rgba(0,0,0,.35)!important
+    background-color: rgba(0,0,0,.35)!important;
 }
 
 .mentionLimitContainer-zBzr5i {
@@ -4854,10 +4927,6 @@ svg[name=Nitro] g path {
 	background-color: var(--backgroundDark);
 }
 
-.richTag-20_n21 {
-	border-radius: 50px;
-}
-
 .embedCard-bDyD5S.embedCard-PLiVm2 {
 	background-color: var(--backgroundDarker);
 }
@@ -4891,6 +4960,14 @@ svg[name=Nitro] g path {
 	background-color: rgba(0,0,0,.25)
 }
 
+.banReasonOtherClickable-8EKPlQ{
+	background-color: var(--backgroundDarker)
+}
+
+.banReasonOtherClickable-8EKPlQ:hover{
+	background-color: rgba(0,0,0,.25);
+}
+
 .theme-dark .rolePills-lcM9EX {
 	margin-top: 7px
 }
@@ -4916,7 +4993,7 @@ svg[name=Nitro] g path {
 	border: 1px solid rgba(0,0,0,.95)!important
 }
 
-.fieldBackground-3nYcw0, .fieldBackground-3nYcw0:hover:not(:focus),.termsFieldBody-3kS99u.fieldBackground-2TpuOY.withFooter-1nlfLM {
+.fieldBackground-3nYcw0, .fieldBackground-3nYcw0:hover:not(:focus),.termsFieldBody-3kS99u.fieldBackground-2TpuOY.withFooter-1nlfLM{
 	background-color: var(--backgroundDarker);
 	border: 1px solid rgba(0,0,0,.55)
 }
@@ -4947,17 +5024,14 @@ svg[name=Nitro] g path {
 
 .compactButton-3hG-bs{
 	background-color: rgba(0,0,0,.35);
-	border-radius: 50px;
 }
 
 .compactButton-3hG-bs:hover{
 	background-color: var(--backgroundDarker);
-	border-radius: 50px;
 }
 
 .compactButton-3hG-bs:active{
 	background-color: var(--backgroundDarker);
-	border-radius: 50px;
 }
 
 .header-11eigE{
@@ -5025,13 +5099,13 @@ svg[name=Nitro] g path {
 	background-size: 200% 200%
 }
 .pill-3pRQlO.clickable-3YTfAq.small-1j51ag{
-	background-color: rgba(0,0,0,.95)
+	background-color: rgba(0,0,0,.95);
 }
 .pill-3pRQlO.clickable-3YTfAq.small-1j51ag:hover{
 	background-color: var(--backgroundDark);
 }
 .pill-3pRQlO.small-1j51ag{
-	background-color: rgba(0,0,0,.55)
+	background-color: rgba(0,0,0,.55);
 }
 .sortButton-n-cIAH{
 	background-color: rgba(0,0,0,.35);
@@ -5045,6 +5119,9 @@ svg[name=Nitro] g path {
 .tagsButton-4pwOKH:hover,.tagsButton-4pwOKH[aria-expanded=true] {
 	background-color: var(--backgroundDarker);
 }
+.discordIcon-2-SnKe {
+	border-radius: 5px;
+}
 .container-2qVG6q.mainCard-3KBsBI.isOpen-2OXbFs {
 	background-color: rgba(0,0,0,.45)
 }
@@ -5057,7 +5134,12 @@ svg[name=Nitro] g path {
 .headerRow-FT0miz{
     background-color: var(--backgroundDarker);
 }
+
 .channelTextArea-3xG1BQ  {
+	background-color: var(--backgroundDark);
+}
+
+.stepContainer-SaPPyG {
 	background-color: var(--backgroundDark);
 }
 
@@ -5276,6 +5358,14 @@ svg[name=Nitro] g path {
 	background-color: var(--backgroundDarker);
 }
 
+.imageUploaderInner-IIRaFr {
+    border-radius: 5px;
+}
+
+.avatarUploaderInner-1Cp1oP {
+    border-radius: 5px;
+}
+
 .layout-S0zsk1 {
 	background-color: rgba(0,0,0,.6)
 }
@@ -5294,6 +5384,7 @@ svg[name=Nitro] g path {
 
 .iconWrapper-1sOtkE,.iconWrapper-il75HH {
 	background-color: rgba(0,0,0,.55);
+	border-radius: 5px;
 }
 
 .list-3YHPPb {
@@ -5317,12 +5408,12 @@ svg[name=Nitro] g path {
 }
 
 .ctaSection-3LqbxQ {
-	background-color: var(--backgroundDarker)
+	background-color: var(--backgroundDark)!important;
+	box-shadow: inset 0 0 100000px 0 rgba(0,0,0,.5)!important;
 }
 
 .formSection-23ecNl {
-	background-color: var(--backgroundDark)!important;
-	box-shadow: inset 0 0 100000px 0 rgba(0,0,0,.5)!important;
+	background-color: var(--backgroundDarker)
 }
 
 .channelsWrapper-51IUFR {
@@ -5339,7 +5430,7 @@ svg[name=Nitro] g path {
 
 .role-2mCo-N {
 	background-color: transparent;
-	border-radius: 50px;
+	border-radius: 5px;
 }
 
 .usagePill-16kKHu {
@@ -5379,7 +5470,7 @@ svg[name=Nitro] g path {
 }
 
 .scrollTierBackgroundUpsell-2oh_9T{
-    background-color: var(--backgroundDark)!important
+    background-color: var(--backgroundDark)!important;
 }
 
 .activityItem-1Z9CTr{
@@ -5395,15 +5486,12 @@ svg[name=Nitro] g path {
 }
 
 .container-2oiTwm{
-    background-color: var(--backgroundDark)!important
-}
-
-.perks-2tKutx{
-	background-color: var(--backgroundDarker)!important
+    background-color: var(--backgroundDark)!important;
+	box-shadow: inset 0 0 100000px 0 rgba(0,0,0,.5)!important;
 }
 
 .perks-2tKutx,.perksContainer-1HyK1I{
-    background-color: var(--backgroundDark)!important
+	background-color: var(--backgroundDark)!important
 }
 
 .perksHeader-jkHU3s {
@@ -5453,6 +5541,7 @@ svg[name=Nitro] g path {
 .headerIcon-4CEo5y {
 	background-color: var(--backgroundDark)!important;
 	border: 7px solid var(--backgroundDark)!important;
+	border-radius: 18px!important;
 }
 
 .list-1bztb- {
@@ -5464,8 +5553,8 @@ svg[name=Nitro] g path {
 	border-color: rgba(0,0,0,.75)
 }
 
-.listing-2-3kHA.listing-HhaQVc.clickable-WBCFI5:hover {
-    background-color: rgba(0,0,0,.35)!important
+.clickable-WBCFI5:hover {
+    background-color: var(--backgroundDarker)!important
 }
 
 .cardHeader-3tWAak {
@@ -5545,8 +5634,8 @@ svg[name=Nitro] g path {
 	background-color: var(--backgroundDarker)
 }
 
-.listRow-3v94Wr:hover{
-	background-color: rgba(0,0,0,.35)
+.interactiveRow-ALfmDn:hover{
+	background-color: rgba(0,0,0,.20);
 }
 
 .cardInput-33x7OF {
@@ -5559,12 +5648,7 @@ svg[name=Nitro] g path {
 
 .wrapper-2olG5t.badge-1ImhlC {
 	background-color: var(--primary);
-	border-radius: 50px;
-}
-
-.wrapper-2olG5t.badge-3k1jbq {
-	background-color: var(--primary);
-	border-radius: 50px;
+	border-radius: 5px;
 }
 
 .wrapper-2olG5t.badge-3k1jbq {
@@ -5576,7 +5660,7 @@ svg[name=Nitro] g path {
 }
 
 .icon-2ujrkG {
-	background-color: rgba(0,0,0,.35)
+	background-color: rgba(0,0,0,.35);
 }
 
 .upsellContainer-TwfTaF {
@@ -5585,10 +5669,6 @@ svg[name=Nitro] g path {
 
 .channel-k2TVLQ {
 	background-color: var(--backgroundDarker)
-}
-
-.body-2EZa2E.hasSplash-2aH3Ot {
-	background-color: rgba(0,0,0,.35)
 }
 
 .footer-3vSvuV {
@@ -5605,7 +5685,7 @@ svg[name=Nitro] g path {
 }
 
 .option-1O-Hwt{
-	background: var(--backgroundDark)
+	background: var(--backgroundDark)!important
 }
 
 .option-1O-Hwt:hover{
@@ -5613,7 +5693,7 @@ svg[name=Nitro] g path {
 }
 
 .background-fkKrXt.container-ZMc96U.themed-Hp1KC_ {
-	background-color: var(--backgroundDarker)
+	background-color: var(--backgroundDarker)!important
 }
 
 .container-xwOzwi {
@@ -5628,17 +5708,17 @@ svg[name=Nitro] g path {
 	background-color: var(--backgroundDark);
 }
 
-.container-3HMTms.containerCard-2kwJKN {
-	background-color: var(--backgroundDark);
-	border-color: rgba(0,0,0,1)
-}
-
 .container-3HMTms:hover {
 	background-color: rgba(0,0,0,.15);
 }
 
 .iconContainer-2R-3M1 {
 	background-color: rgba(0,0,0,.2);
+}
+
+.container-3HMTms.containerCard-2kwJKN.collapsedLayout-2ZTglJ {
+	background-color: var(--backgroundDark);
+	border-color: rgba(0,0,0,.75)
 }
 
 .container-3HMTms.containerCard-2kwJKN.collapsedLayout-2ZTglJ {
@@ -5764,10 +5844,6 @@ svg[name=Nitro] g path {
 	background-color: rgba(0,0,0,.35)
 }
 
-.profileColors-3Y0XaR.theme-dark .title-1r9MQ6,.userProfileInnerThemedNonPremium-1gT-zY .title-1r9MQ6 {
-	color: #fff
-}
-
 .chatHeaderBar-31g1mU.narrow-3R94Bu {
 	background-color: var(--backgroundDark)
 }
@@ -5799,10 +5875,6 @@ svg[name=Nitro] g path {
 
 .valuePropIconContainer-1WLjVd {
 	background-color: rgba(0,0,0,.25)
-}
-
-.activeIcon-1ykRnF {
-	fill: var(--primary);
 }
 
 .containerBackground-Ang24O {
@@ -5858,6 +5930,10 @@ svg[name=Nitro] g path {
 	background-color: rgba(0,0,0,.5)!important;
 }
 
+.option-ayUoaq.user-1dKxvu .displayAvatar-3jNvaK {
+	border-radius: 5px
+}
+
 .clickableContainer-3YtEIY {
 	background-color: var(--backgroundDarker);
 }
@@ -5866,24 +5942,12 @@ svg[name=Nitro] g path {
 	background-color: var(--backgroundDarker)!important;
 }
 
-.container-2nx-BQ.checked-25WXMf {
-	background-color: #43b581!important;
-}
-
-.container-2nx-BQ.checked-25WXMf path {
-	fill: #43b581!important;
-}
-
 .partnered-23cXFN{
 	color: var(--primary)
 }
 
 .verified-1Jv_7P {
 	color: #43b581
-}
-
-.searchBarComponent-18D6hD.container-1SX9VC.medium-13kyaW {
-	border-radius: 50px;
 }
 
 .scroller-38C5lh {
@@ -6022,6 +6086,7 @@ svg[name=Nitro] g path {
 }
 
 .redPing-2v_5kE {
+	border-radius: 5px;
 	border: none
 }
 
@@ -6051,15 +6116,19 @@ svg[name=Nitro] g path {
 }
 
 .topGuildEmojiBadge-3DiG2v {
-	background: linear-gradient(to top right,#f04747,#faa61a)
+    background: linear-gradient(to top right,#f04747,#faa61a)
 }
 
 .text-xs-medium-2LRpEj[style="color: var(--text-brand);"]{
 	color: var(--primary)!important
 }
 
-.creator-3Ep8le foreignObject,.partyAvatar-bX2-bv foreignObject {
+.partyAvatar-bX2-bv foreignObject {
     mask: none;
+}
+
+.partyAvatar-bX2-bv .avatar-b5OQ1N {
+    border-radius: 3px;
 }
 
 .qualitySettingsContainer-2LjkfM {
@@ -6070,12 +6139,16 @@ svg[name=Nitro] g path {
 	border-left: 3px solid #43b581
 }
 
+.icon-1zKOXL.guildIcon-2xKEtM {
+	border-radius: 5px
+}
+
 .verification-2oQUwN {
 	background-color: var(--backgroundDark);
 }
 
 .newlyAddedBadge-VdocH4,.newlyAddedBadge-VdocH4:hover {
-	background-color: #43b581;
+	background-color: #43b581
 }
 
 .newlyAddedHighlightContainer-dfom4a:hover .newlyAddedHighlight-wgFFAo {
@@ -6096,6 +6169,7 @@ svg[name=Nitro] g path {
 
 .new-3EJMgr {
 	background-color: var(--primary);
+	border-radius: 5px
 }
 
 .sidebar-3K3Z4C {
@@ -6132,14 +6206,28 @@ svg[name=Nitro] g path {
 
 .colorInfo-1kEg3T,.bd-notice,.bd-notice-info {
 	background-color: var(--primary);
+	background: var(--primary);
 }
 
 .iconMask-3ouKqH {
 	background-color: var(--backgroundDarker);
 }
 
+.theme-dark .pageButton-1GMGeJ:hover {
+	background-color: rgba(0,0,0,.55);
+	border-radius: 5px
+}
+
 .header-3cSJjT {
 	background-color: var(--backgroundDarker)!important;
+}
+
+.mask-1hlQQ6 foreignObject {
+	mask: none;
+}
+
+.mask-1hlQQ6 {
+	border-radius: 6px;
 }
 
 .guildIconWithoutImage-3bOll3:hover {
@@ -6177,12 +6265,28 @@ svg[name=Nitro] g path {
 	text-decoration: underline;
 }
 
+.wrapper-1VLyxH[style="width: 20px; height: 20px;"] foreignObject {
+    mask: none
+}
+
+.wrapper-1VLyxH[style="width: 20px; height: 20px;"] .avatar-b5OQ1N {
+    border-radius: 3px;
+}
+
 .jump-1vIlrw {
 	background-color: rgba(0,0,0,.35)!important;
 }
 
 .selected-3B2w1z, .selected-3B2w1z:hover,.selectable-fgiA2c:hover {
 	background-color: rgba(0,0,0,.75);
+}
+
+.icon-28xrhD foreignObject {
+	mask: none
+}
+
+.icon-28xrhD foreignObject,.executedCommandAvatar-3oOnb1,.threadMessageAccessoryAvatar-17qE_g {
+	border-radius: 5px!important
 }
 
 .ephemeral-2nDdnn,.message-2CShn3.ephemeral-2nDdnn.selected-2LX7Jy,.mouse-mode.full-motion .ephemeral-2nDdnn:hover {
@@ -6202,7 +6306,7 @@ svg[name=Nitro] g path {
 }
 
 #bd-editor-controls {
-	background: var(--backgroundDarker)
+	background: rgba(0,0,0,.25)
 }
 
 .theme-dark .noItemsIcon-2OeOld,.theme-dark .noItemsIcon-1rZlXZ{
@@ -6286,6 +6390,7 @@ svg[name=Nitro] g path {
 
 .badge-2WCXoe {
 	background-color: rgba(0,0,0,.25);
+	border-radius: 5px;
 }
 
 .popout-VbwYm1 {
@@ -6305,11 +6410,15 @@ svg[name=Nitro] g path {
 	box-shadow: inset 0 0 100000px 0 rgba(0,0,0,.5)!important
 }
 
+.akaBadge-3i7V3p {
+	border-radius: 5px
+}
+
 .anchor-1MIwyf.anchorUnderlineOnHover-2qPutX[aria-expanded=true] .username-u-ebrn.desaturateUserColors-1O-G89{
 	text-decoration: underline;
 }
 
-.uploadDropModal-13Kd20 .bgScale-1iWuPF,.listRow-Y5zoF8 .noIcon-3gSX9V,.container-3-AQTb {
+.uploadDropModal-13Kd20 .bgScale-1iWuPF,.listRow-Y5zoF8 .noIcon-3gSX9V.container-3-AQTb {
 	background: var(--primary)!important;
 }
 
@@ -6366,7 +6475,15 @@ svg[name=Nitro] g path {
 }
 
 .automodMessage-265YwJ,.message-2CShn3.automodMessage-265YwJ.selected-2LX7Jy, .mouse-mode.full-motion .automodMessage-265YwJ:hover {
-	background-color: rgb(240, 71, 71 ,0.15)
+	background-color: rgb(240, 71, 71, 0.15)
+}
+
+.wrapper-1VLyxH[style="width: 16px; height: 16px;"] foreignObject {
+    mask: none
+}
+
+.wrapper-1VLyxH[style="width: 16px; height: 16px;"] .avatar-b5OQ1N {
+    border-radius: 2px;
 }
 
 .permissionV3BannerContainer-3_4aSa {
@@ -6378,6 +6495,10 @@ svg[name=Nitro] g path {
     right: -100px;
 }
 
+.embedFooterIcon-1dTZzD {
+	border-radius: 5px
+} 
+
 .profileColors-3Y0XaR.theme-light .userTagUsernameBase-3Nfr5j,.profileColors-3Y0XaR.theme-light .discrimBase-KriZSj,.profileColors-3Y0XaR.theme-light .nameTag-2ysfG3,.profileColors-3Y0XaR.theme-light .headerTagUsernameNoNickname-1TjuLc,.profileColors-3Y0XaR.theme-light .nickname-2rimyL{
 	color: #060607!important;
 	font-weight: 700;
@@ -6385,7 +6506,7 @@ svg[name=Nitro] g path {
 }
 
 .highlight {
-	background-color: #008AE64D;
+	background-color: #008AE64D
 }
 
 .selectableItem-3-fmiM:hover {
@@ -6455,11 +6576,15 @@ svg[name=Nitro] g path {
 }
 
 .contentColumnDefault-3eyv5o[id="appearance-tab"] .marginTop8-24uXGp:nth-child(2) .itemFilled-1cPbtg:nth-child(2),.contentColumnDefault-3eyv5o[id="appearance-tab"] .marginTop8-24uXGp:nth-child(2) .itemFilled-1cPbtg:nth-child(3){
-    display: none
+	display: none;
 }
 
 .contentColumnDefault-3eyv5o[id="appearance-tab"] .marginTop8-24uXGp:nth-child(2) .container-1zDvAE.marginTop20-2T8ZJx.disabled-2qTmnp {
-	display: none
+	display: none;
+}
+
+.appAvatar-2htirv {
+	border-radius: 5px
 }
 
 .message-2CShn3.replying-eZ7p5z.selected-2LX7Jy, .mouse-mode.full-motion .replying-eZ7p5z:hover {
@@ -6475,7 +6600,8 @@ svg[name=Nitro] g path {
 }
 
 .theme-dark .tooltipBrand-20XsMA .tooltipPointer-3L49xb,.theme-light .tooltipBrand-20XsMA .tooltipPointer-3L49xb {
-	border-top-color: var(--backgroundDarker)!important;
+	border-top-color: var(--backgroundDarker
+	)!important;
 }
 
 .clickable-28SzVr:hover .layout-1qmrhw .activityText-1rR-8O {
@@ -6499,6 +6625,7 @@ svg[name=Nitro] g path {
 }
 
 .greenPing-12JVFR {
+	border-radius: 5px;
 	background-color: #43b581;
 }
 
@@ -6524,6 +6651,10 @@ svg[name=Nitro] g path {
 
 .emptyStateIcon-2xfcFG {
 	background-color: rgba(0,0,0,.2)!important;
+}
+
+.avatar-2LpRdK {
+	border-radius: 5px
 }
 
 .winButtonMinMax-3RsPUg:hover {
@@ -6576,10 +6707,6 @@ svg[name=Nitro] g path {
 
 .card-CLpjr8 {
 	background-color: rgba(0,0,0,.35);
-}
-
-.icon-1zKOXL {
-	border-radius: 50px
 }
 
 .button-1kaRT6 {
@@ -6655,7 +6782,7 @@ svg[name=Nitro] g path {
 
 .profileColors-3Y0XaR.theme-dark .userProfileInnerThemedPremiumWithoutBanner-1yMS1H .lookFilled-yCfaCM.colorGreen-3y-Z79,.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .lookFilled-yCfaCM.colorGreen-3y-Z79:disabled {
 	background-color: rgba(0,0,0,.5)!important;
-	border: 2.3px solid var(--profile-gradient-secondary-color);
+	border: 2.3px solid var(--profile-gradient-secondary-color)!important;
 	border-radius: 6px!important;
 	color: #fff!important
 }
@@ -6796,6 +6923,10 @@ svg[name=Nitro] g path {
 	background: var(--backgroundDarker);
 }
 
+.badge-370Op6 {
+	border-radius: 5px;
+}
+
 .tile-3POX2m:hover .sourceThumbnail-ERDcZE {
 	box-shadow: inset 0 0 0 2px var(--primary)
 }
@@ -6868,13 +6999,13 @@ svg[name=Nitro] g path {
 	background-color: rgba(0,0,0,.45)!important;
 }
 
-.prompt-1sE27N,.profileCard-2gVmvm {
+.prompt-1sE27N,.profileCard-2gVmvm,.wrapper-1_HaEi {
 	background-color: var(--backgroundDark)!important;
 }
 
 .role-3uAPnQ {
 	background-color: rgba(0,0,0,.35);
-	border-radius: 50px;
+	border-radius: 5px;
 }
 
 .checkIcon-3eAeN_, .memberCount-2G9rxE {
@@ -6892,6 +7023,7 @@ svg[name=Nitro] g path {
 .theme-dark .voiceSectionNoGuildImageWrapper-17kLyh {
 	mask: none;
 	-webkit-mask: none;
+	border-radius: 12px;
 	background: #1e232e!important
 }
 
@@ -6901,6 +7033,10 @@ svg[name=Nitro] g path {
 
 .header-30YxSJ {
     border-bottom: 1px solid rgba(1,1,1,0.25)!important
+}
+
+.icon-S3vUHH,.icon-iw1n8C {
+	border-radius: 5px
 }
 
 .theme-dark .markdown-19oyJN .codeInline-1RFl81 {
@@ -6929,7 +7065,7 @@ svg[name=Nitro] g path {
 }
 
 .overlap-1yhayD .avatar-3FKimL {
-	border: none!important;
+	border: none!important
 }
 
 .positionedContainer-W9XtGp .container-24rGVp.top-2wJPMI .mentionsBar-DpLHCy {
@@ -7011,6 +7147,15 @@ svg[name=Nitro] g path {
 	background: none;
 }
 
+.wrapper-3t15Cn foreignObject,
+.image-1a_IXB foreignObject {
+    mask: none;
+}
+
+.icon-28xrhD {
+    border-radius: 5px;
+}
+
 .container-2ebMPP {
 	background-color: var(--backgroundDark);
 }
@@ -7036,11 +7181,11 @@ svg[name=Nitro] g path {
 }
 
 .listCollapse-2kZTz1 .userAvatar-3Hwf1F {
-	margin-right: 16px!important;
+	margin-right: 20px!important;
 }
 
 .listCollapse-2kZTz1 .voiceUser-3nRK-K .ownerIcon-255uKo.icon-1dGlZy:last-child {
-	right: 14px!important
+	right: 18px!important
 }
 
 :root {
@@ -7059,6 +7204,10 @@ svg[name=Nitro] g path {
 	background-color: var(--backgroundDarker)!important;
 }
 
-.avatar-2LpRdK {
-	border-radius: 50px;
+.messages-23can0 .divider-2rZFJK {
+	border-top-color: rgba(0,0,0,.45)!important
+}
+
+.messages-23can0 .content-3spvdd {
+	background-color: rgba(0,0,0,0)!important
 }
