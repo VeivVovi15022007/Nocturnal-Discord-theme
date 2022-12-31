@@ -2552,11 +2552,13 @@ svg[name=Nitro] g path {
 	border-radius: 0 0 5px 5px;
 }
 
-.messages-23can0,.messageContainer-3VTXBC {
-    margin-left: 0px;
+.container-iA3Qrz .channelHeader-DFRX8q {
+	background-color: #11141a;
+	border-radius: 5px 5px 0 0;
+	margin-left: 16px;
 }
 
-.channelHeader-DFRX8q {
+.channel-3NJZ1V .channelHeader-DFRX8q {
 	background-color: #11141a;
 	border-radius: 5px 5px 0 0;
 }
@@ -3022,6 +3024,10 @@ svg[name=Nitro] g path {
 .avatar-2MSPKk {
 	margin-left: 2px;
 	margin-top: 2px;
+}
+
+.container-iA3Qrz {
+	padding-right: 16px;
 }
 
 .messagesPopout-eVzQcI {
