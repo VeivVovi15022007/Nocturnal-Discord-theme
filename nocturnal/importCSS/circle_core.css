@@ -1599,7 +1599,7 @@ svg.gameIcon-1siQqm {
 	transform: translateX(0)
 }
 
-.cardPrimary-3qRT__,.cardPrimaryEditable-2mz_3i,.cardPrimaryOutline-1ofwVz,.container--8P6Tr.existingSubscriberSpacing-3auAAB,.codeRedemptionRedirect-2hYMSQ,.blockedPaymentsWarning-T43O2z,.paymentPane-ut5qKZ,.wrapper-2NJDcI {
+.cardPrimary-3qRT__,.cardPrimaryEditable-2mz_3i:not(.card-2L21B2,.card-14qfLI),.cardPrimaryOutline-1ofwVz,.container--8P6Tr.existingSubscriberSpacing-3auAAB,.codeRedemptionRedirect-2hYMSQ,.blockedPaymentsWarning-T43O2z,.paymentPane-ut5qKZ,.wrapper-2NJDcI {
 	background: rgba(0,0,0,.3)!important;
 	border: none!important;
 }
