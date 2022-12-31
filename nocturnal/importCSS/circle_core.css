@@ -294,8 +294,8 @@
 	border-radius: 6px;
   }
 
-.sidebar-nqHbhN .side-2ur1Qk #bd-settings-sidebar .ui-tab-bar-item:not(.role-3pGE29)::before,
-.side-2ur1Qk .item-3XjbnG:not(.role-3pGE29)::before {
+.sidebar-nqHbhN .side-2ur1Qk #bd-settings-sidebar .ui-tab-bar-item:not(.role-3pGE29,.row-LoqnA5)::before,
+.side-2ur1Qk .item-3XjbnG:not(.role-3pGE29,.row-LoqnA5)::before {
 	  content: "";
 	  width: 20px;
 	  height: 20px;
@@ -306,7 +306,7 @@
 	  transform: translateY(-50%);
 }
   
-.side-2ur1Qk #bd-settings-sidebar .ui-tab-bar-item, .side-2ur1Qk .item-3XjbnG:not(.role-3pGE29) {padding-left: 40px;}
+.side-2ur1Qk #bd-settings-sidebar .ui-tab-bar-item, .side-2ur1Qk .item-3XjbnG:not(.role-3pGE29,.row-LoqnA5) {padding-left: 40px;}
 [aria-label="사용자 설정"] .item-3XjbnG:nth-child(2)::before,[aria-label="使用者設定"] .item-3XjbnG:nth-child(2)::before, [aria-label="ユーザー設定"] .item-3XjbnG:nth-child(2)::before, [aria-label="用户设置"] .item-3XjbnG:nth-child(2)::before, [aria-label="ตั้งค่าผู้ใช้"] .item-3XjbnG:nth-child(2)::before,[aria-label="यूज़र सेटिंग"] .item-3XjbnG:nth-child(2)::before,[aria-label="Користувацькі налаштування"] .item-3XjbnG:nth-child(2)::before,[aria-label="Потребителски настройки"] .item-3XjbnG:nth-child(2)::before,[aria-label="Ρυθμίσεις χρήστη"] .item-3XjbnG:nth-child(2)::before,[aria-label="Uživatelská nastavení"] .item-3XjbnG:nth-child(2)::before,[aria-label="Kullanıcı Ayarları"] .item-3XjbnG:nth-child(2)::before,[aria-label="Cài đặt người dùng"] .item-3XjbnG:nth-child(2)::before,[aria-label="Användarinställningar"] .item-3XjbnG:nth-child(2)::before,[aria-label="Käyttäjäasetukset"] .item-3XjbnG:nth-child(2)::before,[aria-label="Setări utilizator"] .item-3XjbnG:nth-child(2)::before,[aria-label="Configurações de Usuário"] .item-3XjbnG:nth-child(2)::before,[aria-label="Ustawienia użytkownika"] .item-3XjbnG:nth-child(2)::before,[aria-label="Brukerinnstillinger"] .item-3XjbnG:nth-child(2)::before,[aria-label="Gebruikersinstellingen"] .item-3XjbnG:nth-child(2)::before,[aria-label="Felhasználói beállítások"] .item-3XjbnG:nth-child(2)::before,[aria-label="Naudotojo Nustatymai"] .item-3XjbnG:nth-child(2)::before,[aria-label="Impostazioni utente"] .item-3XjbnG:nth-child(2)::before,[aria-label="Korisničke postavke"] .item-3XjbnG:nth-child(2)::before,[aria-label="Paramètres utilisateur"] .item-3XjbnG:nth-child(2)::before,[aria-label="Ajustes de usuario"] .item-3XjbnG:nth-child(2)::before,[aria-label="Benutzereinstellungen"] .item-3XjbnG:nth-child(2)::before,[aria-label="Brugerindstillinger"] .item-3XjbnG:nth-child(2)::before,[aria-label="Настройки пользователя"] .item-3XjbnG:nth-child(2)::before,[aria-label="User Settings"] .item-3XjbnG:nth-child(2)::before {background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/account.png) center}
 [aria-label="사용자 설정"] .item-3XjbnG:nth-child(4)::before,[aria-label="使用者設定"] .item-3XjbnG:nth-child(4)::before, [aria-label="ユーザー設定"] .item-3XjbnG:nth-child(4)::before, [aria-label="用户设置"] .item-3XjbnG:nth-child(4)::before, [aria-label="ตั้งค่าผู้ใช้"] .item-3XjbnG:nth-child(4)::before,[aria-label="यूज़र सेटिंग"] .item-3XjbnG:nth-child(4)::before,[aria-label="Користувацькі налаштування"] .item-3XjbnG:nth-child(4)::before,[aria-label="Потребителски настройки"] .item-3XjbnG:nth-child(4)::before,[aria-label="Ρυθμίσεις χρήστη"] .item-3XjbnG:nth-child(4)::before,[aria-label="Uživatelská nastavení"] .item-3XjbnG:nth-child(4)::before,[aria-label="Kullanıcı Ayarları"] .item-3XjbnG:nth-child(4)::before,[aria-label="Cài đặt người dùng"] .item-3XjbnG:nth-child(4)::before,[aria-label="Användarinställningar"] .item-3XjbnG:nth-child(4)::before,[aria-label="Käyttäjäasetukset"] .item-3XjbnG:nth-child(4)::before,[aria-label="Setări utilizator"] .item-3XjbnG:nth-child(4)::before,[aria-label="Configurações de Usuário"] .item-3XjbnG:nth-child(4)::before,[aria-label="Ustawienia użytkownika"] .item-3XjbnG:nth-child(4)::before,[aria-label="Brukerinnstillinger"] .item-3XjbnG:nth-child(4)::before,[aria-label="Gebruikersinstellingen"] .item-3XjbnG:nth-child(4)::before,[aria-label="Felhasználói beállítások"] .item-3XjbnG:nth-child(4)::before,[aria-label="Naudotojo Nustatymai"] .item-3XjbnG:nth-child(4)::before,[aria-label="Impostazioni utente"] .item-3XjbnG:nth-child(4)::before,[aria-label="Korisničke postavke"] .item-3XjbnG:nth-child(4)::before,[aria-label="Paramètres utilisateur"] .item-3XjbnG:nth-child(4)::before,[aria-label="Ajustes de usuario"] .item-3XjbnG:nth-child(4)::before,[aria-label="Benutzereinstellungen"] .item-3XjbnG:nth-child(4)::before,[aria-label="Brugerindstillinger"] .item-3XjbnG:nth-child(4)::before,[aria-label="Настройки пользователя"] .item-3XjbnG:nth-child(4)::before,[aria-label="User Settings"] .item-3XjbnG:nth-child(4)::before {background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/privacy.png) center}
 [aria-label="사용자 설정"] .item-3XjbnG:nth-child(5)::before,[aria-label="使用者設定"] .item-3XjbnG:nth-child(5)::before, [aria-label="ユーザー設定"] .item-3XjbnG:nth-child(5)::before, [aria-label="用户设置"] .item-3XjbnG:nth-child(5)::before, [aria-label="ตั้งค่าผู้ใช้"] .item-3XjbnG:nth-child(5)::before,[aria-label="यूज़र सेटिंग"] .item-3XjbnG:nth-child(5)::before,[aria-label="Користувацькі налаштування"] .item-3XjbnG:nth-child(5)::before,[aria-label="Потребителски настройки"] .item-3XjbnG:nth-child(5)::before,[aria-label="Ρυθμίσεις χρήστη"] .item-3XjbnG:nth-child(5)::before,[aria-label="Uživatelská nastavení"] .item-3XjbnG:nth-child(5)::before,[aria-label="Kullanıcı Ayarları"] .item-3XjbnG:nth-child(5)::before,[aria-label="Cài đặt người dùng"] .item-3XjbnG:nth-child(5)::before,[aria-label="Användarinställningar"] .item-3XjbnG:nth-child(5)::before,[aria-label="Käyttäjäasetukset"] .item-3XjbnG:nth-child(5)::before,[aria-label="Setări utilizator"] .item-3XjbnG:nth-child(5)::before,[aria-label="Configurações de Usuário"] .item-3XjbnG:nth-child(5)::before,[aria-label="Ustawienia użytkownika"] .item-3XjbnG:nth-child(5)::before,[aria-label="Brukerinnstillinger"] .item-3XjbnG:nth-child(5)::before,[aria-label="Gebruikersinstellingen"] .item-3XjbnG:nth-child(5)::before,[aria-label="Felhasználói beállítások"] .item-3XjbnG:nth-child(5)::before,[aria-label="Naudotojo Nustatymai"] .item-3XjbnG:nth-child(5)::before,[aria-label="Impostazioni utente"] .item-3XjbnG:nth-child(5)::before,[aria-label="Korisničke postavke"] .item-3XjbnG:nth-child(5)::before,[aria-label="Paramètres utilisateur"] .item-3XjbnG:nth-child(5)::before,[aria-label="Ajustes de usuario"] .item-3XjbnG:nth-child(5)::before,[aria-label="Benutzereinstellungen"] .item-3XjbnG:nth-child(5)::before,[aria-label="Brugerindstillinger"] .item-3XjbnG:nth-child(5)::before,[aria-label="Настройки пользователя"] .item-3XjbnG:nth-child(5)::before,[aria-label="User Settings"] .item-3XjbnG:nth-child(5)::before {background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/apps.png) center}
@@ -7140,4 +7140,16 @@ svg[name=Nitro] g path {
 
 .userProfileInnerThemedNonPremium-1gT-zY .connections-y47q20:hover {
 	background-color: rgba(0,0,0,.75)!important;
+}
+
+.button-1CA3i7 {
+	width: 100%!important
+}
+
+.contentWidth-3aWel5 {
+	max-width: none!important
+}
+
+.overflowRolesPopout-1Puiuq {
+	width: 100%
 }
