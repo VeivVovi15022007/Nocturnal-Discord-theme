@@ -1322,7 +1322,7 @@ svg.gameIcon-1siQqm {
 	background: rgba(0,0,0,.5)!important
 }
 
-.banner-3Kac2g {
+.banner-oA34U0 {
 	background-image: linear-gradient(to right,var(--primaryGradient1),var(--primaryGradient2))!important
 }
 
@@ -3129,10 +3129,10 @@ svg[name=Nitro] g path {
 	border: 2.3px solid transparent;
 	background-color: #949494;
 }
-.lookInverted-2mDUMi.colorBrand-I6CyqQ:hover {
+.lookInverted-2mDUMi.colorBrand-I6CyqQ:hover,.button-qNMA0V:active {
 	color: #fff!important;
 	border: 2.3px solid transparent;
-	background-color: var(--primary);
+	background-color: var(--primary)!important;
 }
 
 .card-1SdQ2-,.theme-dark .scroller-2GkvCq,.emptyChannelIcon-1YdEz2,.stageIconBackground-22nTnK,.iconBackground-3qSXiM,.iconBackground-3fyZsZ,.iconBackground-F3MGnK {
@@ -3728,15 +3728,24 @@ svg[name=Nitro] g path {
 	background-color: rgb(0,0,0,0.3);
 }
 
-.menu-3A7xxX,.text-xs-bold-1NF1lz[style*="color: var(--header-secondary);"],.defaultColor-1GKx81[style*="color: var(--header-secondary);"],.defaultColor-HXu-5n[style*="color: var(--header-secondary);"],
-.header-14DAzy,.emojiHeader-VEVmhr[style*="color: var(--header-secondary);"],.text-xs-normal-3SiVjE[style*="color: var(--header-secondary);"],
-.sectionLabel-3kYzE9,.sectionLabel-eOcIZ3,.text-xs-medium-2LRpEj[style*="color: var(--header-secondary);"],.tableTitle-3slKKb,
-.cooldownWrapper-2k1jHK[style*="color: rgb(185, 187, 190);"],.h2-1EaYVL,.h5-2RwDNl:not(.isEnabled-20V6lG,.error-30KkHs,.error-3EBD81),
+.menu-3A7xxX,.text-xs-bold-1NF1lz[style*="color: var(--header-secondary);"],.defaultColor-1GKx81[style*="color: var(--header-secondary);"],
+.defaultColor-HXu-5n[style*="color: var(--header-secondary);"],.emojiHeader-VEVmhr[style*="color: var(--header-secondary);"],
+.text-xs-normal-3SiVjE[style*="color: var(--header-secondary);"],.sectionLabel-3kYzE9,.sectionLabel-eOcIZ3,
+.text-xs-medium-2LRpEj[style*="color: var(--header-secondary);"],.tableTitle-3slKKb,.cooldownWrapper-2k1jHK[style*="color: rgb(185, 187, 190);"],.h2-1EaYVL,.h5-2RwDNl:not(.isEnabled-20V6lG,.error-30KkHs,.error-3EBD81),
 .text-sm-medium-3Pz3rB[style*="color: var(--header-secondary);"],.text-md-medium-2avxhQ[style*="color: var(--header-secondary);"],
-.text-sm-normal-3Zj3Iv[style*="color: var(--header-secondary);"]:not(.profileColors-3Y0XaR.theme-light .customStatusText-3ca2B1),.text-md-normal-304U3g[style*="color: var(--header-secondary);"],
-.descriptionRow-1UPN0d,.automaticApprovalDescription-3vRmhp,.guildSubscriptionDuration-1JI19A,
-.guildSubscriptionSlotMenuIcon-3UcQXW,.subSectionHeader-1Qv90w,.breadcrumbInactive-1gWeSM,.text-xs-semibold-3E_l31[style*="color: var(--header-secondary);"] {
+.text-sm-normal-3Zj3Iv[style*="color: var(--header-secondary);"]:not(.profileColors-3Y0XaR.theme-light .customStatusText-3ca2B1),
+.text-md-normal-304U3g[style*="color: var(--header-secondary);"],.descriptionRow-1UPN0d,.automaticApprovalDescription-3vRmhp,.guildSubscriptionDuration-1JI19A,
+.guildSubscriptionSlotMenuIcon-3UcQXW,.subSectionHeader-1Qv90w,.breadcrumbInactive-1gWeSM,
+.text-xs-semibold-3E_l31[style*="color: var(--header-secondary);"],.mutualGuilds-1zEYLd {
 	color: #fff!important
+}
+
+.mutualGuilds-1zEYLd:hover {
+	color: #dcddde!important
+}
+
+.mutualGuilds-1zEYLd:active {
+	color: #b9bbbe!important
 }
 
 .checkmark-bW9BK8 {
@@ -7068,7 +7077,7 @@ svg[name=Nitro] g path {
 	background-color: var(--backgroundDarker);
 }
 
-.addTags-26suzl {
+.addTags-26suzl,.theme-dark .premiumIndicator-22GgcZ {
 	background-color: #008ae6;
 }
 
