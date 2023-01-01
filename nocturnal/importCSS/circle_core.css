@@ -909,7 +909,7 @@ svg[name=Nova_Discord] * {
 	color: #fff!important;
 	border: 2.3px solid transparent!important;
 	background-color: var(--profile-gradient-button-color);
-	background-image: linear-gradient(to right,var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color));
+	background-image: linear-gradient(to right,var(--profile-gradient-secondary-color),var(--profile-gradient-primary-color));
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 200% 200%
@@ -926,7 +926,7 @@ svg[name=Nova_Discord] * {
 	color: #2e3338!important;
 	border: 2.3px solid transparent!important;
 	background-color: var(--profile-gradient-button-color);
-	background-image: linear-gradient(to right,var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color));
+	background-image: linear-gradient(to right,var(--profile-gradient-secondary-color),var(--profile-gradient-primary-color));
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 200% 200%
@@ -960,7 +960,7 @@ svg[name=Nova_Discord] * {
 	color: #fff!important;
 	border: 2.3px solid transparent!important;
 	background-color: var(--profile-gradient-button-color);
-	background-image: linear-gradient(to right,var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color));
+	background-image: linear-gradient(to right,var(--profile-gradient-secondary-color),var(--profile-gradient-primary-color));
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 200% 200%
@@ -977,7 +977,7 @@ svg[name=Nova_Discord] * {
 	color: #fff!important;
 	border: 2.3px solid transparent!important;
 	background-color: var(--profile-gradient-button-color);
-	background-image: linear-gradient(to right,var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color));
+	background-image: linear-gradient(to right,var(--profile-gradient-secondary-color),var(--profile-gradient-primary-color));
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 200% 200%
@@ -1011,7 +1011,7 @@ svg[name=Nova_Discord] * {
 	color: #fff!important;
 	border: 2.3px solid transparent!important;
 	background-color: var(--profile-gradient-button-color);
-	background-image: linear-gradient(to right,var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color));
+	background-image: linear-gradient(to right,var(--profile-gradient-secondary-color),var(--profile-gradient-primary-color));
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 200% 200%
@@ -1525,28 +1525,6 @@ svg.gameIcon-1siQqm {
 
 .contentColumn-1C7as6,.customColumn-2n-oKU {
 	max-width: 95%
-}
-
-.mainColumnContainer-3y3ZF4 {
-	max-width: 80%
-}
-
-.backgroundContainer-gUNEZU {
-	background-color: var(--backgroundDarker);
-}
-
-.containerPadding-3Ok3MG {
-	background-color: var(--backgroundDarker);
-}
-
-.sidebarFixedContainer-2fX672 {
-	background-color: var(--backgroundDarker);
-	border-color: rgba(0,0,0,.75);
-}
-
-.disableCircle-2ygJEs {
-    background-color: rgba(0,0,0,.55);
-	color: #fff
 }
 
 .contentRegion-3HkfJJ,.layer-86YKbF,.sidebarRegionScroller-FXiQOh,.standardSidebarView-E9Pc3j {
@@ -2320,26 +2298,6 @@ svg[name=Nitro] g path {
 .wrapper-3kah-n[aria-label="다이렉트 메시지"] .childWrapper-1j_1ub,
 .wrapper-3kah-n[aria-label="Приватні повідомлення"] .childWrapper-1j_1ub {
 	display: none;
-}
-
-.perks-2IIbWQ{
-	background-color:var(--backgroundDarker)!important
-}
-
-.container-3zZkKh{
-	background-color:rgba(0,0,0,.35)!important
-}
-
-.wrapper-3ByaVZ{
-	background-color:var(--backgroundDark)!important
-}
-
-.mention-3XBnnZ{
-	background-color: var(--primaryGradient1)!important;
-}
-
-.container-3i3IzO{
-	background-color: rgba(0,0,0,.26)!important
 }
 
 .menu-1QACrS:not(.menu-KSaHL1) {
@@ -5336,7 +5294,8 @@ svg[name=Nitro] g path {
 }
 
 .ctaSection-3LqbxQ {
-	background-color: var(--backgroundDarker)
+	background: var(--backgroundDark)!important;
+	box-shadow: inset 0 0 100000px 0 rgba(0,0,0,.5)!important;
 }
 
 .formSection-23ecNl {
@@ -6044,10 +6003,6 @@ svg[name=Nitro] g path {
 	fill: #43b581
 }
 
-.verificationLevelHook-2NkX9o {
-	color: #43b581!important
-}
-
 .enableCircle-2fytPW {
 	background-color: #43b581;
 }
@@ -6648,7 +6603,7 @@ svg[name=Nitro] g path {
 
 .profileColors-3Y0XaR.theme-dark .userProfileInnerThemedWithBanner-2624Yx .lookFilled-yCfaCM.colorGreen-3y-Z79,.userProfileInnerThemedWithBanner-2624Yx .lookFilled-yCfaCM.colorGreen-3y-Z79:disabled {
 	background-color: rgba(0,0,0,.5)!important;
-	border: 2.3px solid var(--profile-gradient-secondary-color);
+	border: 2.3px solid var(--profile-gradient-button-color);
 	border-radius: 6px!important;
 	color: #fff!important
 }
@@ -6656,7 +6611,7 @@ svg[name=Nitro] g path {
 .profileColors-3Y0XaR.theme-dark .userProfileInnerThemedWithBanner-2624Yx .lookFilled-yCfaCM.colorGreen-3y-Z79:hover:not(:disabled) {
 	color: #fff!important;
 	border: 2.3px solid transparent!important;
-	background-color: var(--profile-gradient-secondary-color);
+	background-color: var(--profile-gradient-button-color);
 	background-image: linear-gradient(to right,var(--profile-gradient-secondary-color),var(--profile-gradient-primary-color));
 	background-position: center;
 	background-repeat: no-repeat;
@@ -6665,7 +6620,7 @@ svg[name=Nitro] g path {
 
 .profileColors-3Y0XaR.theme-dark .userProfileInnerThemedPremiumWithoutBanner-1yMS1H .lookFilled-yCfaCM.colorGreen-3y-Z79,.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .lookFilled-yCfaCM.colorGreen-3y-Z79:disabled {
 	background-color: rgba(0,0,0,.5)!important;
-	border: 2.3px solid var(--profile-gradient-secondary-color);
+	border: 2.3px solid var(--profile-gradient-button-color);
 	border-radius: 6px!important;
 	color: #fff!important
 }
@@ -6673,7 +6628,7 @@ svg[name=Nitro] g path {
 .profileColors-3Y0XaR.theme-dark .userProfileInnerThemedPremiumWithoutBanner-1yMS1H .lookFilled-yCfaCM.colorGreen-3y-Z79:hover:not(:disabled) {
 	color: #fff!important;
 	border: 2.3px solid transparent!important;
-	background-color: var(--profile-gradient-secondary-color);
+	background-color: var(--profile-gradient-button-color);
 	background-image: linear-gradient(to right,var(--profile-gradient-secondary-color),var(--profile-gradient-primary-color));
 	background-position: center;
 	background-repeat: no-repeat;
@@ -6682,7 +6637,7 @@ svg[name=Nitro] g path {
 
 .profileColors-3Y0XaR.theme-light .userProfileInnerThemedWithBanner-2624Yx .lookFilled-yCfaCM.colorGreen-3y-Z79,.userProfileInnerThemedWithBanner-2624Yx .lookFilled-yCfaCM.colorGreen-3y-Z79:disabled {
 	background-color: rgba(0,0,0,.5)!important;
-	border: 2.3px solid var(--profile-gradient-secondary-color);
+	border: 2.3px solid var(--profile-gradient-button-color);
 	border-radius: 6px!important;
 	color: #060607!important
 }
@@ -6690,7 +6645,7 @@ svg[name=Nitro] g path {
 .profileColors-3Y0XaR.theme-light .userProfileInnerThemedWithBanner-2624Yx .lookFilled-yCfaCM.colorGreen-3y-Z79:hover:not(:disabled) {
 	color: #060607!important;
 	border: 2.3px solid transparent!important;
-	background-color: var(--profile-gradient-secondary-color);
+	background-color: var(--profile-gradient-button-color);
 	background-image: linear-gradient(to right,var(--profile-gradient-secondary-color),var(--profile-gradient-primary-color));
 	background-position: center;
 	background-repeat: no-repeat;
@@ -6699,7 +6654,7 @@ svg[name=Nitro] g path {
 
 .profileColors-3Y0XaR.theme-light .userProfileInnerThemedPremiumWithoutBanner-1yMS1H .lookFilled-yCfaCM.colorGreen-3y-Z79,.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .lookFilled-yCfaCM.colorGreen-3y-Z79:disabled {
 	background-color: rgba(0,0,0,.5)!important;
-	border: 2.3px solid var(--profile-gradient-secondary-color)!important;
+	border: 2.3px solid var(--profile-gradient-button-color)!important;
 	border-radius: 6px!important;
 	color: #060607!important
 }
@@ -6707,7 +6662,7 @@ svg[name=Nitro] g path {
 .profileColors-3Y0XaR.theme-light .userProfileInnerThemedPremiumWithoutBanner-1yMS1H .lookFilled-yCfaCM.colorGreen-3y-Z79:hover:not(:disabled) {
 	color: #060607!important;
 	border: 2.3px solid transparent!important;
-	background-color: var(--profile-gradient-secondary-color);
+	background-color: var(--profile-gradient-button-color);
 	background-image: linear-gradient(to right,var(--profile-gradient-secondary-color),var(--profile-gradient-primary-color));
 	background-position: center;
 	background-repeat: no-repeat;
@@ -6777,11 +6732,7 @@ svg[name=Nitro] g path {
 	color: var(--primary)!important
 }
 
-.sidebar-1iR2vV {
-	min-width: none
-}
-
-.closeWrapper-3LFoyE, .content-3C5Io5,.closeContentNotMobile-1HRpiO {
+.sidebar-1iR2vV,.closeWrapper-3LFoyE, .content-3C5Io5,.closeContentNotMobile-1HRpiO {
 	max-width: none;
 }
 
@@ -7131,4 +7082,46 @@ svg[name=Nitro] g path {
 
 .availabilityIndicator-3-1ZYA {
 	background-color: rgba(0,0,0,.65);
+}
+
+.perks-2IIbWQ {
+	background-color:var(--backgroundDarker)!important
+}
+
+.container-3zZkKh,.iconContainer-2yKv6_{
+	background-color: rgba(0,0,0,.35)!important
+}
+
+.wrapper-3ByaVZ{
+	background-color: var(--backgroundDark)!important
+}
+
+.mention-3XBnnZ{
+	background-color: var(--primaryGradient1)!important;
+}
+
+.container-3i3IzO{
+	background-color: rgba(0,0,0,.26)!important
+}
+
+.mainColumnContainer-3y3ZF4 {
+	max-width: 80%
+}
+
+.backgroundContainer-gUNEZU,.containerPadding-3Ok3MG {
+	background-color: var(--backgroundDarker);
+}
+
+.sidebarFixedContainer-2fX672 {
+	background-color: var(--backgroundDarker);
+	border-color: rgba(0,0,0,.75);
+}
+
+.disableCircle-2ygJEs,.guildIconNoIcon-3jIMum,.guildIcon-3ZfRfI {
+    background-color: rgba(0,0,0,.55);
+	color: #fff
+}
+
+.rulesTextAreaInput-2S9Tgi {
+    border: 1px solid rgba(0,0,0,.95)
 }
