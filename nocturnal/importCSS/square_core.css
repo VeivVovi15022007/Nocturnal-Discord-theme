@@ -2101,7 +2101,7 @@ svg[name=Nitro] g path {
 	border-image: linear-gradient(to right,var(--primaryGradient1),var(--primaryGradient2)) 1;
 }
 
-.top-K_jibn .brand-3g5E0C.item-3XjbnG:active,.top-K_jibn .brand-3g5E0C.selected-g-kMVV.item-3XjbnG,.top-K_jibn .brand-3g5E0C.item-3XjbnG:hover {
+.top-K_jibn .brand-3g5E0C.item-3XjbnG:not(.disabled-1nofHP):active,.top-K_jibn .brand-3g5E0C.selected-g-kMVV.item-3XjbnG:not(.disabled-1nofHP),.top-K_jibn .brand-3g5E0C.item-3XjbnG:not(.disabled-1nofHP):hover {
 	border-image: linear-gradient(to right,var(--primaryGradient1),var(--primaryGradient2)) 1;
 }
 
@@ -7283,11 +7283,11 @@ svg[name=Nitro] g path {
 	background-color: rgba(0,0,0,.75)!important;
 }
 
-.roleFlowerStar-91jU2T {
+.roleFlowerStar-91jU2T,.verifiedRoleIcon-1XHGP- {
 	border-radius: 2.5px!important
 }
 
-.verifiedRole-2nWDpa div,.verifiedRoleHasRole-2CPTNi div {
+.verifiedRole-2nWDpa div:not(.roleCheckmark-264cml),.verifiedRoleHasRole-2CPTNi div:not(.roleCheckmark-264cml),.roleFlowerStar-3ACHhs {
 	border-radius: 5px!important
 }
 
@@ -7299,6 +7299,30 @@ svg[name=Nitro] g path {
 	max-width: none!important
 }
 
+.roundAvatar-3baCin {
+	border-radius: 5px;
+}
+
 .overflowRolesPopout-1Puiuq {
 	width: 100%
+}
+
+.wrapper-1b33hy .noIcon-3gSX9V,.option-2eIyOn .noIcon-3gSX9V {
+	background-color: rgba(0,0,0,.5);
+}
+
+.pill-3pRQlO {
+	background-color: rgba(0,0,0,.35);
+}
+
+.pill-3pRQlO.clickable-3YTfAq:not(.disabled-3Rezaw):hover {
+	background-color: var(--backgroundDarker);
+}
+
+.addTags-26suzl {
+	background-color: #008ae6;
+}
+
+.addTags-26suzl:not(.disabled-1fO3As):hover {
+	background-color: #0070ba;
 }
