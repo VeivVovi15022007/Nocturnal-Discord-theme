@@ -3805,11 +3805,11 @@ svg[name=Nitro] g path {
 	color: #fff!important
 }
 
-.mutualGuilds-1zEYLd:hover {
+.mutualGuilds-1zEYLd:hover,.guildSubscriptionSlotMenuIcon-3UcQXW:hover {
 	color: #dcddde!important
 }
 
-.mutualGuilds-1zEYLd:active {
+.mutualGuilds-1zEYLd:active,.guildSubscriptionSlotMenuIcon-3UcQXW:active {
 	color: #b9bbbe!important
 }
 
@@ -5332,7 +5332,7 @@ svg[name=Nitro] g path {
 }
 
 .connectContainer-1hylYM{
-	background-color: var(--backgroundDarker)
+	background-color: rgb(18,21,27)
 }
 
 .container-2nXUah{
