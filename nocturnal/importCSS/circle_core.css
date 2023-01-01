@@ -2346,11 +2346,11 @@ svg[name=Nitro] g path {
 	box-shadow: 0 0 10px 3px rgba(0,0,0,.5)!important
 }
 
-.layout-1qmrhw,.interactive-1vLZ_I.interactive-iyXY_x {
+.layout-1qmrhw,.interactive-iyXY_x {
 	position: relative
 }
 
-.layout-1qmrhw:after,.interactive-1vLZ_I.interactive-iyXY_x:after {
+.layout-1qmrhw:after,.interactive-iyXY_x:after {
 	content: "";
 	height: 2px;
 	width: 100%;
@@ -2364,23 +2364,23 @@ svg[name=Nitro] g path {
 	transition: all .2s ease
 }
 
-.channel-1Shao0 .layout-1qmrhw:after,.interactive-1vLZ_I.interactive-iyXY_x:after {
+.channel-1Shao0 .layout-1qmrhw:after,.channel-1Shao0 .interactive-iyXY_x:after {
 	transform: translateX(-110%)
 }
 
-.layout-1qmrhw:hover,.interactive-1vLZ_I.interactive-iyXY_x:hover:not(.interactiveSelected-29CP8y) {
+.layout-1qmrhw:hover,.interactive-iyXY_x:hover,.interactive-iyXY_x:focus-within {
 	background-color: rgba(0,0,0,.15)!important
 }
 
-.clickable-28SzVr:active .layout-1qmrhw,.selected-1-Z6gm .layout-1qmrhw,.interactiveSelected-29CP8y.selected-3veCBZ,.interactive-1vLZ_I:focus-within, .interactive-1vLZ_I:hover {
+.clickable-28SzVr:active .layout-1qmrhw,.selected-1-Z6gm .layout-1qmrhw,.selected-3veCBZ,.interactive-iyXY_x:active {
 	background-color: rgba(0,0,0,.25)!important
 }
 
-.clickable-28SzVr:active .layout-1qmrhw:active:after,.layout-1qmrhw:hover:after,.selected-1-Z6gm .layout-1qmrhw:after,.interactive-1vLZ_I:focus-within::after, .interactive-1vLZ_I:hover::after,.interactive-1vLZ_I.interactive-iyXY_x:hover:after,.interactiveSelected-29CP8y.selected-3veCBZ:after {
+.clickable-28SzVr:active .layout-1qmrhw:active:after,.layout-1qmrhw:hover:after,.selected-1-Z6gm .layout-1qmrhw:after,.interactive-iyXY_x:focus-within::after,.interactive-iyXY_x:active:after,.interactive-iyXY_x:hover:after,.interactive-iyXY_x.selected-3veCBZ:after{
 	transform: translateX(0)
 }
 
-.selected-1-Z6gm .layout-1qmrhw .name-3Vmqxm, input.da-input, input.da-input:focus,.interactiveSelected-29CP8y.selected-3veCBZ {
+.selected-1-Z6gm .layout-1qmrhw .name-3Vmqxm, input.da-input, input.da-input:focus {
 	color: #fff
 }
 
