@@ -3740,11 +3740,11 @@ svg[name=Nitro] g path {
 	color: #fff!important
 }
 
-.mutualGuilds-1zEYLd:hover {
+.mutualGuilds-1zEYLd:hover,.guildSubscriptionSlotMenuIcon-3UcQXW:hover {
 	color: #dcddde!important
 }
 
-.mutualGuilds-1zEYLd:active {
+.mutualGuilds-1zEYLd:active,.guildSubscriptionSlotMenuIcon-3UcQXW:active {
 	color: #b9bbbe!important
 }
 
@@ -3776,6 +3776,10 @@ svg[name=Nitro] g path {
 
 .bodyInnerWrapper-Z8WDxe {
 	padding-right: 0;
+}
+
+.avatar-3FKimL, .embedAuthorIcon-3pnkS4 {
+	border-radius: 50px;
 }
 
 .clickable-vvKY2q .header-3OsQeK:hover,.selected-1GtAC5 .header-3OsQeK {
@@ -5255,7 +5259,7 @@ svg[name=Nitro] g path {
 }
 
 .connectContainer-1hylYM{
-	background-color: var(--backgroundDarker)
+	background-color: rgb(18,21,27)
 }
 
 .container-2nXUah{
