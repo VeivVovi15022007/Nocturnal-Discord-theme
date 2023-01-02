@@ -296,6 +296,11 @@
 	--backgroundName: #202225;
 	--nameShadow: #268bd2;
 }
+.markup-eYLPri pre {
+	position: relative;
+	border: 1px solid var(--backgroundName);
+	border-radius: 6px;
+}
 
 .side-2ur1Qk .item-3XjbnG:not(.role-3pGE29,.row-LoqnA5)::before {
 	content: "";
