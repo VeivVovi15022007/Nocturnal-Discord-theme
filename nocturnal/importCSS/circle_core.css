@@ -452,9 +452,7 @@
 .css-xszxaa-option:active {
 	background-color: rgba(0,0,0,.55);
 }
-.cardPlaceholder-1zrbbe {background-color: var(--backgroundDark)!important;}
-.loading-1yrGTe {background-color: rgba(0,0,0,.25)!important;}
-.card-2TuZPZ {background-color: rgba(0,0,0,.25)!important;}
+.card-2TuZPZ, .cardPlaceholder-1zrbbe {background-color: var(--backgroundDark)!important;}
 .privateChannelsHeaderContainer-1UWASm {
   display: flex;}
 .headerText-1qIDDT {
@@ -2316,7 +2314,7 @@ svg[name=Nitro] g path {
 	transition: all .2s ease
 }
 
-.channel-1Shao0 .layout-1qmrhw:after,.channel-1Shao0 .interactive-iyXY_x:after {
+.channel-1Shao0 .layout-1qmrhw:after,.channel-1Shao0 .interactive-iyXY_x:after,.itemInner-3e_4G4.layout-1qmrhw:after {
 	transform: translateX(-110%)
 }
 
@@ -3274,7 +3272,7 @@ svg[name=Nitro] g path {
 	margin-right: 10px;
 }
 
-.sizeMedium-2bFIHr {
+.sizeMedium-2bFIHr,.sizeLarge-3mScP9 {
 	width: auto;
 	height: 32px;
 	min-width: 60px;
@@ -6096,7 +6094,7 @@ svg[name=Nitro] g path {
 }
 
 .loading-3ozbwt {
-	background-color: rgba(0,0,0,.25);
+	background-color: var(--backgroundDarker);
 }
 
 .loadingCard-3pIp9h {
@@ -7148,4 +7146,16 @@ svg[name=Nitro] g path {
 
 .size16-2-tfaM .avatarContainerMasked-13fYnN {
 	margin-right: 6.5px
+}
+
+.avatar-30VHqO,.iconMask-2fMR98 {
+	border-radius: 50px
+}
+
+.loading-1yrGTe {
+	background-color: var(--backgroundDark)!important;
+}
+
+.container-1wv6C6 .text-sm-normal-3Zj3Iv {
+	margin-bottom: 20px
 }
