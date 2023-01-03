@@ -7427,3 +7427,11 @@ svg[name=Nitro] g path {
 	background: var(--backgroundDarker)!important;
 	border: 4px solid var(--backgroundDarker)!important
 }
+
+.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .roleFlowerStar-91jU2T[style*="width: 14px; height: 14px;"],.userProfileInnerThemedWithBanner-2624Yx .roleFlowerStar-91jU2T[style*="width: 14px; height: 14px;"] {
+    margin-top: 2px;
+}
+
+.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .roleCircle-3K9O3d,.userProfileInnerThemedWithBanner-2624Yx .roleCircle-3K9O3d{
+    margin-top: 1px;
+}
