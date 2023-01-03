@@ -1,3 +1,13 @@
+/**
+ * @name Nocturnal Square
+ * @author Spectra#7698 & Печенько#8596 & VeivVovi#2017
+ * @version 2.9 AutoUpdate
+ * @description A simple & clean dark theme for thoses who live at night, made to be easy on the eye. Fixed & reworked by Печенько#3183, fixed class names by VeivVovi#2017.
+ * @source https://github.com/VeivVovi15022007/Nocturnal-Discord-theme
+ * @authorLink https://discordhub.com/profile/725229477713674290
+ * @authorId 725229477713674290, 367510031484190730
+ * @invite 7GTyYnD7Ke
+*/
 .wrapper-1VLyxH[role="img"][aria-label]:before,
 .avatar-1EWyVD[role="img"][aria-label]:before,
 .avatar-2Vndt_[role="img"][aria-label]:before,
@@ -7548,13 +7558,17 @@ svg[name=Nitro] g path {
 	filter: grayscale(100%)
 }
 
-.from-1-zmLY, .to-9AOSH0 {
-	border-radius: 5px;
+.from-1-zmLY, .to-9AOSH0,.headerIcon-2RT_qX {
+	border-radius: 5px!important;
+}
+
+.headerIcon-2RT_qX {
+	margin-right: 9px!important
 }
 
 .theme-dark .to-9AOSH0 {
 	background-color: var(--backgroundDark);
-    box-shadow: inset 0 0 100000px 0 rgba(0,0,0,.25);
+        box-shadow: inset 0 0 100000px 0 rgba(0,0,0,.25);
 }
 
 .from-1-zmLY,.from-2xygmH {
