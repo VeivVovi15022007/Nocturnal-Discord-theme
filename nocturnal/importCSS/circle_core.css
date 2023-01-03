@@ -334,6 +334,7 @@
 [aria-label="ユーザー設定"].side-2ur1Qk .item-3XjbnG {padding-left: 40px;}
 [aria-label="使用者設定"].side-2ur1Qk .item-3XjbnG {padding-left: 40px;}
 [aria-label="사용자 설정"].side-2ur1Qk .item-3XjbnG {padding-left: 40px;}
+.side-2ur1Qk .item-3XjbnG {padding-left: 10px!important;}
 
 [aria-label="사용자 설정"] .item-3XjbnG:nth-child(2)::before,[aria-label="使用者設定"] .item-3XjbnG:nth-child(2)::before, [aria-label="ユーザー設定"] .item-3XjbnG:nth-child(2)::before, [aria-label="用户设置"] .item-3XjbnG:nth-child(2)::before, [aria-label="ตั้งค่าผู้ใช้"] .item-3XjbnG:nth-child(2)::before,[aria-label="यूज़र सेटिंग"] .item-3XjbnG:nth-child(2)::before,[aria-label="Користувацькі налаштування"] .item-3XjbnG:nth-child(2)::before,[aria-label="Потребителски настройки"] .item-3XjbnG:nth-child(2)::before,[aria-label="Ρυθμίσεις χρήστη"] .item-3XjbnG:nth-child(2)::before,[aria-label="Uživatelská nastavení"] .item-3XjbnG:nth-child(2)::before,[aria-label="Kullanıcı Ayarları"] .item-3XjbnG:nth-child(2)::before,[aria-label="Cài đặt người dùng"] .item-3XjbnG:nth-child(2)::before,[aria-label="Användarinställningar"] .item-3XjbnG:nth-child(2)::before,[aria-label="Käyttäjäasetukset"] .item-3XjbnG:nth-child(2)::before,[aria-label="Setări utilizator"] .item-3XjbnG:nth-child(2)::before,[aria-label="Configurações de Usuário"] .item-3XjbnG:nth-child(2)::before,[aria-label="Ustawienia użytkownika"] .item-3XjbnG:nth-child(2)::before,[aria-label="Brukerinnstillinger"] .item-3XjbnG:nth-child(2)::before,[aria-label="Gebruikersinstellingen"] .item-3XjbnG:nth-child(2)::before,[aria-label="Felhasználói beállítások"] .item-3XjbnG:nth-child(2)::before,[aria-label="Naudotojo Nustatymai"] .item-3XjbnG:nth-child(2)::before,[aria-label="Impostazioni utente"] .item-3XjbnG:nth-child(2)::before,[aria-label="Korisničke postavke"] .item-3XjbnG:nth-child(2)::before,[aria-label="Paramètres utilisateur"] .item-3XjbnG:nth-child(2)::before,[aria-label="Ajustes de usuario"] .item-3XjbnG:nth-child(2)::before,[aria-label="Benutzereinstellungen"] .item-3XjbnG:nth-child(2)::before,[aria-label="Brugerindstillinger"] .item-3XjbnG:nth-child(2)::before,[aria-label="Настройки пользователя"] .item-3XjbnG:nth-child(2)::before,[aria-label="User Settings"] .item-3XjbnG:nth-child(2)::before {background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/account.png) center}
 [aria-label="사용자 설정"] .item-3XjbnG:nth-child(4)::before,[aria-label="使用者設定"] .item-3XjbnG:nth-child(4)::before, [aria-label="ユーザー設定"] .item-3XjbnG:nth-child(4)::before, [aria-label="用户设置"] .item-3XjbnG:nth-child(4)::before, [aria-label="ตั้งค่าผู้ใช้"] .item-3XjbnG:nth-child(4)::before,[aria-label="यूज़र सेटिंग"] .item-3XjbnG:nth-child(4)::before,[aria-label="Користувацькі налаштування"] .item-3XjbnG:nth-child(4)::before,[aria-label="Потребителски настройки"] .item-3XjbnG:nth-child(4)::before,[aria-label="Ρυθμίσεις χρήστη"] .item-3XjbnG:nth-child(4)::before,[aria-label="Uživatelská nastavení"] .item-3XjbnG:nth-child(4)::before,[aria-label="Kullanıcı Ayarları"] .item-3XjbnG:nth-child(4)::before,[aria-label="Cài đặt người dùng"] .item-3XjbnG:nth-child(4)::before,[aria-label="Användarinställningar"] .item-3XjbnG:nth-child(4)::before,[aria-label="Käyttäjäasetukset"] .item-3XjbnG:nth-child(4)::before,[aria-label="Setări utilizator"] .item-3XjbnG:nth-child(4)::before,[aria-label="Configurações de Usuário"] .item-3XjbnG:nth-child(4)::before,[aria-label="Ustawienia użytkownika"] .item-3XjbnG:nth-child(4)::before,[aria-label="Brukerinnstillinger"] .item-3XjbnG:nth-child(4)::before,[aria-label="Gebruikersinstellingen"] .item-3XjbnG:nth-child(4)::before,[aria-label="Felhasználói beállítások"] .item-3XjbnG:nth-child(4)::before,[aria-label="Naudotojo Nustatymai"] .item-3XjbnG:nth-child(4)::before,[aria-label="Impostazioni utente"] .item-3XjbnG:nth-child(4)::before,[aria-label="Korisničke postavke"] .item-3XjbnG:nth-child(4)::before,[aria-label="Paramètres utilisateur"] .item-3XjbnG:nth-child(4)::before,[aria-label="Ajustes de usuario"] .item-3XjbnG:nth-child(4)::before,[aria-label="Benutzereinstellungen"] .item-3XjbnG:nth-child(4)::before,[aria-label="Brugerindstillinger"] .item-3XjbnG:nth-child(4)::before,[aria-label="Настройки пользователя"] .item-3XjbnG:nth-child(4)::before,[aria-label="User Settings"] .item-3XjbnG:nth-child(4)::before {background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/privacy.png) center}
@@ -377,9 +378,6 @@
 @keyframes themeStart {
 	from {filter: blur(100px)}
 	to {filter: blur(0)}
-}
-.wrapper-3AZUiP.errorPage-2pZ2Kq {
-	background-color: var(--backgroundDark)!important
 }
 .memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover,.enabled-1t_Gxm:hover,.nowPlayingColumn-1eCBCN,.peopleList-2VBrVI,.container-2cd8Mz,#friends,.appMount-3VJmYg,.applicationStore-2nk7Lo,.article-3kb3qm,.body-3ND3kc,.channels-Ie2l6A,.chat-2ZfjoI,.chat-2ZfjoI form,.container-1UB9sr,.container-2Thooq,.container-2McqkF,.container-PNkimc,.content-1jQy2l,.footer-1fjuF6,.gameLibrary-TTDw4Y,.guildsWrapper-5TJh6A,.header-2EadGG,.headerBar-UHpsPw,.members-3WRCEx,.messagesWrapper-RpOMA3,.root-1BQpZw,.root-26DmKJ,.appMount-2yBXZl, body,.app-2CXKsg,.bg-1QIAus,.video-eAcneW {
 	background-color: var(--backgroundDark)!important
@@ -2445,14 +2443,6 @@ svg[name=Nitro] g path {
 	box-shadow: inset 0px 0px 10px 0px #000;
 }
 
-.descriptionIcon-3nDZrK[viewBox="0 0 24 24"] path {
-    fill: #43b581!important
-}
-
-.descriptionIcon-3nDZrK[viewBox="0 0 14 14"] path {
-    fill: #f04747!important
-}
-
 .theme-dark .perk-19D_HN, .theme-dark .ctaBar-Nhk8yY {
 	background-color: rgba(0,0,0,.3)!important;
 	border: 1px solid var(--deprecated-text-input-border);
@@ -4423,8 +4413,11 @@ svg[name=Nitro] g path {
 .popout-TdhJ6Z {
 	border: 1px solid rgba(0,0,0,.5)!important;
 	box-sizing: border-box;
-	box-shadow: 0 0 10px 10px rgba(0,0,0,.5)!important;
-	box-shadow: 0 0 10px 3px rgba(0,0,0,.5)!important
+	box-shadow: 0 0 10px 10px rgba(0,0,0,.5)!important
+}
+
+.popout-TdhJ6Z {
+	box-shadow: 0 0 10px 3px rgba(0,0,0,.5)!important;
 }
 
 .upsellContainer-22N_CL {
@@ -4907,7 +4900,7 @@ svg[name=Nitro] g path {
 	box-shadow: inset 0 0 100000px 0 rgba(0,0,0,.5)!important;
 }
 
-.inModal-3SoQyx {
+.inModal-3SoQyx,.inModal-24jkLJ {
 	background-color: transparent!important;
 }
 
@@ -4917,6 +4910,10 @@ svg[name=Nitro] g path {
 
 .group-1-kPpw:not(.disabled-1Z8bJM) .item-14XeNr:not(.selected-I4nkOo):hover,.item-2XHlPv:hover {
 	background-color: rgba(0,0,0,.95);
+}
+
+.group-1-kPpw {
+	border: none
 }
 
 .item-14XeNr.allow-q9kwjz.selected-I4nkOo,.item-2XHlPv.allow-2JBXjH.selected-1CBjKz {
@@ -4930,6 +4927,161 @@ svg[name=Nitro] g path {
 .item-15kgnI:hover,.item-2rTrrd:hover {
 	background-color: rgba(0,0,0,.25)
 }
+
+/* Memory to the deleted class names for icons even before join to guild and user settings tabs :(
+  div[aria-label="GUILD_SETTINGS"] .side-2ur1Qk #bd-settings-sidebar .ui-tab-bar-item,
+  div[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG {padding-left: 10px;}
+
+  .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:nth-child(3)::before{background:url(https://codedotspectra.github.io/themes/icons/core.png) center}
+  .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:nth-child(4)::before{background:url(https://codedotspectra.github.io/themes/icons/bandages.png) center}
+  .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:nth-child(5)::before{background:url(https://codedotspectra.github.io/themes/icons/emote.png) center}
+  .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:nth-child(6)::before{background:url(https://codedotspectra.github.io/themes/icons/css.png) center}
+  .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:nth-child(7)::before{background:url(https://codedotspectra.github.io/themes/icons/plugins.png) center}
+  .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:nth-child(8)::before{background:url(https://codedotspectra.github.io/themes/icons/theme.png) center}
+  ==  WINDOWS  ==
+  .platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(2)::before{background:url(https://codedotspectra.github.io/themes/icons/account.png) center}
+  .platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(3)::before{background:url(https://codedotspectra.github.io/themes/icons/privacy.png) center}
+  .platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(4)::before{background:url(https://codedotspectra.github.io/themes/icons/apps.png) center}
+  .platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(5)::before{background:url(https://codedotspectra.github.io/themes/icons/connections.png) center}
+  .platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(8)::before{background:url(https://codedotspectra.github.io/themes/icons/nitro.png) center}
+  .platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(9)::before{background:url(https://codedotspectra.github.io/themes/icons/boost.png) center}
+  .platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(10)::before{background:url(https://codedotspectra.github.io/themes/icons/gift.png) center}
+  .platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(11)::before{background:url(https://codedotspectra.github.io/themes/icons/billing.png) center}
+  .platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(16)::before{background:url(https://codedotspectra.github.io/themes/icons/voice.png) center}
+  .platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(17)::before{background:url(https://codedotspectra.github.io/themes/icons/text.png) center}
+  .platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(14)::before{background:url(https://codedotspectra.github.io/themes/icons/eye.png) center}
+  .platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(15)::before{background:url(https://codedotspectra.github.io/themes/icons/bandages.png) center}
+  .platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(18)::before{background:url(https://codedotspectra.github.io/themes/icons/notifications.png) center}
+  .platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(19)::before{background:url(https://codedotspectra.github.io/themes/icons/keybinds.png) center}
+  .platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(20)::before{background:url(https://codedotspectra.github.io/themes/icons/language.png) center}
+  .platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(21)::before{background:url(https://codedotspectra.github.io/themes/icons/windows.png) center}
+  .platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(22)::before{background:url(https://codedotspectra.github.io/themes/icons/twitch.png) center}
+  .platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(23)::before{background:url(https://codedotspectra.github.io/themes/icons/dev_options.png) center}
+  .platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(26)::before{background:url(https://codedotspectra.github.io/themes/icons/games.png) center}
+  .platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(27)::before{background:url(https://codedotspectra.github.io/themes/icons/overlay.png) center}
+  .platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(29)::before{background:url(https://codedotspectra.github.io/themes/icons/changelog.png) center}
+  .platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(30)::before{background:url(https://codedotspectra.github.io/themes/icons/hype.png) center}
+  .platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(33)::before{background:url(https://codedotspectra.github.io/themes/icons/logout.png) center}
+  ==  MAC OS  ==
+  .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(2)::before{background:url(https://codedotspectra.github.io/themes/icons/account.png) center}
+  .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(3)::before{background:url(https://codedotspectra.github.io/themes/icons/privacy.png) center}
+  .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(4)::before{background:url(https://codedotspectra.github.io/themes/icons/apps.png) center}
+  .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(5)::before{background:url(https://codedotspectra.github.io/themes/icons/connections.png) center}
+  .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(8)::before{background:url(https://codedotspectra.github.io/themes/icons/nitro.png) center}
+  .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(9)::before{background:url(https://codedotspectra.github.io/themes/icons/boost.png) center}
+  .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(10)::before{background:url(https://codedotspectra.github.io/themes/icons/gift.png) center}
+  .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(11)::before{background:url(https://codedotspectra.github.io/themes/icons/billing.png) center}
+  .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(16)::before{background:url(https://codedotspectra.github.io/themes/icons/voice.png) center}
+  .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(17)::before{background:url(https://codedotspectra.github.io/themes/icons/text.png) center}
+  .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(14)::before{background:url(https://codedotspectra.github.io/themes/icons/eye.png) center}
+  .platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(15)::before{background:url(https://codedotspectra.github.io/themes/icons/bandages.png) center}
+  .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(18)::before{background:url(https://codedotspectra.github.io/themes/icons/notifications.png) center}
+  .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(19)::before{background:url(https://codedotspectra.github.io/themes/icons/keybinds.png) center}
+  .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(20)::before{background:url(https://codedotspectra.github.io/themes/icons/language.png) center}
+  .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(21)::before{background:url(https://codedotspectra.github.io/themes/icons/twitch.png) center}
+  .platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(22)::before{background:url(https://codedotspectra.github.io/themes/icons/dev_options.png) center}
+  .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(25)::before{background:url(https://codedotspectra.github.io/themes/icons/games.png) center}
+  .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(27)::before{background:url(https://codedotspectra.github.io/themes/icons/changelog.png) center}
+  .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(28)::before{background:url(https://codedotspectra.github.io/themes/icons/hype.png) center}
+  .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(31)::before{background:url(https://codedotspectra.github.io/themes/icons/logout.png) center}
+  ==  LINUX  ==
+  .platform-linux #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(2)::before{background:url(https://codedotspectra.github.io/themes/icons/account.png) center}
+  .platform-linux #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(3)::before{background:url(https://codedotspectra.github.io/themes/icons/privacy.png) center}
+  .platform-linux #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(4)::before{background:url(https://codedotspectra.github.io/themes/icons/apps.png) center}
+  .platform-linux #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(5)::before{background:url(https://codedotspectra.github.io/themes/icons/connections.png) center}
+  .platform-linux #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(8)::before{background:url(https://codedotspectra.github.io/themes/icons/nitro.png) center}
+  .platform-linux #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(9)::before{background:url(https://codedotspectra.github.io/themes/icons/boost.png) center}
+  .platform-linux #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(10)::before{background:url(https://codedotspectra.github.io/themes/icons/gift.png) center}
+  .platform-linux #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(11)::before{background:url(https://codedotspectra.github.io/themes/icons/billing.png) center}
+  .platform-linux #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(16)::before{background:url(https://codedotspectra.github.io/themes/icons/voice.png) center}
+  .platform-linux #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(17)::before{background:url(https://codedotspectra.github.io/themes/icons/text.png) center}
+  .platform-linux #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(14)::before{background:url(https://codedotspectra.github.io/themes/icons/eye.png) center}
+  .platform-linux #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(17)::before{background:url(https://codedotspectra.github.io/themes/icons/notifications.png) center}
+  .platform-linux #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(18)::before{background:url(https://codedotspectra.github.io/themes/icons/keybinds.png) center}
+  .platform-linux #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(19)::before{background:url(https://codedotspectra.github.io/themes/icons/language.png) center}
+  .platform-linux #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(20)::before{background:url(https://codedotspectra.github.io/themes/icons/linux.png) center}
+  .platform-linux #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(21)::before{background:url(https://codedotspectra.github.io/themes/icons/twitch.png) center}
+  .platform-linux #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(24)::before{background:url(https://codedotspectra.github.io/themes/icons/games.png) center}
+  .platform-linux #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(27)::before{background:url(https://codedotspectra.github.io/themes/icons/changelog.png) center}
+  .platform-linux #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(28)::before{background:url(https://codedotspectra.github.io/themes/icons/hype.png) center}
+  .platform-linux #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(31)::before{background:url(https://codedotspectra.github.io/themes/icons/logout.png) center}
+  ==  WEB  ==
+  .platform-web #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(2)::before{background:url(https://codedotspectra.github.io/themes/icons/account.png) center}
+  .platform-web #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(3)::before{background:url(https://codedotspectra.github.io/themes/icons/privacy.png) center}
+  .platform-web #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(4)::before{background:url(https://codedotspectra.github.io/themes/icons/apps.png) center}
+  .platform-web #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(5)::before{background:url(https://codedotspectra.github.io/themes/icons/connections.png) center}
+  .platform-web #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(8)::before{background:url(https://codedotspectra.github.io/themes/icons/nitro.png) center}
+  .platform-web #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(9)::before{background:url(https://codedotspectra.github.io/themes/icons/boost.png) center}
+  .platform-web #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(10)::before{background:url(https://codedotspectra.github.io/themes/icons/gift.png) center}
+  .platform-web #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(11)::before{background:url(https://codedotspectra.github.io/themes/icons/billing.png) center}
+  .platform-web #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(14)::before{background:url(https://codedotspectra.github.io/themes/icons/voice.png) center}
+  .platform-web #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(15)::before{background:url(https://codedotspectra.github.io/themes/icons/text.png) center}
+  .platform-web #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(16)::before{background:url(https://codedotspectra.github.io/themes/icons/eye.png) center}
+  .platform-web #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(17)::before{background:url(https://codedotspectra.github.io/themes/icons/notifications.png) center}
+  .platform-web #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(18)::before{background:url(https://codedotspectra.github.io/themes/icons/keybinds.png) center}
+  .platform-web #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(19)::before{background:url(https://codedotspectra.github.io/themes/icons/language.png) center}
+  .platform-web #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(20)::before{background:url(https://codedotspectra.github.io/themes/icons/twitch.png) center}
+  .platform-web #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(23)::before{background:url(https://codedotspectra.github.io/themes/icons/games.png) center}
+  .platform-web #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(25)::before{background:url(https://codedotspectra.github.io/themes/icons/changelog.png) center}
+  .platform-web #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(26)::before{background:url(https://codedotspectra.github.io/themes/icons/hype.png) center}
+  .platform-web #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(29)::before{background:url(https://codedotspectra.github.io/themes/icons/logout.png) center}
+
+  div[aria-label="USER_SETTINGS"] .standardSidebarView-E9Pc3j .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .side-2ur1Qk .item-3XjbnG:nth-child(2)::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/account.png) center}
+  div[aria-label="USER_SETTINGS"] .standardSidebarView-E9Pc3j .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .side-2ur1Qk .item-3XjbnG:nth-child(3)::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/privacy.png) center}
+  div[aria-label="USER_SETTINGS"] .standardSidebarView-E9Pc3j .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .side-2ur1Qk .item-3XjbnG:nth-child(4)::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/apps.png) center}
+  div[aria-label="USER_SETTINGS"] .standardSidebarView-E9Pc3j .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .side-2ur1Qk .item-3XjbnG:nth-child(5)::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/connections.png) center}
+  div[aria-label="USER_SETTINGS"] .standardSidebarView-E9Pc3j .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .side-2ur1Qk .item-3XjbnG:nth-child(8)::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/nitro.png) center}
+  div[aria-label="USER_SETTINGS"] .standardSidebarView-E9Pc3j .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .side-2ur1Qk .item-3XjbnG:nth-child(9)::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/boost.png) center}
+  div[aria-label="USER_SETTINGS"] .standardSidebarView-E9Pc3j .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .side-2ur1Qk .item-3XjbnG:nth-child(10)::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/gift.png) center}
+  div[aria-label="USER_SETTINGS"] .standardSidebarView-E9Pc3j .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .side-2ur1Qk .item-3XjbnG:nth-child(11)::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/billing.png) center}
+  div[aria-label="USER_SETTINGS"] .standardSidebarView-E9Pc3j .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .side-2ur1Qk .item-3XjbnG:nth-child(14)::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/eye.png) center}
+  div[aria-label="USER_SETTINGS"] .standardSidebarView-E9Pc3j .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .side-2ur1Qk .item-3XjbnG:nth-child(15)::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/bandages.png) center}
+  div[aria-label="USER_SETTINGS"] .standardSidebarView-E9Pc3j .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .side-2ur1Qk .item-3XjbnG:nth-child(16)::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/voice.png) center}
+  div[aria-label="USER_SETTINGS"] .standardSidebarView-E9Pc3j .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .side-2ur1Qk .item-3XjbnG:nth-child(17)::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/text.png) center}
+  div[aria-label="USER_SETTINGS"] .standardSidebarView-E9Pc3j .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .side-2ur1Qk .item-3XjbnG:nth-child(18)::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/notifications.png) center}
+  div[aria-label="USER_SETTINGS"] .standardSidebarView-E9Pc3j .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .side-2ur1Qk .item-3XjbnG:nth-child(19)::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/keybinds.png) center}
+  div[aria-label="USER_SETTINGS"] .standardSidebarView-E9Pc3j .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .side-2ur1Qk .item-3XjbnG:nth-child(20)::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/language.png) center}
+  div[aria-label="USER_SETTINGS"] .standardSidebarView-E9Pc3j .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .side-2ur1Qk .item-3XjbnG:nth-child(21)::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/windows.png) center}
+  div[aria-label="USER_SETTINGS"] .standardSidebarView-E9Pc3j .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .side-2ur1Qk .item-3XjbnG:nth-child(22)::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/twitch.png) center}
+  div[aria-label="USER_SETTINGS"] .standardSidebarView-E9Pc3j .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .side-2ur1Qk .item-3XjbnG:nth-child(23)::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/dev_options.png) center}
+  div[aria-label="USER_SETTINGS"] .standardSidebarView-E9Pc3j .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .side-2ur1Qk .item-3XjbnG:nth-child(26)::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/games.png) center}
+  div[aria-label="USER_SETTINGS"] .standardSidebarView-E9Pc3j .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .side-2ur1Qk .item-3XjbnG:nth-child(27)::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/overlay.png) center}
+  div[aria-label="USER_SETTINGS"] .standardSidebarView-E9Pc3j .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .side-2ur1Qk .item-3XjbnG:nth-child(30)::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/core.png) center}
+  div[aria-label="USER_SETTINGS"] .standardSidebarView-E9Pc3j .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .side-2ur1Qk .item-3XjbnG:nth-child(31)::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/emote.png) center}
+  div[aria-label="USER_SETTINGS"] .standardSidebarView-E9Pc3j .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .side-2ur1Qk .item-3XjbnG:nth-child(32)::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/css.png) center}
+  div[aria-label="USER_SETTINGS"] .standardSidebarView-E9Pc3j .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .side-2ur1Qk .item-3XjbnG:nth-child(33)::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/plugins.png) center}
+  div[aria-label="USER_SETTINGS"] .standardSidebarView-E9Pc3j .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .side-2ur1Qk .item-3XjbnG:nth-child(34)::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/theme.png) center}
+  div[aria-label="USER_SETTINGS"] .standardSidebarView-E9Pc3j .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .side-2ur1Qk .item-3XjbnG:nth-child(36)::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/changelog.png) center}
+  div[aria-label="USER_SETTINGS"] .standardSidebarView-E9Pc3j .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .side-2ur1Qk .item-3XjbnG:nth-child(37)::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/hype.png) center}
+  div[aria-label="USER_SETTINGS"] .standardSidebarView-E9Pc3j .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .side-2ur1Qk .item-3XjbnG:nth-child(39)::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/logout.png) center}
+
+  .side-2ur1Qk .item-3XjbnG[aria-controls="my-account-tab"]::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/account.png) center}
+  .side-2ur1Qk .item-3XjbnG[aria-controls="privacy-&-safety-tab"]::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/privacy.png) center}
+  .side-2ur1Qk .item-3XjbnG[aria-controls="authorized-apps-tab"]::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/apps.png) center}
+  .side-2ur1Qk .item-3XjbnG[aria-controls="connections-tab"]::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/connections.png) center}
+  .side-2ur1Qk .item-3XjbnG[aria-controls="discord-nitro-tab"]::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/nitro.png) center}
+  .side-2ur1Qk .item-3XjbnG[aria-controls="nitro-server-boost-tab"]::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/boost.png) center}
+  .side-2ur1Qk .item-3XjbnG[aria-controls="subscriptions-tab"]::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/billing.png) center}
+  .side-2ur1Qk .item-3XjbnG[aria-controls="library-inventory-tab"]::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/gift.png) center}
+  .side-2ur1Qk .item-3XjbnG[aria-controls="billing-tab"]::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/billing.png) center}
+  .side-2ur1Qk .item-3XjbnG[aria-controls="appearance-tab"]::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/eye.png) center}
+  .side-2ur1Qk .item-3XjbnG[aria-controls="voice-&-video-tab"]::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/voice.png) center}
+  .side-2ur1Qk .item-3XjbnG[aria-controls="text-&-images-tab"]::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/text.png) center}
+  .side-2ur1Qk .item-3XjbnG[aria-controls="notifications-tab"]::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/notifications.png) center}
+  .side-2ur1Qk .item-3XjbnG[aria-controls="keybinds-tab"]::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/keybinds.png) center}
+  .side-2ur1Qk .item-3XjbnG[aria-controls="language-tab"]::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/language.png) center}
+  .side-2ur1Qk .item-3XjbnG[aria-controls="windows-tab"]::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/windows.png) center}
+  .side-2ur1Qk .item-3XjbnG[aria-controls="streamer-mode-tab"]::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/twitch.png) center}
+  .side-2ur1Qk .item-3XjbnG[aria-controls="game-activity-tab"]::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/games.png) center}
+  .side-2ur1Qk .item-3XjbnG[aria-controls="overlay-tab"]::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/overlay.png) center}
+  .side-2ur1Qk .item-3XjbnG[aria-controls="настройки-tab"]::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/core.png) center}
+  .side-2ur1Qk .item-3XjbnG[aria-controls="customcss-tab"]::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/css.png) center}
+  .side-2ur1Qk .item-3XjbnG[aria-controls="plugins-tab"]::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/plugins.png) center}
+  .side-2ur1Qk .item-3XjbnG[aria-controls="themes-tab"]::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/theme.png) center}
+  .side-2ur1Qk .item-3XjbnG[aria-controls="changelog-tab"]::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/changelog.png) center}
+  .side-2ur1Qk .item-3XjbnG[aria-controls="hypesquad-tab"]::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/hype.png) center}
+  .side-2ur1Qk .item-3XjbnG[aria-controls="logout-tab"]::before{background:url(https://veivvovi15022007.github.io/Nocturnal-Discord-theme/icons/logout.png) center}
+*/
 
 .banReasonOtherClickable-8EKPlQ{
 	background-color: var(--backgroundDarker)
@@ -5464,16 +5616,12 @@ svg[name=Nitro] g path {
     background-color: var(--backgroundDarker)!important
 }
 
-.category-qFAw-K.activeCategory-1iqXig.selected-g-kMVV.themed-2-lozF {
-    background-color: rgba(0,0,0,.45);
-}
-
-.category-qFAw-K.activeCategory-1iqXig.themed-2-lozF:hover {
-    background-color: rgba(0,0,0,.25);
+.category-qFAw-K.activeCategory-1iqXig {
+    background-color: rgba(0,0,0,.35)!important;
 }
 
 .category-qFAw-K:hover {
-    background-color: rgba(0,0,0,.25);
+    background-color: var(--backgroundDarker);
 }
 
 .headerIcon-4CEo5y {
@@ -6842,7 +6990,7 @@ svg[name=Nitro] g path {
 	background-color: rgba(0,0,0,.35)!important;
 }
 
-.sidebarRegion-1VBisG {
+.sidebarRegionScroller-FXiQOh {
 	border-right: 1px solid rgba(0,0,0,.45)!important
 }
 
@@ -7265,4 +7413,16 @@ svg[name=Nitro] g path {
 
 .from-1-zmLY,.from-2xygmH {
 	margin-right: 16px
+}
+
+.descriptionIcon-3nDZrK[viewBox="0 0 24 24"] path {
+    fill: #43b581!important
+}
+
+.descriptionIcon-3nDZrK[viewBox="0 0 14 14"] path {
+    fill: #f04747!important
+}
+
+.wrapper-3AZUiP.errorPage-2pZ2Kq {
+	background-color: var(--backgroundDark)!important
 }
