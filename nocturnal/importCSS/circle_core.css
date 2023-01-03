@@ -7402,6 +7402,10 @@ svg[name=Nitro] g path {
 	border-radius: 50px;
 }
 
+.headerIcon-2RT_qX {
+	margin-right: 9px!important
+}
+
 .theme-dark .to-9AOSH0 {
 	background-color: var(--backgroundDark);
     box-shadow: inset 0 0 100000px 0 rgba(0,0,0,.25);
@@ -7426,4 +7430,12 @@ svg[name=Nitro] g path {
 .bd-server-icon {
 	background: var(--backgroundDarker)!important;
 	border: 4px solid var(--backgroundDarker)!important
+}
+
+.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .roleFlowerStar-91jU2T[style*="width: 14px; height: 14px;"],.userProfileInnerThemedWithBanner-2624Yx .roleFlowerStar-91jU2T[style*="width: 14px; height: 14px;"] {
+    margin-top: 2px;
+}
+
+.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .roleCircle-3K9O3d,.userProfileInnerThemedWithBanner-2624Yx .roleCircle-3K9O3d{
+    margin-top: 1px;
 }
