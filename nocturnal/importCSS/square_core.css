@@ -7409,7 +7409,8 @@ svg[name=Nitro] g path {
 }
 
 .theme-dark .to-9AOSH0 {
-	box-shadow: none
+	background-color: var(--backgroundDark);
+    box-shadow: inset 0 0 100000px 0 rgba(0,0,0,.25);
 }
 
 .from-1-zmLY,.from-2xygmH {
