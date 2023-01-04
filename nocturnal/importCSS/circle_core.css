@@ -2479,14 +2479,6 @@ svg[name=Nitro] g path {
 	border-bottom-right-radius: 5px;
 }
 
-.theme-dark .spoilerText-27bIiA.hidden-3B-Rum{
-	background-color: #0e1015!important;
-}
-
-.theme-dark .spoilerText-27bIiA.hidden-3B-Rum:hover{
-	background-color: #0e1015cc!important;
-}
-
 .root-25RxKh {
 	background-color: var(--backgroundDark);
 	border-left: solid 1px rgba(1,1,1,0.25);
@@ -2734,9 +2726,17 @@ svg[name=Nitro] g path {
 	background-color: var(--primary)!important;
 }
 
+.wrapper-3Ivhtz foreignObject {
+	mask: none!important;
+	-webkit-mask: none!important;
+}
+
 .liveBadge-3E8LQj,.badge-370Op6 {
 	background-color: #43b581;
 	background: linear-gradient(to top left,var(--primaryGradient1),var(--primaryGradient2))!important;
+	bottom: -4px;
+	right: -4px;
+	padding: 2px;
 }
 
 .theme-dark .bubble-3we2di:before {
@@ -5624,7 +5624,7 @@ svg[name=Nitro] g path {
 	content: "";
 	height: 2px;
 	width: 100%;
-	border-radius: 0 0 50px 50px;
+	border-radius: 0 0 5px 5px;
 	bottom: 0;
 	left: 0px;
 	position: absolute;
@@ -5816,19 +5816,28 @@ svg[name=Nitro] g path {
 	background-color: var(--backgroundDark);
 }
 
+.homeContainer-r4Hvv1:not(.homeContainerCollapsed-h4hYHg) .container-3rZ3XA {
+	background-color: var(--backgroundDark);
+}
+
 .scrollIcon-2Rr5re {
 	background-color: #101218;
 }
 
-.containerCard-2kwJKN {
-    border: 1px solid rgba(0,0,0,.35)
-}
-
 .containerCard-2kwJKN:hover {
-    border: 1px solid rgba(0,0,0,.75)
+	background-color: var(--backgroundDark);
+    box-shadow: inset 0 0 100000px 0 rgba(0,0,0,.5)!important
 }
 
-.container-3HMTms:hover {
+.containerCard-2kwJKN, .containerCard-2kwJKN:hover {
+    border: none!important
+}
+
+.size16-2-tfaM .moreUsers-_v6T-L {
+	padding: 0 1px
+}
+
+.homeContainer-r4Hvv1:not(.homeContainerCollapsed-h4hYHg) .container-3HMTms:hover {
 	background-color: rgba(0,0,0,.15);
 }
 
@@ -7466,4 +7475,12 @@ svg[name=Nitro] g path {
 .container-2dXT_2 {
 	background-color: #0e1015!important;
 	margin-bottom: -8px;
+}
+
+.theme-dark .spoilerText-27bIiA.hidden-3B-Rum{
+	background-color: #0e1015!important;
+}
+
+.theme-dark .spoilerText-27bIiA.hidden-3B-Rum:hover{
+	background-color: #0e1015cc!important;
 }
