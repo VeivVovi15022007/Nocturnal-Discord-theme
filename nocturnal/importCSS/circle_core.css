@@ -379,7 +379,7 @@
 	from {filter: blur(100px)}
 	to {filter: blur(0)}
 }
-.memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover,.enabled-1t_Gxm:hover,.nowPlayingColumn-1eCBCN,.peopleList-2VBrVI,.container-2cd8Mz,#friends,.appMount-3VJmYg,.applicationStore-2nk7Lo,.article-3kb3qm,.body-3ND3kc,.channels-Ie2l6A,.chat-2ZfjoI,.chat-2ZfjoI form,.container-1UB9sr,.container-2Thooq,.container-2McqkF,.container-PNkimc,.content-1jQy2l,.footer-1fjuF6,.gameLibrary-TTDw4Y,.guildsWrapper-5TJh6A,.header-2EadGG,.headerBar-UHpsPw,.members-3WRCEx,.messagesWrapper-RpOMA3,.root-1BQpZw,.root-26DmKJ,.appMount-2yBXZl, body,.app-2CXKsg,.bg-1QIAus,.video-eAcneW {
+.memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover,.enabled-1t_Gxm:hover,.nowPlayingColumn-1eCBCN,.peopleList-2VBrVI,.container-2cd8Mz,#friends,.appMount-3VJmYg,.applicationStore-2nk7Lo,.article-3kb3qm,.body-3ND3kc,.channels-Ie2l6A,.chat-2ZfjoI,.chat-2ZfjoI form,.container-1UB9sr,.container-2Thooq,.container-2McqkF,.container-PNkimc,.footer-1fjuF6,.gameLibrary-TTDw4Y,.guildsWrapper-5TJh6A,.header-2EadGG,.headerBar-UHpsPw,.members-3WRCEx,.messagesWrapper-RpOMA3,.root-1BQpZw,.root-26DmKJ,.appMount-2yBXZl, body,.app-2CXKsg,.bg-1QIAus,.video-eAcneW {
 	background-color: var(--backgroundDark)!important
 }
 .peopleListItem-u6dGxF:hover,
@@ -2691,7 +2691,7 @@ svg[name=Nitro] g path {
 }
 
 .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
-	background-color: rgb(0,0,0,0.1)!important;
+	background-color: rgb(0,0,0,0.1);
 	border-radius: 5px;
 }
 
@@ -3962,7 +3962,7 @@ svg[name=Nitro] g path {
 }
 
 .sampleLink-5BWNy9,.input-2g-os5 {
-	color: #fff;
+	color: #fff!important;
 }
 
 .inputInner-1Z3Tui {
@@ -5782,25 +5782,28 @@ svg[name=Nitro] g path {
 	background: rgba(0,0,0,.35)!important
 }
 
-.background-fkKrXt.container-ZMc96U.themed-Hp1KC_ {
-	background-color: var(--backgroundDarker)
+.background-fkKrXt.container-ZMc96U.themed-Hp1KC_,.theme-dark .background-fkKrXt {
+	background-color: var(--backgroundDarker)!important
 }
 
-.container-xwOzwi {
-	background-color: var(--backgroundDark)
-}
-
-.homeContainer-r4Hvv1 {
-	background-color: var(--backgroundDarker);
-}
-
-.container-2Hi7Km {
+.container-2Hi7Km,.containerCard-2kwJKN, .containerCard-2kwJKN:hover,.pill-2O-4R1 {
 	background-color: var(--backgroundDark);
 }
 
-.container-3HMTms.containerCard-2kwJKN {
+.homeContainer-r4Hvv1:not(.homeContainerCollapsed-h4hYHg) .container-xwOzwi {
 	background-color: var(--backgroundDark);
-	border-color: rgba(0,0,0,1)
+}
+
+.scrollIcon-2Rr5re {
+	background-color: #101218;
+}
+
+.containerCard-2kwJKN {
+    border: 1px solid rgba(0,0,0,.35)
+}
+
+.containerCard-2kwJKN:hover {
+    border: 1px solid rgba(0,0,0,.75)
 }
 
 .container-3HMTms:hover {
@@ -5809,11 +5812,6 @@ svg[name=Nitro] g path {
 
 .iconContainer-2R-3M1 {
 	background-color: rgba(0,0,0,.2);
-}
-
-.container-3HMTms.containerCard-2kwJKN.collapsedLayout-2ZTglJ {
-	background-color: var(--backgroundDark);
-	border-color: rgba(0,0,0,.75)
 }
 
 .fillerCard-28hW81 {
@@ -6088,11 +6086,6 @@ svg[name=Nitro] g path {
 
 .emptyStateContainer-xWOMPJ {
 	background-color: var(--backgroundDark);
-}
-
-.container-3HMTms.containerCard-2kwJKN {
-	background-color: var(--backgroundDark);
-	border: 1px solid rgba(0,0,0,.55)
 }
 
 .pinIcon-3I5-gm {
@@ -6957,10 +6950,6 @@ svg[name=Nitro] g path {
 	background-color: #0e1015;
 }
 
-.container-3rZ3XA {
-	background-color: var(--backgroundDark);
-}
-
 .lookInverted-2mDUMi.colorBrand-I6CyqQ:active {
 	background-color: #0066c5;
 	border: 2.3px solid transparent
@@ -6987,7 +6976,7 @@ svg[name=Nitro] g path {
 }
 
 .parentContainer-1BJf98 {
-	background-color: rgba(0,0,0,.35)!important;
+	background-color: #101218!important;
 }
 
 .sidebarRegionScroller-FXiQOh {
@@ -7376,7 +7365,7 @@ svg[name=Nitro] g path {
 	background-color: var(--backgroundDarker);
 }
 
-.button-1kija8:active {
+.button-1kija8:active,.theme-dark .previewContainer-3BJM_S,.tierInfoContainer-3o77tj {
 	background-color: var(--backgroundDarker);
 }
 
@@ -7423,7 +7412,7 @@ svg[name=Nitro] g path {
     fill: #f04747!important
 }
 
-.wrapper-3AZUiP.errorPage-2pZ2Kq,.theme-dark .guildIconImage-74OdmM {
+.wrapper-3AZUiP.errorPage-2pZ2Kq,.theme-dark .guildIconImage-74OdmM,.container-4HqGB3.background-3X6Uak {
 	background-color: var(--backgroundDark)!important
 }
 
@@ -7436,6 +7425,23 @@ svg[name=Nitro] g path {
     margin-top: 2px;
 }
 
-.userProfileInnerThemedPremiumWithoutBanner-1yMS1H .roleCircle-3K9O3d,.userProfileInnerThemedWithBanner-2624Yx .roleCircle-3K9O3d{
-    margin-top: 1px;
+.icon-2Zyj6B {
+	background-color: rgba(0,0,0,.35);
+}
+
+.placeholder-2jEh13,.categoryPill-1zjNrr:hover:not(.selected-bLcqYK) {
+	background-color: #101218!important;
+}
+
+.categoryPill-1zjNrr.selected-bLcqYK,.button-3_1yil:hover {
+	background-color: var(--primary)!important;
+}
+
+.footerImage-3DpC_8 {
+	mix-blend-mode: hard-light;
+}
+
+.container-2dXT_2 {
+	background-color: #0e1015!important;
+	margin-bottom: -8px;
 }
