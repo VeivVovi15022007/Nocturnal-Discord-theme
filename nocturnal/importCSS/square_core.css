@@ -3408,6 +3408,10 @@ svg[name=Nitro] g path {
 	background-color: rgba(0,0,0,.25);
 }
 
+.profileColors-3Y0XaR.theme-dark,.profileColors-3Y0XaR.theme-dark .additionalActionsIcon-1IPuHI {
+    --text-normal: #fff;
+	color: #fff!important;
+}
 
 .profileColors-3Y0XaR.theme-dark .additionalActionsIcon-1IPuHI:hover {
 	color: rgba(255, 255, 255, 0.744)!important;
@@ -6979,46 +6983,6 @@ svg[name=Nitro] g path {
 }
 
 .profileColors-3Y0XaR.theme-light .userProfileInnerThemedPremiumWithoutBanner-1yMS1H .lookFilled-yCfaCM.colorGreen-3y-Z79:hover:not(:disabled) {
-	color: #060607!important;
-	border: 2.3px solid transparent!important;
-	background-color: var(--profile-gradient-secondary-color);
-	background-image: linear-gradient(to right,var(--profile-gradient-secondary-color),var(--profile-gradient-secondary-color));
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: 200% 200%;
-}
-
-.profileColors-3Y0XaR.theme-dark .userProfileInnerThemedWithBanner-2624Yx .lookFilled-yCfaCM.colorGreen-3y-Z79:hover:not(:disabled) {
-	color: #060607!important;
-	border: 2.3px solid transparent!important;
-	background-color: var(--profile-gradient-secondary-color);
-	background-image: linear-gradient(to right,var(--profile-gradient-secondary-color),var(--profile-gradient-secondary-color));
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: 200% 200%;
-}
-
-.profileColors-3Y0XaR.theme-dark .userProfileInnerThemedPremiumWithoutBanner-1yMS1H .lookFilled-yCfaCM.colorGreen-3y-Z79:hover:not(:disabled) {
-	color: #060607!important;
-	border: 2.3px solid transparent!important;
-	background-color: var(--profile-gradient-secondary-color);
-	background-image: linear-gradient(to right,var(--profile-gradient-secondary-color),var(--profile-gradient-secondary-color));
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: 200% 200%;
-}
-
-.profileColors-3Y0XaR.theme-dark .userProfileInnerThemedWithBanner-2624Yx .lookFilled-yCfaCM.colorGreen-3y-Z79:hover:not(:disabled) {
-	color: #060607!important;
-	border: 2.3px solid transparent!important;
-	background-color: var(--profile-gradient-secondary-color);
-	background-image: linear-gradient(to right,var(--profile-gradient-secondary-color),var(--profile-gradient-secondary-color));
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: 200% 200%;
-}
-
-.profileColors-3Y0XaR.theme-dark .userProfileInnerThemedPremiumWithoutBanner-1yMS1H .lookFilled-yCfaCM.colorGreen-3y-Z79:hover:not(:disabled) {
 	color: #060607!important;
 	border: 2.3px solid transparent!important;
 	background-color: var(--profile-gradient-secondary-color);
