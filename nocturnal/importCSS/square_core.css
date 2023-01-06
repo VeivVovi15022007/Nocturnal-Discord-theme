@@ -392,6 +392,7 @@
 	--talking-bar: rgb(var(--accent));
 	--talking-glow: rgb(var(--accent));
 	--transition: .15s ease;
+	--border: hsl(var(--hue) var(--saturation) calc(var(--lightness) / 2) / .6);
 }
 
 #app-mount {animation: themeStart .5s linear 0s 1 normal}
@@ -610,10 +611,6 @@
 
 .headerBar-UHpsPw,.searchBar-3TnChZ {
 	box-shadow: none!important
-}
-
-.previewMessage-2g_aBv {
-	background-color: var(--backgroundDark)!important
 }
 
 .overlappingBorder-1ysb12 {
@@ -2352,9 +2349,23 @@ svg[name=Nitro] g path {
 	border-color: #0b0d11
 }
 
-.channelTextArea-1FufC0:focus-within {
+.channelTextArea-1FufC0:focus-within:not(.channelTextAreaDisabled-1p2fQv) {
     border-color: rgb(var(--accent));
     box-shadow: 0 0 calc(var(--input-glow-intensity) * 20px) calc(var(--input-glow-intensity) * 5px) rgb(var(--accent), 0.25);
+}
+
+#app-mount .attachedBars-2BCP3l {
+	background: rgb(41, 48, 65);
+	border-radius: 8px 8px 0 0
+}
+
+.clipContainer-31nYlH {
+	margin-top: auto
+}
+
+.container-A2jo65 {
+	margin: 0 6px;
+	margin-bottom: 2.5px!important
 }
 
 .avatar-2e8lTP {
@@ -3397,10 +3408,6 @@ svg[name=Nitro] g path {
 	background-color: rgba(0,0,0,.25);
 }
 
-.profileColors-3Y0XaR.theme-dark,.profileColors-3Y0XaR.theme-dark .additionalActionsIcon-1IPuHI {
-    --text-normal: #fff;
-	color: #fff!important;
-}
 
 .profileColors-3Y0XaR.theme-dark .additionalActionsIcon-1IPuHI:hover {
 	color: rgba(255, 255, 255, 0.744)!important;
@@ -3817,12 +3824,9 @@ svg[name=Nitro] g path {
 	background-color: rgba(0,0,0,.35);
 }
 
-.container-A2jo65 {
-	margin: 0 6px;
-}
-
-.attachedBars-2BCP3l,.replyBar-1oi75v, .threadSuggestionBar-3ExSyc {
+.replyBar-1oi75v, .threadSuggestionBar-3ExSyc {
 	background: rgb(41, 48, 65);
+	border-bottom: 2px solid var(--border)!important
 }
 
 .mentionButton-3C5YMI,.closeButton-3IEry2 {
@@ -3842,11 +3846,11 @@ svg[name=Nitro] g path {
 }
 
 .itemFilled-1cPbtg:hover:not([aria-checked=true]):not(.disabled-3tqE8r) {
-	background-color: rgba(0,0,0,.25)!important;
+	background-color: rgba(0,0,0,.25);
 }
 
 .itemFilled-1cPbtg:active:not([aria-checked=true]):not(.disabled-3tqE8r) {
-	background-color: rgba(0,0,0,.35)!important;
+	background-color: rgba(0,0,0,.35);
 }
 
 .itemFilled-1cPbtg[aria-checked=true] {
@@ -6984,6 +6988,46 @@ svg[name=Nitro] g path {
 	background-size: 200% 200%;
 }
 
+.profileColors-3Y0XaR.theme-dark .userProfileInnerThemedWithBanner-2624Yx .lookFilled-yCfaCM.colorGreen-3y-Z79:hover:not(:disabled) {
+	color: #060607!important;
+	border: 2.3px solid transparent!important;
+	background-color: var(--profile-gradient-secondary-color);
+	background-image: linear-gradient(to right,var(--profile-gradient-secondary-color),var(--profile-gradient-secondary-color));
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 200% 200%;
+}
+
+.profileColors-3Y0XaR.theme-dark .userProfileInnerThemedPremiumWithoutBanner-1yMS1H .lookFilled-yCfaCM.colorGreen-3y-Z79:hover:not(:disabled) {
+	color: #060607!important;
+	border: 2.3px solid transparent!important;
+	background-color: var(--profile-gradient-secondary-color);
+	background-image: linear-gradient(to right,var(--profile-gradient-secondary-color),var(--profile-gradient-secondary-color));
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 200% 200%;
+}
+
+.profileColors-3Y0XaR.theme-dark .userProfileInnerThemedWithBanner-2624Yx .lookFilled-yCfaCM.colorGreen-3y-Z79:hover:not(:disabled) {
+	color: #060607!important;
+	border: 2.3px solid transparent!important;
+	background-color: var(--profile-gradient-secondary-color);
+	background-image: linear-gradient(to right,var(--profile-gradient-secondary-color),var(--profile-gradient-secondary-color));
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 200% 200%;
+}
+
+.profileColors-3Y0XaR.theme-dark .userProfileInnerThemedPremiumWithoutBanner-1yMS1H .lookFilled-yCfaCM.colorGreen-3y-Z79:hover:not(:disabled) {
+	color: #060607!important;
+	border: 2.3px solid transparent!important;
+	background-color: var(--profile-gradient-secondary-color);
+	background-image: linear-gradient(to right,var(--profile-gradient-secondary-color),var(--profile-gradient-secondary-color));
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 200% 200%;
+}
+
 .userProfileInnerThemedWithBanner-2624Yx .top-K_jibn .selected-g-kMVV.themed-2-lozF.item-3XjbnG,.userProfileInnerThemedWithBanner-2624Yx .top-K_jibn .themed-2-lozF.item-3XjbnG:active,.userProfileInnerThemedWithBanner-2624Yx .top-K_jibn .themed-2-lozF.item-3XjbnG:hover {
 	border-image: linear-gradient(to right,var(--profile-gradient-secondary-color),var(--profile-gradient-secondary-color)) 1;
 }
@@ -7678,4 +7722,8 @@ svg[name=Nitro] g path {
 
 .label-2bTGzo:not(.error-3EBD81){
 	color: #fff;
+}
+
+.previewMessage-2g_aBv {
+	background-color: var(--backgroundDark)!important
 }
