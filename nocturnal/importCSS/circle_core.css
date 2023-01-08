@@ -1944,13 +1944,13 @@ svg[name=Nitro] g path {
 	border-color: rgba(0,0,0,.15)!important
 }
 
-.wrapper-1xW8FI.accountButton-234qAZ .inner-1lPVFp.accountButtonInner-33vCDY,.accountAddInner-2y9WLL.accountButtonInner-33vCDY {
+.wrapper-1xW8FI .accountButtonInner-33vCDY,.accountAddInner-2y9WLL.accountButtonInner-33vCDY {
 	background-color: rgba(0,0,0,.5)!important;
 	border: none!important;
 	transition: all .2s ease
 }
 
-.wrapper-1xW8FI.accountButton-234qAZ .inner-1lPVFp.accountButtonInner-33vCDY:hover,.accountAddInner-2y9WLL.accountButtonInner-33vCDY:hover {
+.wrapper-1xW8FI .accountButtonInner-33vCDY:hover,.accountAddInner-2y9WLL.accountButtonInner-33vCDY:hover {
 	border: none!important;
 	background-color: rgba(0,0,0,.95)!important
 }
